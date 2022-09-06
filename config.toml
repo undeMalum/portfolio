@@ -68,7 +68,7 @@ paginate = 5
     owner = ""
     keywords = ""
     copyright = ""
-    menuMore = "Show more"
+    menuMore = "CAS"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
@@ -83,9 +83,41 @@ paginate = 5
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "About me"
         url = "/about"
+        weight = 1
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "posts"
+        name = "Posts"
+        url = "/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "My projects"
+        url = "/projects"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "ib-resources"
+        name = "IB resorces"
+        url = "/ib-resources"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "creativity"
+        name = "Creativity"
+        url = "/creativity"
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "activity"
+        name = "Activity"
+        url = "/activity"
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "service"
+        name = "Service"
+        url = "/service"
+        weight = 7
+      [[languages.en.menu.main]]
+        identifier = "cas-project"
+        name = "Cas project"
+        url = "/cas-project"
+        weight = 8
