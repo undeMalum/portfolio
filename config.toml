@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://undemalum.github.io/portfolio/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -78,7 +78,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Home"
-      logoHomeLink = "/"
+      logoHomeLink = "https://undemalum.github.io/portfolio/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
