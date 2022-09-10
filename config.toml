@@ -121,3 +121,8 @@ paginate = 5
         name = "Cas project"
         url = "/cas-project"
         weight = 8
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
