@@ -5,9 +5,7 @@ author: "Mateusz Konat"
 ---
 
 <style>
-.neighbouring-figures{
-    overflow: hidden;
-}
+
 
 .left-figure{
     float: left;
@@ -35,6 +33,11 @@ But firstly let me provide some background of myself. I attend [High School Gaud
         {{< figure src="./images/school_trip.jpeg" alt="Hello Friend" position="right" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: white;" >}}
     </div>
 </div>
+
+{{< neighbouring >}}
+{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="left" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/school_trip.jpeg" alt="Hello Friend" position="right" style="border-radius: 8px;" caption="Hello Friend!" captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
 
 ***
 
