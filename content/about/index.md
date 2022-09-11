@@ -14,7 +14,7 @@ But firstly let me provide some background of myself. I attend [High School Gaud
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with my firends." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade)." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with my firends." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of grade 2)" captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -22,9 +22,14 @@ Nonetheless, football is still my great passion, even though I didn’t use to b
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/football_camp.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="My second camp with the team" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_competition.JPG" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade)" captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/football_camp.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="My second camp with the team." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_competition.JPG" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="My first football competition." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
-What do I enjoy apart from physical activity? Well, I'm a mathematically and algorithmically-oriented person so obviously mathematics and informatics (computer science). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by the logic and beauty of mathematics and the power of computers. Although I’ve said I'm more of a scientific mind, I also enjoy other fields like textual analysis or history. I’m simply curious and everything that’s considered "knowledge" is exciting for me and I want to explore as much as I can!
+What do I enjoy apart from physical activity? Well, I'm a mathematically and algorithmically-oriented person so obviously mathematics and informatics (computer science). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by the logic and beauty of mathematics and the power of computers. Although I’ve said I'm more of a scientific mind, I also enjoy other fields like textual analysis or history (especially the one written by Manchester United). I’m simply curious and everything that’s considered "knowledge" is exciting for me and I want to explore as much as I can!
 
+***
+{{< neighbouring >}}
+{{< figure src="./images/alex_ferguson.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Alex Ferguson - the best manager." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/computational_thinking.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Checkout this one! (worth it)" captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
