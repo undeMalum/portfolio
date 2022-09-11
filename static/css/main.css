@@ -1,0 +1,8 @@
+.neighbouring-figures{
+    display: flex;
+    justify-content: center;
+}
+
+.two-figures{
+    float: left;
+}
