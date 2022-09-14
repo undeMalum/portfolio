@@ -2,6 +2,7 @@
 title: "Projects"
 date: 2022-09-06T11:41:49+02:00
 author: "Mateusz Konat"
+description: "This page is dedicated to my projects and why I share them."
 ---
 
 > Technology advances when the solution to a particular problem finds a more general application.

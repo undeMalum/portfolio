@@ -3,7 +3,7 @@ title: "About me"
 date: 2022-09-06T11:38:30+02:00
 author: "Mateusz Konat"
 tags: ["my projects", "creativity", "activity", "service", "cas project", "IB resources"]
-description: "This page is about me and my life"
+description: "This page is about me and my life."
 ---
 
 {{< code language="python" title="That's how it's begun..." id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
