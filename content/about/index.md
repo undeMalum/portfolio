@@ -10,7 +10,7 @@ print("Hello, world!")
 
 My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used as CAS portfolio)! 
 
-But firstly let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely juvenile idiopathic arthritis. Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
+But firstly let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely `juvenile idiopathic arthritis`. Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
 
 ***
 {{< neighbouring >}}
