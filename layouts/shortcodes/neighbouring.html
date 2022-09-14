@@ -1,0 +1,6 @@
+<div class="neighbouring-figures" style="display: flex; justify-content: center;">
+    {{ $figures := split .Inner "break" }}
+    {{ range $element := $figures }}
+        <div class="two-figures" style="float: left; padding: 10px;">{{ $element | safeHTML }}</div>
+    {{ end }}
+</div>
