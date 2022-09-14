@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Headquarters of undemalum</title><link>https://undemalum.github.io/portfolio/</link><description>Recent content on Headquarters of undemalum</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://undemalum.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Cas Project</title><link>https://undemalum.github.io/portfolio/cas-project/</link><pubDate>Thu, 08 Sep 2022 15:11:16 +0200</pubDate><guid>https://undemalum.github.io/portfolio/cas-project/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>Service</title><link>https://undemalum.github.io/portfolio/service/</link><pubDate>Thu, 08 Sep 2022 15:11:02 +0200</pubDate><guid>https://undemalum.github.io/portfolio/service/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>Activity</title><link>https://undemalum.github.io/portfolio/activity/</link><pubDate>Thu, 08 Sep 2022 15:10:47 +0200</pubDate><guid>https://undemalum.github.io/portfolio/activity/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>Creativity</title><link>https://undemalum.github.io/portfolio/creativity/</link><pubDate>Thu, 08 Sep 2022 15:10:27 +0200</pubDate><guid>https://undemalum.github.io/portfolio/creativity/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>Projects</title><link>https://undemalum.github.io/portfolio/projects/</link><pubDate>Tue, 06 Sep 2022 11:41:49 +0200</pubDate><guid>https://undemalum.github.io/portfolio/projects/</guid><description>Technology advances when the solution to a particular problem finds a more general application.
-Don Eyles The idea behind The idea that software should be shared and freely accessible for everyone lies at the core of programming. Sharing software allows individuals to learn from the experience of others, to avoid common mistakes and consequently - to write software faster and better, advancing our understanding of the world. Therefore, I, allowing others to learn and learning by myself, want to share my Github with those interested in changing our lives!</description><content>&lt;blockquote>
+Don Eyles1 The idea behind The idea that software should be shared and freely accessible for everyone lies at the core of programming. Sharing software allows individuals to learn from the experience of others, to avoid common mistakes and consequently - to write software faster and better, advancing our understanding of the world. Therefore, I, allowing others to learn and learning by myself, want to share my Github with those interested in changing our lives!</description><content>&lt;blockquote>
 &lt;p>Technology advances when the solution to a particular problem finds a more general application.&lt;/p>
 &lt;ul>
-&lt;li>&lt;em>Don Eyles&lt;/em>&lt;/li>
+&lt;li>&lt;em>Don Eyles&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;h1 id="the-idea-behind">The idea behind&lt;/h1>
@@ -10,4 +10,77 @@ Don Eyles The idea behind The idea that software should be shared and freely acc
 &lt;h1 id="my-projects">My projects&lt;/h1>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/undeMalum/portfolio">My headquarters and CAS portfolio&lt;/a>&lt;/li>
-&lt;/ul></content></item><item><title>Ib Resources</title><link>https://undemalum.github.io/portfolio/ib-resources/</link><pubDate>Tue, 06 Sep 2022 11:40:02 +0200</pubDate><guid>https://undemalum.github.io/portfolio/ib-resources/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>About</title><link>https://undemalum.github.io/portfolio/about/</link><pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate><guid>https://undemalum.github.io/portfolio/about/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item></channel></rss>
+&lt;li>&lt;a href="https://github.com/undeMalum/CAS-manager">CAS manager for CAS coordinators&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Don_Eyles">Don Eyles&lt;/a> - the one who wrote the Apollo project&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></content></item><item><title>Ib Resources</title><link>https://undemalum.github.io/portfolio/ib-resources/</link><pubDate>Tue, 06 Sep 2022 11:40:02 +0200</pubDate><guid>https://undemalum.github.io/portfolio/ib-resources/</guid><description>This is a test.</description><content>&lt;p>This is a test.&lt;/p></content></item><item><title>About me</title><link>https://undemalum.github.io/portfolio/about/</link><pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate><guid>https://undemalum.github.io/portfolio/about/</guid><description>python That&amp;rsquo;s how it&amp;rsquo;s begun print(&amp;#34;Hello, world!&amp;#34;) My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used as CAS portfolio)!
+But firstly let me provide some background of myself. I attend High School Gaudium et Studium in Poznań that offers IBDP (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely juvenile idiopathic arthritis.</description><content>
+&lt;div class="collapsable-code">
+&lt;input id="1" type="checkbox" checked />
+&lt;label for="1">
+&lt;span class="collapsable-code__language">python&lt;/span>
+&lt;span class="collapsable-code__title">That&amp;rsquo;s how it&amp;rsquo;s begun&lt;/span>
+&lt;span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide">&lt;/span>
+&lt;/label>
+&lt;pre class="language-python" >&lt;code>
+print(&amp;#34;Hello, world!&amp;#34;)
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;p>My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used as CAS portfolio)!&lt;/p>
+&lt;p>But firstly let me provide some background of myself. I attend &lt;a href="https://edu-ges.pl/high-school/about-school">High School Gaudium et Studium&lt;/a> in Poznań that offers &lt;a href="https://www.ibo.org/programmes/diploma-programme/">IBDP&lt;/a> (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely &lt;code>juvenile idiopathic arthritis&lt;/code>. Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!&lt;/p>
+&lt;hr>
+&lt;div class="neighbouring-figures" style="display: flex; justify-content: center;">
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/me_and_the_boys.jpeg" alt="Hello Friend" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >New Year with my firends.&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/school_trip.jpeg" alt="Hello friend!" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >School trip (start of grade 2)&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;p>Nonetheless, football is still my great passion, even though I didn’t use to be. I hated running so I hated football. Not that I had bad stamina, just I didn’t like the fact of running. Instead, I participated in a variety of activities. First and foremost is karate. It took 7 years of my earliest childhood and helped me to develop flexibility as well as self-rigor. In the meantime, each year, during the winter break, I have been skiing and more importantly this continues to this day. Besides football, these two I consider as my favorite sports and have best memories. Then, I was playing tennis, dancing hip-hop, doing gymnastic and riding a scooter (skatepark and stuff) and many, many other stuff but not as &amp;ldquo;professionally&amp;rdquo;.&lt;/p>
+&lt;hr>
+&lt;div class="neighbouring-figures" style="display: flex; justify-content: center;">
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/football_camp.jpg" alt="Hello Friend" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >My second camp with the team.&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/school_competition.JPG" alt="Hello friend!" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >My first football competition.&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;hr>
+&lt;p>What do I enjoy apart from physical activity? Well, I&amp;rsquo;m a mathematically and algorithmically-oriented person so obviously mathematics and informatics (computer science). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by the logic and beauty of mathematics and the power of computers. Although I’ve said I&amp;rsquo;m more of a scientific mind, I also enjoy other fields like textual analysis or history (especially the one written by Manchester United). I’m simply curious and everything that’s considered &amp;ldquo;knowledge&amp;rdquo; is exciting for me and I want to explore as much as I can!&lt;/p>
+&lt;hr>
+&lt;div class="neighbouring-figures" style="display: flex; justify-content: center;">
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/alex_ferguson.png" alt="Hello Friend" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >Alex Ferguson - the best manager.&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;div class="two-figures" style="float: left; padding: 10px;">
+&lt;figure class="center" >
+&lt;img src="./images/computational_thinking.jpeg" alt="Hello friend!" style="border-radius: 8px;" />
+&lt;figcaption class="right" style="color: white;" >Checkout this one! (worth it)&lt;/figcaption>
+&lt;/figure>
+&lt;/div>
+&lt;/div>
+&lt;hr></content></item></channel></rss>
