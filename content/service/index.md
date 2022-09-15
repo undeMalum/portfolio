@@ -23,6 +23,6 @@ Yeah, I also teach other people. I understand concepts and I'm keen to explain t
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/teaching_cs.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bike trip during the camp." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/teaching_cs.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Improving programming skills - preparation to the test." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
