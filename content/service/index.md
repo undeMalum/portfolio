@@ -20,3 +20,9 @@ Here, I will present **everything** I do voluntary, serving others. This include
 
 # Teaching
 Yeah, I also teach other people. I understand concepts and I'm keen to explain them, if someone struggles to do it. I teach mainly math and computer science because that's what interests me the most. So if you have problems with certain material, I can help you understand it.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/teaching_cs.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bike trip during the camp." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
