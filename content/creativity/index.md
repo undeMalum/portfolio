@@ -3,7 +3,7 @@ title: "Creativity"
 date: 2022-09-08T15:10:27+02:00
 author: "Mateusz Konat"
 tags: ["creativity", "youtube", "joggling", "writing", "coding"]
-description: "This page serve as my intro to the creativity CAS strand."
+description: "This page serves as my intro to the creativity CAS strand."
 ---
 
 # Welcome to my creativity section!

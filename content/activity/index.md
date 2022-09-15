@@ -3,7 +3,7 @@ title: "Activity"
 date: 2022-09-08T15:10:47+02:00
 author: "Mateusz Konat"
 tags: ["activity", "football", "workout", "stretching"]
-description: "This page serve as my intro to the activity CAS strand."
+description: "This page serves as my intro to the activity CAS strand."
 ---
 
 # Welcome to my activity section!

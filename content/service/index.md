@@ -2,6 +2,21 @@
 title: "Service"
 date: 2022-09-08T15:11:02+02:00
 author: "Mateusz Konat"
+tags: ["service", "Bury Miś", "teaching", "temporary events"]
+description: "This page serves as my intro to the service CAS strand."
 ---
 
-This is a test.
+# Welcome to my servie section
+Here, I will present **everything** I do voluntary, serving others. This includes: `the foundation of Bury Miś`, `teaching` and `temporary events`.
+
+# Bury Miś
+[The foundation of Bury Miś](https://buremisie.org.pl) is a charity, aiming to help disabled people - both physically and intelectually. The charity was found in 1983 in Cracow, but moved to Nowy Klincz 9 years later. My contribution here is serving as a counselor during the camp organized for disabled, meeting with my charges throughout the yeat ans occasionally selling hand-made Kashubian chesse.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/bike_trip.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bike trip during the camp." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/covid_ending.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Say goodbye, it was great!" captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
+# Teaching
+Yeah, I also teach other people. I understand concepts and I'm keen to explain them, if someone struggles to do it. I teach mainly math and computer science because that's what interests me the most. So if you have problems with certain material, I can help you understand it.
