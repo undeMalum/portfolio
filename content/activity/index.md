@@ -7,9 +7,10 @@ description: "This page serves as my intro to the activity CAS strand."
 ---
 
 # Welcome to my activity section!
-Here, I will introduce **everything** I do as a physical exercise. This includes: `football`, `workout` and `stretching`.
+Here, I will introduce **everything** I do as a physical exercise. This includes: [`football`](/portfolio/activity/#football), [`workout`](/portfolio/activity/#workout) and [`stretching`](/portfolio/activity/#stretching).
 
 # Football
+**Description:**<br>
 My journey with football isn't so _straightforward_. I **started hating it**, but **ended up loving it**. Now it's a great way to `wind down` and `make friendships`! By the way, my position is a `goalkeeper` and favourite club is `Manchester United`.
 
 ***
@@ -18,8 +19,16 @@ My journey with football isn't so _straightforward_. I **started hating it**, bu
 {{< /neighbouring >}}
 ***
 
+**Learning outcomes:**
+- LO 1 Strength and Growth
+- LO 2 Challenge and Skills
+- LO 4 Commitment and Perseverance
+- LO 5 Collaborative Skills
+
+
 # Workout
-The title can be **misleading** as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](https://undemalum.github.io/portfolio/about/)), it would be harmful. In this category, I wanna put `everything that keeps my body healthy`, no matter whether its about abs, doing legs or riding a bike.
+**Description:**<br>
+The title can be _misleading_ as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](https://undemalum.github.io/portfolio/about/)), it would be _harmful_. In this category, I wanna put **everything** that `keeps my body healthy`, no matter whether it's about `abs`, `riding a bike` or `tae bo`.
 
 ***
 {{< neighbouring >}}
@@ -27,11 +36,22 @@ The title can be **misleading** as I don't mean **hardcore physical activity**. 
 {{< /neighbouring >}}
 ***
 
+**Learning outcomes:**
+- LO 1 Strength and Growth
+- LO 2 Challenge and Skills
+- LO 4 Commitment and Perseverance
+
 # Stretching
-Stretching is a new level of exercising. It not only improves your result, but also helps you prevent awful pain in places like nake, back, knees etc. It helps your body to regenerate.
+**Description:**<br>
+Stretching is **a new level of exercising**. It not only `improves your results`, but also helps you `prevent awful pain` in places like `nake`, `back`, `knees` etc. It helps your body to **regenerate**.
 
 ***
 {{< neighbouring >}}
 {{< figure src="./images/me_stretching.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="What a relief after the whole day!" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/me_stretching_home.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Approaching the splits at home." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
+
+**Learning outcomes:**
+- LO 1 Strength and Growth
+- LO 2 Challenge and Skills
+- LO 4 Commitment and Perseverance
