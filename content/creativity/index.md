@@ -55,7 +55,7 @@ kontrolowałeś. Zlewasz: "Trudno, zdarza się!". Szukasz dalej.
 ***
 
 ## Coding
-Coding like "_normal_" wiritng is about `thoughts`, `ideas`. What is important in this process is **how you approach the problem** and how you **express the idea of solving it**. It is about `critical thinking` and that's what `thrills me`. Apart from that, coding is a `powerful tool` that **let's you solve day-to-day lives** and consequently **make our existence much easier**.
+Coding like "_normal_" wiritng is about `thoughts`, `ideas`. What is important in this process is **how you approach the problem** and how you **express the idea of solving it**. It is about `critical thinking` and that's what `thrills me`. Apart from that, coding is a `powerful tool` that **let's you solve day-to-day problems** and consequently **make our existence much easier**.
 
 ***
 {{< neighbouring >}}

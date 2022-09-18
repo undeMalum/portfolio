@@ -10,7 +10,7 @@ description: "This page serves as my intro to the activity CAS strand."
 Here, I will introduce **everything** I do as a physical exercise. This includes: `football`, `workout` and `stretching`.
 
 # Football
-My journey with football isn't so straightforward. I started hating it, but ended up loving it. Now it's a great way to wind down and make friendships! By the way, my position is a goalkeeper and favourite club is Manchester United.
+My journey with football isn't so _straightforward_. I **started hating it**, but **ended up loving it**. Now it's a great way to `wind down` and `make friendships`! By the way, my position is a `goalkeeper` and favourite club is `Manchester United`.
 
 ***
 {{< neighbouring >}}
@@ -19,13 +19,19 @@ My journey with football isn't so straightforward. I started hating it, but ende
 ***
 
 # Workout
-The title can be misleading as I don't mean hardcore physical activity. In this category, I wanna put everything that keeps my body healthy, no matter whether its about abs, doing legs or riding a bike.
+The title can be **misleading** as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](https://undemalum.github.io/portfolio/about/)), it would be harmful. In this category, I wanna put `everything that keeps my body healthy`, no matter whether its about abs, doing legs or riding a bike.
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/riding_bike.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Riding a bike in the rain - work has to be done. ;)" captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/riding_bike.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Work has to be done - no matter what" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/standing_on_head.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Standing on my head, while in London Eye." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
 # Stretching
 Stretching is a new level of exercising. It not only improves your result, but also helps you prevent awful pain in places like nake, back, knees etc. It helps your body to regenerate.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/me_stretching.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="What a relief after the whole day!" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/me_stretching_home.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Approaching the splits at home." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***

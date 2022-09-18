@@ -14,7 +14,7 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 
 
 # But first,
-let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely `juvenile idiopathic arthritis`. Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
+let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
 
 ***
 {{< neighbouring >}}
@@ -32,7 +32,7 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 ***
 
 # What do I enjoy apart from physical activity?
- Well, I'm a **mathematically and algorithmically-oriented person** so obviously mathematics and informatics (`computer science`). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by **the logic and beauty of mathematics and the power of the computer**. Although I’ve said I'm more of a scientific mind, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore as much as I can!
+ Well, I'm a **mathematically and algorithmically-oriented person** so obviously `mathematics` and informatics (`computer science`). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by **the logic and beauty of mathematics and the power of the computer**. Although I’ve said I'm more of a scientific mind, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore as much as I can!
 
 ***
 {{< neighbouring >}}
