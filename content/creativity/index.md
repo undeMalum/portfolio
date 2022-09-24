@@ -28,9 +28,7 @@ My youtube channel is `already there`, however `no videos` are uploaded yet. **I
 Yes, I joggle. It's kinda funny coz I started quite unexpectedly. One day my aunt `went to Tigger` and she bought my `a bag of hacky sacks`, marked as "_joggling balls_". So I started practicing. In addition to that, this was a time of `covid-19 pandemic` and I had a lot of free time for my "_joggling sessions_". After some time I was able to `joggle fluently`. **And that's the whole story**.
 
 ***
-{{< neighbouring >}}
-{{< figure src="./images/joggling_in_london.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="I'll replace it with a video" captionPosition="right" captionStyle="color: white;" >}}
-{{< /neighbouring >}}
+{{< youtube id="Dzwoyf6ifaU" >}}
 ***
 
 **Learning outcomes:**

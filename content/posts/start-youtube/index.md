@@ -10,5 +10,4 @@ description = "I have already uploaded some videos to my youtube channel. Feel w
 showFullContent = false
 readingTime = false
 hideComments = false
-draft = true
 +++
