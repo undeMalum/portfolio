@@ -14,9 +14,7 @@ Here, I will explain **everything** that I do and may be considered "_creative_"
 My youtube channel is `already there`, however `no videos` are uploaded yet. **It's gonna change in the nearest future!** I'll make a post 'bout that. For now, I can say that it'll also help my `providing` videos to be used in this website.
 
 ***
-{{< neighbouring >}}
-{{< figure src="./images/no_yt_channel_yet.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="It'll change as fast as possible, I promise." captionPosition="right" captionStyle="color: white;" >}}
-{{< /neighbouring >}}
+{{< youtube id="CIPegynmB8c" >}}
 ***
 
 **Learning outcomes:**
