@@ -2,6 +2,8 @@
 title: "Projects"
 date: 2022-09-06T11:41:49+02:00
 author: "Mateusz Konat"
+cover: "images/repo_photo.png"
+tags: ["my_projects", "creativity"]
 description: "This page is dedicated to my projects and why I share them."
 ---
 
