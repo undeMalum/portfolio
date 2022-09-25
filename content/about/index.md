@@ -16,7 +16,7 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 
 ***
 {{< neighbouring >}}
-
+{{< figure src="./images/bike_dawid.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bike trip near a Greater Poland edge." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/lake_dawid.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Chillin' at a lake before the school year." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
