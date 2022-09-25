@@ -2,6 +2,7 @@
 title: "Creativity"
 date: 2022-09-08T15:10:27+02:00
 author: "Mateusz Konat"
+cover: "images/cover.jpeg"
 tags: ["creativity", "youtube", "joggling", "writing", "coding"]
 description: "This page serves as my intro to the creativity CAS strand."
 ---
@@ -9,9 +10,11 @@ description: "This page serves as my intro to the creativity CAS strand."
 # Welcome to my creativity section!
 Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](/portfolio/creativity/#running-youtube-channel), [`joggling`](/portfolio/creativity/#joggling), [`writing`](/portfolio/creativity/#writing) and [`coding`](/portfolio/creativity/#coding).
 
+The photo above is a picture by a friend of mine by the way. Enjoy ;)
+
 ## Running youtube channel
 **Description:**<br>
-My youtube channel is `already there`, however `no videos` are uploaded yet. **It's gonna change in the nearest future!** I'll make a post 'bout that. For now, I can say that it'll also help my `providing` videos to be used in this website.
+I've set up a `youtube channnel`! Not that I aim to be **a world-wide known person** or something. It's just I need a place to upload `the evidence viedos` which will be used on **this website**. Besides, I find it `interesting` - **pure curiosity** of how things work on "_the other side_". [Here is a quick reference](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q)
 
 ***
 {{< youtube id="CIPegynmB8c" >}}
