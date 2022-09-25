@@ -2,6 +2,7 @@
 title: "About me"
 date: 2022-09-06T11:38:30+02:00
 author: "Mateusz Konat"
+cover: "images/pink_floyd.png"
 tags: ["my projects", "creativity", "activity", "service", "cas project", "IB resources"]
 description: "This page is about me and my life."
 ---
@@ -10,15 +11,21 @@ description: "This page is about me and my life."
 print("Hello, world!")
 {{< /code >}}
 
+# Prelude
 My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used as CAS portfolio)! 
 
+***
+{{< neighbouring >}}
+
+{{< /neighbouring >}}
+***
 
 # But first,
 let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with my firends." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of grade 2)" captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with my firends (without alcohol)." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade) at 6am." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
