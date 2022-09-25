@@ -2,6 +2,7 @@
 title: "Activity"
 date: 2022-09-08T15:10:47+02:00
 author: "Mateusz Konat"
+cover: "images/summer_camp.jpg"
 tags: ["activity", "football", "workout", "stretching"]
 description: "This page serves as my intro to the activity CAS strand."
 ---
@@ -43,7 +44,7 @@ The title can be _misleading_ as I don't mean **hardcore physical activity**. Du
 
 # Stretching
 **Description:**<br>
-Stretching is **a new level of exercising**. It not only `improves your results`, but also helps you `prevent awful pain` in places like `nake`, `back`, `knees` etc. It helps your body to **regenerate**.
+Stretching is **a new level of exercising**. It not only `improves your results`, but also helps you `prevent awful pain` in places like `neck`, `back`, `knees` etc. It helps your body to **regenerate**.
 
 ***
 {{< neighbouring >}}
