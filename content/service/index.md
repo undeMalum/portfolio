@@ -2,6 +2,7 @@
 title: "Service"
 date: 2022-09-08T15:11:02+02:00
 author: "Mateusz Konat"
+cover: "images/magic_powder.jpeg"
 tags: ["service", "Bury Miś", "teaching", "temporary events"]
 description: "This page serves as my intro to the service CAS strand."
 ---
@@ -29,7 +30,7 @@ Here, I will present **everything** I do voluntary, serving others. This include
 
 # Teaching
 **Description:**<br>
-Yeah, I also teach other people. I understand concepts and I'm keen to explain them, if someone struggles to do it. I teach mainly math and computer science because that's what interests me the most. So if you have problems with certain material, I can help you understand it.
+You're right! I also `teach other people`. I **understand concepts** and I'm **keen to explain them**, if **someone struggles** to do it. I teach mainly `math` and `computer science` because that's what **interests me the most**. So if you have problems with certain material, I can help `you understand` it.
 
 ***
 {{< neighbouring >}}
@@ -44,7 +45,7 @@ Yeah, I also teach other people. I understand concepts and I'm keen to explain t
 
 # Temporary events
 **Description:**<br>
-This section is dedicated to all things I do voluntary, but are one-tim-only. For example, the upcoming run called [PoMocna Piątka](https://www.facebook.com/PoMocnaPiatkaPoznan/) that happens on 25th of September. Although this requires planning, it occurs once and won't repeat in the near future.
+This section is dedicated to **all things** I `do voluntary`, but are `one-time-only`. Although such events require `planning`, `commitment` and simply - `much effort`, they **occur once** and **won't repeat in the near future**. For example, the upcoming run called [PoMocna Piątka](https://www.facebook.com/PoMocnaPiatkaPoznan/) that happens on **25th of September, 2022**.
 
 ***
 {{< neighbouring >}}
