@@ -58,3 +58,4 @@ This section is dedicated to **all things** I `do voluntary`, but are `one-time-
 - LO 3 Initiative and Planning
 - LO 5 Collaborative Skills
 - LO 6 Global Engagement
+- LO 7 Ethics of Choices and Actions
