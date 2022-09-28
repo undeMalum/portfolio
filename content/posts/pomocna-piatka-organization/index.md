@@ -39,7 +39,7 @@ To say the truth, **this experience was a bit boring.** The idea was great-no do
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/riding_flag.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="We take stuff out from the garage." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/zaswiadczenie.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Together in the mysterious headquarters." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/riding_flag.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="We put each flag on the correct distance." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/zaswiadczenie.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Proof I actually participated." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
