@@ -13,9 +13,9 @@ hideComments = false
 +++
 
 # Content:
-- [To begin with,](/portfolio/posts/pomocna-piatka-preparation/#to-begin-with)
-- [What thoughts popped to my mind?](/portfolio/posts/pomocna-piatka-preparation/#what-thoughts-popped-to-my-mind)
-- [Learning outcomes](/portfolio/posts/pomocna-piatka-preparation/#learning-outcomes)
+- [To begin with,](#to-begin-with)
+- [What thoughts popped to my mind?](#what-thoughts-popped-to-my-mind)
+- [Learning outcomes](#learning-outcomes)
 
 # To begin with,
 everything started at the end of the **previous school (2021-2022)**. Our, currently `CAS co-ordinator`, then `English teacher`, asked us if we would like to participate in an event, called [PoMocna Piątka run](https://www.facebook.com/PoMocnaPiatkaPoznan/). Some of us where keen to sign up, **including me.** 

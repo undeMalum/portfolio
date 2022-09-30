@@ -13,9 +13,9 @@ hideComments = false
 +++
 
 # Content:
-- [What a day it was!](/portfolio/posts/pomocna-piatka-organization/#what-a-day-it-was)
-- [How do I feel about it?](/portfolio/posts/pomocna-piatka-organization/#how-do-i-fell-about-it)
-- [Learning outcomes](/portfolio/posts/pomocna-piatka-organization/#learning-outcomes)
+- [What a day it was!](#what-a-day-it-was)
+- [How do I feel about it?](#how-do-i-fell-about-it)
+- [Learning outcomes](#learning-outcomes)
 
 # What a day it was!
 After I went to the gig dedicated to Pink FLoyd with my grandpa, brother and friend, I had to **wake up at 5:00!** This is because I decided to reach the destination with my `bike`. Compared to a combustion engine `car` or `bus`, bike is argubly **an eco-friendly mean of transport** (and considerably less outside-world-dependent) - hence my choice. Nonetheless, there were nearly 20km to be travelled and no time to waste.

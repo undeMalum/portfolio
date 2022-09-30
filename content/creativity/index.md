@@ -8,7 +8,7 @@ description: "This page serves as my intro to the creativity CAS strand."
 ---
 
 # Welcome to my creativity section!
-Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](/portfolio/creativity/#running-youtube-channel), [`joggling`](/portfolio/creativity/#joggling), [`writing`](/portfolio/creativity/#writing) and [`coding`](/portfolio/creativity/#coding).
+Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](#running-youtube-channel), [`joggling`](#joggling), [`writing`](#writing) and [`coding`](#coding).
 
 The photo above is a picture by a friend of mine by the way. Enjoy ;)
 

@@ -48,4 +48,4 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 ***
 
 # I believe,
-I've `introduced myself` properly, so that you know `what to expect` from this website! (you can also have a look at my projects [here](https://undemalum.github.io/portfolio/projects/))
+I've `introduced myself` properly, so that you know `what to expect` from this website! (you can also have a look at my projects [here](projects))

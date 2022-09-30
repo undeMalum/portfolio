@@ -13,9 +13,9 @@ hideComments = false
 +++
 
 # Content:
-- [A brief summmary](/portfolio/posts/approaching-the-splits/#a-biref-summary)
-- [The emotional outcome](/portfolio/posts/approaching-the-splits/#the-emotional-outcome)
-- [Learning outcomes](/portfolio/posts/approaching-the-splits/#learning-outcomes)
+- [A brief summmary](#a-biref-summary)
+- [The emotional outcome](#the-emotional-outcome)
+- [Learning outcomes](#learning-outcomes)
 
 # A brief summary
 Having read the about me section, you should know **I did karate for almost 7 years of my earliest childhood.** Not only was it about "how to hit", but more importantly about `athleticism`. We did a lot of gymnastic, stretching and so on.

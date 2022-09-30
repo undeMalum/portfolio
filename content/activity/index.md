@@ -8,7 +8,7 @@ description: "This page serves as my intro to the activity CAS strand."
 ---
 
 # Welcome to my activity section!
-Here, I will introduce **everything** I do as a physical exercise. This includes: [`football`](/portfolio/activity/#football), [`workout`](/portfolio/activity/#workout) and [`stretching`](/portfolio/activity/#stretching).
+Here, I will introduce **everything** I do as a physical exercise. This includes: [`football`](#football), [`workout`](#workout) and [`stretching`](#stretching).
 
 # Football
 **Description:**<br>
@@ -29,7 +29,7 @@ My journey with football isn't so _straightforward_. I **started hating it**, bu
 
 # Workout
 **Description:**<br>
-The title can be _misleading_ as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](https://undemalum.github.io/portfolio/about/)), it would be _harmful_. In this category, I wanna put **everything** that `keeps my body healthy`, no matter whether it's about `abs`, `riding a bike` or `tae bo`.
+The title can be _misleading_ as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](/portfolio/about)), it would be _harmful_. In this category, I wanna put **everything** that `keeps my body healthy`, no matter whether it's about `abs`, `riding a bike` or `tae bo`.
 
 ***
 {{< neighbouring >}}

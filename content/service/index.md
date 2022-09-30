@@ -8,7 +8,7 @@ description: "This page serves as my intro to the service CAS strand."
 ---
 
 # Welcome to my servie section
-Here, I will present **everything** I do voluntary, serving others. This includes: [`the foundation of Bury Miś`](/portfolio/service/#bury-miś), [`teaching`](/portfolio/service/#teaching) and [`temporary events`](/portfolio/service/#temporary-events).
+Here, I will present **everything** I do voluntary, serving others. This includes: [`the foundation of Bury Miś`](#bury-miś), [`teaching`](#teaching) and [`temporary events`](#temporary-events).
 
 # Bury Miś
 **Description:**<br>
