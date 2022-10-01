@@ -18,3 +18,4 @@ The idea that software should be `shared` and `freely accessible` for everyone l
 # My projects
 - [My headquarters and CAS portfolio](https://github.com/undeMalum/portfolio)
 - [CAS manager for CAS coordinators](https://github.com/undeMalum/CAS-manager)
+- [Resource center for IB Computer Science classes](https://bprzybylski.github.io/IB-CS-GeS/)
