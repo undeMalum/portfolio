@@ -11,3 +11,10 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
+
+# Content
+- [How did I start?](#how-did-i-start)
+- [My attitude toward the process](#my-attitude-toward-the-process)
+- [Learning outcomes](#learning-outcomes)
+
+# How did I start?
