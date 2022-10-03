@@ -24,16 +24,16 @@ I find it worth-mentioning, `the beginnings`. Why? Because it started when I was
 {{< youtube "id"=wwxdFOHFwtg >}}
 ***
 
-Having said that, let's move on to the trick of interest - steady head. How this started? Well, by accident. I was practicing my ball control with the head and unexpectedly, the ball stayed on my head. It didn't bounce - just lied on my head, controlled by me. It didn't last long, but was enough for me to keep trying. 
+Having said that, let's move on to the trick of interest - `steady head`. How this started? Well, `by accident`. I was practicing my ball control with the head and **unexpectedly, the ball stayed on my head.** It didn't bounce - just lied on my head, controlled by me. **It didn't last long, but was enough for me to keep trying.** 
 
-And here we are - it's now an essential part of each of my ball control session.
+And here we are - **it's now an essential part of each of my ball control session.**
 
 ***
 {{< youtube "id"=x7hOhAIxDY8 >}}
 ***
 
 # My attitude toward the process
-I can't lie - it's fun to able to do something others can't easily repeat, if at all. Although I'm conscious that there is a long path ahead to be "fluent", but the future is promising. Admittedly, sometimes I just do not have enough time to practice. I put much effort in other things, however this is football (including steady head) that keeps me fresh and helps facing various distractions. Just hope one day I'll achieve my goal of fluency.
+I can't lie - **it's fun to able to do something others can't easily repeat**, if at all. Although I'm conscious that there is a long path ahead to be "_fluent_", but **the future is promising**. Admittedly, sometimes I just do not have enough time to practice. **I put much effort in other things**, however this is football (including steady head) that keeps me `fresh` and helps facing `various distractions`. **Just hope one day I'll achieve my goal of fluency.**
 
 # Learning outcomes:
 - LO 1 Strength and Growth
