@@ -11,3 +11,18 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
+
+# Content:
+- [Me as a youtuber](#me-as-a-youtuber)
+- [My youtube thoughts](#my-youtube-thoughts)
+- [Learning outcomes](#learning-outcomes)
+
+# Me as a youtuber
+
+# My youtube thoughts
+
+# Learning outcomes:
+- LO 2 Challenge and Skills
+- LO 3 Initiative and Planning
+- LO 4 Commitment and Perseverance
+- LO 6 Global Engagement
