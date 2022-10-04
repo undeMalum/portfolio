@@ -13,13 +13,19 @@ hideComments = false
 +++
 
 # Content:
-- [Me as a youtuber](#me-as-a-youtuber)
-- [My youtube thoughts](#my-youtube-thoughts)
+- [Me as a youtuber & following thoughts](#me-as-a-youtuber--following-thoughts)
+- [Some channel statistics](#some-channel-statistics)
 - [Learning outcomes](#learning-outcomes)
 
-# Me as a youtuber
+# Me as a youtuber & following thoughts
+***
+{{< youtube "id"=lYIDtHNi4tM >}}
+*** 
 
-# My youtube thoughts
+# Some channel statistics
+***
+{{< figure src="./images/channel_statistics.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Overview statistics. There are more views than expected." captionPosition="right" captionStyle="color: white;" >}}
+***
 
 # Learning outcomes:
 - LO 2 Challenge and Skills
