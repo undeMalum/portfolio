@@ -26,9 +26,9 @@ I've set up a `youtube channnel`! Not that I aim to be **a world-wide known pers
 - LO 4 Commitment and Perseverance
 - LO 6 Global Engagement
 
-## Joggling
+## Juggling
 **Description:**<br>
-Yes, I joggle. It's kinda funny coz I started quite unexpectedly. One day my aunt `went to Tigger` and she bought my `a bag of hacky sacks`, marked as "_joggling balls_". So I started practicing. In addition to that, this was a time of `covid-19 pandemic` and I had a lot of free time for my "_joggling sessions_". After some time I was able to `joggle fluently`. **And that's the whole story**.
+Yes, I juggle. It's kinda funny coz I started quite unexpectedly. One day my aunt `went to Tigger` and she bought my `a bag of hacky sacks`, marked as "_juggling balls_". So I started practicing. In addition to that, this was a time of `covid-19 pandemic` and I had a lot of free time for my "_juggling sessions_". After some time I was able to `juggle fluently`. **And that's the whole story**.
 
 ***
 {{< youtube id="Dzwoyf6ifaU" >}}
