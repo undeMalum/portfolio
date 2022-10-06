@@ -47,7 +47,7 @@ Not only do I write essays for school, **I also write at home**. Writing, in my 
 Był to zwykły zimowy dzień, a raczej środkowoeuropejski wariant zimowego dnia, przypominający swoją 
 charakterystyką nad wyraz długi powrót Kory do Hadesu, dający Demeter płomyk nadziei, że może jednak 
 Władca Podziemi się rozmyśli, zmieni swoje zdanie i zwróci jej córkę. Dlaczego? Otóż, tląca się wiara w 
-taki obrót spraw ogrzewa przyrodę i tym samym uniemożliwia jej zupełnie zaśnięcie. Jednocześnie, 
+taki obrót spraw, ogrzewa przyrodę i tym samym uniemożliwia jej zupełnie zaśnięcie. Jednocześnie, 
 perspektywa odzyskania córki jest na tyle odległa, że powoli odbiera ogniu tlen, niezbędny mu do 
 oddychania i żarzenia, ale nade wszystko do rozgrzania zamrożonego serca matki, jak również do rozwoju 
 przyrody w pełni jej rozmaitości i pięknie. Zostawia to świat na krawędzi pomiędzy marazmem, a euforią, 
