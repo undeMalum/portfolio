@@ -3,12 +3,12 @@ title: "Creativity"
 date: 2022-09-08T15:10:27+02:00
 author: "Mateusz Konat"
 cover: "images/cover.jpeg"
-tags: ["creativity", "youtube", "joggling", "writing", "coding"]
+tags: ["creativity", "youtube", "juggling", "writing", "coding"]
 description: "This page serves as my intro to the creativity CAS strand."
 ---
 
 # Welcome to my creativity section!
-Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](#running-youtube-channel), [`joggling`](#joggling), [`writing`](#writing) and [`coding`](#coding).
+Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](#running-youtube-channel), [`juggling`](#juggling), [`writing`](#writing) and [`coding`](#coding).
 
 The photo above is a picture by a friend of mine by the way. Enjoy ;)
 
