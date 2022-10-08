@@ -18,11 +18,11 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # To begin with,
-everything started at the end of the **previous school (2021-2022)**. Our, currently `CAS coordinator`, then `English teacher`, asked us if we would like to participate in an event, called [PoMocna Piątka run](https://www.facebook.com/PoMocnaPiatkaPoznan/). Some of us where keen to sign up, **including me.** 
+everything started at the end of the **previous school year (2021-2022)**. Our, current `CAS coordinator`, then `English teacher`, asked us if we would like to participate in an event, called [PoMocna Piątka run](https://www.facebook.com/PoMocnaPiatkaPoznan/). Some of us where keen to sign up, **including me.** 
 
-**Next school year (2022-2023)** we were reminded of `that list` and `that event` and asked to confirm our choice. I turned out to be `the first student` to do so, therefore I was proposed to co-ordinate the whole operation in terms of our school (GeS). **Everyone interested was directed to me.** What's more, I was given essential data of the person responsible for the project itself - to `stay in touch` and `supervise`. I **exchanged several messages** with her as well as with my fellow students in order to make sure we **understand each other** correctly and that our **way of helping is clear**. 
+**Next school year (2022-2023)** we were reminded of `that list` and `that event` and asked to confirm our choice. I turned out to be `the first student` to do so, therefore, I was asked to coordinate the whole operation at our school (GeS). **Everyone interested was directed to me.** What's more, I was given the essential data of the person responsible for the project itself - to `stay in touch` and `supervise`. I **exchanged several messages** with her as well as with my fellow students in order to make sure we **understood each other** correctly and to clarify **how we were supposed to help**. 
 
-**The result was that**, in the day of the run (25th September), there were `two groups` for different periods (from 7:00am to 10:00am and from 10:00am to 1:00pm) `before` and `during` the run. I was in the earlier one, but that's the other story.
+**The result was that**, on the day of the run (25th September), there were `two groups` of helpers for different periods (from 7:00am to 10:00am and from 10:00am to 1:00pm) `before` and `during` the run. I was in the earlier one, **but that's another story**.
 
 ***
 {{< neighbouring >}}
@@ -31,9 +31,9 @@ everything started at the end of the **previous school (2021-2022)**. Our, curre
 ***
 
 # What thoughts popped to my mind?
-To be honest, choosing to coordinate the whole "_enterprise_" was kinda natural for me. **I like trying new things.** Exposure to something different is always exciting for me, especially in **a leading role**. I love to take `responsibility`, to `plan` meticulously. The idea I could have a positive **impact on the way the events unfolded was brilliant**, even more so doing it for **the disadvantaged people**. Maybe it is "another brick in the wall" of **the global-scale problem,** but a `satisfactory` one! So that was a fun part to me. 
+To be honest, choosing to coordinate the whole "_enterprise_" was kind of natural for me. **I like trying new things.** Exposure to something different is always exciting for me, especially when I take a leading role. I love to take `responsibility`, to `plan meticulously`. The idea I could have a positive **impact on the way the events unfolded was very appealling**, even more as it was done for **the disadvantaged people**. Maybe it is "another brick in the wall" of **the global-scale problem,** but what a `satisfactory brick` that is! So that was fun for me. 
 
-**On the other hand,** I had to inevitably face managing people and following **the annoyance of trying to get information from them.** But it's just a part of the role I chose, I supppose. That's all I had to share in this context.
+**On the other hand,** I inevitably had to face `managing people` and `dealing with the annoyance` of trying to get information from them. But it's just a part of the role I chose, I supppose. **That's all I had to share in this context.**
 
 # Learning outcomes:
 - LO 2 Challenge and Skills
