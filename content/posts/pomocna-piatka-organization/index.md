@@ -18,7 +18,7 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # What a day it was!
-After I went to the gig dedicated to Pink FLoyd with my grandpa, brother and friend, I had to **wake up at 5:00!** This is because I decided to reach the destination with my `bike`. Compared to a combustion engine `car` or `bus`, bike is argubly **an eco-friendly mean of transport** (and considerably less outside-world-dependent) - hence my choice. Nonetheless, there were nearly 20km to be travelled and no time to waste.
+After spending a marvelous night at the gig dedicated to Pink Floyd history with my grandpa, brother and friend, I had to **wake up at 5:00!** This is because I decided to reach the destination with my `bike`. Compared to a combustion-engine-powered `car` or `bus`, bike is arguably **the most eco-friendly mean of transport** (and considerably less outside-world-dependent) - hence my choice. Nonetheless, there were nearly 20km to be travelled and no time to be wasted.
 
 ***
 {{< neighbouring >}}
@@ -26,7 +26,7 @@ After I went to the gig dedicated to Pink FLoyd with my grandpa, brother and fri
 {{< /neighbouring >}}
 ***
 
-Upon arrival (slightly before 7am), I had to **contact each person** assigned for this period. Fortunately, almost everyone was on time so we could begin. Our first task was to take stuff out from a huge garage and bring it to `the headquarters`. Then, I helped to carve a path for the run, locating 4 flags with the number of kilometers (1km, 2km, 3km and 4km). Next, me and my classmate helped to prepare the start, put the podium and... **that was basically all.** For the rest of the time, we were wondering around, trying to help. The situation changed a bit when the next group showed up, because I explained what's goin' on, but then - `nothing`. So I returned home.
+Upon arrival (slightly before 7am), I was supposed to **contact each person** assigned for this period. Fortunately, almost everyone was on time so we could begin. Our first task was to take stuff out from a huge garage and to bring it to `the headquarters`. Then, I went on `a small trip` around Lake Malta to carve a path for the run and to **locate 4 flags with the number of kilometers** (1km, 2km, 3km and 4km) in their appropriate place. Next, me and my classmate helped to prepare the start, to extend the podium and... well, **that was basically all.** For the rest of the time, we wondered around, `trying to help`. The situation changed a bit **when the next group showed up**, because I explained what's going on, but then - `nothing`. So I returned home.
 
 ***
 {{< neighbouring >}}
