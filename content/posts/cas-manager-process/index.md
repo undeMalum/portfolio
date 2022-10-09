@@ -19,6 +19,7 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # Decisions made so far
+Before going further, let me introduce some concepts for better understanding. In computers science, there's a notion of cognitive complexity. It basically refers to the complexity of code in terms of the readibility of code. In other words, it's a measure of how threating your code is for the sanity of another party, maintaining this code. Apart from the impovement in areas such as debugging and optimazation, low cognitive complexity is crucial for the future developments of a product and for the efficiency of team work and so is for me in this context, since I plan to make my project global (see ["Plans for the future section"](#plans-for-the-future)).
 
 # Plans for the future
 
