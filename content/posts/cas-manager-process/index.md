@@ -11,3 +11,17 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
+
+# Content:
+- [Decisions made so far](#decisions-made-so-far)
+- [Plans for the future](#the-complaint-of-a-coder)
+- [The complaint of a coder](#the-complaint-of-a-coder)
+- [Learning outcomes](#learning-outcomes)
+
+# Decisions made so far
+
+# Plans for the future
+
+# The complaint of a coder
+
+# Learning outcomes
