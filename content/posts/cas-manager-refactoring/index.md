@@ -19,7 +19,9 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # Decisions made so far
-Before going further, let me introduce some concepts for better understanding. In computers science, there's a notion of cognitive complexity. It basically refers to the complexity of code in terms of the readibility of code. In other words, it's a measure of how threating your code is for the sanity of another party, maintaining this code. Apart from the impovement in areas such as debugging and optimazation, low cognitive complexity is crucial for the future developments of a product and for the efficiency of team work and so is for me in this context, since I plan to make my project global (see ["Plans for the future section"](#plans-for-the-future)).
+Before going further, let me introduce some concepts for better understanding. In computers science, there's a notion of cognitive complexity. It basically refers to the complexity of code in terms of its readibility. In other words, it's a measure of how threating your code is for the sanity of another party, maintaining this code. 
+
+But what does the miantenance refer to? Well, low cognitive complexity yields the improvmenet in areas such as debugging, optimazation, future development, the efficiency of team work and many others, equally important. Therefore, for me, low congnitive complexity proves crucial since, first, it make the process of extending apps easier and, second, I plan to make my project global (see ["Plans for the future section"](#plans-for-the-future)).
 
 # Plans for the future
 
