@@ -25,7 +25,7 @@ let me introduce some concepts for better understanding. In computers science, t
 But what does the maintenance refer to? Well, low cognitive complexity yields the improvement in areas such as debugging, optimization, future development, the efficiency of team work and many others, equally important. Therefore, for me, low cognitive complexity proves crucial since, first, it make the process of extending the app easier and, second, I plan to make my project global (see ["Plans for the future section"](#plans-for-the-future)).
 
 **Progress so far**<br>
-Having described the background, I shall present the already-made progress. 
+Having described the background, I shall present the already-made progress (see my [Github](https://github.com/undeMalum/CAS-manager) for more in-depth explanation). 
 
 First of all, I started refactorization with splitting up my program into different files to at least reduce the size of the original file. However, it quickly turned out to be almost impossible. I succeeded only with moving some functions. The good thing though was I eventually realized the cause of this impossibility. Namely, my initial approach required very high dependency between parts of my code, so they couldn't be easily separated.
 
@@ -38,7 +38,11 @@ To summarize this part, I am putting my effort in removing the responsibilities 
 # Plans for the future
 Apart from improving _how_ I develop the program, I also have plans of _what_ developments will be made. As I mentioned in the previous section in "Before going further", I aim to make the process of extending the app easier and to make this app global. 
 
-In the first place, I want to focus
+In the first place, I want to focus on extending the program a bit. New features will include changing theme and choosing sorting option. The former is less important and addresses individual preferences of the user. This is because the default look of widgets is boring and it's not even debatable. I've learned however that I can incorporate ready-to-use themes into my software. Furthermore, these themes are usually available in two color versions - white and black. I can take advantage of that and enable the user to choose with accordance to his/her preferences. The latter is more crucial as it not only provides greater convenience, but also changes the overall appearance of the app significantly. I plan to give the user opportunity to choose the order in which classes and students are displayed. Nonetheless, it affects the deep design of my program so it has to be cleverly planned.
+
+Another aspect is serving the global audience of IBDP. When I was talking to my CAS coordinator about the program, I thought about sharing my work with broader audience. If one CAS coordinator has a certain problem so does another, right? Based upon this reasoning, I made attempts to give the software to others. Before sharing however, I wanted to invite other people to develop this program. To do so, I needed improvements described previously. I'm working hard to eventually post it here: [the unofficial subreddit for all things concerning the International Baccalaureate](https://www.reddit.com/r/IBO/).
+
+That's all I'm planning now.
 
 # The complaint of a coder
 
