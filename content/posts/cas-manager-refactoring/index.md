@@ -47,6 +47,17 @@ That's all I'm planning now.
 # The complaint of a coder
 This is the moment to share my thoughts about the process.
 
-As times goes on, I do see the improvements being made.
+As times goes on, I do see the improvements being made. Applying the above-mentioned technics comes with a great benefit as the program gets less complicated. Admittedly, these are small things, however it's undoable to have all things done in two evenings. Nonetheless, no matter how wise a man is, sometimes his own ambition overcomes him and the process is diminished by the events. This has happenned to me several time and still is. 
+
+Case in point would be the missing letter "i" in the initializer of a class (initializer is a method that let's you set some initial value for a class). My IDE (place for writing software) gave me the following hint: `__int__`. However, initializer is indicated with `__init__`. You don't see a difference? Pay close attention to the spelling and you'll see this "minor" mistake. This little thing made me suffer from anger and the program to crush. After the discover, I felt a mix of relief (everything suddenly worked) and maddness (I beleived it was a probelm with the design!).
+
+All things considered, I should be less outcome dependent - for my own mental health. Nevertheless, I have choosen a path and prepared the plan, therefore, I am confident that I'll achieve my goals.
 
 # Learning outcomes
+- LO 1 Strength and Growth
+- LO 2 Challenge and Skills
+- LO 3 Initiative and Planning
+- LO 4 Commitment and Perseverance
+- LO 5 Collaborative Skills
+- LO 6 Global Engagement
+- LO 7 Ethics of Choices and Actions
