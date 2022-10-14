@@ -25,7 +25,7 @@ let me introduce some concepts for better understanding. In computers science, t
 But what does the maintenance refer to? Well, low cognitive complexity yields the improvement in areas such as debugging, optimization, future development, the efficiency of team work and many others, equally important. For me however, low cognitive complexity proves crucial because of two main aspects. First, it makes the process of extending the app easier and, second, I plan to make my project global (see ["Plans for the future section"](#plans-for-the-future)).
 
 **Progress so far**<br>
-Having described the background, I shall present the already-made progress (see my [Github](https://github.com/undeMalum/CAS-manager) for more in-depth explanation). 
+Having described the background, I shall discuss the already-made progress (see my [Github](https://github.com/undeMalum/CAS-manager) for more in-depth explanation). 
 
 First of all, I started refactorization with splitting up my program into different files to at least reduce the size of an original file. However, it quickly turned out to be almost impossible. I succeeded only with moving some functions. The good thing though was I eventually realized the cause of this impossibility. Namely, my initial approach required very high dependency between parts of my code, so they couldn't be easily separated.
 
@@ -36,7 +36,7 @@ My focus has switched therefore to the way I insert students and classes into th
 To summarize this part, I am putting my effort in removing the responsibilities from functions and in making these functions more generic as well as in replacing current methods/approaches with better ones.
 
 # Plans for the future
-Apart from improving _how_ I develop the program, I also have plans of _what_ developments will be made. As I mentioned in the previous section in "Before going further", I aim to make the process of extending the app easier and to make this app global. 
+Apart from improving _how_ I develop the program, I also have plans of _what_ developments will be made. As I mentioned in the previous section in "Before going further" part, I aim to make the process of extending the app easier and to make this app global. 
 
 In the first place, I want to shift focus toward extending the program. New features will include changing theme and choosing sorting option. The former is less important and addresses individual preferences of the user. This is because the default look of widgets is boring and it's not even debatable. I've learned however that I can incorporate ready-to-use themes into my software. Furthermore, these themes are usually available in two color versions - white and black. I can take advantage of that and enable the user to choose with accordance to his/her preferences. The latter is more crucial as it not only provides greater convenience, but also changes significantly the overall appearance of the app. I plan to give the user opportunity to pick the order in which classes and students are displayed. Nonetheless, it affects the deep design of my program so it has to be cleverly planned.
 
@@ -47,11 +47,11 @@ That's all I'm planning now.
 # The complaint of a coder
 This is the moment to share my thoughts about the process.
 
-As times goes on, I do see the improvements being made. Applying the above-mentioned technics comes with a great benefit as the program gets less complicated. Admittedly, these are small things, however it's undoable to have all things done in two evenings. Nonetheless, no matter how wise a man is, sometimes his own ambition overcomes him and the process is diminished by the events. This has happenned to me several time and still is. 
+As times goes on, I do see the improvements being made. Applying the above-mentioned technics comes with a great benefit as the program gets less complicated. Admittedly, these are small things, however it's undoable to have all things done in two evenings. Nonetheless, no matter how wise a man is, sometimes his own ambition overcomes him and the process is diminished by the events. This has happened to me several time. 
 
-Case in point would be the missing letter "i" in the initializer of a class (initializer is a method that let's you set some initial value for a class). My IDE (place for writing software) gave me the following hint: `__int__`. However, initializer is indicated with `__init__`. You don't see a difference? Pay close attention to the spelling and you'll see this "minor" mistake. This little thing made me suffer from anger and the program to crush. After the discover, I felt a mix of relief (everything suddenly worked) and maddness (I beleived it was a probelm with the design!).
+Case in point would be the missing letter "i" in the initializer of a class (initializer is a method that let's you set some initial values for a class). My IDE (place for writing software) gave me the following hint: `__int__`. However, initializer is indicated with `__init__`. You don't see a difference? Pay close attention to the spelling and you'll see a "minor" mistake. This little thing made me suffer from anger and the whole program to crush. After the discovery, I felt a mix of relief (everything suddenly worked) and madness (I believed it was a problem with the design!).
 
-All things considered, I should be less outcome dependent - for my own mental health. Nevertheless, I have choosen a path and prepared the plan, therefore, I am confident that I'll achieve my goals.
+All things considered, I should be less outcome dependent - for my own mental health, I suppose. Nevertheless, I have chosen a path and prepared the plan, therefore, I am confident that I'll achieve my goals.
 
 # Learning outcomes
 - LO 1 Strength and Growth
