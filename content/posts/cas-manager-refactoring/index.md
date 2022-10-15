@@ -14,7 +14,7 @@ hideComments = false
 
 # Content:
 - [Decisions made so far](#decisions-made-so-far)
-- [Plans for the future](#the-complaint-of-a-coder)
+- [Plans for the future](#plans-for-the-future)
 - [The complaint of a coder](#the-complaint-of-a-coder)
 - [Learning outcomes](#learning-outcomes)
 
