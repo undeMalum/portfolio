@@ -24,6 +24,12 @@ let me introduce some concepts for better understanding. In computers science, t
 
 But what does the maintenance refer to? Well, low cognitive complexity yields the improvement in areas such as `debugging`, `optimization`, `future development`, the `efficiency of team` work and many others, equally important. For me however, low cognitive complexity proves crucial because of two main aspects. **First, it makes the process of extending the app easier and, second, I plan to make my project global** (see ["Plans for the future section"](#plans-for-the-future)).
 
+***
+{{< neighbouring >}}
+{{< figure src="./images/first_pair/first_separation_deletion_main.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Removing code from the initial (huge) file." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/first_pair/first_separations.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Removing some more code." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
 **Progress so far**<br>
 Having described the background, I shall discuss **the already-made progress** (see my [Github](https://github.com/undeMalum/CAS-manager) for more in-depth explanation). 
 
@@ -35,6 +41,12 @@ First of all, I started refactorization with splitting up my program into differ
 
 **To summarize this part,** I am putting my effort in `removing` the responsibilities from functions and in `making` these functions more generic as well as in `replacing` current methods/approaches with better ones.
 
+***
+{{< neighbouring >}}
+{{< figure src="./images/second_pair/moving_function_not_finished.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Facing problems with dependency." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/second_pair/managing_db_main.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Attempting to deal with this issue." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
 # Plans for the future
 Apart from improving _how_ I develop the program, I also have plans of _what_ developments will be made. As I mentioned in the previous section in ["Before going further"](#decisions-made-so-far) part, **I aim to make the process of extending the app easier and to make this app global.** 
 
@@ -43,6 +55,12 @@ Apart from improving _how_ I develop the program, I also have plans of _what_ de
 **Another aspect is serving the global audience of IBDP.** When I was talking to my CAS coordinator about the program, I thought about sharing my work with a `broader audience`. If one CAS coordinator has a certain problem, so does another, right? Based upon this reasoning, I made attempts to give the software to others. Before sharing however, _I wanted to invite other people to develop this program_. **To do so, I needed improvements described previously.** I'm working hard to eventually post my program here: [the unofficial subreddit for all things concerning the International Baccalaureate](https://www.reddit.com/r/IBO/).
 
 That's all I'm planning now.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/third_pair/alter_db_abc.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Creating ABC for function altering db." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/third_pair/implementation_of_abc.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Implementing ABC to manage classes." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
 
 # The complaint of a coder
 This is the moment to share my thoughts about the process.
