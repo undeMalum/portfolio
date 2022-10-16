@@ -1,6 +1,6 @@
 +++
 title = "Creativity. Reflection 2 -  Refactoring CAS Manager"
-date = "2022-10-09T08:03:08+02:00"
+date = "2022-10-15T08:03:08+02:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
 cover = "images/difference_branches.png"
