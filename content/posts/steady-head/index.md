@@ -18,7 +18,7 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # How did I start?
-I find it worth-mentioning, `the beginnings`. Why? Because it started when I was "pursuing my football dreams". More specifically, when we (my contemporary team) **had the header exam**. The passing condition was to **hit the ball with your head 15 times** (additional 16th hit was for `a higher mark`). Simple as that, right? No, if you never juggled with your head! **And this used to apply for me.** I felt I was so screwed. Fortunately (arguably though) at that I had an injury (not the last) so I couldn't try. But later, at home, I practiced a lot to eventually achieve these `"15 magical hits"`. **Even after I changed the class, I didn't stop**. I am doing it up to this day - mastering my `ball control`.
+I find it worth-mentioning, `the beginnings`. Why? Because it started when I was "pursuing my football dreams". More specifically, when we (my contemporary team) **had the header exam**. The passing condition was to **hit the ball with your head 15 times** (additional 16th hit was for `a higher mark`). Simple as that, right? No, if you never juggled with your head! **And this used to apply for me.** I felt I was so screwed. Fortunately (arguably though) at that time I suffered an injury (not the last) so I couldn't try. But later, at home, I practiced a lot to eventually achieve these `"15 magical hits"`. **Even after I changed the class, I didn't stop**. I am doing it up to this day - mastering my `ball control`.
 
 ***
 {{< youtube "id"=wwxdFOHFwtg >}}
