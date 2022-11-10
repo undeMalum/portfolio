@@ -18,7 +18,7 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # A brief summary
-Having read the about me section, you should know **I did karate for almost 7 years of my earliest childhood.** Not only was it about "how to hit", but more importantly about `athleticism`. We did a lot of gymnastic, stretching and so on.
+Having read the ["About me"](/portfolio/about/) section, you should know that **I did karate for almost 7 years of my earliest childhood**. Contrary to popular belief, it wasn’t merely about fighting, but primarly about `athleticism`. We did a lot of gymnastics, stretching and so on at the time.
 
 ***
 {{< neighbouring >}}
@@ -26,7 +26,7 @@ Having read the about me section, you should know **I did karate for almost 7 ye
 {{< /neighbouring >}}
 ***
 
-I am still very `flexible`, however, when I quited, I stopped stretching entirely, **loosing ability to do the splits.** Nevertheless, when `my disease` appeared I was forced to come back and do it regularly. I wasn't complaining and I even chose my goal - **to do the splits once again**. And that's where I put my effort, each time I exercise.
+**I am still very flexible because of that**. However, when I quitted, I stopped stretching entirely, losing the ability to do the splits. Nevertheless, when I got my disease diagnosed, I was forced to `go back` and `exercise` regularly. I wasn't complaining though, and I even set my goal - _to do the splits once again_. And that's where I put my effort into each time I exercise.
 
 ***
 {{< neighbouring >}}
@@ -35,7 +35,7 @@ I am still very `flexible`, however, when I quited, I stopped stretching entirel
 ***
 
 # The emotional outcome
-I have to admit I am proud of myself. I'm **trying hard to accomplish this goal** and, although slowly, **it is finally paying off**. Besides, I really enjoy the process. It's just sheer happiness when you can, in a way, "_time travel_" to your childhood and once again be this `little`, `full-of-energy` kid with these `vivid dreams`. Moreover, it winds me down, helps to deal with an awful a lot of stress everyone experience daily.
+**I have to admit I am proud of myself.** I'm gradually going ahead with my plan and I see it finally paying off. Besides, I really enjoy the process. It's just `sheer happiness` when you can, in a way, "time travel" to your childhood and once again be this `little`, `full-of-energy` kid with these vivid dreams. Moreover, **it winds me down, helps to deal with an awful lot of stress** everyone experiences on a daily basis.
 
 # Learning outcomes:
 - LO 1 Strength and Growth
