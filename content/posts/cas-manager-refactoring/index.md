@@ -98,7 +98,7 @@ A case in point could be **the missing letter "i" in the initializer of a class*
 
 All things considered, I should be less `outcome-dependent` for my own mental health, I suppose. All in all, I have chosen a path and prepared a plan, therefore, **I am confident that I'll achieve my goals**.
 
-# Learning outcomes
+# Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 3 Initiative and Planning
