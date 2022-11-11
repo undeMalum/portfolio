@@ -8,11 +8,11 @@ description: "This page serves as my intro to the service CAS strand."
 ---
 
 # Welcome to my servie section
-Here, I will present **everything** I do voluntary, serving others. This includes: [`the foundation of Bury Miś`](#bury-miś), [`teaching`](#teaching) and [`temporary events`](#temporary-events).
+Here, I will present **everything** I do voluntarily, serving others. This includes: [`the foundation of Bury Miś`](#bury-miś), [`teaching`](#teaching) and [`temporary events`](#temporary-events).
 
 # Bury Miś
 **Description:**<br>
-[The foundation of Bury Miś](https://buremisie.org.pl) is a `charity`, aiming to help `disabled people` - **both physically and intelectually**. The charity was **found in 1983 in Cracow**, but moved to `Nowy Klincz` 9 years later. My contribution here is serving as a `counselor` during **camps organized for disabled**, `meeting with my charges` throughout the yeat ans occasionally selling `hand-made Kashubian chesse`.
+[The foundation of Bury Miś](https://buremisie.org.pl) is a `charity`, aiming to help `disabled people` - **both physically and intelectually**. The charity was **found in 1983 in Cracow**, but moved to `Nowy Klincz` 9 years later. My contribution here is serving as a `counselor` during **camps organized for the disabled**, `meeting with my charges` throughout the year and occasionally selling `hand-made Kashubian chesse`.
 
 ***
 {{< neighbouring >}}
@@ -30,7 +30,7 @@ Here, I will present **everything** I do voluntary, serving others. This include
 
 # Teaching
 **Description:**<br>
-You're right! I also `teach other people`. I **understand concepts** and I'm **keen to explain them**, if **someone struggles** to do it. I teach mainly `math` and `computer science` because that's what **interests me the most**. So if you have problems with certain material, I can help `you understand` it.
+You're right, I also `teach`. I **grasp concepts easily** and I'm **keen to explain them**. Since `math` and `computer science` are "my lovely fields", I usually help fellow students to understand those two subjects. Yet, I can try also with other areas! So if you have any problems with certain material, I can **push you toward comoprehending incomprehensible** ;).
 
 ***
 {{< neighbouring >}}
