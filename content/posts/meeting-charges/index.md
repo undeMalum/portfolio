@@ -5,13 +5,21 @@ author = "Mateusz Konat"
 authorTwitter = "" #do not include @
 cover = "images/Marcin/playing_football.jpeg"
 tags = ["service", "activity", "Bury Miś"]
-keywords = ["service", "Bury Miś"]
+keywords = ["service", "activity", "Bury Miś"]
 description = "Meeting with my charges, outside of Bury Miś camp, includes a lot of activity and triggers even more emotions. This is why I'm keen to share my experience."
 showFullContent = false
 readingTime = false
 hideComments = false
 +++
 
-I reguraly meet with all of my three "Bears"[^1] from the camp
+I reguraly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam. Since there are three of them, I visit each triweekly (usually). This is also because they all live in completely different parts of Poznań so I basically travel around the whole city because. I can't complain though. I get to know new places (like cozy café in Wilda district!). Anyway, Piotr, Marcin, and Adam are very unalike so are meetings with them.
 
-[^1]: It's a literal translation from Polish (Miś --> Bear). In Bury Miś charity "jargon", caretakers are called "Niedźwiedzie" and charges are reffered to as "Misie" (capital letters since it describes a human). In Polish, miś (generally) is a softer form of niedźwiedź. However, in English, both words are translated as bear so the distinction is lost.
+Piotr is the oldest and the least active among my charges. One may regard him as "repetitive" because he keeps asking similar questions constantly (especially about one's shoes). I find it rather sweat and adorable, even though sometimes it may be exhausting. Our meetings are usually based on a-cup-of-tea-with-a-cake pattern, but from time to time I take him for a walk (and he's very grateful for that). Very recently, I had planned to go for a concert organized by Bury Miś with him, but unfortunately, he had some problems and it didn't work out. What a pity! He'd be surely delighted!
+
+Marcin is the "middle" one, as far as age is concerned. He's shy and at the very beginning it was a bit of a problem. However, as he knows me better, he's more open to conversations. What's more, what an athlete he is! He's always been into sports and the number of diplomas he's gathered is outstanding! So it does not come as a surprise that I do a lot of sports with him, particularly football (he's a huge fan of Lech Poznań team). What is also worth-mentioning is that he is an actor. For instance, on October 10, I went to the theatre performance "Swans" ("Łabędzie") where he acted!
+
+Adam has just entered his 30s so he's the youngest. Just alike Marcin, Adam is quite shy and very able-bodied. The difference is that Adam's a feet higher! He's tall and massive, but peaceful. I admit, one may run of patience very quickly with his "great" pace of doing everything. However, he's lovely with his need for doing "mature stuff" (this is what connects all of them and why I was assigned to them). We bike a lot; usually around Lake Rusałka or Citadel. Adam has asked me to try go by an electric scooter so we'll definitely give it a go!
+
+I have already touched upon my feelings concerning meeting with the charges, but now is the time to discuss it more thoroughly. First thing first, without "a shadow of doubt" I can tell you that experiencing work with disabled people is very educational. Not only do you learn how to make quick decisions and take responsibility for others, but crucially how to express yourself. The feelings of people with disabilities are genuine and devoid of any agenda. This is life-changing as you, in a way, re-learn what, for example, sheer happiness is - the thing you once knew as a child. Even though you may be annoyed by them and tired after a hard day, you'll appreciate their authentic attitude.
+
+[^1]: It's a literal translation from Polish (Miś --> Bear). In Bury Miś charity "jargon", caretakers are called "Niedźwiedzie" and charges are referred to as "Misie" (capital letters since it describes a human). In Polish, miś (generally) is a softer form of niedźwiedź. However, in English, both words are translated as bear so the distinction is lost.
