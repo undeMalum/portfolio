@@ -33,7 +33,7 @@ Piotr is the oldest and the least active among my charges. One may regard him as
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/Piotr/walk.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Our first bike trip with Adam." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/Piotr/piotr_home4.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Lovely evening at Piotr's house." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/Piotr/walk.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Fresh air makes a good mind." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/Piotr/piotr_home4.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="What handsome gentelmen are these!" captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
