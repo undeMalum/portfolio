@@ -56,7 +56,7 @@ Adam has just entered his 30s so he's the youngest. Just like Marcin, Adam is qu
 ***
 
 # It's never too late to try authenticity.
-I have already touched upon my feelings concerning meetings with the charges, but now is the time to discuss it more thoroughly. First thing first, I must stress the wide `educational` spectrum of working disabled people. Not only do you learn how to make quick decisions and take responsibility for others, but crucially **how to express yourself**. The feelings of people with disabilities are `genuine` and `devoid of any agenda`. This is life-changing; the possibility re-learn true emotions (such as sheer happiness or real anger) whose definitions you once knew as a child, but blurred over the years. And even though you may be annoyed by them, at the end of the day, **you'll appreciate their authentic attitude**.
+I have already touched upon my feelings concerning meetings with the charges, but now is the time to discuss it more thoroughly. First thing first, I must stress the importance of the `educational` aspect of working with disabled people. By associating with them, not only do you learn how to make quick decisions and take responsibility for others, but crucially **how to express yourself**. Since people with disabilities have the ability to show emotions that are genuine and devoid of any agenda, they are good at teaching true emotions (such as sheer happiness or real anger). This possibility to literally relearn feelings--which you once knew as a child, but which blurred over the years--is life-changing. And even though you may be annoyed by them from time to time, at the end of the day, **you'll appreciate their authentic attitude**.
 
 # Learning outcomes:
 - LO 1 Strength and Growth
