@@ -29,7 +29,7 @@ I regularly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam
 ***
 
 # Piotr
-Piotr is the oldest and the least active among my charges. One may regard him as "repetitive" because he keeps asking similar questions constantly (especially about one's shoes). I find it rather `sweat` and `adorable`, even though sometimes it may be exhausting. Our meetings are usually based on a-cup-of-tea-with-a-cake pattern, but from time to time I take him for a walk (he's very grateful for that). Very recently, I had planned to go for a concert organized by Bury Miś with him, but unfortunately, he had some problems and it didn't work out. What a pity! **He'd be surely delighted!**
+Piotr is the oldest and the least active among my charges. One may regard him as "repetitive" because he keeps asking similar questions constantly (especially about one's shoes). I find it rather `sweat` and `adorable`, even though sometimes it may be exhausting. Our meetings are usually based on a-cup-of-tea-with-a-cake pattern, but from time to time I take him for a walk (he's very grateful for that). Very recently, I had planned to go for a [concert organized by Bury Miś](https://www.facebook.com/events/753573089049479?active_tab=about) with him, but unfortunately, he had some problems and it didn't work out. What a pity! **He'd be surely delighted!**
 
 ***
 {{< neighbouring >}}
@@ -38,7 +38,7 @@ Piotr is the oldest and the least active among my charges. One may regard him as
 ***
 
 # Marcin
-Marcin is the "middle" one, as far as age is concerned. He's shy and at the very beginning it was a bit of a problem. However, as he knows me better, he's more open to conversations. What's more, what an athlete he is! **He's always been into sports and the number of diplomas he's gathered is outstanding!** It does not come as a surprise therefore, that I do a lot of sports with him, particularly football (he's a huge fan of Lech Poznań team). What is also worth-mentioning is him _being an actor_. For instance, on October 10, I went to the theatre performance "Swans" ("Łabędzie") where he acted!
+Marcin is the "middle" one, as far as age is concerned. He's shy and at the very beginning it was a bit of a problem. However, as he knows me better, he's more open to conversations. What's more, what an athlete he is! **He's always been into sports and the number of diplomas he's gathered is outstanding!** It does not come as a surprise therefore, that I do a lot of sports with him, particularly football (he's a huge fan of Lech Poznań team). What is also worth-mentioning is him _being an actor_. For instance, on October 10, I went to the theatre performance ["Swans"](https://opera.poznan.pl/pl/labedzie) ("Łabędzie") where he acted!
 
 ***
 {{< neighbouring >}}
