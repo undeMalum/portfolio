@@ -20,7 +20,7 @@ hideComments = false
 - [Learning outcomes](#learning-outcomes)
 
 # A glimpse into my work
-I regularly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam. Since there are three of them, I visit each triweekly (usually). This is also due to logistic reasons. They live all across Poznań. Commuting unavoidably consumes much of my time and, although I get to know new places (like cozy café in Wilda district!) which is fine, sadly I can't pay them visits more often. Nevertheless, Piotr, Marcin, and Adam are nice people. **Each of them is unique and so are meetings with them.**
+I regularly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam. Since there are three of them, I visit each tri-weekly (usually). This is also due to logistic reasons. They live all across Poznań. Commuting unavoidably consumes much of my time and, although I get to know new places (like a cozy café in Wilda district!) which is fine, sadly I can't pay them visits more often. Nevertheless, Piotr, Marcin, and Adam are nice people. **Each of them is unique and so are meetings with them.**
 
 ***
 {{< neighbouring >}}
@@ -29,7 +29,7 @@ I regularly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam
 ***
 
 # Piotr
-Piotr is the oldest and the least active among my charges. One may regard him as "repetitive" because he keeps asking similar questions constantly (especially about one's shoes). I find it rather `sweat` and `adorable`, even though sometimes it may be exhausting. Our meetings are usually based on a-cup-of-tea-with-a-cake pattern, but from time to time I take him for a walk (he's very grateful for that). Very recently, I had planned to go for a [concert organized by Bury Miś](https://www.facebook.com/events/753573089049479?active_tab=about) with him, but unfortunately, he had some problems and it didn't work out. What a pity! **He'd be surely delighted!**
+Piotr is the oldest and the least active among my charges. One may regard him as "repetitive" because he keeps asking similar questions constantly (especially about one's shoes). I find it rather `sweet` and `adorable`, even though sometimes it may be exhausting. Our meetings are usually based on a-cup-of-tea-with-a-cake pattern, but from time to time I take him for a walk (he's very grateful for that). Very recently, I had planned to go for a [concert organized by Bury Miś](https://www.facebook.com/events/753573089049479?active_tab=about) with him, but unfortunately, he had some problems and it didn't work out. What a pity! **He'd have surely been delighted!**
 
 ***
 {{< neighbouring >}}
@@ -38,7 +38,7 @@ Piotr is the oldest and the least active among my charges. One may regard him as
 ***
 
 # Marcin
-Marcin is the "middle" one, as far as age is concerned. He's shy and at the very beginning it was a bit of a problem. However, as he knows me better, he's more open to conversations. What's more, what an athlete he is! **He's always been into sports and the number of diplomas he's gathered is outstanding!** It does not come as a surprise therefore, that I do a lot of sports with him, particularly football (he's a huge fan of Lech Poznań team). What is also worth-mentioning is him _being an actor_. For instance, on October 10, I went to the theatre performance ["Swans"](https://opera.poznan.pl/pl/labedzie) ("Łabędzie") where he acted!
+Marcin is the "middle" one, as far as age is concerned. He's shy and at the very beginning it was a bit of a problem. However, as he knows me better, he's more open to conversations. What's more, what an athlete he is! **He's always been into sports and the number of diplomas he's gathered is outstanding!** It does not come as a surprise therefore, that I do a lot of sports with him, particularly football (he's a huge fan of the Lech Poznań team). What is also worth-mentioning is him _being an actor_. For instance, on October 10th, I went to the theatre performance ["Swans"](https://opera.poznan.pl/pl/labedzie) ("Łabędzie") where he acted!
 
 ***
 {{< neighbouring >}}
@@ -47,7 +47,7 @@ Marcin is the "middle" one, as far as age is concerned. He's shy and at the very
 ***
 
 # Adam
-Adam has just entered his 30s so he's the youngest. Just like Marcin, Adam is quite shy and very able-bodied. The difference is that Adam's a feet higher! He's tall and massive, but peaceful. I admit, one may run of patience very quickly with his turtle pace and perfectionism. **Anyways, he's lovely with his need for doing "mature stuff"** (this `"desire for manhood"` is the bridge that connects all of my boys and the reason why I was assigned to them). We also bike a lot together, usually around Lake Rusałka or Citadel. Adam has expressed his desire of trying out an electric scooter so we'll definitely give it a go in the near future!
+Adam has just entered his 30s so he's the youngest. Just like Marcin, Adam is quite shy and very able-bodied. The difference is that Adam's a foot taller! He's tall and massive, but peaceful. I admit, one may run out of patience very quickly with his turtle pace and perfectionism. **Anyways, he's lovely with his need for doing "mature stuff"** (this `"desire for manhood"` is the bridge that connects all of my boys and the reason why I was assigned to them). We also bike a lot together, usually around Lake Rusałka or the Citadel. Adam has expressed his desire of trying out an electric scooter so we'll definitely give it a go in the near future!
 
 ***
 {{< neighbouring >}}
@@ -56,7 +56,7 @@ Adam has just entered his 30s so he's the youngest. Just like Marcin, Adam is qu
 ***
 
 # It's never too late to try authenticity.
-I have already touched upon my feelings concerning meetings with the charges, but now is the time to discuss it more thoroughly. First thing first, I must stress the importance of the `educational` aspect of working with disabled people. By associating with them, not only do you learn how to make quick decisions and take responsibility for others, but crucially **how to express yourself**. Since people with disabilities have the ability to show emotions that are genuine and devoid of any agenda, they are good at teaching true emotions (such as sheer happiness or real anger). This possibility to literally relearn feelings--which you once knew as a child, but which blurred over the years--is life-changing. And even though you may be annoyed by them from time to time, at the end of the day, **you'll appreciate their authentic attitude**.
+I have already touched upon my feelings concerning meetings with the charges, but now is the time to discuss them more thoroughly. First thing first, out of their borad spectrum, I shall stress the importance of the `educational` aspect of working with disabled people. By associating with them, you learn not only how to make quick decisions and take responsibility for others, but also and crucially **how to express yourself**. Since people with disabilities have the ability to show emotions that are genuine and devoid of any agenda, they are good at teaching true emotions (such as sheer happiness or real anger). This possibility to literally relearn feelings--which you once knew as a child, but which faded over the years--is life-changing. And even though you may be annoyed by them from time to time, at the end of the day, **you'll appreciate their authentic attitude**.
 
 # Learning outcomes:
 - LO 1 Strength and Growth
