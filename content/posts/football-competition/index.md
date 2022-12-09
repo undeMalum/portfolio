@@ -100,7 +100,10 @@ As I have said, sometimes it was hard. When you are tired after a long day of ar
 
 By embracing this philosophy, we left positive emotions. We proved ourselves by working tirelessly and with total dedication. We simply did a great job. As far as I'm concerned, I met valuable and hard-working people from whom I learned a lot. The unrivaled experience I gained will never be forgotten.
 
-PS. I also taught myself how to use emojis in a markdown, which is awesome! :grin:
+PS. I also taught myself how to use emojis and add pdf files in a markdown, which is awesome! :grin:
+The former you have seen throughout my reflection and the latter you can check out by viewing my
+<a href="FOOTBALL.pdf" target="_blank">voluntary service certificate</a>.
+<!-- Credits to this comment: https://stackoverflow.com/a/16925511/15963655 -->
 
 ***
 {{< neighbouring >}}
