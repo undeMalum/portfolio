@@ -21,13 +21,13 @@ hideComments = false
 
 # What on earth is going on?
 <font size=4>**Christmas... WHAT?!**</font><br>
-[X-MAS cup 2022](https://www.facebook.com/events/804473590741743/?acontext=%7B"event_action_history"%3A[%7B"surface"%3A"page"%7D]%7D) was a tournament for all young players from Lech Poznań Football Academy (LFPA) no matter the localization[^1]. The director of LFPA, Dominik Czapczyk describes this series of events as follows:
+[X-MAS cup 2022](https://www.facebook.com/events/804473590741743/?acontext=%7B"event_action_history"%3A[%7B"surface"%3A"page"%7D]%7D) was a tournament for all young players from Lech Poznań Football Academies (LFPA) no matter where they were located[^1]. The director of LFPA, Dominik Czapczyk, describes this series of events as follows:
 
 > "Annual X-MAS Cups are both a big thank-you to LFPA players for their hard work and place to simply hang out." :santa: :soccer:
 
 As you can see, the underlying aim was priceless; at the end of the day, what values the most is a child's smile. Being a Santa proved to be an excellent way of achieving this goal. After all, who wouldn't like to get a candy from Santa and take a couple of photos with him along with the Lech Goat?
 
-Nonetheless, you may "ponder" how did I find myself there?
+Nonetheless, you may "wonder" how I found myself there?
 
 ***
 {{< neighbouring >}}
@@ -37,16 +37,16 @@ Nonetheless, you may "ponder" how did I find myself there?
 
 <font size=4>**Take your shot**</font><br>
 I listen to Eminem too much... Anyway here's the story:
-1. I was asked by a fellow student of mine whether I would be interested or not
+1. I was asked by a fellow student whether I would be interested or not
 2. I agreed without hesitation
 
 That's basically all, seriously. Of course, there were some minor details left to discuss like transport, exact hours and so on, but it wasn't that important and problematic.
 
 
 # Saturday
-The first day is always hard, especially in a new place. The aspect of uncertainty, the clash of expectations with reality, a discomfort-causing step into new environment - they all contribute. However, I was rather excited about the idea and was looking forward.
+The first day is always hard, especially in a new place. The aspect of uncertainty, the clash of expectations with reality, a discomfort-causing step into new environment - they all contribute to anxiety. However, I was rather excited about the idea and was looking forward to it.
 
-It began perfectly. I had my usual ("early to bed and early to rise") so I was happy from the start. I needed to be ready at 6:50 a.m. - no problem with that as well. Then, 40-minute drive which passed in a blink of an eye, thanks to the extremely interesting interlocutor, college's stepfather, a.k.a driver, a.k.a speaker, and, above all, the coach. To be honest, after we arrived at [OSiR](https://osirmosina.pl/index.php/o-obiekcie-2/) in Mosina, we were bored (our crew consisted of I, the above-mentioned college of mine with her boyfriend). It was not our laziness, literally there was almost nothing to do. But as time was approaching 9 a.m., we redressed to our costumes - Santa, Goat, and Elf.
+It began perfectly. I could follow my usual sleep pattern ("early to bed and early to rise") so I was happy from the start. I needed to be ready at 6:50 a.m. - no problem with that as well. Then, a 40-minute drive which passed in the blink of an eye, thanks to the extremely interesting interlocutor, colleague's stepfather, a.k.a driver, a.k.a speaker, and, above all, the coach. To be honest, after we arrived at [OSiR](https://osirmosina.pl/index.php/o-obiekcie-2/) in Mosina, we were bored (our crew consisted of me, the above-mentioned colleague of mine and her boyfriend). It was not our laziness, literally there was almost nothing to do. But as 9 o'clock was approaching, we changed into our costumes - those of Santa, Goat, and Elf.
 
 ***
 {{< neighbouring >}}
@@ -57,7 +57,7 @@ It began perfectly. I had my usual ("early to bed and early to rise") so I was h
 Now is the time for a bit of raw data. Saturday's schedule was arranged for two age groups. Kids from 4 to 6 years old were first. They played on little pitches "obtained" by dividing the court into 9 equal pieces. To avoid total chaos, three rounds of tournament were prepared, each more or less an hour in duration. 
 
 
-This period was intensive as breaks in between were very short if they were at all. If a player wanted a balloon or make-up (Spiderman and such) we needed to provide him/her with it. It took so much time that, frequently, we didn't even finish and had to immediately wear our costumes to hand candies around and pose for photos. No-breaks-do-all pattern lasted until 2:00 p.m., when the 7-8 age group entered the battlefield.
+This period was intensive as breaks in between were very short if they were at all. If a player wanted a balloon or a make-up (Spiderman and such) we needed to provide him/her with it. It took so much time that, frequently, we didn't even finish and had to immediately wear our costumes to hand out candies around and pose for photos. No-breaks-do-all pattern lasted until 2:00 p.m., when the 7-8 age group entered the battlefield.
 
 
 ***
@@ -66,11 +66,11 @@ This period was intensive as breaks in between were very short if they were at a
 {{< /neighbouring >}}
 ***
 
-The organization of pitches changed a bit. The court was bisected horizontally and goals were bigger. What's more, rounds exceeded two hours at the cost of cutting off one of them. In other words, length outplayed quantity because stamina of an 8-year-old allowed.
+The organization of pitches changed a bit. The court was bisected horizontally and goals were bigger. What's more, rounds exceeded two hours at the cost of cutting off one of them. In other words, length outplayed quantity because the stamina of 8-year-olds allowed to do this.
 
-Consequently, we had more time off owing to longer breaks. Unfortunately, it is a false impression to assume that our job became easier. When a child turns 7/8 years of age, she/he starts to be a pain in the neck (their uncontrollable  energy drains you of _your_ energy.) In our case, the symptoms included destroying our costumes, shouting at us, and stealing candies. True story, I left the basket with candies for a minute to take a photo. It was almost emptied... (__For the record, parents weren't better. When we were occupied during the medal ceremony, they took all balloons away! They were so "brave" and "generous" to even inflate balloons by themselves. WHAT THE F***__ :rage:)
+Consequently, we had more time off owing to longer breaks. Unfortunately, it is a false impression that our job became easier. When a child turns 7/8 years of age, she/he starts to be a pain in the neck (their uncontrollable energy drains you of _your_ energy.) In our case, the symptoms included destroying our costumes, shouting at us, and stealing candies. True story, I left the basket with candies for a minute to take a photo. It was almost emptied... (__For the record, parents weren't better. When we were occupied during the medal ceremony, they took all balloons away! They were so "brave" and "generous" to even inflate balloons by themselves. WHAT THE F***__ :rage:)
 
-Anyway, the Sunday part ended half past 7 p.m. However, because of small clean-up, before we left, the clock had already struck 8 p.m. I entered home quarter to 9 p.m. - just before the half-time of Argentina-Mexico match.
+Anyway, the Sunday part ended half past 7 p.m. However, because of small clean-up, before we left the clock had already struck 8 p.m. I entered home quarter to 9 p.m. - just before the half-time of the Argentina-Mexico match.
 
 ***
 {{< neighbouring >}}
@@ -79,11 +79,11 @@ Anyway, the Sunday part ended half past 7 p.m. However, because of small clean-u
 ***
 
 # Sunday
-New day, new me, new challenges... Well, not. The scheme was the same as previously for the older group. There were only four differences, compared to the precedent day, that are worth mentioning now. First, I engaged my best friend Dawid to participate (you can see him next to me [there](/portfolio/about/#prelude).) Second, we could arrive later as everything was prepared. Third, three rounds were conducted instead of five. Fourth, **THERE WERE NO BALLOONS**.
+A new day, new me, new challenges... Well, no. The scheme was the same as previously for the older group. There were only four differences, compared to the precedening day, that are worth mentioning now. First, I engaged my best friend Dawid to participate (you can see him next to me [there](/portfolio/about/#prelude).) Second, we could arrive later as everything was prepared. Third, three rounds were conducted instead of five. Fourth, **THERE WERE NO BALLOONS**.
 
 I'd like to add more, believe me, but I can't. It was the same kind of thing. I admit, being with Dawid was a massive change, however, it didn't concern the structure of the tournament.
 
-At 4:30 p.m., the tournament terminated and the terminator, "Grand Finale", dramatic ending was the medal ceremony of the last round :clap:. We packed our stuff and left the property to finally visit our homes.
+At 4:30 p.m., the tournament terminated and the terminator, "Grand Finale", dramatic ending was the medal ceremony of the last round :clap:. We packed our stuff and left the property to head for our homes at last.
 
 ***
 {{< neighbouring >}}
@@ -92,15 +92,15 @@ At 4:30 p.m., the tournament terminated and the terminator, "Grand Finale", dram
 ***
 
 # Closing thoughts
-To sum up, I can't tell you what was more exhausting - writing this reflection or being Santa. What I do know, however, is that both were highly gratifying, but for different reasons. A perfect example of such differentiator is the involvement of other people. To give a better illustration, reflection gives me an opportunity to apply critical thinking and that's great. At the same time though, it works only for me and possible a handful of people who will read it. 
+To sum up, I can't tell you what was more exhausting - writing this reflection or being Santa. What I do know, however, is that both were highly gratifying, but for different reasons. A perfect example of such differentiator is the involvement of other people. To give a better illustration, reflection gives me an opportunity to apply critical thinking and that's great. At the same time though, it works only for me and possibly a handful of people who will read it. 
 
 On the other hand, being Santa pushed me into _interacting_ with people. It was not only kids who posed for photos, but also parents who took them, coaches who trained their teams and organizers who made it happen. Communication on so many levels required flexibility in finding the right attitude. 
 
-As I have said, sometimes it was hard. When you are tired after a long day of arduous work, you may struggle to be polite. Unfortunately, in the end, it is you who is judged by the work you do, not the people who make it harder for you. Therefore, you must bite the bullet, keep going, and don't give up. You are better off leaving people, that put faith in you, with favorable impressions since **it will richly reward you, unlock many closed door, and pave the path to many incredible people.**
+As I have said, sometimes it was hard. When you are tired after a long day of arduous work, you may struggle to be polite. Unfortunately, in the end, it is you who is judged by the work you do, not the people who make it harder for you. Therefore, you must bite the bullet, keep going, and don't give up. You are better off leaving people, that have put faith in you, with favorable impressions since **it will richly reward you, unlock many closed doors, and pave the way to meeting many incredible people.**
 
 By embracing this philosophy, we left positive emotions. We proved ourselves by working tirelessly and with total dedication. We simply did a great job. As far as I'm concerned, I met valuable and hard-working people from whom I learned a lot. The unrivaled experience I gained will never be forgotten.
 
-PS. I also taught myself how to use emojis in markdown which is awesome! :grin:
+PS. I also taught myself how to use emojis in a markdown, which is awesome! :grin:
 
 ***
 {{< neighbouring >}}
