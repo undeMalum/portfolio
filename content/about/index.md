@@ -21,7 +21,9 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 ***
 
 # But first,
-let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment!
+let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment! 
+
+(To learn more about the school life, visit out Instagram account: [highschool_gaudium_et_studium](https://www.instagram.com/highschool_gaudium_et_studium/)).
 
 ***
 {{< neighbouring >}}
@@ -48,4 +50,4 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 ***
 
 # I believe,
-I've `introduced myself` properly, so that you know `what to expect` from this website! (you can also have a look at my projects [here](/portfolio/projects))
+I've `introduced myself` properly, so that you know `what to expect` from this website! I recommend you have a look at [my projects](/portfolio/projects) if you're interested in programming. Also, I run a [YouTube channel](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q) so you can check that one as well!
