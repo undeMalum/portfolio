@@ -62,9 +62,39 @@ Later, in winter, it was freezing cold. Unfortunately, power was turned off at 2
 
 # School Charity Fair
 <a id="road"><font size=4>**Road**</font></a>\
-The reason I have mentioned the shift in Skórzewo is partially to smoothly go forward to another topic which Scholl Charity Fair. What is more, I firmly believe that the road to this fair is at least equally interesting as the fair itself. However, since this blog post/reflection is already very long, I will create quick bullet points, summarizing what led to this enterprise.
+The reason I have mentioned the shift in Skórzewo is partially because I want to smoothly switch to another topic which is Scholl Charity Fair. I think that a good point to start is to explain the road that led to this fair since the process is at least as interesting as the fair itself. However, because this blog post/reflection is already quite long, I will create quick and comprehensive bullet points, summarizing a series of events that set the foundation for this enterprise.
+
+To enhance your understanding, follow closly what's written underneath :stuck_out_tongue_winking_eye::
+1. I went on the school trip to Warsaw with second graders
+2. I talked to the vice-principal and my math teacher about my volunteer work
+3. I mentioned selling cheese
+4. Vice-principal proposed the purchase of cheese by school commons
+5. After the trip, I visited the main principal
+6. He agreed to my proposal and suggested selling during Nativity plays
+7. I made a call to Bury Miś to discuss possibilities
+8. I worked in MiśTruck and collected cheese samples
+9. I brought cheese samples for school cooks to test
+10. The price was overkill so the school didn't become a trading partner
+11. I paid the principal a second visit regarding School Charity Fair
+12. Although reluctant, he made a final agreement
+13. I contacted Mrs. Martyna, the elementary school charity coordinator
+14. I asked the school cooks for permission to leave cheese at school
+15. In Skórzewo I took the document allowing me to sell cheese at school
+16. On December 19, I received all products I would be seelling
+16. At 4 p.m. the same day, I erected my booth for the first time
+
+I hope you didn't get lost! It was quite intensive. I'd be glad if I could make it shorter, but I can't. It's so many important facts out there! Maybe after receiving some feedback I will cut some of it. Anyway, let's come back to the main story.
 
 <a id="three-days"><font size=4>**Three Days**</font></a>\
+I believe I've introduced the road sufficiently, so that you have a big (in this case huge) picture of the planning part. The second part will be more descriptive. I'll cover each of the three days I was selling the cheese and the rest of goods.
+
+The first day was an introdutory day both for me and parents. I was curious how it would be. I erected the booth just as I finished my English lessons at 4 p.m. I wasn't alone because fellas from the primary school where there as well, raising money for people in need. The downside of it was that I got to fit in tiny hall shoulder. However, this "inconvenience" didn't last long as they packed their stuff half past four. From that moment on, it was only me and cheese :yum:. Unfortunately, I didn't sell much, especially knowing how much I sold in two following days. Besides, I couldn't stay until all people left the last performance since I had a train to catch (Extended Essay topics urged me).
+
+The second day was more up-and-coming, even though I started later. From the very first moment, I knew it would go much better. I had just started and I alredy sold something. Moreover, the good thing was that people were paying more than they should to boost charity's budget. It was great! Furthermore, I spent more time to wait for people from the last show. Although not immadiately, I paid off because I sold a lot. The price, however, was waiting longer for the later train.
+
+The last day was the longest one. I finished school earlier than previously so I could even catch parents from the first performances. Furthermore, I was able to get rid of art works, thanks to younger kids who were extremely interested in buying such preety things. If the second day was great, I don't know how to describe the third one. It was a brilliant summary of all these long days, even though I did not stay that long.
+
+Finally, I can talk a bit about how the fair went overally. To be honest, it proved to be quite successful. I sold almost everything I had, earning more than 1,000 zł. It is hard to estimate the exact sum because people were giving additonal money for the foundation. Nevertheless, I think that even that number is quite good.
 
 # Summing The Whole Thing up
 
