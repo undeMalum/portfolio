@@ -28,7 +28,7 @@ hideComments = false
 # A Short Story About Bury Miś And Cheese
 Seemingly, Bury Miś Foundation is only a typical organization where enthusiastic volunteers attempt to make the life of the disadvantaged more enjoyable. Indeed, it provides social interaction and support to people who are in strong need of others and struggle to develop bonds with the society, which is worthy of admiration. However, what does differ Bury Miś Foundation from other alike organizations is its complexity. It does not mean that Bury Miś is more relevant because of that. I just want to emphasize my astonishment when I discovered how many activities I can undertake and hence how much I can learn. No matter what it is, whether meeting with charges, being counselor or writing articles - they all are new, exciting and teach me a lot. I especially appreciate selling cheese - not only is it interesting for me, but also proves the self-sufficiency of the charity and fantastically incorporates into its day-to-day life.
 
-[Selling hand-made Kashubian cheese](https://buremisie.org.pl/produkty-z-osady/) constitutes a vital part of the budget. Even though the charity food truck (called MiśTruck by combining words miś or bear and truck) visits Poznań once a month (occasionally more frequently, for example before Christmas), it does not fail to boost spreadsheet numbers. For instance, MiśTruck collected as much as 15,300 zł in November - this is one of the lower results and I wonder how much was collected in December. Therefore, it comes as no surprise that people are so willing to spend their money, considering the purpose and delicious taste of cheese along with other products (yes, cheese is not the only option. Goods like pickles, jelly or syrup are available as well).
+[Selling hand-made Kashubian cheese](https://buremisie.org.pl/produkty-z-osady/) constitutes a vital part of the budget. Even though the charity food truck (called MiśTruck by combining words miś or bear and truck) visits Poznań once a month (occasionally more frequently, for example before Christmas), it does not fail to boost spreadsheet numbers. For instance, MiśTruck collected as much as 15,300 zł in November - this is one of the lowest results and I wonder how much was collected in December. People are so willing to spend their money owing to not only the lofty goal, but also the delicious taste of cheese along with other products (yes, cheese is not the only option. Goods like pickles, jelly or syrup are available as well).
 
 In search of this tastiness, we need to go back down to the place of origin, that is, the "factory" in Wętwie, Kashubia. There, a cozy building is located and the famous cheese is manufactured. At this point, I'd like to give a huge shout-out to both charges who give all their dedication and volunteers who work hard with the patience of a saint to deliver the beloved products. It is these people, thanks to whose generosity and sincerity, that make every slice of cheese and pickle delight us. Besides, it is an exemplar of successful coexistence of people from different walks of life working together to achieve a common goal, giving their best 24/7. I'll always stress this fact.
 
@@ -36,7 +36,7 @@ Although justifiably, I got probably too philosophical. I will switch to more co
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/os_przyjazni_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/cheese_image.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/os_przyjazni_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="MiśTruck at work in Os. Przyjaźni." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/cheese_image.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="The greatest cheesemakers of all time!" captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -48,7 +48,7 @@ This story goes to show that much useful knowledge can be acquired, but it requi
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/products_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/inventory_5.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/products_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="A bit of cheese, jelly and syrup." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/inventory_5.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Packing products after finished job." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -63,7 +63,7 @@ Nevertheless, after the camp, I knew only few things about selling cheese: it is
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/inventory_6.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/nice_view_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/inventory_6.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="An insight into the interior of MiśTruck." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/nice_view_2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="A nice shot at Kicin." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -80,7 +80,7 @@ Later, in winter, it was freezing cold. Unfortunately, power was turned off at 2
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/inventory_9.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/angry_cheese_2.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/inventory_9.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Night session in Skórzewo." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/angry_cheese_2.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Don't be afraid! It won't bite you 😁." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -111,7 +111,7 @@ I hope you didn't get lost! It was quite intensive. I'd be glad if I could make 
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/school_charity_fair_5.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_charity_fair_2.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/school_charity_fair_5.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="The booth during the first day." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_charity_fair_2.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="All the products I had available." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -128,7 +128,7 @@ Finally, I can talk a bit about how the fair went overall. It proved to be quite
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/school_charity_fair_3.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/receipt.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/school_charity_fair_3.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Here's my booth enclosed by others." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/receipt.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="The summary of sales from the second day." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -139,7 +139,7 @@ At the very end, I'd like to wish everyone reading now happy New Year. If you we
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/inventory_8.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Group photo ending medal ceremony." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/inventory_7.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Each team had its own moment of glory." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/inventory_8.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Christmas art work." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/inventory_7.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="The cheese samples I brought to the school." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
