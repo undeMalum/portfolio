@@ -12,12 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [School Art Festival](#school-art-festival)
-- [Christmas Cards](#christmas-cards)
-- [Youtube Shorts](#youtube-shorts)
-- [Learning outcomes]()
-
 # School Art Festival
 School Art Festival was quite a journey. In the video below you can learn more about how it was done, why I participated, and what is my opinion. Enjoy!
 

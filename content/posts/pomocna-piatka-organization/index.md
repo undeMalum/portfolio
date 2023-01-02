@@ -12,11 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [What a day it was!](#what-a-day-it-was)
-- [How do I feel about it?](#how-do-i-fell-about-it)
-- [Learning outcomes](#learning-outcomes)
-
 # What a day it was!
 After spending a marvelous night at a gig dedicated to Pink Floyd history with my grandpa, brother and friend, I had to **wake up at 5:00a.m.!** This is because I decided to reach the destination by `bike`. Compared to a combustion-engine-powered `car` or `bus`, a bike is arguably **the most eco-friendly means of transport** (and considerably less outside-world-dependent) hence my choice. Nonetheless, there were nearly 20km to be travelled and no time to be wasted.
 

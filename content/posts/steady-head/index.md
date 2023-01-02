@@ -12,11 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content
-- [How did I start?](#how-did-i-start)
-- [My attitude toward the process](#my-attitude-toward-the-process)
-- [Learning outcomes](#learning-outcomes)
-
 # How did I start?
 I find it worth-mentioning, `the beginnings`. Why? Because it started when I was "pursuing my football dreams". More specifically, when we (my team at that time) **had the header exam**. To pass, we had to **hit the ball with your head 15 times** (additional 16th hit was for `a higher mark`). As simple as that, right? No, if you have never juggled with your head! **And this was my case.** I felt I was in a bind. Fortunately (arguably though) at that time I suffered an injury (not the last) so I couldn't try. But later, at home, I practiced a lot to achieve eventually these `"15 magical hits"`. **Even after I changed class, I didn't stop**. I have been doing it up to this day, mastering my `ball control`.
 

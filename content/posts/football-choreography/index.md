@@ -12,12 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [Video reflection](#video-reflection)
-- [First video in series](#first-video-in-series)
-- [Second video in series]()
-- [Learning outcomes]()
-
 # Video reflection
 Since this reflection was also about my Youtube channel, I decided to record me relfecting on what I did and how I felt about it.
 

@@ -12,11 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [Me as a youtuber & following thoughts](#me-as-a-youtuber--following-thoughts)
-- [Some channel statistics](#some-channel-statistics)
-- [Learning outcomes](#learning-outcomes)
-
 # Me as a youtuber & following thoughts
 ***
 {{< youtube "id"=lYIDtHNi4tM >}}

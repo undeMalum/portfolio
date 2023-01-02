@@ -12,13 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [A glimpse into my work](#a-glimpse-into-my-work)
-- [Piotr](#piotr)
-- [Marcin](#marcin)
-- [Adam](#adam)
-- [Learning outcomes](#learning-outcomes)
-
 # A glimpse into my work
 I regularly meet with all my "Bears"[^1] from the camp - Piotr, Marcin, and Adam. Since there are three of them, I visit each tri-weekly (usually). This is also due to logistic reasons. They live all across Poznań. Commuting unavoidably consumes much of my time and, although I get to know new places (like a cozy café in Wilda district!) which is fine, sadly I can't pay them visits more often. Nevertheless, Piotr, Marcin, and Adam are nice people. **Each of them is unique and so are meetings with them.**
 

@@ -12,18 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Contents:
-- [A Short Story About Bury Miś And Cheese](#a-short-story-about-bury-miś-and-cheese)
-- [My Journey](#my-journey)
-    - [Intro](#intro)
-    - [The Beginnings](#the-beginnings)
-    - [Process](#process)
-- [School Charity Fair](#school-charity-fair)
-    - [Road](#road)
-    - [Three Days](#three-days)
-- [Summing The Whole Thing up](#summing-the-whole-thing-up)
-- [Learning outcomes](#learning-outcomes)
-
 # A Short Story About Bury Miś And Cheese
 Seemingly, Bury Miś Foundation is only a typical organization where enthusiastic volunteers attempt to make the life of the disadvantaged more enjoyable. Indeed, it provides social interaction and support to people who are in strong need of others and struggle to develop bonds with the society, which is worthy of admiration. However, what does differ Bury Miś Foundation from other alike organizations is its complexity. It does not mean that Bury Miś is more relevant because of that. I just want to emphasize my astonishment when I discovered how many activities I can undertake and hence how much I can learn. No matter what it is, whether meeting with charges, being counselor or writing articles - they all are new, exciting and teach me a lot. I especially appreciate selling cheese - not only is it interesting for me, but also proves the self-sufficiency of the charity and fantastically incorporates into its day-to-day life.
 

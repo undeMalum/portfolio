@@ -12,11 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [A brief summmary](#a-biref-summary)
-- [The emotional outcome](#the-emotional-outcome)
-- [Learning outcomes](#learning-outcomes)
-
 # A brief summary
 Having read the ["About me"](/portfolio/about/) section, you should know that **I did karate for almost 7 years of my earliest childhood**. Contrary to popular belief, it wasn’t merely about fighting, but primarly about `athleticism`. We did a lot of gymnastics, stretching and so on at the time.
 

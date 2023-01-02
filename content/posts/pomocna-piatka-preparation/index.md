@@ -12,11 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [To begin with,](#to-begin-with)
-- [What thoughts popped to my mind?](#what-thoughts-popped-to-my-mind)
-- [Learning outcomes](#learning-outcomes)
-
 # To begin with,
 everything started at the end of the **previous school year (2021-2022)**. Our, current `CAS coordinator`, then `English teacher`, asked us if we would like to participate in an event, called [PoMocna Piątka run](https://www.facebook.com/PoMocnaPiatkaPoznan/). Some of us where keen to sign up, **including me.** 
 

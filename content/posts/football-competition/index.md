@@ -12,15 +12,8 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [What on earth is going on?](#what-on-earth-is-going-on)
-- [Saturday](#saturday)
-- [Sunday](#sunday)
-- [Closing thoughts](#closing-thoughts)
-- [Learning outcomes](#learning-outcomes)
-
 # What on earth is going on?
-<font size=4>**Christmas... WHAT?!**</font><br>
+## Christmas... WHAT?!
 [X-MAS cup 2022](https://www.facebook.com/events/804473590741743/?acontext=%7B"event_action_history"%3A[%7B"surface"%3A"page"%7D]%7D) was a tournament for all young players from Lech Poznań Football Academies (LFPA) no matter where they were located[^1]. The director of LFPA, Dominik Czapczyk, describes this series of events as follows:
 
 > "Annual X-MAS Cups are both a big thank-you to LFPA players for their hard work and place to simply hang out." :santa: :soccer:
@@ -35,7 +28,7 @@ Nonetheless, you may "wonder" how I found myself there?
 {{< /neighbouring >}}
 ***
 
-<font size=4>**Take your shot**</font><br>
+## Take your shot
 I listen to Eminem too much... Anyway here's the story:
 1. I was asked by a fellow student whether I would be interested or not
 2. I agreed without hesitation

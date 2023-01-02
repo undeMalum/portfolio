@@ -12,12 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-# Content:
-- [Decisions made so far](#decisions-made-so-far)
-- [Plans for the future](#plans-for-the-future)
-- [The complaint of a coder](#the-complaint-of-a-coder)
-- [Learning outcomes](#learning-outcomes)
-
 # Decisions made so far
 **Before going further**<br>
 let me introduce some concepts for a better understanding. In computer science, there's a notion of `cognitive complexity`. It basically refers to **the complexity of a code in terms of its readability**. In other words, it's a measure of how threatening your code is for the sanity of another party, maintaining this code. 
