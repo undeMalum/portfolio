@@ -28,8 +28,12 @@ We haven't talked for a while, but we're back! Today's podcast is a mock one. **
 6. Cultural differences and Messi's background
 7. Controversy around Polish National Team
 8. Michniewicz and bribery 
-9. The role of journalism\
--- Will be extended soon --
+9. The role of journalism
+10. Football and money
+11. Success and time
+12. A possible Michniewicz's successor
+13. To sum up...
+14. Closing thoughts and goodbye
 
 # Podcast episode
 ***
