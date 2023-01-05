@@ -8,10 +8,10 @@ description: "This page serves as my intro to the activity CAS strand."
 ---
 
 # Welcome to my activity section!
-Here, I will introduce **everything** I do as a physical exercise. This includes: [`football`](#football), [`workout`](#workout) and [`stretching`](#stretching).
+Here, I will introduce **everything** I do as a physical exercise. This includes: `football`, `workout` and `stretching`.
 
 # Football
-**Description:**<br>
+### Description:
 My journey with football isn't so _straightforward_. I **started hating it**, but **ended up loving it**. Now it's a great way to `wind down` and `make friendships`! By the way, my position is a `goalkeeper` and favourite club is `Manchester United`.
 
 ***
@@ -20,7 +20,7 @@ My journey with football isn't so _straightforward_. I **started hating it**, bu
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 4 Commitment and Perseverance
@@ -28,7 +28,7 @@ My journey with football isn't so _straightforward_. I **started hating it**, bu
 
 
 # Workout
-**Description:**<br>
+### Description:
 The title can be _misleading_ as I don't mean **hardcore physical activity**. Due to my disease ([see about me section](/portfolio/about)), it would be _harmful_. In this category, I wanna put **everything** that `keeps my body healthy`, no matter whether it's about `abs`, `riding a bike` or `tae bo`.
 
 ***
@@ -37,13 +37,13 @@ The title can be _misleading_ as I don't mean **hardcore physical activity**. Du
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 4 Commitment and Perseverance
 
 # Stretching
-**Description:**<br>
+### Description:
 Stretching is **a new level of exercising**. It not only `improves your results`, but also helps you `prevent awful pain` in places like `neck`, `back`, `knees` etc. It helps your body to **regenerate**.
 
 ***
@@ -52,7 +52,7 @@ Stretching is **a new level of exercising**. It not only `improves your results`
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 4 Commitment and Perseverance

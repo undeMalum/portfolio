@@ -5,6 +5,7 @@ author: "Mateusz Konat"
 cover: "images/pink_floyd.png"
 tags: ["my projects", "creativity", "activity", "service", "cas project", "IB resources"]
 description: "This page is about me and my life."
+toc: false
 ---
 
 {{< code language="python" title="That's how it's begun..." id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}

@@ -8,10 +8,10 @@ description: "This page serves as my intro to the service CAS strand."
 ---
 
 # Welcome to my servie section
-Here, I will present **everything** I do voluntarily, serving others. This includes: [`the foundation of Bury Miś`](#bury-miś), [`teaching`](#teaching) and [`temporary events`](#temporary-events).
+Here, I will present **everything** I do voluntarily, serving others. This includes: `the foundation of Bury Miś`, `teaching` and `temporary events`.
 
 # Bury Miś
-**Description:**<br>
+### Description:
 [The foundation of Bury Miś](https://buremisie.org.pl) is a `charity`, aiming to help `disabled people` - **both physically and intelectually**. The charity was **found in 1983 in Cracow**, but moved to `Nowy Klincz` 9 years later. My contribution here is serving as a `counselor` during **camps organized for the disabled**, `meeting with my charges` throughout the year and occasionally selling `hand-made Kashubian chesse`.
 
 ***
@@ -20,7 +20,7 @@ Here, I will present **everything** I do voluntarily, serving others. This inclu
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 4 Commitment and Perseverance
@@ -29,7 +29,7 @@ Here, I will present **everything** I do voluntarily, serving others. This inclu
 - LO 7 Ethics of Choices and Actions
 
 # Teaching
-**Description:**<br>
+### Description:
 You're right, I also `teach`. I **grasp concepts easily** and I'm **keen to explain them**. Since `math` and `computer science` are "my lovely fields", I usually help fellow students to understand those two subjects. Yet, I can try also with other areas! So if you have any problems with certain material, I can **push you toward comoprehending incomprehensible** ;).
 
 ***
@@ -38,13 +38,13 @@ You're right, I also `teach`. I **grasp concepts easily** and I'm **keen to expl
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 2 Challenge and Skills
 - LO 3 Initiative and Planning
 - LO 7 Ethics of Choices and Actions
 
 # Temporary events
-**Description:**<br>
+### Description:
 This section is dedicated to **all things** I `do voluntary`, but are `one-time-only`. Although such events require `planning`, `commitment` and simply - `much effort`, they **occur once** and **won't repeat in the near future**. For example, the upcoming run called [PoMocna Piątka](https://www.facebook.com/PoMocnaPiatkaPoznan/) that happens on **25th of September, 2022**.
 
 ***
@@ -53,7 +53,7 @@ This section is dedicated to **all things** I `do voluntary`, but are `one-time-
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 2 Challenge and Skills
 - LO 3 Initiative and Planning
 - LO 5 Collaborative Skills

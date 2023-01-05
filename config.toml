@@ -133,6 +133,6 @@ enableEmoji = true
     [markup.goldmark.renderer]
       unsafe = true
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 2
     ordered = false
     startLevel = 1

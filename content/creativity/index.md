@@ -8,38 +8,38 @@ description: "This page serves as my intro to the creativity CAS strand."
 ---
 
 # Welcome to my creativity section!
-Here, I will explain **everything** that I do and may be considered "_creative_". This includes: [`runnning youtube channel`](#running-youtube-channel), [`juggling`](#juggling), [`writing`](#writing) and [`coding`](#coding).
+Here, I will explain **everything** that I do and may be considered "_creative_". This includes: `runnning youtube channel`, `juggling`, `writing` and `coding`.
 
 The photo above is a picture by a friend of mine by the way. Enjoy ;)
 
-## Running youtube channel
-**Description:**<br>
+# Running youtube channel
+### Description:
 I've set up a `youtube channnel`! Not that I aim to be **a world-wide known person** or something. It's just I need a place to upload `the evidence viedos` which will be used on **this website**. Besides, I find it `interesting` - **pure curiosity** of how things work on "_the other side_". [Here is a quick reference](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q)
 
 ***
 {{< youtube id="CIPegynmB8c" >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes
 - LO 2 Challenge and Skills
 - LO 3 Initiative and Planning
 - LO 4 Commitment and Perseverance
 - LO 6 Global Engagement
 
-## Juggling
-**Description:**<br>
+# Juggling
+### Description:
 Yes, I juggle. It's kinda funny coz I started quite unexpectedly. One day my aunt `went to Tigger` and she bought my `a bag of hacky sacks`, marked as "_juggling balls_". So I started practicing. In addition to that, this was a time of `covid-19 pandemic` and I had a lot of free time for my "_juggling sessions_". After some time I was able to `juggle fluently`. **And that's the whole story**.
 
 ***
 {{< youtube id="Dzwoyf6ifaU" >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 
-## Writing
-**Description:**<br>
+# Writing
+### Description:
 Not only do I write essays for school, **I also write at home**. Writing, in my opinion, gives you `the deeper understanding  of yourself`. While writing, you should focus on **how to formulate your thoughts** in order to easily exchanges these ideas with a reader, but even more importantly - to understand `the process of thinking per se`.
 
 ***
@@ -66,13 +66,13 @@ kontrolowałeś. Zlewasz: "Trudno, zdarza się!". Szukasz dalej. [...]
 {{< /code >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 4 Commitment and Perseverance
 - LO 6 Global Engagement
 
-## Coding
-**Description:**<br>
+# Coding
+### Description:
 Coding like "_normal_" wiritng is about `thoughts`, `ideas`. What is important in this process is **how you approach the problem** and how you **express the idea of solving it**. It is about `critical thinking` and that's what `thrills me`. Apart from that, coding is a `powerful tool` that **let's you solve day-to-day problems** and consequently **make our existence much easier**.
 
 ***
@@ -81,7 +81,7 @@ Coding like "_normal_" wiritng is about `thoughts`, `ideas`. What is important i
 {{< /neighbouring >}}
 ***
 
-**Learning outcomes:**
+### Learning outcomes:
 - LO 1 Strength and Growth
 - LO 2 Challenge and Skills
 - LO 3 Initiative and Planning
