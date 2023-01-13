@@ -1,6 +1,6 @@
 +++
 title = "Creativity. Reflection 5 - Com. Sci. Resources Center"
-date = "2023-01-05T09:18:52+01:00"
+date = "2023-01-13T09:18:52+01:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
 cover = "images/cover.png"
