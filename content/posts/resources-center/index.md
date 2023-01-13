@@ -11,7 +11,6 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "red" #color from the theme settings
-draft = "true"
 +++
 
 # What is this project about?
