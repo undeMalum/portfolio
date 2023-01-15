@@ -1,5 +1,5 @@
 +++
-title = "Creativity. Reflection 5 - Com. Sci. Resources Center"
+title = "Creativity. Reflection 5 - Com. Sci. Resource Center"
 date = "2023-01-13T09:18:52+01:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
@@ -81,13 +81,13 @@ My job, therefore, is to find those online, technical encyclopedias and put them
 # At the end...
 For the end, I reserved some more general thoughts. 
 
-What I haven't mentioned or at least clearly stated yet is my excitement when the website was announced to us. The idea of creating a thing like that was in itself extremely impressive, not to mention a possibility to actually browse it. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
+What I haven't mentioned or at least clearly stated yet is my excitement when the website was announced to us. The idea of creating a thing like that was in itself immensely impressive, not to mention a possibility to actually browse it. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
 
-Moreover, it all happened roughly at the time of the second-grade project week when we had to, among other, work on our CAS portfolios. I desperately tried to escape from Google Sites because I got some prior experience with this tool and I didn't like it. I turned to Mr Przybylski for help and suggestions. He proposed a static website generator named Hugo - the "engine" that powers the Resource Center.
+Moreover, it all happened roughly at the time of the second-grade project week when we had to, among other, work on our CAS portfolios. I desperately tried to escape from Google Sites because I got some prior experience with this tool and I didn't like it. I turned to Mr Przybylski for help and suggestions. He proposed a static website generator named Hugo - the engine that powers the Resource Center.
 
-After weeks of bitter struggle during the summer 2022, I finally finished my portfolio which you are _notabene_ visiting right now. I'm proud of what I've created, but there's something more essential in this context. By working on my "headquarters", I've learned the skills that enable me to play with the Resource Center and, consequently, create something that is both useful and meaningful - the two things I've been hoping for for such a long time.
+After weeks of bitter struggle during the summer 2022, I finally finished my portfolio which you are _notabene_ visiting right now. I'm proud of what I've achieved, but there's something more essential in this context. By working on my headquarters, I've learned the skills that enable me to play with the Resource Center and, consequently, create something that is both useful and meaningful - the two things I've been hoping for for such a long time.
 
-Thus, I want to leave you with the following: First, if you see a prospect of building something innovative, go for it. The very act of creation is very fulfilling and you'll really appreciate it. Second, if you are already in the process, be patient and focused on the goal. It may take a while to get done with a project, but do not let it slip. Self-determination is a key component of every success.
+Thus, I want to leave you with the following: first, if you see a prospect of building something innovative, go for it and devote extra effort to seize this opportunity. The very act of creation is highly rewarding and extremely fulfilling. You'll really appreciate it, believe me. Second, if you are already in the process, follow patiently and strictly your path. It may take a while to get done with a project, but do not let it slip. Patience is a virtue and self-determination is a key component of every success.
 
 ***
 {{< neighbouring >}}
