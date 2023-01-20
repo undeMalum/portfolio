@@ -14,11 +14,11 @@ color = "red" #color from the theme settings
 +++
 
 # What is this project about?
-The project is called [Computer Science Resource Center](https://bprzybylski.github.io/IB-CS-GeS/) (we're working on the name). As you may infer from the name, it's dedicated to computer science, specifically to IBDP course. You can find there the decent overview of the course, including things like: grade boundaries, resources, the description of each assessment component, and the latest news.
+The project is called [Computer Science Resource Center](https://bprzybylski.github.io/IB-CS-GeS/) (we're working on something more subtle). As you may infer from the name, it's dedicated to computer science, specifically to [IBDP CS course](https://www.ibo.org/programmes/diploma-programme/curriculum/sciences/computer-science/). You can find there the decent overview of the course, including things like: grade boundaries, resources, the description of each assessment component, and the latest news.
 
-Initially, the website was created by [Mr. Bartłomiej Przybylski](https://bap.faculty.wmi.amu.edu.pl/en/) to enhance the communication between the teacher and students. Therefore, after he left our school, this purpose stopped making any sense - it needed to be rethought. This is the moment when I show up. 
+Initially, the website was created by [Mr. Bartłomiej Przybylski](https://bap.faculty.wmi.amu.edu.pl/en/) to enhance the communication between hinm and students. Therefore, after he left our school, this purpose no longer made any sense - it needed to be rethought. This was the moment when I showed up. 
 
-Considering how useful this website is, I came up an idea of sharing it with wider audience. I wanted to revive it and take control over management. I had two possibilities to achieve this goal: either to wait for the owner of the [Github repository](https://github.com/bprzybylski/IB-CS-GeS) (where the website is hosted) to merge my changes each time I added something new, or to ask for the permission for editing the repository which means being a co-owner. Fortunately, I met Mr Przybylski at UAM (during [Noc Naukowców](https://www.poznan.nocnaukowcow.pl)) and received the desired permission from him.
+Considering how useful this website is, I came up with an idea of sharing it with wider audience. I wanted to revive the center and take control over its management. I had two possibilities to achieve this goal: either to wait for the owner of the [Github repository](https://github.com/bprzybylski/IB-CS-GeS) (where the website is hosted) to merge my changes each time I added something new, or to ask for the permission for editing the repository which meant being a co-owner. Fortunately, I met Mr Przybylski at UAM (during [Noc Naukowców](https://www.poznan.nocnaukowcow.pl)) and could take the latter option and received the desired permission from him.
 
 Having explained the background story, I would like now to discuss what I have _done_ over the year and then proceed to what I _plan_ to improve in the near future.
 
@@ -33,13 +33,13 @@ Having explained the background story, I would like now to discuss what I have _
 My biggest contributions up to this moment are: oncoming changes and YouTube tabs. Of course, there are other changes I made. For instance, I updated deadlines for Internal Assessment. However, I want to focus on these two since they are the most important and interesting.
 
 ## Oncoming changes
-In chronological order, [oncoming changes tab](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/) was first. The purpose of adding it was to summarize what is going to change with the introduction of a new syllabus. The reason is that my examination session (i.e. May 2024) will be the last one conducted with the old syllabus. Furthermore, compared to biology where refreshing is only about minor details, the new syllabus in Computer Science will be a game-changer, transforming the current course into something completely different. 
+In chronological order, [oncoming changes tab](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/) was first. The purpose of adding it was to summarize what is going to change with the introduction of a new syllabus. The reason is that my examination session (i.e. May 2024) will be the last one conducted with the old syllabus. Furthermore, compared to biology where refreshing is only about minor details, the new syllabus in Computer Science will be a game-changer, defining an entirely new trajectory for the whole course.
 
-However, I want to avoid giving a deep dive into the new curriculum since it's not the appropriate place. But if you're interested, feel welcome to visit the website and check it out by yourself! 
+However, I want to avoid giving a deep dive into the new curriculum since it's not the appropriate place. But if you're interested, feel welcome to visit the website and [check it out by yourself](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/)! 
 
-Anyway, something so drastic just must have been talked about in a place like that. I felt responsible for spreading the news, especially because there was no other resource that would not only pinpoint the most significant aspects, but even mention the fact itself. 
+Anyway, something so drastic just must have been talked about in a place like that. I felt responsible for spreading the news, especially because resources that would not even pinpoint the most significant aspects, but simply mention the fact itself are scarce or do not exist at all. 
 
-That was the rationale behind my work and you can view the fruits of it on the website.
+That was the rationale behind my work which fruits you can view on the website.
 
 ***
 {{< neighbouring >}}
@@ -50,9 +50,9 @@ That was the rationale behind my work and you can view the fruits of it on the w
 ## YouTube resources
 Enough of being a kiss-up! Let's move on to the YouTube tab as time is precious and I value yours.
 
-The YouTube tab has been my second major contribution. Thanks to it, I wanted to extend the range of proposed resources because we had offered only books before that. Although books are a great source of knowledge and have a huge number of other benefits, not everyone is into books or simply has sufficient time to go through them. This is why I chose YouTube channels as I found them more convenient for most people. First, teenagers are more familiar with this medium nowadays. Second, YouTube videos are short and concise (at least from the channels I included) so they help to learn particular material.
+The YouTube tab has been my second major contribution. Through this addition, I wanted to extend the range of proposed resources because we had offered only books before that. Although books are a great source of knowledge and have a huge number of other benefits, not everyone is into books or simply has sufficient time to go through them. This is why I chose YouTube channels as I found them more convenient for most people. First, it is the most widely-spread and familiar medium nowadays. Second, YouTube videos are short and concise (at least from the channels I included) so they help to learn particular material.
 
-Besides, I had spent a lot of time on YouTube, acquiring required knowledge, which meant I unconsciously already prepared a nice list of cool and helpful channels. This certainly helped me with supplying good-quality content because I could take advantage of my expertise, rather than using time-consuming trial-and-error approach and trying to figure out everything from scratch. Obviously, what is now available is not the final point. If I find a new, worth-mentioning channel, I will add it immediately.
+Besides, I had spent a lot of time on YouTube, acquiring required knowledge, which meant that I unconsciously prepared a nice list of cool and helpful channels. This certainly helped me with supplying good-quality content because I could take advantage of my expertise, rather than relaying on time-consuming trial-and-error approach, trying to figure out everything from scratch. Obviously, what is now available is not the final point. If I find a new, worth-mentioning channel, I will add it immediately.
 
 That's all I had to share as far as already-made contributions are concerned. Once again, I direct you to the website so that you can see what is going on.
 
