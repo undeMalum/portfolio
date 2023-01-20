@@ -75,28 +75,28 @@ Later, in winter, it was freezing cold. What's more, power was turned off at 2 p
 
 # School Charity Fair
 ## Road
-The reason I have mentioned the shift in Skórzewo is partially because I want to smoothly switch to another topic which is the Scholl Charity Fair. I think that a good starting point is to explain the road that led to this event since the process is at least as interesting as its result. However, this blog post/reflection is already a bit too long. Because of that, I will create quick and comprehensive bullet points to nicely summarize steps that set the foundation for this cheese-izy enterprise.
+The reason I have mentioned the shift in Skórzewo is partially because I want to smoothly switch to another topic which is the School Charity Fair. I think that a good starting point is to explain the road that led to this event since the process is at least as interesting as its result. However, this blog post/reflection is already a bit too long. Because of that, I will create quick and comprehensive bullet points to nicely summarize the steps that set the foundation for this cheesy enterprise.
 
-To enhance your understanding, follow closely what's written underneath :stuck_out_tongue_winking_eye::
-1. I went on the school trip to Warsaw with second graders
-2. I talked to the vice-principal and my math teacher about my volunteer work
+To enhance your understanding, follow closely what's written below :stuck_out_tongue_winking_eye::
+1. I went on a school trip to Warsaw with second graders
+2. I talked to the Vice-principal and my math teacher about my volunteer work
 3. I mentioned selling cheese
-4. Vice-principal proposed the purchase of cheese by school commons
-5. After the trip, I visited the main principal
+4. The Vice-principal proposed that school commons purchase some cheese
+5. After the trip, I visited the Principal
 6. He agreed to my proposal and suggested selling cheese during Nativity plays
 7. I made a call to Bury Miś to discuss possibilities
 8. After working in MiśTruck, I collected cheese samples for the school
-9. I brought cheese samples for school cooks to test
-10. Unfortunately, the price was overkill so the school didn't become a trading partner
+9. I brought the cheese samples for school cooks to test
+10. Unfortunately, the price was too high so the school didn't become a trading partner
 11. I paid the principal a second visit regarding the School Charity Fair
-12. Although reluctant, he made a final agreement
+12. Although reluctantly, he finally agreed
 13. I contacted Mrs. Martyna, the elementary school charity coordinator
 14. I asked the school cooks for permission to leave cheese at school
-15. In Skórzewo, I took the document allowing me to sell cheese at school
-16. On December 19, I received all products I would be selling
-16. At 4 p.m. the same day, I erected my booth for the first time
+15. In Skórzewo, I picked up a document allowing me to sell cheese at school
+16. On December 19th, I received all products I would be selling
+16. At 4 p.m. the same day, I set up my booth for the first time
 
-I hope you didn't get lost! It was quite intensive. I'd be glad if I could make it shorter, but I can't. There's so many important information out there! Maybe after receiving feedback I will cut some of it. Anyway, let's come back to the main story.
+I hope you didn't get lost! It was quite intensive. I'd be glad if I could make it shorter, but I can't. There's so much important information out there! Maybe after receiving feedback, I will cut down some of it. Anyway, let's go back to the main story.
 
 ***
 {{< neighbouring >}}
@@ -105,15 +105,15 @@ I hope you didn't get lost! It was quite intensive. I'd be glad if I could make 
 ***
 
 ## Three Days
-I believe I've introduced the road sufficiently, so that you have a big (in this case huge) picture of the planning part. The second part will be more descriptive. I'll cover each of the three days I was selling the cheese and the rest of foods.
+I believe I've introduced the road in sufficient detail, so that you have a big (in this case huge) picture of the planning part. The second part will be more descriptive. I'll cover each of the three days I sold the cheese and the rest of foods.
 
-The first day was an introductory day, both for me and parents. I was curious how it would be. I erected the booth just as I finished my English lessons at 4 p.m. I wasn't alone because fellas from the primary school where there as well, raising money for people in urgent medical need. The downside of this jam was that we all got to fit in a tiny hall shoulder to shoulder. However, this "inconvenience" didn't last long as they packed their stuff half past four. From that moment on, it was only me and cheese :yum:. Unfortunately, I didn't sell much, especially considering how much I would sell in two following days. Besides, I couldn't stay until all people left the last performance since I had a train to catch (Extended Essay topics urged me).
+The first day was an introductory day, both for me and parents. I was curious how it would be. I set up the booth right after I had finished my English lessons at 4 p.m. I wasn't alone because fellas from the primary school where there as well, raising money for people in urgent medical need. The downside of this jam was that we all got to fit in a tiny hall shoulder to shoulder. However, this "inconvenience" didn't last long as they packed their stuff half past four. From that moment on, it was only me and cheese :yum:. Unfortunately, I didn't sell much, especially considering how much I would sell in two following days. Besides, I couldn't stay until all people left after the last performance since I had a train to catch (Extended Essay topics urged me on).
 
 The second day was more up-and-coming, even though I started later. From the very first moment, I knew it would go much better. I had just started and I already sold something. Moreover, the good thing was that people were paying more than they should to increase the charity's budget. It was great! Furthermore, I waited for people from the last show. Although not immediately, it paid off because I sold a lot. The price, however, was waiting longer for the later train.
 
 The last day was the longest one. I finished school earlier than previously so I could even catch parents from the first performances. Furthermore, I was able to get rid of art works, thanks to younger kids who were extremely interested in buying such pretty things. If the second day was great, I don't know how to describe the third one. It was a brilliant summary of all these long days, even though I did not stay that long.
 
-Finally, I can talk a bit about how the fair went overall. It proved to be quite successful. I sold almost everything I had, earning more than 1,000 zł. It is hard to estimate the exact sum because people were giving additional money for the foundation. Nevertheless, I think that even that number is quite good.
+Finally, I can talk a bit about how the fair went overall. It proved to be quite successful. I sold almost everything I had, earning more than 1,000 zł. It is hard to estimate the exact sum because people were giving additional money for the foundation. Nevertheless, I think that even that sum is quite fine.
 
 ***
 {{< neighbouring >}}
@@ -122,9 +122,9 @@ Finally, I can talk a bit about how the fair went overall. It proved to be quite
 ***
 
 # Summing The Whole Thing up
-Uff... That was tough, but we're there, eventually! Funny thing though is that there's not much to add. I have been mentioning my thoughts on this matter throughout the article. Admittedly, I might add some details, nuances or whatever. However, it makes no sense to dive deeper. I've already shelled you with a lot of facts. Now I can just say that I'm happy and proud of what I'm doing. It is always a kind of fulfillment when you can acquire such useful skills and conduct engaging "experiments" with them. I see a prospect of repeating such initiatives, enterprises in the future and I'm looking forward to undertake them.
+Uff... That was tough, but we're there, eventually! Funny thing though is that there's not much to add. I have been mentioning my thoughts on this matter throughout the article. Admittedly, I might add some details, nuances or whatever. However, it makes no sense to dive deeper. I've already shelled you with a lot of facts. Now I can just say that I'm happy and proud of what I'm doing. It is always a kind of fulfillment when you can acquire such useful skills and conduct engaging "experiments" with them. I see a prospect of repeating such initiatives, and enterprises in the future and I'm looking forward to undertaking them.
 
-At the very end, I'd like to wish everyone reading now happy New Year. If you were so persistent to survive up to this moment, you don't have to worry because no matter what will happen, what obstacles you may encounter, you'll always find a way. Thanks for your precious attention!
+At the very end, I'd like to wish everyone reading now happy New Year. If you were so persistent to survive up to this moment, you don't have to worry because no matter what will happen, what obstacles you may encounter, you'll always find a way out. Thanks for your precious attention!
 
 ***
 {{< neighbouring >}}
