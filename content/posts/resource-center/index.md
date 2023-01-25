@@ -16,7 +16,7 @@ color = "red" #color from the theme settings
 # What is this project about?
 The project is called [Computer Science Resource Center](https://bprzybylski.github.io/IB-CS-GeS/) (we're working on something more subtle). As you may infer from the name, it's dedicated to computer science, specifically to [IBDP CS course](https://www.ibo.org/programmes/diploma-programme/curriculum/sciences/computer-science/). You can find there the decent overview of the course, including things like: grade boundaries, resources, the description of each assessment component, and the latest news.
 
-Initially, the website was created by [Mr. Bartłomiej Przybylski](https://bap.faculty.wmi.amu.edu.pl/en/) to enhance the communication between hinm and students. Therefore, after he left our school, this purpose no longer made any sense - it needed to be rethought. This was the moment when I showed up. 
+Initially, the website was created by [Mr. Bartłomiej Przybylski](https://bap.faculty.wmi.amu.edu.pl/en/) to enhance the communication between him and students. Therefore, after he left our school, this purpose no longer made any sense - it needed to be rethought. This was the moment when I showed up. 
 
 Considering how useful this website is, I came up with an idea of sharing it with wider audience. I wanted to revive the center and take control over its management. I had two possibilities to achieve this goal: either to wait for the owner of the [Github repository](https://github.com/bprzybylski/IB-CS-GeS) (where the website is hosted) to merge my changes each time I added something new, or to ask for the permission for editing the repository which meant being a co-owner. Fortunately, I met Mr Przybylski at UAM (during [Noc Naukowców](https://www.poznan.nocnaukowcow.pl)) and could take the latter option and received the desired permission from him.
 
@@ -30,14 +30,14 @@ Having explained the background story, I would like now to discuss what I have _
 
 # My contribution
 ## Big picture
-My biggest contributions up to this moment are: oncoming changes and YouTube tabs. Of course, there are other changes I made. For instance, I updated deadlines for Internal Assessment. However, I want to focus on these two since they are the most important and interesting.
+Among all contributions, I want to focus on two major ones, that is, on Oncoming changes and YouTube tabs. Arguably, other tweaks I made are interesting as well (for instance updating Internal Assessment deadlines), but goes beyond a short account of my work. It would require a detailed report, while I just need to highlight the most significant parts. So let's proceed to them:
 
 ## Oncoming changes
-In chronological order, [oncoming changes tab](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/) was first. The purpose of adding it was to summarize what is going to change with the introduction of a new syllabus. The reason is that my examination session (i.e. May 2024) will be the last one conducted with the old syllabus. Furthermore, compared to biology where refreshing is only about minor details, the new syllabus in Computer Science will be a game-changer, defining an entirely new trajectory for the whole course.
+In chronological order, [Oncoming changes tab](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/) was first. Its purpose was to summarize what is going to change with the introduction of a new syllabus. This is because my examination session, May 2024, will be the last one conducted with the old syllabus. Furthermore, it gets even more important since, compared to biology where refreshing is only about minor details, the new syllabus in Computer Science will be a game-changer, defining an entirely new trajectory for the whole course.
 
-However, I want to avoid giving a deep dive into the new curriculum since it's not the appropriate place. But if you're interested, feel welcome to visit the website and [check it out by yourself](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/)! 
+However, I want to avoid giving a deep dive into the new curriculum as it's not the appropriate place. But if you're interested, feel welcome to visit the website and [check it out by yourself](https://bprzybylski.github.io/IB-CS-GeS/general-information/oncoming-changes/)! 
 
-Anyway, something so drastic just must have been talked about in a place like that. I felt responsible for spreading the news, especially because resources that would not even pinpoint the most significant aspects, but simply mention the fact itself are scarce or do not exist at all. 
+In any case, something so great in magnitude just must have been talked about in a place like that. I felt responsible for spreading the news, especially because resources that would not even pinpoint the most significant aspects, but simply mention the fact itself are scarce or do not exist at all. 
 
 That was the rationale behind my work which fruits you can view on the website.
 
@@ -50,9 +50,9 @@ That was the rationale behind my work which fruits you can view on the website.
 ## YouTube resources
 Enough of being a kiss-up! Let's move on to the YouTube tab as time is precious and I value yours.
 
-The YouTube tab has been my second major contribution. Through this addition, I wanted to extend the range of proposed resources because we had offered only books before that. Although books are a great source of knowledge and have a huge number of other benefits, not everyone is into books or simply has sufficient time to go through them. This is why I chose YouTube channels as I found them more convenient for most people. First, it is the most widely-spread and familiar medium nowadays. Second, YouTube videos are short and concise (at least from the channels I included) so they help to learn particular material.
+The YouTube tab has been my second major contribution. Through this extension, I wanted to increase the range of resources we proposed because only books had been available before that. Although books are undoubtedly a great source of knowledge and have a huge number of other benefits, not everyone is into books or simply has sufficient time to go through them. This is why I chose YouTube channels as I believe they are more convenient for most people. First, it is the most widely-spread and familiar medium nowadays. Second, YouTube videos are short and concise (at least from the channels I included) so they help to learn in a structured manner.
 
-Besides, I had spent a lot of time on YouTube, acquiring required knowledge, which meant that I unconsciously prepared a nice list of cool and helpful channels. This certainly helped me with supplying good-quality content because I could take advantage of my expertise, rather than relaying on time-consuming trial-and-error approach, trying to figure out everything from scratch. Obviously, what is now available is not the final point. If I find a new, worth-mentioning channel, I will add it immediately.
+Besides, I had spent a lot of time on YouTube, acquiring required knowledge, which meant that I unconsciously prepared a nice list of cool and helpful channels. This certainly helped me with supplying good-quality content because I could take advantage of my expertise, rather than relay on time-consuming trial-and-error approach, trying to figure out everything from scratch. Obviously, what is now offered is not the final point. If I find a new, worth-mentioning channel, I will add it immediately.
 
 That's all I had to share as far as already-made contributions are concerned. Once again, I direct you to the website so that you can see what is going on.
 
@@ -65,9 +65,9 @@ That's all I had to share as far as already-made contributions are concerned. On
 # Plans for the future
 Apart from talking about the achievements, I would also be delighted to describe you briefly my plans for future developments.
 
-Currently, I'm considering one extension in particular - useful websites/articles. Even though I have already broadened resources section, I have not exhausted all available sources of information. Indeed, there are far more of them than one can imagine. However, a crucial step toward this goal would be adding websites tab. 
+Currently, I'm considering one extension in particular - useful websites/articles. Even though I have already broadened resources section, I have not exhausted all online repositories of technical knowledge. Indeed, there are far more of them than one can imagine. However, I'm working steadily to include as much valuable resources as possible and a crucial step toward this ambitious goal would be adding websites tab. 
 
-It comes as no surprise that I'm not the only one to actively participate in sharing knowledge. The world is full of incomparably more knowledgeable people who contribute enormously to our understanding of this complicated field of computer science. They create their own sites in which they attempt to familiarize others with all those difficult concepts. 
+It comes as no surprise that I'm not the only one to actively participate in sharing knowledge. The world is full of incomparably more knowledgeable people who contribute enormously to our understanding of this complicated field of computer science. They create their own sites in which they attempt to teach others all those difficult concepts and specialist skills. 
 
 My job, therefore, is to find those online, technical encyclopedias and put them together in one convenient place. This is what websites tab is assigned for.
 
@@ -81,9 +81,9 @@ My job, therefore, is to find those online, technical encyclopedias and put them
 # At the end...
 For the end, I reserved some more general thoughts. 
 
-What I haven't mentioned or at least clearly stated yet is my excitement when the website was announced to us. The idea of creating a thing like that was in itself immensely impressive, not to mention a possibility to actually browse it. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
+What I haven't mentioned or at least clearly stated yet is my excitement when the website was announced to us Computer Science students. The very idea of undertaking an enterprise like that was in itself immensely impressive, not to mention a possibility to actually witness it succeeding. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
 
-Moreover, it all happened roughly at the time of the second-grade project week when we had to, among other, work on our CAS portfolios. I desperately tried to escape from Google Sites because I got some prior experience with this tool and I didn't like it. I turned to Mr Przybylski for help and suggestions. He proposed a static website generator named Hugo - the engine that powers the Resource Center.
+Moreover, it all happened roughly at the time of the second-grade project week when we had to, among others, work on our CAS portfolios. I desperately tried to escape from Google Sites because I got some prior experience with this tool and I didn't like it. I turned to Mr Przybylski for help and suggestions. He proposed a static website generator named Hugo - the engine that powers the Resource Center.
 
 After weeks of bitter struggle during the summer 2022, I finally finished my portfolio which you are _notabene_ visiting right now. I'm proud of what I've achieved, but there's something more essential in this context. By working on my headquarters, I've learned the skills that enable me to play with the Resource Center and, consequently, create something that is both useful and meaningful - the two things I've been hoping for for such a long time.
 
