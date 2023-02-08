@@ -1,5 +1,5 @@
 +++
-title = "Servie. Reflection 6 - Meeting Charges p.2"
+title = "Service. Reflection 6 - Meeting Charges p.2"
 date = "2023-02-08T12:18:51+01:00"
 author = "Matuesz Konat"
 authorTwitter = "" #do not include @
