@@ -63,13 +63,13 @@ That's all I had to share as far as already-made contributions are concerned. On
 ***
 
 # Plans for the future
-Apart from talking about the achievements, I would also be delighted to describe you briefly my plans for future developments.
+Apart from talking about the achievements, I would also be delighted to describe briefly to you my plans for future developments.
 
-Currently, I'm considering one extension in particular - useful websites/articles. Even though. I have already broadened resources section, I have not exhausted all online repositories of technical knowledge. Indeed, there are far more of them than one can imagine. However, I'm working steadily to include as much valuable resources as I possibly can and a crucial step toward this ambitious goal would be adding websites tab. 
+Currently, I'm considering one extension in particular - useful websites/articles. Even though I have already broadened resources section, I have not exhausted all online repositories of technical knowledge. Indeed, there are far more of them than one can imagine. However, I'm working steadily to include as many valuable resources as I possibly can and a crucial step toward this ambitious goal would be adding a "Websites" tab. 
 
-It comes as no surprise that I'm not the only one to actively participate in sharing knowledge. The world is full of incomparably more knowledgeable people who contribute enormously to our understanding of this complicated field of computer science. They create their own websites in which they attempt to teach others all those difficult concepts and specialist skills. 
+It comes as no surprise that I'm not the only one to participate actively in sharing knowledge. The world is full of incomparably more knowledgeable people who contribute enormously to our understanding of this complicated field of computer science. They create their own websites in which they attempt to teach others all those difficult concepts and specialist skills. 
 
-My job, therefore, is to find those online, technical encyclopedias and put them together in one compelling place. This is what Websites tab is assigned for.
+My job, therefore, is to find those online, technical encyclopedias and put them together in one compelling place. This is what the "Websites" tab is designed for.
 
 
 ***
@@ -81,13 +81,13 @@ My job, therefore, is to find those online, technical encyclopedias and put them
 # At the end...
 For the end, I reserved some more general thoughts. 
 
-What I haven't mentioned or at least clearly stated yet is my excitement when the website was initially announced to us, computer science students. The very idea of undertaking an enterprise like that was in itself immensely impressive, not to mention a possibility to actually witness it succeeding. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
+What I haven't mentioned or at least clearly stated yet is my excitement when the website project was initially announced to us, computer science students. The very idea of undertaking an enterprise like that was in itself immensely impressive, not to mention a possibility of actually witnessing it succeed. So just as I received the link to the website, I didn't waste any second and went straight off to explore this mysterious monster. It was at this moment that I started wondering about being engaged in the development of the website. 
 
 Moreover, it all happened roughly at the time of the second-grade project week when we had to, among others, work on our CAS portfolios. I desperately tried to escape from Google Sites because I got some prior experience with this tool and I disliked it intensely. I turned to Mr. Przybylski for help and suggestions. He proposed a static website generator named Hugo - the engine that powers the Resource Center.
 
-After weeks of bitter struggle during the summer 2022, I finally finished my portfolio which you are _notabene_ visiting right now. I'm proud of what I've achieved, but there's something more essential in this context. By working on my headquarters, I've learned skills that enable me to play with the Resource Center and, consequently, create something that is both useful and meaningful - the two things I've been hoping for for such a long time.
+After weeks of bitter struggle during the summer of 2022, I finally finished my portfolio which you are _notabene_ visiting right now. I'm proud of what I've achieved, but there's something more essential in this context. By working on my headquarters, I've learned skills that enable me to play with the Resource Center and, consequently, create something that is both useful and meaningful - the two things I've been hoping for such a long time.
 
-Thus, I want to leave you with the following: first, if you see a prospect of building something innovative, go for it and devote extra effort to seize this opportunity. The very act of creation is highly rewarding and extremely fulfilling. You'll really appreciate it, believe me. Second, if you are already in the process, follow patiently and strictly your path. It may take a while to get a project done, but do not let it slip. Patience is a virtue and self-determination is a key component of every success.
+Thus, I want to leave you with the following: first, if you see a prospect for building something innovative, go for it and devote extra effort to seize this opportunity. The very act of creation is highly rewarding and extremely fulfilling. You'll really appreciate it, believe me. Second, if you are already in the process, follow patiently and strictly your path. It may take a while to get a project done, but do not let it slip. Patience is a virtue and self-determination is a key component of every success.
 
 ***
 {{< neighbouring >}}
