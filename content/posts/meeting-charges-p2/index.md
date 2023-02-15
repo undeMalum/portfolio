@@ -14,7 +14,7 @@ color = "" #color from the theme settings
 +++
 
 # A quick pill of essentials
-In the past few moths, I participated in a number of new service activities that consumed most of my time devoted to this blog/portfolio. In fact, the last reflection dedicated to my boys (Piotr, Maciej and Adam) dates back to [November 2022](/portfolio/posts/meeting-charges/)! As you can see, it's the right time to come back with a refreshed set of experiences. Although, the frosty winter weather severely limited outside activities, there is still a lot to discuss!
+In the past few months, I participated in a number of new service activities that consumed most of my time devoted to this blog/portfolio. In fact, the last reflection dedicated to my boys (Piotr, Maciej and Adam) dates back to [November 2022](/portfolio/posts/meeting-charges/)! As you can see, it's the right time to come back with a refreshed set of experiences and thoughts that hit me. There is still a lot to discuss and the frosty weather - that severely limited outside activities - made no obstacle!
 
 ***
 {{< neighbouring >}}
@@ -23,7 +23,7 @@ In the past few moths, I participated in a number of new service activities that
 ***
 
 # Piotr
-Visits I made to Piotr were very similar. Each time I was welcomed with a cup of warm tea and lots of dainties. I could have not only small conversations with Piotrek (who is sometimes very talkative despite his small vocabulary), but also long discussions with his mum who was fully engaged and eager for a little chat. However, I missed almost an entire month of meetings with Piotr because he had a harder time and his mum didn't want to risk. Fortunately, the bad period has gone and we're now on the right track once again!
+Visits I made to Piotr were very similar. They followed a regular, but very inviting pattern. Each time I was welcomed with a cup of warm tea and lots of dainties. What's more, I could have not only small conversations with Piotrek (who is sometimes very talkative despite his small vocabulary), but also long discussions with his mother who was fully engaged in and eager for a little chat. However, I missed almost an entire month of meetings with Piotr because he had a tough time for a while and his mother didn't want to cause anybody troubles. Fortunately, the bad period has gone and we're on the right track once again!
 
 ***
 {{< neighbouring >}}
@@ -32,7 +32,7 @@ Visits I made to Piotr were very similar. Each time I was welcomed with a cup of
 ***
 
 # Marcin
-As in Piotr's case, my meetings with Marcin were alike. Not a single time did I enter his house without being asked: "what would you prefer - coffee or tea?" Moreover, I always got some salty sticks and fruits of different kinds. During my visits, I talked both to Marcin and his mum. Since Marcin is rather shy and doesn't say much, his mother often took initiative and told a great deal of anecdotes about Marcin and Bury Miś in general. I wish I had enough time to listen to all those stories!
+As in Piotr's case, my meetings with Marcin were alike in many (very good) ways. Not a single time did I enter his house without being asked: "what would you prefer - coffee or tea?" Moreover, I always got some salty sticks and fruits of different kinds to delight in. During my visits, I talked both to Marcin and his mum. Since Marcin is rather shy and doesn't say much, his mother often took initiative and told an awful lot of anecdotes about Marcin and Bury Miś in general. I wish I had enough time to listen to all those stories!
 
 ***
 {{< neighbouring >}}
@@ -41,7 +41,7 @@ As in Piotr's case, my meetings with Marcin were alike. Not a single time did I 
 ***
 
 # Adam
-Although my meetings with Adam are rather predictable, that is, we do similar things. However, parents do not get involved into such a degree as it happends for Marcin and Piotr. Of course, I am treated with undeserved generosity - no question about that. It's just I receive a cup of tea and some sweets from his mother who later goes upstairs, which is okay. It probably has to do with the fact that Adam is considerably younger than Marcin and Piotr and he's more "allergic" to his parents (it's something like "the desire for maturity" in teenagers).
+My meetings with Adam are rather predictable, that is, we do similar things. However, parents do not get involved into such a degree as it happens for Marcin and Piotr. Of course, I am treated with undeserved generosity - no question about that. It's just I receive a cup of tea and some sweets from his mother who later goes upstairs and disappears, which is okay. It probably has to do with the fact that Adam is considerably younger than Marcin and Piotr and he's more "allergic" to his parents (it's something like "the manifest of maturity" in teenagers).
 
 ***
 {{< neighbouring >}}
@@ -50,7 +50,7 @@ Although my meetings with Adam are rather predictable, that is, we do similar th
 ***
 
 # Big, MASSIVE THANK-YOU
-I have no idea whatsoever how to thank properly for the extraordinary generosity that the parents of my charges show. It's not uncomfortable - that would a rude word to use here. I just can't comprehend why. It's barely a meeting once in three weekends, sometimes even less. The amount of pain and suffering those parents go through to raise their children, accept their imperfections, love them for who they are, must be so enormous that a single visit turns into a great relief for which they are extremely thankful. This process is really beyond my understanding, but makes my think. Are we, humans capable of assessing our own actions? How can we categorize the output of our decisions as bad or good without others? Do we need a comparative scale comprised of other human beings to do so? I cannot came up with a straightforward answer, but I believe that the situation I've just described provides a fresh perspective to this discourse.
+I have no idea whatsoever how to thank properly for the great kindness that the parents of my charges show. It's not uncomfortable - that would be a rude word to use here. I just can't comprehend why. It's barely a meeting once in three weeks, sometimes even less frequent. The amount of pain and suffering those parents go through to raise their children, accept their imperfections, love them for who they are, must be so enormous that a single visit turns into a great relief for which they are extremely thankful. This process is really beyond my understanding, but makes my think. Are we, humans capable of assessing our own actions? How can we categorize the output of our decisions as bad or good without others? Do we need a comparative scale comprised of other human beings to do so? I cannot came up with a straightforward answer, but I believe that the situation I've just described provides a fresh perspective to this discourse.
 
 # Learning outcomes:
 - LO 1 Strength and Growth
