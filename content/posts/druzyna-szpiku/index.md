@@ -26,11 +26,11 @@ def change_the_world(persistence: bool, goodwill: bool, knowledge: bool):
 ```
 
 # Drużyna Szpiku
-The trigger for the inception of [Drużyna Szpiku](https://druzynaszpiku.pl/fundacja/)[^1] in 2008 was Anna Wierska who, struggling with [blood cancer](https://www.cancercenter.com/blood-cancers) and the lack of [donor](https://www.mayoclinic.org/tests-procedures/bone-marrow-donation/about/pac-20393078) by herself, aimed to help other afflicted people by raising awareness about the importance of blood donation. Since that moment, the organization has considerably grown in size, but still shares its expertise in the subject of blood cancer by educating on the significance of: regular health checks, finding donors, and bone marrow transplantation. To achieve it, a variety of initiatives are undertaken such as: [organizing public events](shorturl.at/noHZ1), [providing financial support](shorturl.at/dpzL6), [sharing stories of donors](shorturl.at/oBPR7), and [giving school talks](shorturl.at/bkpF1).
+The trigger for the inception of [Drużyna Szpiku](https://druzynaszpiku.pl/fundacja/)[^1] in 2008 was Anna Wierska who, struggling with [blood cancer](https://www.cancercenter.com/blood-cancers) and the lack of [donor](https://www.mayoclinic.org/tests-procedures/bone-marrow-donation/about/pac-20393078) by herself, aimed to help other afflicted people by raising awareness about the importance of blood donation. Since that moment, the organization has considerably grown in size and still shares its expertise in the subject of blood cancer by educating on the significance of: regular health checks, finding donors, and bone marrow transplantation. To achieve it, a variety of initiatives are undertaken such as: [organizing public events](shorturl.at/noHZ1), [providing financial support](shorturl.at/dpzL6), [sharing stories of donors](shorturl.at/oBPR7), and [giving school talks](shorturl.at/bkpF1).
 
 [^1]: In Polish, the word "szpik" means bone marrow. Each and every word in this article, containing the word "szpik", is a reference to bone marrow. For instance, one may translate "Szpikowóz" as "Bone marrow car", which means "a car that helps teaching about bone marrow."
 
-However, it is the latter that is essential for this blog since [such a lecture](shorturl.at/bEG25) from the series "Serce dla Chorych" (literally, "The Heart for The Ill") was delivered at our school. Therefore, I shall focus on the meeting, discussing its arrangement and implications.
+However, it is the latter that is essential for this blog since [such a lecture](shorturl.at/bEG25) from the series "Serce dla Chorych" (literally, "The Heart for The Ill") was delivered at our school. Therefore, I shall focus only on this meeting, discussing its arrangement and implications.
 
 ***
 {{< neighbouring >}}
@@ -40,14 +40,14 @@ However, it is the latter that is essential for this blog since [such a lecture]
 
 # Preparation
 ## First phase
-The process of preparation began in the middle of January when, following the lesson of CAS, I received the phone number to [Mr. Stanisław Furmaniak](https://www.facebook.com/s.furmaniak) - a journalist, volunteer for Drużyna Szpiku, and a friend of our CAS teacher - hoping to invite him to our school. I contacted him immediately in order to gain an insight into what we should expect from and prepare for a lecture he may give.
+The process of preparation began in the middle of January when, following a lesson of CAS, I received the phone number to [Mr. Stanisław Furmaniak](https://www.facebook.com/s.furmaniak) - a journalist, volunteer for Drużyna Szpiku, and a friend of our CAS teacher - hoping to invite him to our school. I contacted him immediately in order to gain an insight into what we should expect from and prepare for a lecture he may give.
 
 This initial conversation ushered the direction of action that needed to be taken (e.g. technical equipment to be provided, the age range to be invited) as well as determined possible dates of a meeting.
 
 ## Second phase
 As a second step, I confronted the Principal of our school to introduce the organization of Drużyna Szpiku and explain the idea behind the meeting. He strongly agreed to my proposition and offered the school assembly hall for this purpose.
 
-With the support of the Principal, I could negotiate the reservation of the assembly hall with school secretary. Fortunately, we reached the consensus in a reasonable time. What left was the choice of exact hour for the talk, however, it was done without me being involved - the same concerns the age group. Foreseeably, 10:50 was proposed (the usual hour for meetings and talks on Thursday). With that information, I could confirm my reservation and inform Mr. Furmaniak about the schedule.
+With the support of the Principal, I could negotiate the reservation of the assembly hall with school secretary. Fortunately, we reached the consensus in a reasonable time. What left was the choice of exact hour for the talk, however, it was done without me being involved - the same concerns the age group. Foreseeably, 10:50 was proposed (the usual hour for meetings and talks on Thursdays). Supplied with that information, I could confirm my reservation and inform Mr. Furmaniak about the schedule.
 
 ***
 {{< neighbouring >}}
@@ -69,7 +69,7 @@ The details of the meeting can be viewed either on [Facebook](shorturl.at/bEG25)
 ***
 
 # What else I can say...
-I would like to thank: Mr. Furmaniak for such a mind-opening experience, Mrs. Sobala for aiding me in organizing this event, and the students who attended for their active participation. I firmly believe that, thanks to the talk, we were able to gain a broader perspective in the topic of blood cancer and how it affects our day-to-day life. I hope that the number of people declaring their willingness to be a donor will not stop increasing, saving lives of people in the urgent need of bone marrow.
+I would like to ackowledge: Mr. Furmaniak for such a mind-opening experience, Mrs. Sobala for aiding me in organizing this event, and the students who attended for their active participation. I firmly believe that, thanks to the talk, we were able to gain a broader perspective in the topic of blood cancer and how it affects our day-to-day life. I hope that the number of people declaring their willingness to be a donor will not stop increasing, saving lives of people in the urgent need of bone marrow.
 
 # Learning outcomes:
 - LO 1 Strength and Growth
