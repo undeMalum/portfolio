@@ -19,3 +19,5 @@ The idea that software should be `shared` and `freely accessible` for everyone l
 - [My headquarters and CAS portfolio](https://github.com/undeMalum/portfolio)
 - [CAS manager for CAS coordinators](https://github.com/undeMalum/CAS-manager)
 - [Resource center for IB Computer Science classes](https://bprzybylski.github.io/IB-CS-GeS/)
+- [Taxonomy game for studying biological classification](https://github.com/undeMalum/Taxonomy-game)
+- [CSV-SQLite Converter](https://github.com/undeMalum/csv-sqlite-converter)
