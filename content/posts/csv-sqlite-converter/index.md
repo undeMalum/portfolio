@@ -21,7 +21,7 @@ Here is a magnificent video that explains the philosophy of open source culture:
 {{< youtube id="gobBQwtFeyk" >}}
 ***
 
-It highlites two most important aspects of open source code:
+It highlights two most important aspects of open source code:
 1. It is available for everyone
 2. Together, we can make it better
 
@@ -30,7 +30,7 @@ This idea of creating useful code appeals many programmers and push them toward 
 In this blog post, I show you my adventure with open source.
 
 # Necessity is the mother of invention
-Hoping to land my first job in the oncoming summer, I have started modificating my [GitHub portfolio](https://github.com/undeMalum) to make it look more professional and appealing for possible employers. Apart from subtle changes such as referencing socials, I have extended my portfolio with [new projects](https://github.com/undeMalum/Taxonomy-game) and so-called [README files](https://github.com/undeMalum/Taxonomy-game/blob/main/README.md). (_On the whole, README file is a brief description of a project with installation and usage details_). However, while uploading [Taxonomy game](https://github.com/undeMalum/Taxonomy-game), I have encountered an iritating issue - [GitHub file size limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits).
+Hoping to land my first job in the oncoming summer, I have started modifying my [GitHub portfolio](https://github.com/undeMalum) to make it look more professional and appealing for possible employers. Apart from subtle changes such as referencing socials, I have extended my portfolio with [new projects](https://github.com/undeMalum/Taxonomy-game) and so-called [README files](https://github.com/undeMalum/Taxonomy-game/blob/main/README.md). (_On the whole, README file is a brief description of a project with installation and usage details_). However, while uploading [Taxonomy game](https://github.com/undeMalum/Taxonomy-game), I have encountered an annoying issue - [GitHub file size limit](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits).
 
 This is because the size of game's database is three times above the threshold of GitHub file size rejection. I needed to figure out a way to overcome this problem since the game is useless without its database. Fortunately, I could take advantage of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values).
 
@@ -46,21 +46,21 @@ CSV (**comma-separated values**) files allow store data in a structured manner. 
     3    111, Samanta, Black, samanta.black@gmail.com
     4    222, Jerry, Smith, jerry.smith@gmail.com
 
-As you can see from the imaginary `employees.csv` file, the first raw stores the names of columns (in this case: ID, name, surname, and email). The remaining raws (2-4) contain data about each employee. For instance, raw 3 holds data for an employee named Samanta Black whose ID is 111 and email is samanta.black@gmail.com.
+As you can see from the imaginary `employees.csv` file, the first raw stores the names of columns (in this case: ID, name, surname, and email). Remaining raws (2-4) contain data about each employee. For instance, raw 3 holds data for an employee named Samanta Black whose ID is 111 and email is samanta.black@gmail.com.
 
 ## Advantage of CSV files
 You may wonder why would I choose CSV format over a database? The answer is simple: CSV files are smaller.
 
-Without going into much detail, databases ([SQLite](https://en.wikipedia.org/wiki/SQLite) in our case) are very efficient in storing, updataing and manipulating large amounts od data. Therefore, they are a great choice for applications that require manipulating lots of data - for example our Taxonomy game. Sadly, because SQL-like databases are [binary files](https://en.wikipedia.org/wiki/Binary_file), they occupy much disk space and are hard to compress - nitty-gritty of this blog post. 
+Without going into much detail, databases ([SQLite](https://en.wikipedia.org/wiki/SQLite) in our case) are very efficient in storing, updating and manipulating large amounts od data. Therefore, they are a great choice for applications that require manipulating lots of data - for example our Taxonomy game. Sadly, because SQL-like databases are [binary files](https://en.wikipedia.org/wiki/Binary_file), they occupy much disk space and are hard to compress - nitty-gritty of this blog post. 
 
-On the other hand, CSV files do not scale for larger datasets where frequent manipulation of data is required due to the slow retireval. However, at the cost of bad performance comes small file size and a variety of compression opportunitiesm.
+On the other hand, CSV files do not scale for larger datasets where frequent manipulation of data is required due to the slow retrival. However, at the cost of bad performance comes small file size and a variety of compression opportunities.
 
 Relative compactness of CSV format makes it ideal for our purpose.
 
 ## CSV and other formats
 The last "hi-tech" thing I'd like to discuss is why I chose CSV over other format such as [JSON](https://en.wikipedia.org/wiki/JSON). 
 
-Seemingly, both CSV and JSON have their desiganted python libraries ([csv](https://docs.python.org/3/library/csv.html) and [json](https://docs.python.org/3/library/json.html) respectively) within [Python Standard Library](https://docs.python.org/3/library/) and share small size advantage (see [Advantage of CSV files](#advantage-of-csv-files)). So what differes them?
+Seemingly, both CSV and JSON have their own python libraries ([csv](https://docs.python.org/3/library/csv.html) and [json](https://docs.python.org/3/library/json.html) respectively) within [Python Standard Library](https://docs.python.org/3/library/) and share small size advantage (see [Advantage of CSV files](#advantage-of-csv-files)). So what differs them?
 
 First of all, CSV is arguably more human readable than JSON. I mean, take a look at the data example from [CSV files](#csv-files) rewritten in JSON:
 
@@ -89,11 +89,11 @@ First of all, CSV is arguably more human readable than JSON. I mean, take a look
         ]
     }
 
-I just pray to the Lord I didn't make any mistakes while typing. Admittedly, for a skilled programmer, JSON may be actually more readable and easier to operate on. However, I believe that an average human being would rather go for CSV in terms of readibility. Moreover, in JSON, there's a lot of repetition as each field needs to be written as many times as we have employees.
+I just pray to the Lord I didn't make any mistakes while typing. Admittedly, for a skilled programmer, JSON may be actually more readable and easier to operate on. However, I believe that an average human being would rather go for CSV in terms of readability. Moreover, in JSON, there's a lot of repetition as each field needs to be written as many times as we have employees.
 
-Besides, the structure of a CSV file resembles the structure of SQLite database's table (single unit of the database). Take a look at the comparison of SQLite table shema with a single CSV files below:
+Besides, the structure of a CSV file resembles the structure of SQLite database's table (single unit of the database). Take a look at the comparison of SQLite table schema with a single CSV files below:
 
-Aforementiond employees.csv:
+Aforementioned employees.csv:
 
     1    ID, name, surname, email
     2    123, John, Smith, john.smith@gmail.com
@@ -110,12 +110,25 @@ SQLite table schema:
 
 Very similar, isn't it?
 
-Last, but not least, CSV is prevelant in Data Science world. I don't know the specific reason, but most datasets (whatever it is - either sentences, protein sequences etc.) are available as CSV files. Since I've been tinkering with [language processing models](https://en.wikipedia.org/wiki/Natural_language_processing) recently, I find it natural to use CSV.
+Last, but not least, CSV is prevalent in Data Science world. I don't know the specific reason, but most datasets (whatever it is - either sentences, protein sequences etc.) are available as CSV files. Since I've been tinkering with [language processing models](https://en.wikipedia.org/wiki/Natural_language_processing) recently, I find it natural to use CSV.
 
-# The package
-I hope you didn't get bored and stayed afloat. We're about to dive deep into the [CSV-SQLite Converter](https://github.com/undeMalum/csv-sqlite-converter) package.
+# What is a package?
+I hope you didn't get bored and stayed afloat. We're getting to the point, but I need to introduce one more thing - packages.
 
-## Why package?
-You may be confused what a package is and, more importantly, how on the Earth I switched from talking about CSV to being a postman. Let me explain.
+I know you may be confused by how on the Earth I switched from talking about CSV to being a postman. Let me explain.
 
-CSV files seem to be a great choice for _storing_ data. However, this data needs to be somehow _transferred_ from the SQLite database to CSV files. There _has to_ be an additional step, a script, that would make this transfer possible. 
+CSV files seem to be a great choice for _storing_ data. However, this data needs to be somehow _transferred_ from the SQLite database to CSV files. There _has to_ be an additional step, a script, that would make this transfer possible. This is where the concept of package comes into play.
+
+A package looks like a normal script and the only difference is its intendent purpose. Usually, an app is meant to be run and "do something". For example, the Taxonomy game allows students to learn biological classification through the means of gameplay and Word makes editing text files easier thanks to its useful Graphical User Interface (shortly, GUI). A package serves a bit different purpose. 
+
+It also "does something", but is not an application in the same sense as the Taxonomy game and Word are. A package provides a set of tools that simplifies the process of developing software. To give an illustration, [PyQt5](https://pypi.org/project/PyQt5/) comes with a whole bunch of GUI elements such as buttons, entries, display lists etc. Let's say, I'd like to create an accounting system with GUI. With PyQt5, I can assemble some GUI elements to make my app more user-friendly and I don't need to worry of _how this elements are actually implemented_. All I need to know is _how to use them_ by learning PyQt4's API.
+
+(As a sidenote, API stands for Application Software Interface. Generally, API defines the communication mechanism between two software components. In the example above, between the accounting system and PyQt5.)
+
+This is exactly what happens with the CSV-SQLite Converter - it is not an application in common sense (although it can be used as such), but a very handy tool kit for programmers who don't have to think about the inner workings of the converter - they just need to know its API.
+
+# CSV-SQLite Converter
+Finally, after more than 1000 words and 7000 characters, I can jump straight to the software of interest - [CSV-SQLite Converter](https://github.com/undeMalum/csv-sqlite-converter).
+
+## DRY
+Following the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself), I'm not going to discuss in detail how the converter works. I have already done it once. Instead, I'd like to direct you to my GitHub to study the converter's [README file](https://github.com/undeMalum/csv-sqlite-converter/blob/main/README.md). This should provide you with good understanding of my package.
