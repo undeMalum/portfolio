@@ -3,7 +3,7 @@ title = "Creativity. Reflection 8 - CSV SQLite Converter"
 date = "2023-03-21T07:11:18+01:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
-cover = ""
+cover = "images/cover.png"
 tags = ["creativity", "coding"]
 keywords = ["creativity", "coding"]
 description = "People usually associate programming with Big Tech and even bigger money. They don't realize how much great code is open to public to use and contribute to."
@@ -35,7 +35,7 @@ Hoping to land my first job in the oncoming summer, I have started modifying my 
 This is because the size of game's database is three times above the threshold of GitHub file size rejection. I needed to figure out a way to overcome this problem since the game is useless without its database. Fortunately, I could take advantage of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values).
 
 # Technical overview
-**NOTE:** although the section below is not very detailed documentation, it does contain a fair degree of geeky knowledge. If you want to avoid uncharted waters (and be a chicken), please proceed you [The Package](#the-package) section. I have warned you - your move chief.
+**NOTE:** although the section below is not very detailed documentation, it does contain a fair degree of geeky knowledge. If you want to avoid uncharted waters (and be a chicken), please proceed to [CSV-SQLite Converter](#csv-sqlite-converter) section. I have warned you - your move chief.
 
 ## CSV files
 CSV (**comma-separated values**) files allow store data in a structured manner. The first raw indicates columns' names. The rest is actual data. It looks more or less like this:
@@ -60,7 +60,7 @@ Relative compactness of CSV format makes it ideal for our purpose.
 ## CSV and other formats
 The last "hi-tech" thing I'd like to discuss is why I chose CSV over other format such as [JSON](https://en.wikipedia.org/wiki/JSON). 
 
-Seemingly, both CSV and JSON have their own python libraries ([csv](https://docs.python.org/3/library/csv.html) and [json](https://docs.python.org/3/library/json.html) respectively) within [Python Standard Library](https://docs.python.org/3/library/) and share small size advantage (see [Advantage of CSV files](#advantage-of-csv-files)). So what differs them?
+Seemingly, both CSV and JSON have their own python libraries ([`csv`](https://docs.python.org/3/library/csv.html) and [`json`](https://docs.python.org/3/library/json.html) respectively) within [Python Standard Library](https://docs.python.org/3/library/) and share small size advantage (see [Advantage of CSV files](#advantage-of-csv-files)). So what differs them?
 
 First of all, CSV is arguably more human readable than JSON. I mean, take a look at the data example from [CSV files](#csv-files) rewritten in JSON:
 
@@ -121,9 +121,9 @@ CSV files seem to be a great choice for _storing_ data. However, this data needs
 
 A package looks like a normal script and the only difference is its intendent purpose. Usually, an app is meant to be run and "do something". For example, the Taxonomy game allows students to learn biological classification through the means of gameplay and Word makes editing text files easier thanks to its useful Graphical User Interface (shortly, GUI). A package serves a bit different purpose. 
 
-It also "does something", but is not an application in the same sense as the Taxonomy game and Word are. A package provides a set of tools that simplifies the process of developing software. To give an illustration, [PyQt5](https://pypi.org/project/PyQt5/) comes with a whole bunch of GUI elements such as buttons, entries, display lists etc. Let's say, I'd like to create an accounting system with GUI. With PyQt5, I can assemble some GUI elements to make my app more user-friendly and I don't need to worry of _how this elements are actually implemented_. All I need to know is _how to use them_ by learning PyQt4's API.
+It also "does something", but is not an application in the same sense as the Taxonomy game and Word are. A package provides a set of tools that simplifies the process of developing software. To give an illustration, [`PyQt5`](https://pypi.org/project/PyQt5/) comes with a whole bunch of GUI elements such as buttons, entries, display lists etc. Let's say, I'd like to create an accounting system with GUI. With `PyQt5`, I can assemble some GUI elements to make my app more user-friendly and I don't need to worry of _how this elements are actually implemented_. All I need to know is _how to use them_ by learning `PyQt4`'s API.
 
-(As a sidenote, API stands for Application Software Interface. Generally, API defines the communication mechanism between two software components. In the example above, between the accounting system and PyQt5.)
+(_As a sidenote, API stands for Application Software Interface. Generally, API defines the communication mechanism between two software components. In the example above, between the accounting system and PyQt5._)
 
 This is exactly what happens with the CSV-SQLite Converter - it is not an application in common sense (although it can be used as such), but a very handy tool kit for programmers who don't have to think about the inner workings of the converter - they just need to know its API.
 
@@ -131,4 +131,42 @@ This is exactly what happens with the CSV-SQLite Converter - it is not an applic
 Finally, after more than 1000 words and 7000 characters, I can jump straight to the software of interest - [CSV-SQLite Converter](https://github.com/undeMalum/csv-sqlite-converter).
 
 ## DRY
-Following the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself), I'm not going to discuss in detail how the converter works. I have already done it once. Instead, I'd like to direct you to my GitHub to study the converter's [README file](https://github.com/undeMalum/csv-sqlite-converter/blob/main/README.md). This should provide you with good understanding of my package.
+Following the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't Repeat Yourself), I'm not going to dive deep into how the converter works. I have already done it once. Instead, I'd like to direct you to my GitHub to study the converter's [README file](https://github.com/undeMalum/csv-sqlite-converter/blob/main/README.md). This should provide you with good understanding of my package.
+
+Having said that, let's move on to discussing the [Current state](#current-state) of the project and [Future developments](#future-developments).
+
+## Current state
+As of today, I have not uploaded the CSV-SQLite converter to [PyPi](https://pypi.org) yet. (_"The Python Package Index (PyPI) is a repository of software for the Python programming language."_) What follows is that the converter cannot be installed with `pip` (package installer for Python.) I have published my package to [TestPyPi](https://test.pypi.org), which is a separate service from PyPi and, as the name suggests, is for testing - if the package uploads correctly, if installation goes as expected and so on.
+
+Fortunately, the CSV-SQLite converter has passed all tests successfully - both [internal](https://github.com/undeMalum/csv-sqlite-converter/tree/main/tests) and external (TestPyPi) ones. Therefore, I am almost ready to publish my first package to PyPi. What has left are minor improvements to the documentation and meaningful versioning of the project.
+
+Apart from that, the converter can be shared with the world! Furthermore, thanks to the converter, the Taxonomy game makes sense at last...
+
+## Future developments
+Inasmuch as I like DRY principle, I'm not a huge fan of "_if ain't broken, don't fix it_" rule. Of course, if you have a deadline, it's meaningless to make your work better and better all the time because there will always be something to work on. At some point you need to decide: "okay, this is a final version". This holds true for IBDP with its Internal Assessment and Extended Essay. However, such an attitude would be considered lazy with regard to open source.
+
+In open source, the only final date is the day of a new version's release. You can add new features, fix bugs or whatever as long as you wish on condition that you ship those changes before the release. If you didn't manage to made all changes you desired on time, you're lucky as there'll be new releases in the future which can include your precious contributions.
+
+I have embraced this approach in the context of the CSV-SQLite converter. I've made it work and cleaned up the code. It looks nice, but I'm aware there's still an awful lot of work to be done. I know that my current design choices are not the best in general. They are the best to my knowledge though. Thus, what I can do is to expand this knowledge.
+
+I have a broad picture as to where I can look for improvements. I'm talking about two extremely popular python packages: [pandas](https://pypi.org/project/pandas/) and [polars](https://pypi.org/project/polars/). They were both designed for efficient data processing, which may not sound promising as far as the converter is concerned. After all, it just transfers data from one format to another - it does NOT process this data. However, these packages provide tools for the shift of format.
+
+Maybe I could take advantage of that? I don't know, but I'll find out A.S.A.P.
+
+# Final remark
+It was a long read and tough journey thorugh the cybernetic jungle. At the end, I just want to go over what we've covered in this article and possibly share my thoughts on the process.
+
+I started by talking about open source culture and its main characteristics. Then, I justified the need for the converter and introduced CSV and other formats. After that, I familiarized you with the notion of package. Lastly, I talked about the CSV-SQLite converter itself as well as everything that is connected with it.
+
+I'm happy that I've started this project, I really am. Not only was it an intermediate step for the Taxonomy game, but also a great relief from coding my Computer Science Internal Assessment. I was a bit overwhelmed and needed a break. Being intelectually well-rested rest, I look forward to return to my IA and finish it. Moreover, I also learned a lot about storing data in file format, [virtual environments](https://docs.python.org/3/library/venv.html), Python packaging system and many, many others thanks to the converter. After years of learning programming I finally begin to see the meaning in what I'm creating. I've been waiting for so long to feel like that.
+
+Thanks for your attention, it's been lovely talking to you!
+
+# Learning outcomes:
+- LO 1 Strength and Growth
+- LO 2 Challenge and Skills
+- LO 3 Initiative and Planning
+- LO 4 Commitment and Perseverance
+- LO 5 Collaborative Skills
+- LO 6 Global Engagement
+- LO 7 Ethics of Choices and Actions
