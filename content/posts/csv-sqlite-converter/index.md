@@ -58,7 +58,7 @@ As you can see from the imaginary `employees.csv` file, the first raw stores the
 ## Advantage of CSV files
 You may wonder why would I choose CSV format over a database? The answer is simple: CSV files are smaller.
 
-Without going into much detail, databases ([SQLite](https://en.wikipedia.org/wiki/SQLite) in our case) are very efficient in storing, updating and manipulating large amounts od data. Therefore, they are a great choice for applications that require manipulating lots of data - for example our Taxonomy game. Sadly, because SQL-like databases are [binary files](https://en.wikipedia.org/wiki/Binary_file), they occupy much disk space and are hard to compress - nitty-gritty of this blog post. 
+Without going into much detail, databases ([SQLite](https://en.wikipedia.org/wiki/SQLite) in our case) are very efficient in storing, updating and manipulating large amounts of data. Therefore, they are a great choice for applications that require manipulating lots of data - for example our Taxonomy game. Sadly, because SQL-like databases are [binary files](https://en.wikipedia.org/wiki/Binary_file), they occupy much disk space and are hard to compress - nitty-gritty of this blog post. 
 
 On the other hand, CSV files do not scale for applications with huge datasets where frequent manipulation of data is necessary due to the slow retrieval time. However, at the cost of bad performance comes small file size and a variety of compression opportunities.
 
@@ -165,7 +165,7 @@ It was a long read and tough journey through the cybernetic jungle. At the end, 
 
 I started by talking about open source culture and its main characteristics. Then, I justified the need for the converter and introduced CSV and other formats. After that, I familiarized you with the notion of package. Lastly, I talked about the CSV-SQLite converter itself as well as everything that is connected with it.
 
-I'm happy that I've started this project, I really am. Not only was it an intermediate step for the Taxonomy game, but also a great relief from coding my Computer Science Internal Assessment. I was a bit overwhelmed and needed a break. Being intelectually well-rested rest, I look forward to return to my IA and finish it. Moreover, I also learned a lot about storing data in file format, [virtual environments](https://docs.python.org/3/library/venv.html), Python packaging system, paths and many, many others thanks to the converter. After years of learning programming I finally begin to see the meaning in what I'm creating. I've been waiting for so long to feel like that.
+I'm happy that I've started this project, I really am. Not only was it an intermediate step for the Taxonomy game, but also a great relief from coding my Computer Science Internal Assessment. I was a bit overwhelmed and needed a break. Being intellectually  well-rested rest, I look forward to return to my IA and finish it. Moreover, I also learned a lot about storing data in file format, [virtual environments](https://docs.python.org/3/library/venv.html), Python packaging system, paths and many, many others thanks to the converter. After years of learning programming I finally begin to see the meaning in what I'm creating. I've been waiting for so long to feel like that.
 
 Thanks for your attention, it's been lovely talking to you!
 
