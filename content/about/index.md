@@ -22,7 +22,7 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 ***
 
 # But first,
-let me provide some background of myself. I attend [High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was forced to change my mind and place due to disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of more suitable environment! 
+let me provide some background of myself. I attend [Private High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was quickly forced to change my mind due to a disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of a more suitable environment! 
 
 (To learn more about the school life, visit our Instagram account: [highschool_gaudium_et_studium](https://www.instagram.com/highschool_gaudium_et_studium/)).
 
@@ -33,7 +33,7 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 ***
 
 # Nonetheless,
- `football` is still my great passion, even though I didn’t use to be. **I hated running** so I hated football. Not that I had bad stamina, just I didn’t like the fact of running. Instead, I participated in a variety of activities. First and foremost is `karate`. It took **7 years of my earliest childhood** and helped me to develop flexibility as well as self-rigor. In the meantime, each year, during the winter break, I have been `skiing` and more importantly **this continues to this day**. Besides football, these two I consider as my favorite sports and have best memories. Then, I was playing `tennis`, `dancing hip-hop`, `doing gymnastic` a bit and `riding a scooter` (skatepark and stuff) and many, many other stuff but not as "_professionally_". 
+`football` is still my great passion, even though it didn’t use to be. **I hated running** so I hated football. Not that I had bad stamina. I just didn’t like the mere fact of running, that's all. Instead, I participated in a variety of other sports over the years. The first one ever was `karate`. It consumed **whole 7 years of my earliest childhood** and helped me to develop flexibility as well as self-rigor. In the meantime, each year, during the winter break, I have been `skiing` and **this continues to this day**. Besides football, I consider these two to be my favorite sports, with which I have best memories. However, I didn't restricted myself to these activities. I also played `tennis`, danced `hip-hop`, did `gymnastic` a bit, rode a `scooter` (a modern skateboard in a way) and I could go on forever.
 
 ***
 {{< neighbouring >}}
@@ -41,8 +41,8 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 {{< /neighbouring >}}
 ***
 
-# What do I enjoy apart from physical activity?
- Well, I'm a **mathematically and algorithmically-oriented person** so obviously `mathematics` and informatics (`computer science`). Ever since, I was a kind of nerd, but I wouldn’t call myself “nerdy”. I don’t have problems with relationships and so on. It’s just I’m appealed by **the logic and beauty of mathematics and the power of the computer**. Although I’ve said I'm more of a scientific mind, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore as much as I can!
+# Logic is
+what in interests me as well. I'm a **mathematically- and algorithmically-oriented person** and I find fulfillment in `mathematics` and `computer science`. Don't get me wrong, I don't fall under the stereotypical "nerd" category. I don't spend a vast majority of my time starring at the computer, struggling to develop deeper bonds with people. I value the proximity of others and I exhibit extreme extravert behaviors. It’s just that I’m appealed by **the beauty of mathematics and the power of computers**. Although I’ve said I'm more of a science guy, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore it as thoroughly as I can!
 
 ***
 {{< neighbouring >}}
@@ -51,4 +51,4 @@ let me provide some background of myself. I attend [High School Gaudium et Studi
 ***
 
 # I believe,
-I've `introduced myself` properly, so that you know `what to expect` from this website! I recommend you have a look at [my projects](/portfolio/projects) if you're interested in programming. Also, I run a [YouTube channel](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q) so you can check that one as well!
+I've introduced myself properly, so that you know what to expect from this website! I recommend you have a look at [my projects](/portfolio/projects) if you're interested in programming. Also, I run a [YouTube channel](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q) so you can check that one as well!
