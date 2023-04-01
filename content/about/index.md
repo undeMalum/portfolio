@@ -17,7 +17,7 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/bike_dawid.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bike trip near a Greater Poland edge." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/lake_dawid.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Chillin' at a lake before the school year." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/podcast.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Our podcast behind the scenes." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/camp.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="A decent evening at Bury Miś camp." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
@@ -28,7 +28,7 @@ let me provide some background of myself. I attend [Private High School Gaudium 
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with my firends (without alcohol)." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade) at 6am." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with friends of mine (no alcohol)." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade) at 6 a.m." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
