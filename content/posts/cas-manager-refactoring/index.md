@@ -12,6 +12,9 @@ readingTime = false
 hideComments = false
 +++
 
+# DISCLAIMER
+The version of the program I talk about in this blog post concern GitHub history up to [this commit](https://github.com/undeMalum/CAS-manager/commit/baea7fbac10d2327b570341834beeb92c5fba559). Later, I discovered that I couldn't improve anything with the code that was there. Therefore, I dicided to abandon it and write the program from scratch. Considering the effort I have put into this, I have made it my Computer Science Internal Assessment. As a result, it is no longer part of my CAS. I have started [other projects](https://github.com/undeMalum/csv-sqlite-converter) that replace this one.
+
 # Decisions made so far
 **Before going further**<br>
 let me introduce some concepts for a better understanding. In computer science, there's a notion of `cognitive complexity`. It basically refers to **the complexity of a code in terms of its readability**. In other words, it's a measure of how threatening your code is for the sanity of another party, maintaining this code. 
@@ -52,7 +55,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 {{< /code >}}
 
-Having described the background, I shall discuss the progress made so far (see my [Github](https://github.com/undeMalum/CAS-manager) for more in-depth explanation). 
+Having described the background, I shall discuss the progress made so far. 
 
 First of all, I started refactorization by splitting up my program into different files to at least reduce the size of the original file. However, this quickly turned out to be almost impossible. I succeeded only with moving some functions. **The good thing though was I eventually realized why this was impossible.** Namely, my initial approach required very high dependency between parts of my code, so they couldn't be easily separated.
 
