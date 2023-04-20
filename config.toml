@@ -122,9 +122,9 @@ enableEmoji = true
         url = "/service"
         weight = 7
       [[languages.en.menu.main]]
-        identifier = "cas-project"
-        name = "Cas project"
-        url = "/cas-project"
+        identifier = "interior-design"
+        name = "Interior Design"
+        url = "/interior-design"
         weight = 8
 
 # Allow rendering of custom html
