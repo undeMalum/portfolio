@@ -10,7 +10,6 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-draft = "true"
 +++
 
 > My imagination is more vivid than life. 
