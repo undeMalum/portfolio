@@ -13,12 +13,11 @@ hideComments = false
 +++
 
 # Excuse
-[On September 28th, 2022](/portfolio/posts/approaching-the-splits/), I published my first reflection concerning my adventure toward doing the splits, which is quite some time ago. I have prolonged the release of another reflection for a couple of reasons. 
+[On September 28th, 2022](/portfolio/posts/approaching-the-splits/), I published my first reflection concerning my adventure toward doing the splits, which is quite some time ago. I have prolonged the release of another reflection for a couple of reasons.
 
-First, it's annoying to take photos while stretching because you can't just stand up (it's painful, believe me) to grab your phone and it's meaningless to write a reflection about my advance without showing evidence of it. I could provide some made-up numbers (how I feel more or less rather than prescise measurements), but what does it mean to you if I say "I can do the splits 3cm deeper?. Is it much or not really? Can I already touch the ground? That's why a photo is a must.
+First, it's annoying to take photos while stretching because you can't just painlessly stand up (it hurts very badly, believe me) to grab your phone. Without any photos there's no evidence of my progress and with no evidence it's meaningless to even start writing a reflection. I could provide some made-up numbers (I didn't make measurements after all because who would?), but what does it mean to you if I say "I can do the splits 3cm deeper?. Is it much or not really? Can I already touch the ground? That's why a photo is a must.
 
-Second, I thought it may be more intresting to summarize the progress over a longer period of time since it takes a lot of time to see substantial changes while stretching. The "wow" effect comes into play.
-
+Second, I thought it may be more interesting to summarize the progress over a longer period of time since it takes a lot of time to see substantial changes while stretching. The "wow" effect comes into play, but it's like a seed of a tree that grows slowly to show its power.
 
 Next, I was busy with other stuff like school deadlines, CAS project, bonding with peers and so on. 
 
