@@ -13,13 +13,13 @@ hideComments = false
 +++
 
 # Excuse
-[On September 28th, 2022](/portfolio/posts/approaching-the-splits/), I published my first reflection concerning my adventure toward doing the splits, which is quite some time ago. I have prolonged the release of another reflection for a couple of reasons.
+[On September 28th, 2022](/portfolio/posts/approaching-the-splits/), I published my first reflection concerning my adventure with the splits, which is quite some time ago. I have postponed the release of another reflection for a couple of reasons.
 
 First, it's annoying to take photos while stretching because you can't just painlessly stand up (it hurts very badly, believe me) to grab your phone. Without any photos there's no evidence of my progress and with no evidence it's meaningless to even start writing a reflection. I could provide some made-up numbers (I didn't make measurements after all because who would?), but what does it mean to you if I say "I can do the splits 3cm deeper?. Is it much or not really? Can I already touch the ground? That's why a photo is a must.
 
 Second, I thought it may be more interesting to summarize the progress over a longer period of time since it takes a lot of time to see substantial changes while stretching. The "wow" effect comes into play, but it's like a seed of a tree that grows slowly to show its power.
 
-Next, I was busy with other stuff like school deadlines, CAS project, bonding with peers and so on. 
+Further, I was busy with other stuff like school deadlines, CAS project, bonding with peers and so on. 
 
 Yet, here I am to sum up the process for you.
 
@@ -39,7 +39,7 @@ In the previous reflection, I emphasized the role of karate in my life and the u
 ***
 
 # Progress
-Now that my motives are clear, I'd like jump straight to the main topic - progress I have made. It is hard to demonstrate progress with photos because, for an average observant, the difference between the previous photos and the current ones is subtle (photos are still way better than mere words). However, although, as I said, there's no way to provide you with exact measurements (I haven't done such), I can assure you that I do feel much more space in my joints and I am capable of doing much more with my body. I can almost make the so-called women's splits (I'm just a few centimeters away) and I am certainly further with my men's splits. This really thrills me.
+Now that my motives are clear, I'd like to jump straight to the main topic - progress I have made. It is hard to demonstrate progress with photos because, for an average observant, the difference between the previous photos and the current ones is subtle (photos are still way better than mere words). However, although, as I said, there's no way to provide you with exact measurements (I haven't done such), I can assure you that I do feel much more space in my joints and I am capable of doing much more with my body. I can almost make the so-called women's splits (I'm just a few centimeters away) and I am certainly further with my men's splits. This really thrills me.
 
 ***
 {{< neighbouring >}}
