@@ -1,5 +1,5 @@
 +++
-title = "Creativity. Reflection 5 - Resource Center #2"
+title = "Creativity. Reflection 10 - Resource Center #2"
 date = "2023-06-18T18:12:03+02:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
