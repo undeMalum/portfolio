@@ -41,8 +41,8 @@ let me provide some background of myself. I attend [Private High School Gaudium 
 {{< /neighbouring >}}
 ***
 
-# Logic is
-what in interests me as well. I'm a **mathematically- and algorithmically-oriented person** and I find fulfillment in `mathematics` and `computer science`. Don't get me wrong, I don't fall under the stereotypical "nerd" category. I don't spend a vast majority of my time starring at the computer, struggling to develop deeper bonds with people. I value the proximity of others and I exhibit extreme extravert behaviors. It’s just that I’m appealed by **the beauty of mathematics and the power of computers**. Although I’ve said I'm more of a science guy, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore it as thoroughly as I can!
+# Logical thinking is
+what interests me as well. I'm a **mathematically- and algorithmically-oriented person** and I find fulfillment in `mathematics` and `computer science`. Don't get me wrong, I don't fall under the stereotypical "nerd" category. I don't spend a vast majority of my time starring at the computer, struggling to develop deeper bonds with people. I value the proximity of others and I exhibit extreme extravert behaviors. It’s just that I’m appealed by **the beauty of mathematics and the power of computers**. Although I’ve said I'm more of a science guy, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore it as thoroughly as I can!
 
 ***
 {{< neighbouring >}}
