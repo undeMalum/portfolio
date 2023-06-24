@@ -11,12 +11,14 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
-draft = "true"
 +++
 
 # The Story
-The story behind this post is simple. Today we had our last CAS lesson this school year and our dear coordinator decided to create a group reflection. We were given (giant) pieces of paper on which learning outcomes were written for us to describe what we did over the year to meet these learning outcomes. 
+The story behind this post is simple. Today, we had our last CAS lesson this school year and our dear coordinator wanted us to create a group reflection. We were given (giant) pieces of paper on which learning outcomes were written for us to describe what we did over the year to meet these learning outcomes. 
 
-Each of us (the handful that showed up) along with the coordinator wrote a short note, explaining our actions within every learning outcome. Who would have thought that something so 
+Each of us (the handful that showed up) along with the coordinator wrote a short note, explaining our actions within every learning outcome.  
 
 # Group reflection
+I must admit, it looked better than I anticipated.
+
+<a target="_blank" href="./images/group_reflection.pdf">Feel welcomed to have a look!</a>
