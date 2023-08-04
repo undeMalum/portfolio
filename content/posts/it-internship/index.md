@@ -21,6 +21,12 @@ First off, my time at [Urząd Gminy Suchy Las](https://www.suchylas.pl) wasn't r
 
 That's it on the whole. But did all turn out fine? Was it meaningful? Let's find out!
 
+***
+{{< neighbouring >}}
+{{< figure src="./images/Knoppix_logo.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Knoppix logo - enjoy." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/circuits.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="It's a bag full of circuits enthusiasts stuff." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
 # My work
 While discussing what I did, I’d like to talk a bit about those who showed me “how it’s done” as well. They both deserve my admiration, but my workflow looked different with each of them. Therefore, I’ll divide the following section into two parts - with and without Szymon.
 
@@ -32,7 +38,7 @@ Things changed when Szymon came back.
 ## With Szymon
 With Szymon it just must have been different. It's because he's known me since I was like 12. The funny part is, I haven't seen him in a very long time (well, long for me) and didn't quite rememeber how he looked like! But he did remember me!
 
-I met him back in the time when there was a different crew. I had a "techie" question and was directed to them. We had a nice conversation and they gave me a CD with Windows XP installer and a Linux command to clear hard drives. Both of those gifts I hold up to this day!
+I met him back in the time when there was a different crew. I had a "techie" question and was directed to them. We had a nice conversation and they gave me a CD with Windows XP installer and a Linux command to clear hard drives. Later that year, Szymon prepared for me a whole bunch of electronics for constructing circuits on my own. All those gifts I hold up to this day!
 
 Coming back to the main thread, Szymon didn't treat me with kid gloves. Just as he showed up again at the place, he hit the ground running and put me in the motion.
 
@@ -41,6 +47,12 @@ First, he gave an exercise to set up a whole server on a [virtual machine](https
 Second, he pushed me to connect to others' computers remotely. As you can imagine, managing more than 100 computers is a dauting task and not particularly fast, especially if you had to make a walk to each of them. That's why [Remote Desktop Connection](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c) was invented - to speed things up. I must admit that fear not to screw something up is huge at the beginning, but you get use to it really fast. Especially when all you need to do is to show people how to print stuff :stuck_out_tongue_closed_eyes:.
 
 Third, on my last week, there was no Tomek and not much to do, but plenty of time to talk. And I talked with Szymon a lot. He showed me his programming projects, more networking using Cisco's tool called [Packer Tracker](https://www.netacad.com/courses/packet-tracer), and persuaded me to request an [Academic License](https://dbeaver.com/academic-license/) for a DataBase Management System (DBMS) called [DBeaver](https://dbeaver.com) (like this animal). It was awesome! It's not everyday that I have an opportunity to talk with someone about advanced IT stuff. It was great, seriously!
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/dd.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Variations of a command to clear discs." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/xp.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Windows XP on CD ready to install." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
 
 # Why is this reflection so short?
 The above question. The reason why this reflection is so short is to avoid disclosing some sensitive information that may endanger the whole system. I mean, I'm not a specialist and I don't posses such comprehensive knowledge that I know what I'm doing. Since I'm not completely sure how important is what I do know, I'm reluctant to talk much, just in case. I'd love to describe every single detail of my journey as an IT guy, but it comes at risk. As simple as that.
