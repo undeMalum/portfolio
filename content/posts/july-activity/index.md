@@ -18,7 +18,7 @@ color = "" #color from the theme settings
 > - The Beatles, "Here Comes The Sun"
 
 # Hello world!
-Although I wouldn't call myself a summer lover, I must admit that summer opens up the door for a considerable number of activities that are less available or less pleasant during the rest of the year. In addition, summer means vacation, which, supposedly, translates to a lot of free time (unless you're an IB student.) Nevertheless, over the course of July, I didn't neglect my physical health and did some sports. Plus, I discovered new enjoyable activities.
+Although I wouldn't call myself a summer lover, I must admit that summer opens up the door for a considerable number of activities that are less available or less pleasant during the rest of the year. In addition, summer means vacation, which, supposedly, translates to a huge amount of free time (unless you're an IB student.) Nevertheless, even though I had a lot on my plate, I didn't neglect my physical health and did some sports over the course of July. Plus, I discovered new enjoyable activities.
 
 Now, I would like to discuss them all!
 
@@ -29,15 +29,15 @@ Now, I would like to discuss them all!
 ***
 
 # Hard work
-Do you remember the part where I mentioned free time? Well, it's free time from school activities (partially, otherwise I wouldn't be writing this :stuck_out_tongue:), not home responsibilities or responsibilities. I had some stuff to do and that's it. I didn't complain because it was fun.
+Do you remember the part where I mentioned free time? Well, it's free time from school activities (partially, otherwise I wouldn't be writing this :stuck_out_tongue:), not responsibilities in general. I had some stuff to do and that's it. I didn't complain though because it was actually fun.
 
 ## Moving wood
-At the very beginning of this year's holiday, I went to my aunt's summer retreat with a group of my friend. Our payment for the pleasure was to move an approximately 5 ton pile of wood. We had thought we would be done in two hours - turned out we spent more than 5. Despite the unexpectedly long time, we had a lot of fun and made some muscles :running:!
+At the very beginning of this year's holiday, I went to my aunt's summer retreat with a group of friends. Our payment for the pleasure was to move an approximately 5 ton pile of wood. We had thought we would be done in two hours - turned out we spent more than 5. Despite the unexpectedly long time, we had a lot of fun and made some muscles :running:!
 
 ## Building garage
-A friend of mine is building a garage with his dad to accomodate his mum's groomer saloon. It's extremely time-consuming so almost all they do is building this garage. One day, they needed to finish ceiling, but it required two men and dad was unavailable. At that time, I was free from any work (finally) so I offered myself. I arrived by bicycle ready to go. However, we needed additional equipment and first made a short trip to Leroy Merlin plus some other stored. Unfortunately, on our way back we encountered huge rain and returned completely wet.
+A friend of mine is building a garage with his dad to accommodate his mum's groomer saloon. It's extremely time-consuming so almost all they do during their spare time is building this garage. One day, they needed to finish ceiling, but it required two men and dad was unavailable. At that time, I was free from any work (finally) so I offered myself. I arrived by bicycle ready to go. However, we needed additional equipment and first made a short trip to Leroy Merlin plus some other stores. Unfortunately, on our way back we encountered huge rain and returned completely wet.
 
-After we changed our clothes, we could hit the ground running. We spent around four hours putting [mineral wool](https://en.wikipedia.org/wiki/Mineral_wool) in its place. It's harder than it looks like. In spite of those difficulties, we succedded. However, what's funny is that while my friend went to his part-time job, I went to bed being completely exhausted. He's a robocop I tell you!
+After we changed our clothes, we could hit the ground running. We spent around four hours putting [mineral wool](https://en.wikipedia.org/wiki/Mineral_wool) in its place. It's harder and more tiring than it looks like. In spite of those difficulties, we succeeded. However, what's funny is that while my friend went to his part-time job afterwards, I went straight to bed being completely exhausted. He's a robocop I tell you!
 
 ***
 {{< neighbouring >}}
@@ -49,12 +49,12 @@ After we changed our clothes, we could hit the ground running. We spent around f
 As I said, I had an opportunity to try something new in my physical development and here's a short list of it.
 
 ## Jump rope
-I think it's pointless to explain what jump rope is. If you were a kid, you must know what it is and if you don't... then I feel sorry for your childhood. Going back to the point, I made some clean-up in my shelves and rediscovered a jump rope. The instant flashback were incredible. I had to test it and thus began my new routine while studying - jumping over a rope. It's a wonderful break that let's you move and increase your heart rate. I really recommend it to everyone.
+I think it's pointless to explain what jump rope is. If you were a kid, you must know what it is and if you don't... then I feel sorry for your childhood. Going back to the point, I made some clean-up in my shelves and rediscovered a jump rope. Instant flashbacks were incredible. I had to test it and thus began my new routine while studying - jumping over a rope. It's a wonderful break that both let's you move and increase your heart rate. I really recommend it to everyone.
 
 ## Football
-Actually American football (incorrectly called simply football by the US citizens) is a game not popular in Poland. I bet you don't know any person that knows the rule of this game. (It's directed to people reading it in Poland.) 
+Actually American football (incorrectly called simply football by the US citizens) is a game not popular in Poland. I bet you don't know a single person that knows all the rules of this game. (It's directed to people reading it in Poland.) 
 
-I'm no expert in the field as well, but I enjoy as hell throwing this oval-shaped ball with my friend. We had awful technique and no clue about a proper one, but who care? It's fun and that's what matter to me.
+I'm no expert in the field as well, but I enjoy as hell throwing this oval-shaped ball with others. We had awful technique and no clue about a proper one, but who cares? It's fun and that's what matter to me.
 
 ***
 {{< neighbouring >}}
@@ -63,7 +63,7 @@ I'm no expert in the field as well, but I enjoy as hell throwing this oval-shape
 ***
 
 # Other activities
-Naturally, I participated in many more activities - mostly my usual pack cardio + stretching - but, in addition to these two, I also swam quite a bit and made long bike trips (30-50km). However, there's not much to talk about because swimming was just swimming and trips were rather a way to commute from one place to another and nothing interesting happened there. Nevertheless, I find it worth mentioning.
+Naturally, I participated in many more activities - mostly my usual pack: cardio + stretching - but, in addition to these two, I also swam quite a bit and made long bike trips (30-50km). However, there's not much to talk about because swimming was just swimming and trips were rather a way to commute from one place to another on previously-known roads and nothing interesting happened there. Nevertheless, I find it worth mentioning.
 
 ***
 {{< neighbouring >}}
