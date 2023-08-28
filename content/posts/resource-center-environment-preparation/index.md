@@ -1,9 +1,9 @@
 +++
-title = "Resource Center Environment Preparation."
+title = "Resource Center Environment Preparation"
 date = "2023-08-28T11:34:14+02:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
-cover = ""
+cover = "images/cover.png"
 tags = ["coding"]
 keywords = ["coding"]
 description = "This is an installation guide as an add-on to the main article from IBlieve about the Resource Center."
@@ -11,13 +11,12 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
-draft = "true"
 +++
 
 # Explanation
-I wrote an extremely detailed article about contributing to the Resource Center for IBlieve. The assumption was the reader would have no prior knowledge about any of the tools I presented. Therefore, I explained each and every step you need to go thorough - from installation, setting up the environment, to the actual contribution and all things that follow. I turned out almost to be almost 6000 words and 60 pages! I needed to cut it down, but I didn't want to simply delete it. That's why I'm moving part of the main article to my personal blog (here).
+I wrote an extremely detailed article about contributing to the Resource Center for IBlieve. The assumption was the reader would have no prior knowledge about any of the tools I presented. Therefore, I explained each and every step you need to go thorough - from installation, setting up the environment, to the actual contribution and all things that follow. I turned out almost to be almost 6000 words and 60 pages! I needed to cut it down, but I didn't want to simply delete it. 
 
-Enjoy!
+That's why I'm moving a large part of the main article to my personal blog so that if you do not have required knowledge, you can quickly catch up and set up the work environment on your machine.
 
 # Hugo installation
 To install Hugo, you need to go to the installation page of your operating system – either [Windows](https://gohugo.io/installation/windows/) or [macOS](https://gohugo.io/installation/macos/) (I assume no reader uses [Linux](https://gohugo.io/installation/linux/), but there’s a page for that as well.) There, you can find several methods for installing Hugo. I’ll explain two methods (one for each operating system) I find the simplest.
@@ -185,3 +184,106 @@ Lastly, click “Finish” and wait for the VSCode to open (Fig.21a-b).
 
 {{< figure src="./images/vsc8.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 21b. VSCode open." captionPosition="right" captionStyle="color: white;" >}} 
 
+# Getting started with the project
+Having all necessary software installed, we can now combine all the tools together!
+
+## Forking the repository
+To edit the Resource Center, we need to fork the original repository, that is, we need to make a copy of the original repository with the Resource Center on our GitHub.
+
+Go to the following link: https://github.com/bprzybylski/IB-CS-GeS where the original repository is hosted. You should see a “Fork” button near a “Code” button (Fig.22). **Make sure you’re logged in!**
+ 
+{{< figure src="./images/forking.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 22. The Resource Center repository." captionPosition="right" captionStyle="color: white;" >}} 
+
+After clicking the Fork button a “Create a new fork” page should appear where you can edit the name and description of the repository (Fig.23.I-II). When you’re done with editing, click “Create fork” to finalize forking the repository (Fig.23.II).
+ 
+{{< figure src="./images/forking2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 23. Creating a new fork." captionPosition="right" captionStyle="color: white;" >}} 
+
+Within a few moments, the repository should be forked (Fig.24).
+
+{{< figure src="./images/forking3.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 24. Forked repository." captionPosition="right" captionStyle="color: white;" >}}  
+
+However, it would be difficult ([though possible](https://github.com/github/dev)) to edit the Resource Center in the browser. Therefore, we need to create a local version of the repository (copy all the files into our device).
+ 
+## Local version
+First off, you need to create a folder where your project will be stored. Even though it is not required, it is **a matter of good practice** to do so. You just need to open a terminal and type the following command:
+
+```console
+mkdir Projects
+```
+
+You can replace "Projects" with whatever you like. Now we need to navigate to the folder we created. For that, we need a "cd" command. When you use:
+
+```console
+cd [relative_path]
+```
+
+you go inside the folder you typed (is one exists – relative_path is an actual path to a folder). When you type:
+
+```console
+cd ..
+```
+you return to the folder one level higher in the hierarchy. So if you created a folder "Projects", you type
+
+```console
+cd Projects
+```
+
+Now, we need to clone our repository (make copy on our device). Without closing terminal (PowerShell, cmd, or Terminal), go back to your online repository. Click the “Code” button (Fig.25.I), choose the “HTTPS” option (Fig.25.II) and copy the link from there (Fig.25.III).
+ 
+{{< figure src="./images/forking4.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 25. Getting link for cloning the repository." captionPosition="right" captionStyle="color: white;" >}}  
+
+Your link will be different, containing your user name. After copying, open the terminal once again (make sure you’re in the Projects folder) and write “git clone” (Fig.26.I) followed by the link we copied (Fig.26.II).
+ 
+{{< figure src="./images/forking5.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 26. Command for cloning." captionPosition="right" captionStyle="color: white;" >}}  
+
+Run the command and the cloning of the repository should be initiated (Fig.27).
+
+{{< figure src="./images/forking6.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 27. Cloning the repository." captionPosition="right" captionStyle="color: white;" >}} 
+
+# Setting git
+
+We're not ready yet as we have to more things to do.
+
+## Adding theme submodule
+First, we need to update our theme because this folder is now empty (theme is appended as a git submodule which is not initiated when the main repository is cloned) (Fig.28).
+ 
+{{< figure src="./images/submodule.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 28. Empty theme directory." captionPosition="right" captionStyle="color: white;" >}} 
+
+Fortunately, all we need to do is run the command:
+
+```console
+git submodule init
+```
+
+followed by:
+
+```console
+git submodule update
+```
+
+as depicted on Figure 29.
+
+{{< figure src="./images/submodule2.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 29. Updated the submodule." captionPosition="right" captionStyle="color: white;" >}} 
+
+And if we return to the theme/hugo-book folder, we should see the files of the theme (Fig.30).
+ 
+{{< figure src="./images/submodule3.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 30. Files of the theme" captionPosition="right" captionStyle="color: white;" >}} 
+
+## Adding our data to git
+Second, we need to tell git who we are. Fortunately, it only requires two commands:
+
+```console
+git config --global user.email you@example.com
+```
+
+and
+
+```console
+git config --global user.name "Your Name"
+```
+
+You don’t have to use the “--global” flag. It just sets the data you provides as a default configuration for all your git projects. So we’re going to use this flag (Fig.31).
+ 
+{{< figure src="./images/data.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Figure 31. Setting user data." captionPosition="right" captionStyle="color: white;" >}}
+
+Your environment is set up and ready to go!
