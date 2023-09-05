@@ -67,19 +67,20 @@ enableEmoji = true
 
 [languages]
   [languages.en]
-    languageName = "English"
-    title = "Headquarters of undemalum"
-    subtitle = "This serve as my website, CAS portfolio and resorce for IB students"
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "CAS"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    [languages.en.params]
+      languageName = "English"
+      title = "Headquarters of undemalum"
+      subtitle = "This serve as my website, CAS portfolio and resorce for IB students"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "CAS"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
       logoText = "Home"
