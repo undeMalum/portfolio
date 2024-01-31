@@ -3,10 +3,10 @@ title = "Activity. Reflection 15 - Approaching The Splits #4"
 date = "2023-12-25T11:59:47+01:00"
 author = "Mateusz konat"
 authorTwitter = "" #do not include @
-cover = "images/cover.jpeg"
+cover = "images/cover.jpg"
 tags = ["activity", "stretching"]
 keywords = ["activity", "stretching"]
-description = "This smiley face speaks for itself - the progress is going well, even though it was slowed down for a while. See fo yourself!"
+description = "I might even try whatever this guy is doing because the progress is going well, even though it was slowed down for a while. See fof yourself!"
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -14,13 +14,13 @@ color = "" #color from the theme settings
 +++
 
 # Warm up
-Dump cover pictures have become a tradition when it comes to documenting my stretching progress as you can see. I don't mind because they give each reflection a friendly atmosphere. But it's not why you're here so let's go straight to the point.
+I've started replacing dump cover pictures of me doing the splits. The exact reasons are not important. But it's not why you're here so let's go straight to the point.
 
 Just one thing... Pictures in this section were taken during only one stretching section. You now [the reason](/portfolio/posts/approaching-the-splits-2/#excuse), but I just wanted to let you know. They are representative though, so they should suffice. Now, let's see what's up, at last.
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/flexing.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Nice flex, but where are the muscles?" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/up.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="I was told it scares some people.." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/flexing.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Nice flex, but where are the muscles?" captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/up.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="I was told it scares some people..." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 

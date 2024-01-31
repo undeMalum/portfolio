@@ -3,10 +3,10 @@ title = "Activity. Reflection 16 - Approaching The Splits #5"
 date = "2024-01-12T17:38:30+01:00"
 author = "Mateusz konat"
 authorTwitter = "" #do not include @
-cover = "images/cover.jpeg"
+cover = "images/cover.jpg"
 tags = ["activity", "stretching"]
 keywords = ["activity", "stretching"]
-description = "I have to admit that this picture isn't particularly favorable, but, unfortunately, I don't have a better one. Well, let's take a look at what has changed regarding the splits."
+description = "As I've been practicing the splits for a while now, it's not uncommon to encounter moments of stagnation. Nevertheless, let's take a look at what has changed regarding my splits."
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -38,10 +38,6 @@ However, there's a more important question: WHY AM I TALKING ABOUT IT?
 Firstly, because I can. Secondly, I'm aiming for transparency with the audience, providing the full context of who I am.
 
 So, you're free to form your opinion about how cool this thing I mentioned looks. In fact, I encourage you to do so. But, you have to know, IT IS COOL. We may only disagree on to what extent.
-
-***
-{{< figure src="./images/down.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Here! Can you see how deep I am? That's what I meant!" captionPosition="right" captionStyle="color: white;" >}}
-***
 
 # Something
 Enough of the show-off; it's time for action!
