@@ -109,7 +109,7 @@ I also met other charges in the program—Marcin's buddies. I didn't catch the n
 # Final remarks
 I know I mentioned being more concise, but there have been many exciting developments over the past three months, not just related to the Bury Mis Foundation.
 
-As I approach my mock exams, await decisions that will determine my academic future, and celebrate my 19th birthday, among other things, life is becoming quite packed. While I believe I can handle it, I've noticed myself getting a bit more tired and irritable than usual.
+As I approach my mock exams, await decisions that will determine my academic future, and work on my IAs, among other things, life is becoming quite packed. While I believe I can handle it, I've noticed myself getting a bit more tired and irritable than usual.
 
 I sincerely hope this won't impact my volunteer work. I've been offered a higher responsibility during this year's Bury Mis Camp, but there are too many uncertainties for me to provide a definite answer.
 
