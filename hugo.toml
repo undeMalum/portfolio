@@ -70,11 +70,11 @@ enableEmoji = true
     [languages.en.params]
       languageName = "English"
       title = "Headquarters of undemalum"
-      subtitle = "This serve as my website, CAS portfolio and resorce for IB students"
+      subtitle = "Welcome to my website! Here you can find out more about me and what I do."
       owner = ""
       keywords = ""
       copyright = ""
-      menuMore = "CAS"
+      menuMore = "My pursuits"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
       newerPosts = "Newer posts"
@@ -104,12 +104,12 @@ enableEmoji = true
         weight = 3
       [[languages.en.menu.main]]
         identifier = "ib-resources"
-        name = "IB resorces"
+        name = "IB resources"
         url = "/ib-resources"
         weight = 4
       [[languages.en.menu.main]]
         identifier = "creativity"
-        name = "Creativity"
+        name = "Programmig and Creativity"
         url = "/creativity"
         weight = 5
       [[languages.en.menu.main]]
@@ -122,11 +122,6 @@ enableEmoji = true
         name = "Service"
         url = "/service"
         weight = 7
-      [[languages.en.menu.main]]
-        identifier = "interior-design"
-        name = "Interior Design"
-        url = "/interior-design"
-        weight = 8
 
 # Allow rendering of custom html
 [markup]

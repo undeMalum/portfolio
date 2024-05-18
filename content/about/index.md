@@ -5,15 +5,16 @@ author: "Mateusz Konat"
 cover: "images/pink_floyd.png"
 tags: ["my projects", "creativity", "activity", "service", "cas project", "IB resources"]
 description: "This page is about me and my life."
-toc: false
+toc: true
 ---
+# Hello World!
+Welcome to my website! I'm Mateusz Konat, a passionate tech tinkerer eager to share my journey with you.
 
-{{< code language="python" title="That's how it's begun..." id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
-print("Hello, world!")
-{{< /code >}}
+Here, you'll discover more about me and my activities, explore [my blog](/portfolio/posts), and dive into [my projects](/portfolio/projects).
 
-# Prelude
-My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used as CAS portfolio)! 
+Also, you can easily navigate through the content of interest on my website using the tags at the top of each page (indicated by "#" sign like "#my projects" or "#creativity").
+
+Now, let me tell you more about myself!
 
 ***
 {{< neighbouring >}}
@@ -21,34 +22,78 @@ My name is Mateusz Konat and I hope you’re gonna enjoy my website (also used a
 {{< /neighbouring >}}
 ***
 
-# But first,
-let me provide some background of myself. I attend [Private High School Gaudium et Studium](https://edu-ges.pl/high-school/about-school) in Poznań that offers [IBDP](https://www.ibo.org/programmes/diploma-programme/) (International Baccalaureate Diploma Programme). It wasn’t my first choice though as I started in football class. However, I was quickly forced to change my mind due to a disease, namely [`juvenile idiopathic arthritis`](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). Fortunately, I really enjoy the place where I am now and I can’t think of a more suitable environment! 
+# Some Background
 
-(To learn more about the school life, visit our Instagram account: [highschool_gaudium_et_studium](https://www.instagram.com/highschool_gaudium_et_studium/)).
+As of May 2024, I am a proud graduate of [Private High School Gaudium et Studium](https://www.eduges.pl/en), where I completed the International Baccalaureate Diploma Programme ([IBDP](https://www.ibo.org/programmes/diploma-programme/)). Although I'm still awaiting my results, the journey to this point has been quite eventful.
 
-***
-{{< neighbouring >}}
-{{< figure src="./images/me_and_the_boys.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="New Year with friends of mine (no alcohol)." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_trip.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="School trip (start of 2nd grade) at 6 a.m." captionPosition="right" captionStyle="color: white;" >}}
-{{< /neighbouring >}}
-***
+I began high school in a football class, which surprised those who knew me as a computer and math whiz. It turns out, I have always had a bit of sportsmanship in me. However, my path took an unexpected turn when I had to leave the football class due to a condition called [juvenile idiopathic arthritis](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082). This condition led me to become, quite reluctantly, a collector of inflammations.
 
-# Nonetheless,
-`football` is still my great passion, even though it didn’t use to be. **I hated running** so I hated football. Not that I had bad stamina. I just didn’t like the mere fact of running, that's all. Instead, I participated in a variety of other sports over the years. The first one ever was `karate`. It consumed **whole 7 years of my earliest childhood** and helped me to develop flexibility as well as self-rigor. In the meantime, each year, during the winter break, I have been `skiing` and **this continues to this day**. Besides football, I consider these two to be my favorite sports, with which I have best memories. However, I didn't restricted myself to these activities. I also played `tennis`, danced `hip-hop`, did `gymnastic` a bit, rode a `scooter` (a modern skateboard in a way) and I could go on forever.
+Despite this setback, the choices I made after leaving the football class, particularly enrolling in the IBDP, turned out to be some of the best decisions of my life. They nurtured my curiosity, increased my appetite for knowledge, and helped me grow into a better person.
+
+Life often takes unexpected turns, but these experiences have shown me that it's not always a bad thing. Now, let me tell you a little more about myself.
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/football_camp.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="My second camp with the team." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/school_competition.JPG" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="My first football competition." captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/sport.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Bicycle is great for summer trips." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/ball.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="At Bury Mis Foundation 40th anniversary." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
-# Logical thinking is
-what interests me as well. I'm a **mathematically- and algorithmically-oriented person** and I find fulfillment in `mathematics` and `computer science`. Don't get me wrong, I don't fall under the stereotypical "nerd" category. I don't spend a vast majority of my time starring at the computer, struggling to develop deeper bonds with people. I value the proximity of others and I exhibit extreme extravert behaviors. It’s just that I’m appealed by **the beauty of mathematics and the power of computers**. Although I’ve said I'm more of a science guy, I also enjoy other fields like textual analysis or history (especially the one written by `Manchester United`). **I’m simply curious** and everything that’s considered "_knowledge_" is exciting for me and I want to explore it as thoroughly as I can!
+# My Inner World
+I'm a **mathematically- and algorithmically-oriented person**, finding deep fulfillment in `mathematics` and `computer science` (see [Programming and Creativity](/portfolio/creativity) page).
+
+While I don't consider myself a stereotypical "nerd," I do embrace my nerdy side, especially when delving into these areas. **The precision of mathematics and the creative power of computers** captivate me, drawing me into their intricate worlds.
+
+I'm also someone who sets clear goals and works tirelessly to achieve them—a trait shaped largely by my sports background (more on that later). I believe this determination is essential for solving the complex problems encountered in both math and computer science.
+
+In addition, I value social interactions and sometimes exhibit strong extroverted behaviors. This willingness to collaborate is invaluable in my pursuit of math and computer science, as both fields involve significant social interaction, contrary to popular belief.
+
+Beyond these symbol- and notation-oriented areas, I also have a keen interest in `biology`, particularly `bioinformatics`. This subfield aligns well with my interests since it involves massive amounts of data where computers are indispensable. Additionally, I have a natural curiosity about how things work.
+
+Despite being more of a science enthusiast, I also enjoy other fields like `history`. Whether it's exploring Japanese expansion into China in the 1930s or Manchester United's golden era under Sir Alex Ferguson, I'm fascinated by diverse topics. Overall, I'm simply curious and eager to explore everything considered "_knowledge_" as thoroughly as possible!
+
+Furthermore, as you might have guessed, I have always been an enthusiastic sportsman.
 
 ***
 {{< neighbouring >}}
-{{< figure src="./images/alex_ferguson.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Alex Ferguson - the best manager." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/computational_thinking.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Checkout this one! (worth it)" captionPosition="right" captionStyle="color: white;" >}}
+{{< figure src="./images/books.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="I recommend each of these books." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/creative.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Some attempt at painting (mine on the left)." captionPosition="right" captionStyle="color: white;" >}}
 {{< /neighbouring >}}
 ***
 
-# I believe,
-I've introduced myself properly, so that you know what to expect from this website! I recommend you have a look at [my projects](/portfolio/projects) if you're interested in programming. Also, I run a [YouTube channel](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q) so you can check that one as well!
+# A Healthy Mind in a Healthy Body
+As mentioned, participating in various sports has been a long-standing tradition for me.
+
+`Football`, for instance, remains a great passion of mine, even though I can no longer play at an advanced level (see [Some Background](#some-background)). I enjoy improving my skills with the ball each day, finding a touch of magic in every moment.
+
+However, my first and most impactful sport was `karate`. It consumed **seven years of my earliest childhood** and shaped my personality to an incredible degree. Karate developed my proficiency in gymnastics, injury recovery, and body awareness. Through enduring physical challenges during practices and learning from tournament losses, it instilled in me a philosophy of hard work, perseverance, and a healthy acceptance of failure. Consistent improvement and goal-focused training enhanced my confidence in overcoming obstacles and fostered a sense of competitiveness. All of this thanks to just one sport.
+
+During winter breaks, I also indulged in `skiing`. Although not always possible due to its expense, I seized every opportunity to explore the slopes and enjoy the experience immensely.
+
+Besides football, karate, and skiing are my favorite sports, bringing me the best memories. However, I haven't limited myself to just these activities. I've also played `tennis`, danced `hip-hop`, dabbled in `gymnastics`, and rode a `scooter` (a modern skateboard of sorts), among others.
+
+In essence, I love sports and couldn't live without them. The types of sports I engage in might have changed (see [Activity](/portfolio/activity) page), but I'm always active. Yet, there is one more think I'd like to briefly mention.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/candy.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="Delivering candies at Christmas tournament." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/yoga.jpeg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="I work hard to achieve the splits." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
+# In Service to Others
+Apart from being deeply engaged in learning and sports, I am also a `proud volunteer` (see [Service](/portfolio/service) page).
+
+In primary school, volunteer work wasn't highly promoted. There were occasional "workshops," but these were infrequent and limited in scope. Additionally, few people in my immediate circle were involved in volunteer activities.
+
+It wasn't until the middle of high school that I truly began to appreciate and immerse myself in volunteer work. My journey started when I decided to participate in a summer camp organized by the Bury Mis Foundation (see more [here]()). This experience sparked a passion for service, and from that point on, volunteering became an essential part of my life. I got involved in [organizing various festivities](/portfolio/posts/pomocna-piatka-preparation/) and [workshops](/portfolio/posts/druzyna-szpiku/), [expanded my engagement](/portfolio/posts/selling-cheese/) with the Bury Mis Foundation, and even [received an honorable mention](/portfolio/posts/poznanski-wolontariusz-roku/) at the Poznań Volunteer of the Year 2023 competition for my contributions!
+
+Although I had to slow down a bit during my senior year of high school, I still find volunteer work immensely fulfilling. Now that I've finished my finals, I plan to get back on track and continue serving others.
+
+***
+{{< neighbouring >}}
+{{< figure src="./images/cheese.jpeg" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="My Kashubian cheese sales crew." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/k.jpg" alt="Hello friend!" position="center" style="border-radius: 8px;" caption="Smiling to the camera worked out nicely." captionPosition="right" captionStyle="color: white;" >}}
+{{< /neighbouring >}}
+***
+
+# I Believe
+I've introduced myself properly, so you now have a good sense of what to expect from this website! If you're interested in programming, I recommend you check out [the list of my projects](/portfolio/projects). You're always welcome to read [my blog](/portfolio/posts). To learn more about the different aspects of my life, visit their designated pages: [Programming and Creativity](/portfolio/creativity), [Activity](/portfolio/activity), and [Service](/portfolio/service).
+
+Cheers!

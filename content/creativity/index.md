@@ -1,90 +1,68 @@
 ---
-title: "Creativity"
+title: "Programming and Creativity"
 date: 2022-09-08T15:10:27+02:00
 author: "Mateusz Konat"
 cover: "images/cover.jpeg"
-tags: ["creativity", "youtube", "juggling", "writing", "coding"]
-description: "This page serves as my intro to the creativity CAS strand."
+tags: ["creativity", "coding", "juggling", "youtube"]
+description: "This page contains a description of my journey with programming and description of other 'creative' things I do."
 ---
 
-# Welcome to my creativity section!
-Here, I will explain **everything** that I do and may be considered "_creative_". This includes: `runnning youtube channel`, `juggling`, `writing` and `coding`.
+# Welcome to my programming and creativity section!
+Here, you can find out more about my creative pursuits. I describe the history of each of my activities—specifically, `programming`, `juggling`, and `YouTue`—and direct you to places where you can explore even more!
 
-The photo above is a picture by a friend of mine by the way. Enjoy ;)
+By the way, the dinosaur on the cover is a digital painting by a close friend of mine. Enjoy! ;)
 
-# Running youtube channel
-### Description:
-I've set up a `youtube channnel`! Not that I aim to be **a world-wide known person** or something. It's just I need a place to upload `the evidence viedos` which will be used on **this website**. Besides, I find it `interesting` - **pure curiosity** of how things work on "_the other side_". [Here is a quick reference](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q)
+# Coding
+## History & Philosophy
+My passion for programming began in 6th grade when I disassembled an old laptop, which sparked my initial interest in hardware. I continued dismantling computers throughout the year and my room resembled a kid's room filled with LEGO at the end. Although characterized by mess, this experience provided me with valuable insights into computer components. 
+
+During a summer course after 6th grade, I delved into web design using HTML, CSS, and JavaScript. This experience revealed to me the vast potential of programming and marked the shift of my focus from hardware to software (I still look at my projects from then hosted on gltch.com). Excited, I expanded my skills through the "Pasja informatyki" (eng. Passion for Computer Science) YouTube channel, exploring desktop applications and gradually transitioning to C++ in 7th and 8th grade, combining also my hardware knowledge in the process. 
+
+Upon entering high school, I switched to Python, initially due to curriculum requirements. However, I grew to appreciate Python's welcoming community and its applications in fields such as Artificial Intelligence and bioinformatics. Nevertheless, high school not only exposed me to new programming languages but also fostered my growth as a coder, instilling a commitment to writing quality code and developing my coding philosophy. 
+
+More specifically, I have defined precise goals in my craft: I aim to create things that are both useful and unique. I derive immense pleasure from the fact that my products make others’ lives easier, whether it is about enhancing the learning experience or streamlining repetitive and daunting tasks. In other words, usability is the primary factor that draws me to programming and fuels my projects. 
+
+Furthermore, I also code to learn. It is my genuine belief that the practical application, where knowledge and theory are put into practice, is the most effective method of learning as a software engineer as it provides a sense of accomplishment and purpose. I adopted this doctrine from Guido van Rossum, the creator of Python, who said that the best way to learn a language is "to find something you actually want to do with it."  
+
+All in all, I have a long history with computers, which are now my main area of focus. I am deeply interested in all their aspects, from hardware to software.
+
+## Projects
+I have a dedicated [web page for my projects](/portfolio/projects/), which you are more than welcome to visit, so I won't go into detail here.
+
+# Juggling
+## History
+Yes, I juggle. However, this skill came to me quite unexpectedly. It wasn't my idea, but my aunt’s, who one day visited a shop called Tigger and spotted a bag of hacky sacks marked as juggling balls. She decided to buy them for me.
+
+Her purchase coincided with the pandemic, so I had plenty of free time to spend on juggling training sessions.
+
+Initially, I had three balls to juggle, and I quickly learned to juggle them fluently. Over time, I mastered more tricks and added them to my repertoire. Then, my mom bought me a fourth ball, giving me more to play with.
+
+It didn't take me long to master the fourth ball as well. On my 18th birthday, a group of friends gifted me newer, larger, and more durable balls—six of them, to be exact.
+
+Although I'm not yet proficient with more than four balls, I'm confident it will come with time.
+
+## Skills
+Meanwhile, you can preview my skills in the video below. Despite the balls falling a couple of times (thanks to the floodlights drilling into my eyeballs), I still think it's a good presentation of my repertoire.
+
+My part start around 1:04:00.
+
+***
+{{< youtube id="CESylxhllwY" start=3820 >}}
+***
+
+
+# YouTube channel (no longer)
+## History
+I _used to_ run a YouTube channel (link [here](https://www.youtube.com/channel/UCaFx3UdgaiBVbJQBZsR9x-Q)). Initially, it served solely as a repository of evidence for my [CAS](https://www.ibo.org/programmes/diploma-programme/curriculum/dp-core/creativity-activity-and-service/) portfolio, as it was the easiest way for me to upload videos online. However, as time went by, I became increasingly excited about running my own YouTube channel. My videos grew in length and professionalism, and I started getting more views.
+
+Nevertheless, I quickly realized that I wasn't cut out for it. The process of editing videos, rather than bringing me joy, became a burden that I wanted to eliminate as soon as possible. As a result, my channel has come to a halt.
+
+The good thing is that I gained valuable experience in video editing, which has been helpful for some of my schoolwork. And who knows? Maybe I'll be able to apply this knowledge further in my life.
+
+## Introductory video
+Here you can see the first video ever on my YouTube channel.
 
 ***
 {{< youtube id="CIPegynmB8c" >}}
 ***
 
-### Learning outcomes
-- LO 2 Challenge and Skills
-- LO 3 Initiative and Planning
-- LO 4 Commitment and Perseverance
-- LO 6 Global Engagement
-
-# Juggling
-### Description:
-Yes, I juggle. It's kinda funny coz I started quite unexpectedly. One day my aunt `went to Tigger` and she bought my `a bag of hacky sacks`, marked as "_juggling balls_". So I started practicing. In addition to that, this was a time of `covid-19 pandemic` and I had a lot of free time for my "_juggling sessions_". After some time I was able to `juggle fluently`. **And that's the whole story**.
-
-***
-{{< youtube id="Dzwoyf6ifaU" >}}
-***
-
-### Learning outcomes:
-- LO 1 Strength and Growth
-- LO 2 Challenge and Skills
-
-# Writing
-### Description:
-Not only do I write essays for school, **I also write at home**. Writing, in my opinion, gives you `the deeper understanding  of yourself`. While writing, you should focus on **how to formulate your thoughts** in order to easily exchanges these ideas with a reader, but even more importantly - to understand `the process of thinking per se`.
-
-***
-{{< code language="Polish" title="Historia zwykłego człowieka w śniegu" id="1" expand="Show" collapse="Hide" isCollapsed="true" >}}
-Był to zwykły zimowy dzień, a raczej środkowoeuropejski wariant zimowego dnia, przypominający swoją 
-charakterystyką nad wyraz długi powrót Kory do Hadesu, dający Demeter płomyk nadziei, że może jednak 
-Władca Podziemi się rozmyśli, zmieni swoje zdanie i zwróci jej córkę. Dlaczego? Otóż, tląca się wiara w 
-taki obrót spraw, ogrzewa przyrodę i tym samym uniemożliwia jej zupełnie zaśnięcie. Jednocześnie, 
-perspektywa odzyskania córki jest na tyle odległa, że powoli odbiera ogniu tlen, niezbędny mu do 
-oddychania i żarzenia, ale nade wszystko do rozgrzania zamrożonego serca matki, jak również do rozwoju 
-przyrody w pełni jej rozmaitości i pięknie. Zostawia to świat na krawędzi pomiędzy marazmem, a euforią, 
-czarnym zwęglonym drewnem, a żywym iskrzącym się płomieniem. [...] 
-{{< /code >}}
-{{< code language="Polish" title="Czy warto" id="2" expand="Show" collapse="Hide" isCollapsed="true" >}}
-Wracasz po pracy i mówisz: "Odpocznę!".  
-
-Szukasz kadzidełka, ponieważ chcesz wykorzystać jego aromat aby wprowadzić odpowiedni nastrój. Otwierasz 
-szufladę - nie ma. Otwierasz drugą - też nic. Już Ci podskoczyło ciśnienie: "Zaraz coś mnie trafi!". W 
-szale zaczynasz opróżniać zawartość komody.  
-
-Z rozpędu wyrzucasz nawet ulubiony kieliszek żony. Dopada Cię kłujący dyskomfort i obejmuje poczucie 
-winy - przecież zniszczyłeś, coś co ma wartość dla drugiej osoby, tylko dlatego, że się nie 
-kontrolowałeś. Zlewasz: "Trudno, zdarza się!". Szukasz dalej. [...] 
-{{< /code >}}
-***
-
-### Learning outcomes:
-- LO 1 Strength and Growth
-- LO 4 Commitment and Perseverance
-- LO 6 Global Engagement
-
-# Coding
-### Description:
-Coding like "_normal_" wiritng is about `thoughts`, `ideas`. What is important in this process is **how you approach the problem** and how you **express the idea of solving it**. It is about `critical thinking` and that's what `thrills me`. Apart from that, coding is a `powerful tool` that **let's you solve day-to-day problems** and consequently **make our existence much easier**.
-
-***
-{{< neighbouring >}}
-{{< figure src="./images/writing_my_website.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="The process of writing this section." captionPosition="right" captionStyle="color: white;" >}}break{{< figure src="./images/upgrading_cas_manager.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="There's always a better solution..." captionPosition="right" captionStyle="color: white;" >}}
-{{< /neighbouring >}}
-***
-
-### Learning outcomes:
-- LO 1 Strength and Growth
-- LO 2 Challenge and Skills
-- LO 3 Initiative and Planning
-- LO 4 Commitment and Perseverance
-- LO 5 Collaborative Skills
-- LO 6 Global Engagement
