@@ -68,7 +68,29 @@ And to top it all off, I never ended up going. Despite sending around 50 message
 
 Considering the effort I put in—not just meeting the admission requirements, but also wading through endless paperwork—it feels like the embodiment of the phrase, "all that work and nothing to show for it."
 
-##
+## Poland
+At this point, I’d like to shift focus to my home country, Poland, and share a bit about the university application process here.
+
+I applied to three universities in Poland: the [University of Warsaw](https://en.uw.edu.pl), [Jagiellonian University](https://en.uj.edu.pl/en_GB/start), and [Poznan University of Technology](https://put.poznan.pl/en) (PUT).
+
+The reasons for choosing the first two were straightforward—they are the highest-ranked universities in Poland and both offer a Computer Science program. Although these programs are taught in Polish, it wasn’t an issue for me as a native speaker. I figured I’d challenge myself by applying to both for Computer Science. After all, why not aim high?
+
+My third choice, PUT, was more of a "safe option." It’s located in the same city as my high school, just about 2 km away. Studying there would mean I wouldn’t have to move, which would significantly cut down on living expenses. Besides, I was confident I’d be accepted, thanks to PUT’s favorable International Baccalaureate (IB) to Polish Matura conversion factor.
+
+At PUT, I applied for the [Artificial Intelligence program](https://put.poznan.pl/en/node/4294), which stands out for several reasons. Not only is it the only undergraduate program at PUT offered exclusively in English (most others have Polish equivalents), but it also has the [highest admission threshold](https://put.poznan.pl/sites/default/files/2024-07/progi%20punktowe%202024-2020.pdf) among all PUT programs. A score of over 900 out of 1000 is required, compared to 800 for the second-place program, Computer Science. I hoped this would attract smart, motivated peers (perhaps that’s a bit idealistic, but what other criteria could I rely on?).
+
+The application process in Poland is relatively streamlined in some ways but not without its quirks. All Polish universities require electronic applications (to the best of my knowledge, there are no exceptions). You register on the university's website, fill out your personal information, upload exam scores and relevant certifications, select your desired majors, and submit. 
+
+However, there’s no centralized system for university applications, so you need to repeat this process for each university individually. To complicate things, while many of these systems use the popular [IRK framework](https://irk.uj.edu.pl/en-gb/), the design and user experience can vary widely between universities. Despite these inconsistencies, the process itself is simple enough, and you can do everything from the comfort of your sofa.
+
+Once you’ve applied, the next step is to wait for the acceptance lists to be published. Here’s where it gets tricky: each university has its own schedule for releasing these lists, and the dates can vary by as much as a month (or more, though that wasn’t the case for me).
+
+Why is this a problem? Once the acceptance list is out, you typically have about a week—or sometimes less—to visit the university **in person** and submit the required documents. The specifics vary by institution, but all of them demand your official exam results for verification against the information you entered online.
+
+For me, the process went something like this (though I don’t remember the exact dates): I received my acceptance letter from PUT on a Friday during the first week of July. By Monday, I had to show up at the university with my documents. At that point, I still hadn’t heard back from the University of Warsaw or Jagiellonian University, so I had no way of knowing if I’d been accepted there.
+
+
+
 write about Germany (A2, VPD) and Poland (travels, disperse dates)
 
 ### Tiredness
