@@ -1,27 +1,29 @@
 +++
 title = "Revival and updates #0"
-date = "2024-10-07T16:37:08+02:00"
+date = "2025-03-14T08:37:08+02:00"
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
 cover = "images/cover.jpeg"
 tags = ["creativity", "activity", "service"]
 keywords = ["creativity", "activity", "service"]
-description = ""
+description = "This post is unlike anything I’ve written before. It completes an old draft that should have been published long ago but, more importantly, marks a fresh direction for my writing. Hope you enjoy it!"
 showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
-draft = true
+draft = false
 +++
 
 # A Few Words of Explanation
-If you've been following my posts, you might have noticed a pattern of increasingly long breaks, especially since the second half of 2023. But a *7-month gap*? That’s by far the longest pause yet (my last post, dated [here](/portfolio/posts/cas-final-reflection/), was that long ago).
+~~If you've been following my posts, you might have noticed a pattern of increasingly long breaks, especially since the second half of 2023. But a *7-month gap*? That’s by far the longest pause yet (my last post, dated [here](/portfolio/posts/cas-final-reflection/), was that long ago).~~
 
-That doesn't mean life stood still. Quite the opposite, in fact—I’ve had a lot on my plate. At times, it felt like I was barely keeping up, struggling to balance everything. But those challenges have brought me to where I am today, and this will inevitably influence the direction of this blog.
+Originally, this post was meant to mark my blog’s revival in the fall of 2024. At the time, I had written an opening about my increasingly long breaks—especially the *seven-month gap* (see above) since [my last post](/portfolio/posts/cas-final-reflection/). But as you can see, seven months quickly turned into nearly a year (just two days shy).  
 
-So, I see this post not just as a recap of the events that have unfolded or a reflection on those experiences, but also as an introduction to the new course and structure I have in mind for this space.
+That doesn’t mean life stood still. Quite the opposite—*a lot has happened!* However, I’ll resist the temptation to recap an entire year and instead stick to the original intent of this post: `reflecting` on my summer between high school and university and `outlining` a new direction for this blog.  
 
-Without further ado, let’s dive into the reflective part of this update.
+Of course, I’ll leave the explanation of the new direction to the final thoughts, at the very end. But for now, consider what follows a, by no means, exhaustive snapshot from the past.  
+
+Let’s dive in.  
 
 # Longest summer 
 For many, finishing off final exams marks the end of their high school journey - they've done their best and now is the time to gather the fruits of their hard work in the form of the acceptance to their program and university of choice (hopefully). These people need to just wrap up a few formalities and they are good to start their summer.
@@ -52,7 +54,7 @@ Luckily, there was another option: [Information Engineering](https://chn.tum.de/
 
 As a result, one of the application requirements was a German A2 language certificate. That presented a big challenge for me, as I hadn’t studied German since my freshman year of high school. Worse yet, I had just one month between my final exams and the language test date. So, while I applied for the Management and Data Science program as a fallback, I decided to go all in and try for the A2 certificate.
 
-The timeline was tight, but thanks to my prior experience with German, rigorous study, and the help of my high school’s German teacher (who let me join the sophomore introductory classes), I managed to obtain the certificate. It was a wild ride, but I pulled it off.
+The timeline was tight, but thanks to my prior experience with German, rigorous study, and the help of my high school’s German teacher (who let me join the sophomore introductory classes!), I managed to obtain the certificate. It was a wild ride, but I pulled it off.
 
 Now, you’d think everything was sorted, right? Well, there’s another hurdle when applying to German universities: getting your foreign high school diploma recognized.
 
@@ -89,16 +91,37 @@ Why is this a problem? Once the acceptance list is out, you typically have about
 
 For me, the process went something like this (though I don’t remember the exact dates): I received my acceptance letter from PUT on a Friday during the first week of July. By Monday, I had to show up at the university with my documents. At that point, I still hadn’t heard back from the University of Warsaw or Jagiellonian University, so I had no way of knowing if I’d been accepted there.
 
+Fortunately, after submitting my documents to PUT, I didn’t have to wait long for a positive response from Jagiellonian University. However, I was still waiting on a decision from the University of Warsaw.  
 
+In the meantime, I managed to visit Kraków with my girlfriend (a nice addition to the story, wouldn’t you say?) on the very last day of the deadline. And, as fate would have it, it was only while waiting for our return train that I finally received the acceptance message from the University of Warsaw.  
 
-write about Germany (A2, VPD) and Poland (travels, disperse dates)
+Seriously, why can’t all Polish universities agree on a unified results release date—or at least extend the document submission deadlines? Better yet, why not create a centralized application system, like the Netherlands' [Studielink](https://www.studielink.nl), where you can apply to all universities with *a single account*? Damn it.  
 
-### Tiredness
-4 rough years
-no time to rest
-grinding
+Anyway, getting into the University of Warsaw meant yet another trip—this time to Poland’s capital. Luckily, I wasn’t alone; I traveled with my high school friend Piotr, who had applied to [SGH](https://www.sgh.waw.pl/en).  
 
-### Low priority
-Blog lost its priority due to not being a requirement (no external force to motivate me to write)
+That was the last university I had to finalize.  
 
-### Change the numbering of the posts, change tags, change the frequency of the posts
+Ironically, though, after all that effort, I ended up staying in Poznań anyway.  
+
+The main reason? Financial constraints. I simply didn’t have enough savings to start fresh, even in dormitories. The exhaustion from my final exams also played a role, along with lingering doubts about whether studying in Warsaw or Kraków was truly worth the extra effort.
+
+However, enough whining—let’s finally wrap this up, *a whole year later!*
+
+# Final Thoughts  
+So, here I am in Poznań—just a few steps away from my high school—studying Artificial Intelligence. I do have some regrets about not pursuing the TUM opportunity further, but nothing is set in stone. For now, I’m okay with where I am, though doubts occasionally creep in. That said, I don’t feel like diving into them now—or anytime soon, really.  
+
+On a brighter note, I’m very satisfied with the student organization I joined, [GHOST](https://ghost.put.poznan.pl), and the project I’m involved in, [GHOSTxIRIM](https://github.com/GHOST-Science-Club/tree-classification-irim). I’m also enjoying a biomedical engineering course I signed up for, which focuses on signal processing.  
+
+At this point, we can smoothly transition to my vision for this blog moving forward.  
+
+My plan is to shift toward shorter-form posts—not covering entire projects in one go but rather focusing on specific aspects, like adding a new feature or, better yet, tackling a problem I encountered while implementing it.  
+
+Most of my posts will likely revolve around the two topics I vaguely mentioned above, but now is neither the time nor place to elaborate on them.  
+
+I aim to set aside Friday mornings for writing and stick to that schedule. I actually meant to start last week, but International Women’s Day (which fell on Sunday) got in the way.  
+
+That said, the next two weeks won’t bring new posts just yet. Instead, I’ll be updating the blog—bringing things up to speed. My "[About Me](/portfolio/about/)" page still reflects my high school self, so it needs a refresh. The same goes for the "[My Projects](/portfolio/projects/)" section and a few others.  
+
+So yeah, that’s about it. I know this post took *forever*, but it evolved over quite a long period. Now, I’m itching to get back to writing—I’ve really missed it. It’s fulfilling, and I *hope* I can stick to my promise this time.  
+
+Anyway, cheers, everyone and happy Pi Day!
