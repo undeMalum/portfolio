@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on </title>
+    <link>https://undemalum.github.io/portfolio/tags/coding/</link>
+    <description>Recent content in coding on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Jan 2024 17:18:39 +0100</lastBuildDate><atom:link href="https://undemalum.github.io/portfolio/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creativity. Reflection 17 - Resource Center #3</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-3/</link>
+      <pubDate>Mon, 22 Jan 2024 17:18:39 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-3/</guid>
+      <description>EE, my struggle The word &amp;lsquo;struggle&amp;rsquo; doesn&amp;rsquo;t quite fit, but it is eye-catching, isn&amp;rsquo;t it? I mean, it embodies the truth to a limited degree, but it&amp;rsquo;s a bit of an exaggeration. Why? Because I&amp;rsquo;m referring to my process of writing the Extended Essay in Computer Science, which was challenging and, at the same time, really got me going. I chose the right subject and an up-to-date area of research, namely Artificial Intelligence, broadly speaking, of course.</description>
+    </item>
+    
+    <item>
+      <title>Resource Center Publishing Changes</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-publishing-changes/</link>
+      <pubDate>Mon, 28 Aug 2023 14:27:17 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-publishing-changes/</guid>
+      <description>Explanation The reason I&amp;rsquo;m writing this is explained here. Now I&amp;rsquo;d like to move on to the step-by-step guide to publishing changes.
+Publishing our changes We want to push our changes so we need to learn more git commands. The first one is:
+git add [files] With the “git add” command we can add changes we made for git to track. We can either provide relative paths to the files from which we want to add changes to git (relative to the main directory, in our case “IB-CS-GeS”) or just type:</description>
+    </item>
+    
+    <item>
+      <title>Resource Center Environment Preparation</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-environment-preparation/</link>
+      <pubDate>Mon, 28 Aug 2023 11:34:14 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-environment-preparation/</guid>
+      <description>Explanation I wrote an extremely detailed article about contributing to the Resource Center for IBlieve. The assumption was the reader would have no prior knowledge about any of the tools I presented. Therefore, I explained each and every step you need to go thorough - from installation, setting up the environment, to the actual contribution and all things that follow. I turned out almost to be almost 6000 words and 60 pages!</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 12 - IT Internship</title>
+      <link>https://undemalum.github.io/portfolio/posts/it-internship/</link>
+      <pubDate>Thu, 03 Aug 2023 16:50:29 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/it-internship/</guid>
+      <description>A word or two of intro As you might suspect, neither the title nor the cover are sufficient to fully describe the whole situation. Moreover, not only are they not enough, but more importantly, they are misleading because technology is a vast ocean that is both dangerous and fascinating. Therefore, one cannot encapsulate its essence in a mere picture or a few words. But putting the geeky talking aside, some explanation is required to give a big picture.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 10 - Resource Center #2</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-2/</link>
+      <pubDate>Sun, 18 Jun 2023 18:12:03 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-2/</guid>
+      <description>Overview The last update concerning the Resource Center dates back to the beginning of 2023 when I introduced the project, explained what I added, and proposed some future developments. If you have no clue of what I&amp;rsquo;m talking about or you need to refresh your memory, please feel free to open the previous post. However, if you do not have time or patience to do so, no worries, what I&amp;rsquo;m about to discuss is rather straightforward and context-independent, at least to some degree.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 8 - CSV SQLite Converter</title>
+      <link>https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/</link>
+      <pubDate>Tue, 21 Mar 2023 07:11:18 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/</guid>
+      <description>Open source culture Obsession can often get things done.
+John Carmack1 Here is a brilliant video that explains the philosophy of open source culture:
+It highlights two most important aspects of open source:
+It is available for everyone Together, we can make it better The idea of creating a useful code with others appeals to many programmers and pushes them toward open-sourcing their own code to be improved with external help.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 5 - Com. Sci. Resource Center</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center/</link>
+      <pubDate>Fri, 13 Jan 2023 09:18:52 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center/</guid>
+      <description>What is this project about? The project is called Computer Science Resource Center (we&amp;rsquo;re working on something more subtle). As you may infer from the name, it&amp;rsquo;s dedicated to computer science, specifically to IBDP CS course. You can find there a decent overview of the course, including things like: grade boundaries, resources, the description of each assessment component, and the latest news.
+Initially, the website was created by Mr. Bartłomiej Przybylski to enhance communication between him and students.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 2 -  Refactoring CAS Manager</title>
+      <link>https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/</link>
+      <pubDate>Sat, 15 Oct 2022 08:03:08 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/</guid>
+      <description>DISCLAIMER The version of the program I talk about in this blog post concern GitHub history up to this commit. Later, I discovered that I couldn&amp;rsquo;t improve anything with the code that was there. Therefore, I dicided to abandon it and write the program from scratch. Considering the effort I have put into this, I have made it my Computer Science Internal Assessment. As a result, it is no longer part of my CAS.</description>
+    </item>
+    
+    <item>
+      <title>Programming and Creativity</title>
+      <link>https://undemalum.github.io/portfolio/creativity/</link>
+      <pubDate>Thu, 08 Sep 2022 15:10:27 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/creativity/</guid>
+      <description>Welcome to my programming and creativity section! Here, you can find out more about my creative pursuits. I describe the history of each of my activities—specifically, programming, juggling, and YouTue—and direct you to places where you can explore even more!
+By the way, the dinosaur on the cover is a digital painting by a close friend of mine. Enjoy! ;)
+Coding History &amp;amp; Philosophy My passion for programming began in 6th grade when I disassembled an old laptop, which sparked my initial interest in hardware.</description>
+    </item>
+    
+  </channel>
+</rss>

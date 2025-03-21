@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Creativity. Reflection 2 -  Refactoring CAS Manager :: </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Although I &#39;finished&#39; coding the CAS portfolio manager and made it work, the code itself was crap. So I&#39;ve decided to improve it and here I explain the process." />
+<meta name="keywords" content="creativity, coding" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://undemalum.github.io/portfolio/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://undemalum.github.io/portfolio/favicon.png">
+<link rel="apple-touch-icon" href="https://undemalum.github.io/portfolio/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Creativity. Reflection 2 -  Refactoring CAS Manager">
+<meta property="og:description" content="Although I &#39;finished&#39; coding the CAS portfolio manager and made it work, the code itself was crap. So I&#39;ve decided to improve it and here I explain the process." />
+<meta property="og:url" content="https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/" />
+<meta property="og:site_name" content="" />
+
+  
+  
+    
+  
+  <meta property="og:image" content="https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/images/difference_branches.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-10-15 08:03:08 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/.css">
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://undemalum.github.io/portfolio/">
+  <div class="logo">
+    Home
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/portfolio/about">About me</a></li>
+        
+      
+        
+          <li><a href="/portfolio/">Posts</a></li>
+        
+      
+        
+          <li><a href="/portfolio/projects">My projects</a></li>
+        
+      
+        
+          <li><a href="/portfolio/ib-resources">IB resources</a></li>
+        
+      
+        
+          <li><a href="/portfolio/creativity">Programmig and Creativity</a></li>
+        
+      
+        
+          <li><a href="/portfolio/activity">Activity</a></li>
+        
+      
+        
+          <li><a href="/portfolio/service">Service</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/portfolio/about" >About me</a></li>
+        
+      
+        
+          <li><a href="/portfolio/" >Posts</a></li>
+        
+      
+        
+          <li><a href="/portfolio/projects" >My projects</a></li>
+        
+      
+        
+          <li><a href="/portfolio/ib-resources" >IB resources</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">My pursuits&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/portfolio/creativity" >Programmig and Creativity</a></li>
+                  
+                
+                  
+                    <li><a href="/portfolio/activity" >Activity</a></li>
+                  
+                
+                  
+                    <li><a href="/portfolio/service" >Service</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/">Creativity. Reflection 2 -  Refactoring CAS Manager</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2022-10-15&nbsp;[Updated:  2023-04-13]</time><span class="post-author">Mateusz Konat</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://undemalum.github.io/portfolio/tags/creativity/">creativity</a>&nbsp;
+      
+      #<a href="https://undemalum.github.io/portfolio/tags/coding/">coding</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="/portfolio/posts/cas-manager-refactoring/images/difference_branches.png"
+    class="post-cover"
+    alt="Creativity. Reflection 2 -  Refactoring CAS Manager"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#disclaimer">DISCLAIMER</a></li>
+    <li><a href="#decisions-made-so-far">Decisions made so far</a></li>
+    <li><a href="#plans-for-the-future">Plans for the future</a></li>
+    <li><a href="#the-complaint-of-a-coder">The complaint of a coder</a></li>
+    <li><a href="#learning-outcomes">Learning outcomes:</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="disclaimer">DISCLAIMER<a href="#disclaimer" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>The version of the program I talk about in this blog post concern GitHub history up to <a href="https://github.com/undeMalum/CAS-manager/commit/baea7fbac10d2327b570341834beeb92c5fba559">this commit</a>. Later, I discovered that I couldn&rsquo;t improve anything with the code that was there. Therefore, I dicided to abandon it and write the program from scratch. Considering the effort I have put into this, I have made it my Computer Science Internal Assessment. As a result, it is no longer part of my CAS. I have started <a href="https://github.com/undeMalum/csv-sqlite-converter">other projects</a> that replace this one.</p>
+<h1 id="decisions-made-so-far">Decisions made so far<a href="#decisions-made-so-far" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Before going further</strong><br>
+let me introduce some concepts for a better understanding. In computer science, there&rsquo;s a notion of <code>cognitive complexity</code>. It basically refers to <strong>the complexity of a code in terms of its readability</strong>. In other words, it&rsquo;s a measure of how threatening your code is for the sanity of another party, maintaining this code.</p>
+<p>But what does maintenance refer to? Well, low cognitive complexity yields improvements in areas such as debugging, optimization, future development, team work efficiency and many others, equally important. For me, however, low cognitive complexity proves crucial because of its two major aspects. <strong>First, it makes the process of extending the app easier and, second, it will help me to go global as I intended to.</strong> (see <a href="#plans-for-the-future">&ldquo;Plans for the future section&rdquo;</a>).</p>
+<hr>
+<div class="neighbouring-figures">
+    
+    
+        <div class="two-figures">
+<figure><img src="./images/first_pair/first_separation_deletion_main.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Removing code from the initial (huge) file.</p>
+        </figcaption>
+</figure>
+</div>
+    
+        <div class="two-figures"><figure><img src="./images/first_pair/first_separations.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Removing some more code.</p>
+        </figcaption>
+</figure>
+
+</div>
+    
+</div>
+<hr>
+<p><strong>Progress so far</strong><br></p>
+
+
+
+<details class="collapsable-code" >
+    <summary title="Click to interact"><span class="collapsable-code__title">Design patterns and such&hellip;</span></summary>
+    <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">this</span>
+</span></span><span class="line"><span class="cl"><span class="n">The</span> <span class="n">Zen</span> <span class="n">of</span> <span class="n">Python</span><span class="p">,</span> <span class="n">by</span> <span class="n">Tim</span> <span class="n">Peters</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Beautiful</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">ugly</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Explicit</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">implicit</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Simple</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="nb">complex</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Complex</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">complicated</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Flat</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">nested</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Sparse</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">dense</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Readability</span> <span class="n">counts</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Special</span> <span class="n">cases</span> <span class="n">aren</span><span class="s1">&#39;t special enough to break the rules.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Although</span> <span class="n">practicality</span> <span class="n">beats</span> <span class="n">purity</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Errors</span> <span class="n">should</span> <span class="n">never</span> <span class="k">pass</span> <span class="n">silently</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Unless</span> <span class="n">explicitly</span> <span class="n">silenced</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">In</span> <span class="n">the</span> <span class="n">face</span> <span class="n">of</span> <span class="n">ambiguity</span><span class="p">,</span> <span class="n">refuse</span> <span class="n">the</span> <span class="n">temptation</span> <span class="n">to</span> <span class="n">guess</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">There</span> <span class="n">should</span> <span class="n">be</span> <span class="n">one</span><span class="o">--</span> <span class="ow">and</span> <span class="n">preferably</span> <span class="n">only</span> <span class="n">one</span> <span class="o">--</span><span class="n">obvious</span> <span class="n">way</span> <span class="n">to</span> <span class="n">do</span> <span class="n">it</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Although</span> <span class="n">that</span> <span class="n">way</span> <span class="n">may</span> <span class="ow">not</span> <span class="n">be</span> <span class="n">obvious</span> <span class="n">at</span> <span class="n">first</span> <span class="n">unless</span> <span class="n">you</span><span class="s1">&#39;re Dutch.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Now</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">never</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Although</span> <span class="n">never</span> <span class="ow">is</span> <span class="n">often</span> <span class="n">better</span> <span class="n">than</span> <span class="o">*</span><span class="n">right</span><span class="o">*</span> <span class="n">now</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">If</span> <span class="n">the</span> <span class="n">implementation</span> <span class="ow">is</span> <span class="n">hard</span> <span class="n">to</span> <span class="n">explain</span><span class="p">,</span> <span class="n">it</span><span class="s1">&#39;s a bad idea.</span>
+</span></span><span class="line"><span class="cl"><span class="n">If</span> <span class="n">the</span> <span class="n">implementation</span> <span class="ow">is</span> <span class="n">easy</span> <span class="n">to</span> <span class="n">explain</span><span class="p">,</span> <span class="n">it</span> <span class="n">may</span> <span class="n">be</span> <span class="n">a</span> <span class="n">good</span> <span class="n">idea</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="n">Namespaces</span> <span class="n">are</span> <span class="n">one</span> <span class="n">honking</span> <span class="n">great</span> <span class="n">idea</span> <span class="o">--</span> <span class="n">let</span><span class="s1">&#39;s do more of those!</span>
+</span></span><span class="line"><span class="cl">
+</span></span></code></pre></div></details>
+
+<p>Having described the background, I shall discuss the progress made so far.</p>
+<p>First of all, I started refactorization by splitting up my program into different files to at least reduce the size of the original file. However, this quickly turned out to be almost impossible. I succeeded only with moving some functions. <strong>The good thing though was I eventually realized why this was impossible.</strong> Namely, my initial approach required very high dependency between parts of my code, so they couldn&rsquo;t be easily separated.</p>
+<p>To tackle the issue I began removing the responsibilities from functions and making them more generic. As I was gradually applying the above principles to my code, <strong>the benefits started showing up</strong>. As of this moment, it&rsquo;s become easy to put, the now-distinct, pieces of the program into their own files. I didn&rsquo;t go for that after all (i.e. creating separate files) because I had found out that the then methods were too simple, too &ldquo;<em>newbie</em>&rdquo; - even though now they were more generic.</p>
+<p>My focus has switched therefore to the way I insert students and classes into the database. What I gave a go in this context were <code>classes</code>. Class is a concept derived from so-called object-oriented programming. <strong>It is a template for creating an object.</strong> Moreover, a class (and objects it creates) has attributes (that store data, e.g. student&rsquo;s first_name, surname, URL and class_name in my program) and methods (that provide behaviours, like &ldquo;insert_student&rdquo;). The advantage of a class is its preciseness. For instance, NewStudent class deals with everything that is connected with managing a student. <strong>Isn&rsquo;t it as plain as day?</strong></p>
+<p>To summarize this part, I am putting my effort into removing the responsibilities from functions and into making them more generic as well as into replacing current methods/approaches with better ones.</p>
+<hr>
+<div class="neighbouring-figures">
+    
+    
+        <div class="two-figures">
+<figure><img src="./images/second_pair/moving_function_not_finished.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Facing problems with dependency.</p>
+        </figcaption>
+</figure>
+</div>
+    
+        <div class="two-figures"><figure><img src="./images/second_pair/managing_db_main.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Attempting to deal with this issue.</p>
+        </figcaption>
+</figure>
+
+</div>
+    
+</div>
+<hr>
+<h1 id="plans-for-the-future">Plans for the future<a href="#plans-for-the-future" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Apart from improving the way <em>how</em> I develop the program, I also have plans <em>what</em> is going to develop. As mentioned in <a href="#decisions-made-so-far">the previous section</a>, <strong>I aim to make the process of extending the app easier and to make this app global.</strong></p>
+<p>In the first place, I want to shift focus toward extending the program. New features will include changing a <code>theme</code> and choosing a <code>sorting option</code>. The former is less important and addresses individual preferences of the user. This is because the default look of widgets is unarguably boring. I&rsquo;ve learned, however, that I can incorporate ready-to-use themes into my software. Furthermore, these themes are usually available in two color versions - white or black. I can take advantage of that and <strong>enable the user to choose in accordance with his/her preferences.</strong> The latter is crucial as it not only provides greater convenience, but also changes significantly the overall appearance of the app. I plan to <strong>give the user opportunity to select the order in which classes and students are displayed.</strong> However, it affects the deep design of my program so it has to be cleverly planned.</p>
+<p>Another aspect is serving the global audience of IBDP. After talking to my CAS coordinator about the program, I thought about sharing my work with a <strong>broader audience</strong>. If one CAS coordinator has a certain problem, so does another, right? Based upon this reasoning, I made attempts to give the software to others. Before sharing however, I wanted to invite other people to develop this program. To do so, <strong>I needed improvements described previously.</strong> I&rsquo;m working hard to eventually post my program here: <a href="https://www.reddit.com/r/IBO/">the unofficial subreddit for all things concerning the International Baccalaureate</a>.</p>
+<p>That&rsquo;s all I&rsquo;m planning now.</p>
+<hr>
+<div class="neighbouring-figures">
+    
+    
+        <div class="two-figures">
+<figure><img src="./images/third_pair/alter_db_abc.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Creating ABC for function altering db.</p>
+        </figcaption>
+</figure>
+</div>
+    
+        <div class="two-figures"><figure><img src="./images/third_pair/implementation_of_abc.png"
+         alt="Hello Friend"/><figcaption>
+            <p>Implementing ABC to manage classes.</p>
+        </figcaption>
+</figure>
+
+</div>
+    
+</div>
+<hr>
+<h1 id="the-complaint-of-a-coder">The complaint of a coder<a href="#the-complaint-of-a-coder" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>This is the moment to share my thoughts about the process.</p>
+<p>As times goes by, <strong>I do see improvements being made</strong>. Applying the above-mentioned techniques comes with a <code>great benefit</code> as the program gets less complicated. Admittedly, these are <code>small things</code>, however, it&rsquo;s undoable to have all things done in two evenings. Nonetheless, no matter how wise a man is, sometimes his own ambition overcomes him and the process is damaged by such mishaps. This has happened to me several time.</p>
+<p>A case in point could be the missing letter &ldquo;i&rdquo; in the initializer of a class (initializer is a method that lets you set some initial values for a class). My IDE (place for writing software) gave me the following hint: <code>__int__</code>. However, an initializer is indicated with <code>__init__</code>. You don&rsquo;t see a difference? <strong>Pay close attention to the spelling and you&rsquo;ll see a &ldquo;minor&rdquo; mistake.</strong> This flaw made me furius and caused the whole program to crush. After its discovery, I felt a mix of relief (everything suddenly worked) and madness (I believed it was a problem with the design!).</p>
+<p>All things considered, I should be less outcome-dependent for my own mental health, I suppose. All in all, I have chosen a path and prepared a plan, therefore, <strong>I am confident that I&rsquo;ll achieve my goals</strong>.</p>
+<h1 id="learning-outcomes">Learning outcomes:<a href="#learning-outcomes" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>LO 1 Strength and Growth</li>
+<li>LO 2 Challenge and Skills</li>
+<li>LO 3 Initiative and Planning</li>
+<li>LO 4 Commitment and Perseverance</li>
+<li>LO 5 Collaborative Skills</li>
+<li>LO 6 Global Engagement</li>
+<li>LO 7 Ethics of Choices and Actions</li>
+</ul>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="https://undemalum.github.io/portfolio/posts/meeting-charges/" class="button inline prev">
+        &lt; [<span class="button__text">Service/Activity. Reflection 3 - Meeting with my charges</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="https://undemalum.github.io/portfolio/posts/running-youtube-channel/" class="button inline next">
+         [<span class="button__text">Creativity. Reflection 1 - Running youtube channel</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/portfolio/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,87 +1,552 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Headquarters of undemalum</title>
-    <link>/</link>
-    <description>Recent content on Headquarters of undemalum</description>
+    <title></title>
+    <link>https://undemalum.github.io/portfolio/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Mar 2025 08:37:08 +0200</lastBuildDate><atom:link href="https://undemalum.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cas Project</title>
-      <link>/cas-project/</link>
-      <pubDate>Thu, 08 Sep 2022 15:11:16 +0200</pubDate>
+      <title>Revival and updates #0</title>
+      <link>https://undemalum.github.io/portfolio/posts/revival-and-updates/</link>
+      <pubDate>Fri, 14 Mar 2025 08:37:08 +0200</pubDate>
       
-      <guid>/cas-project/</guid>
-      <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
+      <guid>https://undemalum.github.io/portfolio/posts/revival-and-updates/</guid>
+      <description>A Few Words of Explanation If you&amp;rsquo;ve been following my posts, you might have noticed a pattern of increasingly long breaks, especially since the second half of 2023. But a 7-month gap? That’s by far the longest pause yet (my last post, dated here, was that long ago).
+Originally, this post was meant to mark my blog’s revival in the fall of 2024. At the time, I had written an opening about my increasingly long breaks—especially the seven-month gap (see above) since my last post.</description>
+    </item>
+    
+    <item>
+      <title>CAS - Final Reflection</title>
+      <link>https://undemalum.github.io/portfolio/posts/cas-final-reflection/</link>
+      <pubDate>Sat, 16 Mar 2024 17:40:01 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/cas-final-reflection/</guid>
+      <description>Prelude It&amp;rsquo;s fascinating to look back on the creation of this portfolio. I remember the days at the Bury Mis camp, waking up early to work on this site in peace. The struggle with understanding Hugo&amp;rsquo;s folder structure, now trivial, was so daunting back then. Even after the summer of 2022, I still hadn&amp;rsquo;t figured out all the inner workings, like how to place pictures side by side. I felt the weight of my promise to finish my CAS portfolio by the start of my junior year, and the pressure was intense.</description>
+    </item>
+    
+    <item>
+      <title>Creativity &amp; Service. Reflection 19, 18 - IBlieve #4</title>
+      <link>https://undemalum.github.io/portfolio/posts/iblieve-4/</link>
+      <pubDate>Thu, 14 Mar 2024 07:32:19 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/iblieve-4/</guid>
+      <description>Back to the past Recall from the previous blog entry on IBlieve that my article on IB&amp;rsquo;s Middle Years Programme was not yet published. Well, that has changed! You can now see the cover and first paragraph of this article in the cover of this post. If you&amp;rsquo;re interested, you can also read the full article on IBlieve.
+Now, more importantly, I&amp;rsquo;m back from my break, fully dedicated to finishing my IBDP work.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 17 - Approaching The Splits #6</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits-6/</link>
+      <pubDate>Sun, 10 Mar 2024 17:19:52 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits-6/</guid>
+      <description>Up to speed There&amp;rsquo;s a noticeable gap between this reflection and the previous one, mainly due to the mock exams that consumed much of my time in the past 2-3 weeks. This, coupled with other blog topics and life events, delayed this update.
+Before diving into my progress on the splits, I want to clarify a couple of things mentioned in previous posts:
+Firstly, the handstand series has been abandoned. I grew tired of explaining its safety and many concerns about potential injuries.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 18 - Valentine&#39;s Painting</title>
+      <link>https://undemalum.github.io/portfolio/posts/valentines-painting/</link>
+      <pubDate>Mon, 19 Feb 2024 10:40:18 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/valentines-painting/</guid>
+      <description>Heated debate The atmosphere during Valentine&amp;rsquo;s Day contrasts with the hustle and stress often associated with holidays like Christmas. While Christmas can be hectic with many people rushing around, Valentine&amp;rsquo;s tends to bring a sense of relief as couples focus on each other&amp;rsquo;s happiness rather than external pressures like politics or economics.
+Although this perspective isn&amp;rsquo;t based on extensive research and individual experiences may vary, it reflects a different attitude towards Valentine&amp;rsquo;s compared to other holidays.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 17 - Meeting Charges p.4</title>
+      <link>https://undemalum.github.io/portfolio/posts/meeting-charges-p4/</link>
+      <pubDate>Thu, 01 Feb 2024 13:24:59 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/meeting-charges-p4/</guid>
+      <description>Time capsule In the description of this blog post, I emphasized the significance of my interactions with my charges. It might be surprising for those who glance at my portfolio and notice that the last reflection on this topic dates back to October of last year!
+While I don&amp;rsquo;t have a groundbreaking explanation, I simply directed my reflections towards other matters during that period, and nothing unusual occurred to prompt a new entry.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 17 - Resource Center #3</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-3/</link>
+      <pubDate>Mon, 22 Jan 2024 17:18:39 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-3/</guid>
+      <description>EE, my struggle The word &amp;lsquo;struggle&amp;rsquo; doesn&amp;rsquo;t quite fit, but it is eye-catching, isn&amp;rsquo;t it? I mean, it embodies the truth to a limited degree, but it&amp;rsquo;s a bit of an exaggeration. Why? Because I&amp;rsquo;m referring to my process of writing the Extended Essay in Computer Science, which was challenging and, at the same time, really got me going. I chose the right subject and an up-to-date area of research, namely Artificial Intelligence, broadly speaking, of course.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 16 - Approaching The Splits #5</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits-5/</link>
+      <pubDate>Fri, 12 Jan 2024 17:38:30 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits-5/</guid>
+      <description>In a rush I confess, the only reason I&amp;rsquo;m writing this particular reflection is to wrap up this month&amp;rsquo;s activity and dive into creativity and service. It&amp;rsquo;s not that I&amp;rsquo;ve had a change of heart about sports—definitely not! It&amp;rsquo;s just that there&amp;rsquo;s not much progress to share, almost nothing if I&amp;rsquo;m being honest. I simply want to get this over with.
+The urgency comes from some changes I&amp;rsquo;ve made to the Resource Center and a new charge at Bury Mis that I&amp;rsquo;m excited to talk about.</description>
+    </item>
+    
+    <item>
+      <title>Creativity &amp; Service. Reflection 16, 16 - IBlieve #3</title>
+      <link>https://undemalum.github.io/portfolio/posts/iblieve-3/</link>
+      <pubDate>Mon, 08 Jan 2024 10:48:34 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/iblieve-3/</guid>
+      <description>A memory refresher The last time I shared updates on my IBlieve journey was a year ago&amp;hellip; according to calendar because actually it was two months ago, in the first half of November, but I couldn&amp;rsquo;t resist a New Year joke. Anyway, such a large time gap can negatively affect our memory, so let&amp;rsquo;s quickly revisit what I discussed previously.
+The last blog post on my involvement in IBlieve featured a huge section on unpublished articles, all of which are now published.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 15 - Approaching The Splits #4</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits-4/</link>
+      <pubDate>Mon, 25 Dec 2023 11:59:47 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits-4/</guid>
+      <description>Warm up I&amp;rsquo;ve started replacing dump cover pictures of me doing the splits. The exact reasons are not important. But it&amp;rsquo;s not why you&amp;rsquo;re here so let&amp;rsquo;s go straight to the point.
+Just one thing&amp;hellip; Pictures in this section were taken during only one stretching section. You now the reason, but I just wanted to let you know. They are representative though, so they should suffice. Now, let&amp;rsquo;s see what&amp;rsquo;s up, at last.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 15 - Poznański Wolontariusz Roku</title>
+      <link>https://undemalum.github.io/portfolio/posts/poznanski-wolontariusz-roku/</link>
+      <pubDate>Fri, 08 Dec 2023 18:47:08 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/poznanski-wolontariusz-roku/</guid>
+      <description>Poznański Wolontariusz Roku Poznański Wolontariusz Roku (Poznań Volunteer of the Year) is an annual competition that recognizes and rewards individuals who dedicate a significant portion of their lives to volunteer work. The laureates are chosen by the competition jury and fall into six categories:
+Youth: for individuals below the age of 19 Individual: for individuals between the ages of 19 and 60 Senior: for individuals above the age of 60 Group: for groups conducting volunteer activities School Volunteering: for teams operating within school volunteer circles Employee Volunteering: for employee volunteering programs I was, of course, in the first group.</description>
+    </item>
+    
+    <item>
+      <title>Activity &amp; Creativity. Reflection 14, 15 - Handstand</title>
+      <link>https://undemalum.github.io/portfolio/posts/handstand/</link>
+      <pubDate>Thu, 30 Nov 2023 19:46:49 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/handstand/</guid>
+      <description>Reason In the description, I mentioned that I&amp;rsquo;ve been experimenting with handstands. It&amp;rsquo;s something I&amp;rsquo;ve always wanted to learn, and now I&amp;rsquo;m finally giving it a try. While some consider it risky, I disagree. The worst-case scenario is I might go into the bridge position or perform a reverse somersault. So, no need to worry—I&amp;rsquo;ll be just fine.
+On another note, I see this as a way to breathe new life into my YouTube channel, which had been inactive for about half a year.</description>
+    </item>
+    
+    <item>
+      <title>Creativity &amp; Service. Reflection 14, 14 - IBlieve #2</title>
+      <link>https://undemalum.github.io/portfolio/posts/iblieve-2/</link>
+      <pubDate>Sun, 12 Nov 2023 07:29:43 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/iblieve-2/</guid>
+      <description>Focus I believe it&amp;rsquo;s pointless to repeat over and over again what IBlieve is and what my role entails. I explained all essentials here. So let&amp;rsquo;s jump straight to the work I did.
+CAS 101 This article is a bit of an exception because it is not an article as such, but an interview. The story is, I was assigned the following topic: &amp;ldquo;Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for CAS&amp;rdquo;. However, I had no idea whatsoever how to approach it.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 13 - Approaching the splits #3</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits-3/</link>
+      <pubDate>Sat, 11 Nov 2023 20:48:03 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits-3/</guid>
+      <description>Intro real quick I have already discussed extensively problems with documenting my progress so I won&amp;rsquo;t be talking about it here. All I want to do here is sum up how much more (hopefully) my muscles have become flexible.
+Focus is the key one would argue.
+The socks look professional, don&amp;rsquo;t they?
+Muscles extension The title is misleading as my muscles are not longer, but can be stretched more. As always, it is not easy to measure how exactly I progressed.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 13 - Meeting Charges p.3</title>
+      <link>https://undemalum.github.io/portfolio/posts/meeting-charges-p3/</link>
+      <pubDate>Thu, 26 Oct 2023 12:52:03 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/meeting-charges-p3/</guid>
+      <description>A simple catch-up As I underlined in the description of this beautiful blog post, an ongoing commitment to an activity earns you respect and trust. In the life of mine, the most resonating and continuous pastime is meeting my lovely charges. Therefore, it is unfortunate that my bulging holiday schedule made those meetings impossible.
+Nevertheless, school year has been bringing me to Poznań every day of the workweek, which obviously facilities commuting to my charges and turns me into their frequent visitor - not all of them, much to my disappointment, but more on this later.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 12 - Wood Splitting</title>
+      <link>https://undemalum.github.io/portfolio/posts/wood-splitting/</link>
+      <pubDate>Sun, 15 Oct 2023 10:34:58 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/wood-splitting/</guid>
+      <description>The need The description may be misleading because I don&amp;rsquo;t mind when it&amp;rsquo;s freezing and, on the contrary, I actually enjoy it. However, I&amp;rsquo;m an exception so a certain level of temperature must be maintained using the fireplace which, in our case, is powered with wood. Unfortunately, the wood comes in big slices that can&amp;rsquo;t quite fit and some adjustments need to be made. This is the reason why I was employed in wood splitting - to make the wood smaller.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 11 - Painting Fence</title>
+      <link>https://undemalum.github.io/portfolio/posts/painting-fence/</link>
+      <pubDate>Thu, 14 Sep 2023 19:14:57 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/painting-fence/</guid>
+      <description>Ridiculousness Normally, I would report something about stretching, a new exercise, or football. However, painting my fence took me so long and exhausted so much that I barely had strength to do anything else. So I thought to myself &amp;ldquo;what&amp;rsquo;s stopping me from reflecting on this? NOTHING&amp;rdquo; (beside the fact that my brother was the one to whom the task was initially assigned, but he needed some proper motivation it turned out.</description>
+    </item>
+    
+    <item>
+      <title>Creativity &amp; Service. Reflection 13, 12 - IBlieve</title>
+      <link>https://undemalum.github.io/portfolio/posts/iblieve/</link>
+      <pubDate>Tue, 05 Sep 2023 07:34:57 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/iblieve/</guid>
+      <description>IBlieve In a blog posts I wrote a while ago, I mentioned I applied to IBlieve - a volunteer organization that helps students to learn. I said that I would create a breakdown of the curriculum of computer science course if I would get accepted. Well, I did get accepted, but I chose different topics, but what exactly? Let&amp;rsquo;s find out!
+Benefits for IB students in the US The first article was titled &amp;ldquo;Benfefits for IB students in the US.</description>
+    </item>
+    
+    <item>
+      <title>Resource Center Publishing Changes</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-publishing-changes/</link>
+      <pubDate>Mon, 28 Aug 2023 14:27:17 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-publishing-changes/</guid>
+      <description>Explanation The reason I&amp;rsquo;m writing this is explained here. Now I&amp;rsquo;d like to move on to the step-by-step guide to publishing changes.
+Publishing our changes We want to push our changes so we need to learn more git commands. The first one is:
+git add [files] With the “git add” command we can add changes we made for git to track. We can either provide relative paths to the files from which we want to add changes to git (relative to the main directory, in our case “IB-CS-GeS”) or just type:</description>
+    </item>
+    
+    <item>
+      <title>Resource Center Environment Preparation</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-environment-preparation/</link>
+      <pubDate>Mon, 28 Aug 2023 11:34:14 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-environment-preparation/</guid>
+      <description>Explanation I wrote an extremely detailed article about contributing to the Resource Center for IBlieve. The assumption was the reader would have no prior knowledge about any of the tools I presented. Therefore, I explained each and every step you need to go thorough - from installation, setting up the environment, to the actual contribution and all things that follow. I turned out almost to be almost 6000 words and 60 pages!</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 10 - July Activity</title>
+      <link>https://undemalum.github.io/portfolio/posts/july-activity/</link>
+      <pubDate>Sun, 13 Aug 2023 14:07:12 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/july-activity/</guid>
+      <description>Little darlin&amp;rsquo;, I feel that ice is slowly melting Little darlin&amp;rsquo;, it seems like years since it&amp;rsquo;s been clear
+The Beatles, &amp;ldquo;Here Comes The Sun&amp;rdquo; Hello world! Although I wouldn&amp;rsquo;t call myself a summer lover, I must admit that summer opens up the door for a considerable number of activities that are less available or less pleasant during the rest of the year. In addition, summer means vacation, which, supposedly, translates to a huge amount of free time (unless you&amp;rsquo;re an IB student.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 12 - IT Internship</title>
+      <link>https://undemalum.github.io/portfolio/posts/it-internship/</link>
+      <pubDate>Thu, 03 Aug 2023 16:50:29 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/it-internship/</guid>
+      <description>A word or two of intro As you might suspect, neither the title nor the cover are sufficient to fully describe the whole situation. Moreover, not only are they not enough, but more importantly, they are misleading because technology is a vast ocean that is both dangerous and fascinating. Therefore, one cannot encapsulate its essence in a mere picture or a few words. But putting the geeky talking aside, some explanation is required to give a big picture.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 11 - Bury Miś Presentation</title>
+      <link>https://undemalum.github.io/portfolio/posts/bury-mis-presentation/</link>
+      <pubDate>Sat, 15 Jul 2023 08:05:07 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/bury-mis-presentation/</guid>
+      <description>Disclaimer The presentation (actually, a series of presentations) I would like to talk about happend at the end end of 2022-2023 school year. Therefore, it begs a question why the report is being written so late? Well, I was simply busy and had no time - at the end of the day part-time job, plus internships consumes a lot of my time.
+However, I have finally found a free period in my schedule and I&amp;rsquo;m ready to catch up with the updates.</description>
+    </item>
+    
+    <item>
+      <title>Creativity &amp; Activity &amp; Service. Reflection 11, 9, 10 - Group Reflection</title>
+      <link>https://undemalum.github.io/portfolio/posts/group-reflection/</link>
+      <pubDate>Thu, 22 Jun 2023 15:29:36 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/group-reflection/</guid>
+      <description>The Story The story behind this post is simple. Today, we had our last CAS lesson this school year and our dear coordinator wanted us to create a group reflection. We were given (giant) pieces of paper on which learning outcomes were written for us to describe what we did over the year to meet these learning outcomes.
+Each of us (the handful that showed up) along with the coordinator wrote a short note, explaining our actions within every learning outcome.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 10 - Resource Center #2</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center-2/</link>
+      <pubDate>Sun, 18 Jun 2023 18:12:03 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center-2/</guid>
+      <description>Overview The last update concerning the Resource Center dates back to the beginning of 2023 when I introduced the project, explained what I added, and proposed some future developments. If you have no clue of what I&amp;rsquo;m talking about or you need to refresh your memory, please feel free to open the previous post. However, if you do not have time or patience to do so, no worries, what I&amp;rsquo;m about to discuss is rather straightforward and context-independent, at least to some degree.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 9 - Bury Miś Workshops</title>
+      <link>https://undemalum.github.io/portfolio/posts/bury-mis-workshops/</link>
+      <pubDate>Sat, 27 May 2023 07:12:18 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/bury-mis-workshops/</guid>
+      <description>Let mercy come and wash away
+Linkin Park Before Each time I type these two commands in the Terminal:
+&amp;gt;&amp;gt;&amp;gt; hugo new posts/{name_of_reflection}/index.md &amp;gt;&amp;gt;&amp;gt; mkdir content/posts/{name_of_reflection}/images I know I am going to spend next 1 or 2 hours polishing my newly-created blog post. I do not complain, no way! I happily do all I can to deliver the best possible reader experience. I prefer quality over quantity such that I can highlight what is the most important in my reflections.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 8 - Approaching the splits #2</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits-2/</link>
+      <pubDate>Mon, 08 May 2023 09:12:26 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits-2/</guid>
+      <description>Excuse On September 28th, 2022, I published my first reflection concerning my adventure with the splits, which is quite some time ago. I have postponed the release of another reflection for a couple of reasons.
+First, it&amp;rsquo;s annoying to take photos while stretching because you can&amp;rsquo;t just painlessly stand up (it hurts very badly, believe me) to grab your phone. Without any photos there&amp;rsquo;s no evidence of my progress and with no evidence it&amp;rsquo;s meaningless to even start writing a reflection.</description>
+    </item>
+    
+    <item>
+      <title>CAS Project - School Interior Design</title>
+      <link>https://undemalum.github.io/portfolio/posts/interior-design/</link>
+      <pubDate>Sun, 07 May 2023 15:11:16 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/interior-design/</guid>
+      <description>My imagination is more vivid than life.
+50 cent Project outline Category Description Project title School Interior Design Project leader Cecilia Ontañón Berganza Members Cecilia Ontañón Berganza, Jagoda Lipowicz, Mateusz Konat, Jan Babiarz, Amelia Kamińska Focus of the project The decoration of the school building for various occasions Supervisor Aleksandra Sobala-Woźniak Anticipated dates Throught the 2022-2023 school year IPARD Investigation September 2023 There was a widespread complain about the school building&amp;rsquo;s design.</description>
+    </item>
+    
+    <item>
+      <title>Service &amp; Creativity. Reflection 8 &amp; 9 - Sault Dough Workshops</title>
+      <link>https://undemalum.github.io/portfolio/posts/bury-mis-salt-dough/</link>
+      <pubDate>Sat, 06 May 2023 15:01:33 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/bury-mis-salt-dough/</guid>
+      <description>The crew and the plan Every good plan starts with a good idea and a reliable crew, doesn&amp;rsquo;t it? The salt dough workshops began exactly like this. It was an ordinary winter day (winter because of the month, not the weather) that a fellow volunteer came up with a thought of crafting something original for Świętnica at Osada, Kaszuby, which ends the holidays. Another individual suggested salt dough for this noble cause as it is one of these kids-love-playing-with magical substances that leaves a lot of space for imagination (and mess naturally, but who cares?</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 8 - CSV SQLite Converter</title>
+      <link>https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/</link>
+      <pubDate>Tue, 21 Mar 2023 07:11:18 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/</guid>
+      <description>Open source culture Obsession can often get things done.
+John Carmack1 Here is a brilliant video that explains the philosophy of open source culture:
+It highlights two most important aspects of open source:
+It is available for everyone Together, we can make it better The idea of creating a useful code with others appeals to many programmers and pushes them toward open-sourcing their own code to be improved with external help.</description>
+    </item>
+    
+    <item>
+      <title>Ativity &amp; Creativity. Reflection 7 &amp; 7 - Shorts</title>
+      <link>https://undemalum.github.io/portfolio/posts/youtube-shorts/</link>
+      <pubDate>Sun, 05 Mar 2023 18:16:48 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/youtube-shorts/</guid>
+      <description>Video reflection My channel was&amp;hellip; standing idle for quite a time. However, here I am once again to talk with pleasure to you! Today, I discussed YouTube Shorts section of my channel since I haven&amp;rsquo;t done it yet. Never. So it was the high time to do so. Have a seat, make yourself comfortable and watch!
+Short #3 The second latest video:
+Short #4 Tha latest video:
+Learning outcomes: LO 1 Strength and Growth LO 2 Challenge and Skills LO 3 Initiative and Planning LO 4 Commitment and Perseverance LO 5 Collaborative Skills LO 6 Global Engagement LO 7 Ethics of Choices and Actions </description>
+    </item>
+    
+    <item>
+      <title>Service. Relfection 7 - Drużyna Szpiku</title>
+      <link>https://undemalum.github.io/portfolio/posts/druzyna-szpiku/</link>
+      <pubDate>Sat, 25 Feb 2023 07:28:47 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/druzyna-szpiku/</guid>
+      <description>def change_the_world(persistence: bool, goodwill: bool, knowledge: bool): &amp;#34;&amp;#34;&amp;#34;To be rembered forever&amp;#34;&amp;#34;&amp;#34; if not persistence: raise FallDownError if not goodwill: raise CrueltyError if not knowledge: raise AwarenessError return make_change(persistence, goodwill, knowledge) Drużyna Szpiku The trigger for the inception of Drużyna Szpiku1 in 2008 was Anna Wierska who, struggling with blood cancer and the lack of donor by herself, aimed to help other afflicted people by raising awareness about the importance of blood donation.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 6 - Meeting Charges p.2</title>
+      <link>https://undemalum.github.io/portfolio/posts/meeting-charges-p2/</link>
+      <pubDate>Wed, 08 Feb 2023 12:18:51 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/meeting-charges-p2/</guid>
+      <description>A quick pill of essentials In the past few months, I have participated in a number of new service activities that consumed most of my time devoted to this blog/portfolio. In fact, the last reflection dedicated to my boys (Piotr, Maciej and Adam) dates back to November 2022! As you can see, it&amp;rsquo;s the high time I come back with a refreshed set of experiences and thoughts that have hit me.</description>
+    </item>
+    
+    <item>
+      <title>Ativity &amp; Creativity. Reflection 6 &amp; 6 - Around The World</title>
+      <link>https://undemalum.github.io/portfolio/posts/running-yt-channel-p2/</link>
+      <pubDate>Sat, 28 Jan 2023 07:52:23 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/running-yt-channel-p2/</guid>
+      <description>Video reflection Since it&amp;rsquo;s about my YouTube channel, I decided to make a video reflection. I talk about what&amp;rsquo;s new in term of the &amp;ldquo;Around The World And Further&amp;rdquo; series. I focus mainly on the technical aspect of editing and numbers those videos make, but I also pay much attention to the football progress. Here it is:
+Around The World #5 The second latest video:
+Around The World #6 Tha latest video:</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 5 - Com. Sci. Resource Center</title>
+      <link>https://undemalum.github.io/portfolio/posts/resource-center/</link>
+      <pubDate>Fri, 13 Jan 2023 09:18:52 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/resource-center/</guid>
+      <description>What is this project about? The project is called Computer Science Resource Center (we&amp;rsquo;re working on something more subtle). As you may infer from the name, it&amp;rsquo;s dedicated to computer science, specifically to IBDP CS course. You can find there a decent overview of the course, including things like: grade boundaries, resources, the description of each assessment component, and the latest news.
+Initially, the website was created by Mr. Bartłomiej Przybylski to enhance communication between him and students.</description>
+    </item>
+    
+    <item>
+      <title>Podcast Has Just Come Back!</title>
+      <link>https://undemalum.github.io/portfolio/posts/start-podcast-project/</link>
+      <pubDate>Tue, 03 Jan 2023 07:48:00 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/start-podcast-project/</guid>
+      <description>Intro Brief info Welcome in another episode!
+We haven&amp;rsquo;t talked for a while, but we&amp;rsquo;re back! Today&amp;rsquo;s podcast is a mock one. We feature another co-speaker, Filip, who will stay with us. The topics covered revolve around the World Cup 2022. We talked mostly about Argentina, Messi and Maradona. We also discussed the tense atmosphere around Polish National Team. I hope you&amp;rsquo;ll find something interesting!
+Topics covered New co-anchor About the podcast World Cup 2022 Argentina as a winner Messi and Maradona Cultural differences and Messi&amp;rsquo;s background Controversy around Polish National Team Michniewicz and bribery The role of journalism Football and money Success and time A possible Michniewicz&amp;rsquo;s successor To sum up&amp;hellip; Closing thoughts and goodbye Podcast episode Fast goodbye You&amp;rsquo;re up to date by now!</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 5 - Selling Kashubian Cheese</title>
+      <link>https://undemalum.github.io/portfolio/posts/selling-cheese/</link>
+      <pubDate>Tue, 27 Dec 2022 10:51:24 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/selling-cheese/</guid>
+      <description>A Short Story About Bury Miś And Cheese Seemingly, the Bury Miś Foundation is only a typical organization where enthusiastic volunteers attempt to make life of the disadvantaged more enjoyable. Indeed, it provides social interaction and support to people who are in a strong need of the company of others and struggle to develop bonds with society, which is worthy of admiration. However, what does differ the Bury Miś Foundation from other similar organizations is its complexity.</description>
+    </item>
+    
+    <item>
+      <title>Activity &amp; Creativity. Reflection 5|4 - School Art Festival</title>
+      <link>https://undemalum.github.io/portfolio/posts/school-festival/</link>
+      <pubDate>Wed, 14 Dec 2022 08:03:30 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/school-festival/</guid>
+      <description>School Art Festival School Art Festival was quite a journey. In the video below you can learn more about how it was done, why I participated, and what is my opinion. Enjoy!
+Christmas Cards As mentioned in the video, in between performances, we could make Christmas cards for Hospicjum Palium in Poznań. I believe it was a great initiative by the organizers. Besides, I really enjoyed making these cards. Here is a taste of how it looked like:</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 4 - X-MAS Cup 2022 🎅⚽</title>
+      <link>https://undemalum.github.io/portfolio/posts/football-competition/</link>
+      <pubDate>Thu, 01 Dec 2022 12:31:33 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/football-competition/</guid>
+      <description>What on earth is going on? Christmas&amp;hellip; WHAT?! X-MAS cup 2022 was a tournament for all young players from Lech Poznań Football Academies (LFPA) no matter where they were located1. The director of LFPA, Dominik Czapczyk, describes this series of events as follows:
+&amp;ldquo;Annual X-MAS Cups are both a big thank-you to LFPA players for their hard work and place to simply hang out.&amp;rdquo; 🎅 ⚽
+As you can see, the underlying aim was priceless; at the end of the day, what values the most is a child&amp;rsquo;s smile.</description>
+    </item>
+    
+    <item>
+      <title>Creativity/Activity. Reflection 3/4 - Around the world and further</title>
+      <link>https://undemalum.github.io/portfolio/posts/football-choreography/</link>
+      <pubDate>Sun, 27 Nov 2022 10:42:31 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/football-choreography/</guid>
+      <description>Video reflection Since this reflection was also about my Youtube channel, I decided to record me relfecting on what I did and how I felt about it.
+First video in series Video below is a game changer in terms of my channel. Although I have already released a longer and more complex video, it it this clip that has changed the course of my channel.
+Second video in series By creating the successor of the first video, I aimed to add some more humor and fancy editing magic.</description>
+    </item>
+    
+    <item>
+      <title>Service/Activity. Reflection 3 - Meeting with my charges</title>
+      <link>https://undemalum.github.io/portfolio/posts/meeting-charges/</link>
+      <pubDate>Fri, 11 Nov 2022 07:55:36 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/meeting-charges/</guid>
+      <description>A glimpse into my work I regularly meet with all my &amp;ldquo;Bears&amp;rdquo;1 from the camp - Piotr, Marcin, and Adam. Since there are three of them, I visit each tri-weekly (usually). This is also due to logistic reasons. They live all across Poznań. Commuting unavoidably consumes much of my time and, although I get to know new places (like a cozy café in Wilda district!) which is fine, sadly I can&amp;rsquo;t pay them visits more often.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 2 -  Refactoring CAS Manager</title>
+      <link>https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/</link>
+      <pubDate>Sat, 15 Oct 2022 08:03:08 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/cas-manager-refactoring/</guid>
+      <description>DISCLAIMER The version of the program I talk about in this blog post concern GitHub history up to this commit. Later, I discovered that I couldn&amp;rsquo;t improve anything with the code that was there. Therefore, I dicided to abandon it and write the program from scratch. Considering the effort I have put into this, I have made it my Computer Science Internal Assessment. As a result, it is no longer part of my CAS.</description>
+    </item>
+    
+    <item>
+      <title>Creativity. Reflection 1 - Running youtube channel</title>
+      <link>https://undemalum.github.io/portfolio/posts/running-youtube-channel/</link>
+      <pubDate>Tue, 04 Oct 2022 14:54:41 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/running-youtube-channel/</guid>
+      <description>Me as a youtuber &amp;amp; following thoughts Some channel statistics Overview statistics. There are more views than expected.
+Learning outcomes: LO 2 Challenge and Skills LO 3 Initiative and Planning LO 4 Commitment and Perseverance LO 6 Global Engagement </description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 2 - Steady head</title>
+      <link>https://undemalum.github.io/portfolio/posts/steady-head/</link>
+      <pubDate>Mon, 03 Oct 2022 13:33:14 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/steady-head/</guid>
+      <description>How did I start? I find it worth-mentioning, the beginnings. Why? Because it started when I was &amp;ldquo;pursuing my football dreams&amp;rdquo;. More specifically, when we (my team at that time) had the header exam. To pass, we had to hit the ball with your head 15 times (additional 16th hit was for a higher mark). As simple as that, right? No, if you have never juggled with your head! And this was my case.</description>
+    </item>
+    
+    <item>
+      <title>Activity. Reflection 1 - Approaching the splits</title>
+      <link>https://undemalum.github.io/portfolio/posts/approaching-the-splits/</link>
+      <pubDate>Wed, 28 Sep 2022 07:30:45 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/approaching-the-splits/</guid>
+      <description>A brief summary Having read the &amp;ldquo;About me&amp;rdquo; section, you should know that I did karate for almost 7 years of my earliest childhood. Contrary to popular belief, it wasn’t merely about fighting, but primarly about athleticism. We did a lot of gymnastics, stretching and so on at the time.
+This photos was taken around a half of the year ago when I already did somtehing.
+I am still very flexible because of that.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 2 - Organizing Pomocna Piątka run</title>
+      <link>https://undemalum.github.io/portfolio/posts/pomocna-piatka-organization/</link>
+      <pubDate>Tue, 27 Sep 2022 07:24:04 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/pomocna-piatka-organization/</guid>
+      <description>What a day it was! After spending a marvelous night at a gig dedicated to Pink Floyd history with my grandpa, brother and friend, I had to wake up at 5:00a.m.! This is because I decided to reach the destination by bike. Compared to a combustion-engine-powered car or bus, a bike is arguably the most eco-friendly means of transport (and considerably less outside-world-dependent) hence my choice. Nonetheless, there were nearly 20km to be travelled and no time to be wasted.</description>
+    </item>
+    
+    <item>
+      <title>Service. Reflection 1 - Preparing for PoMocna Piątka run</title>
+      <link>https://undemalum.github.io/portfolio/posts/pomocna-piatka-preparation/</link>
+      <pubDate>Mon, 26 Sep 2022 13:04:43 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/pomocna-piatka-preparation/</guid>
+      <description>To begin with, everything started at the end of the previous school year (2021-2022). Our, current CAS coordinator, then English teacher, asked us if we would like to participate in an event, called PoMocna Piątka run. Some of us where keen to sign up, including me.
+Next school year (2022-2023) we were reminded of that list and that event and asked to confirm our choice. I turned out to be the first student to do so, therefore, I was asked to coordinate the whole operation at our school (GeS).</description>
+    </item>
+    
+    <item>
+      <title>The channel has kicked off!</title>
+      <link>https://undemalum.github.io/portfolio/posts/start-youtube/</link>
+      <pubDate>Sat, 24 Sep 2022 16:31:09 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/posts/start-youtube/</guid>
+      <description>My youtube channel has just started! Well, maybe not so recently, but still - there it is and it waits to be discovered by you! There are already some videos (can be viewed also on other pages of this website). Nothing special, but the purpose is to share a bit of my life and the goal is being achieved (gradually)!
+What shall these pieces cover? Basically, it&amp;rsquo;s everything I do in my life and is worth reporting somehow.</description>
     </item>
     
     <item>
       <title>Service</title>
-      <link>/service/</link>
+      <link>https://undemalum.github.io/portfolio/service/</link>
       <pubDate>Thu, 08 Sep 2022 15:11:02 +0200</pubDate>
       
-      <guid>/service/</guid>
-      <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
+      <guid>https://undemalum.github.io/portfolio/service/</guid>
+      <description>Welcome to my servie section Here, I will present everything I do voluntarily, serving others. This includes: the foundation of Bury Miś, teaching and temporary events.
+Bury Miś Description: The foundation of Bury Miś is a charity, aiming to help disabled people - both physically and intelectually. The charity was found in 1983 in Cracow, but moved to Nowy Klincz 9 years later. My contribution here is serving as a counselor during camps organized for the disabled, meeting with my charges throughout the year and occasionally selling hand-made Kashubian chesse.</description>
     </item>
     
     <item>
       <title>Activity</title>
-      <link>/activity/</link>
+      <link>https://undemalum.github.io/portfolio/activity/</link>
       <pubDate>Thu, 08 Sep 2022 15:10:47 +0200</pubDate>
       
-      <guid>/activity/</guid>
-      <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
+      <guid>https://undemalum.github.io/portfolio/activity/</guid>
+      <description>Welcome to my activity section! Here, I will introduce everything I do as a physical exercise. This includes: football, workout and stretching.
+Football Description: My journey with football isn&amp;rsquo;t so straightforward. I started hating it, but ended up loving it. Now it&amp;rsquo;s a great way to wind down and make friendships! By the way, my position is a goalkeeper and favourite club is Manchester United.
+In 2019 our team went to Denmark.</description>
     </item>
     
     <item>
-      <title>Creativity</title>
-      <link>/creativity/</link>
+      <title>Programming and Creativity</title>
+      <link>https://undemalum.github.io/portfolio/creativity/</link>
       <pubDate>Thu, 08 Sep 2022 15:10:27 +0200</pubDate>
       
-      <guid>/creativity/</guid>
-      <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
+      <guid>https://undemalum.github.io/portfolio/creativity/</guid>
+      <description>Welcome to my programming and creativity section! Here, you can find out more about my creative pursuits. I describe the history of each of my activities—specifically, programming, juggling, and YouTue—and direct you to places where you can explore even more!
+By the way, the dinosaur on the cover is a digital painting by a close friend of mine. Enjoy! ;)
+Coding History &amp;amp; Philosophy My passion for programming began in 6th grade when I disassembled an old laptop, which sparked my initial interest in hardware.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/projects/</link>
+      <link>https://undemalum.github.io/portfolio/projects/</link>
       <pubDate>Tue, 06 Sep 2022 11:41:49 +0200</pubDate>
       
-      <guid>/projects/</guid>
-      <description>if ambition:  achieve_everything() </description>
-      <content>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; ambition:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    achieve_everything()
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+      <guid>https://undemalum.github.io/portfolio/projects/</guid>
+      <description>Technology advances when the solution to a particular problem finds a more general application.
+Don Eyles1 The idea behind The idea that software should be shared and freely accessible for everyone lies at the core of programming. Sharing software allows individuals to learn from the experience of others, to avoid common mistakes and consequently - to write software faster and better, advancing our understanding of the world. Therefore, I, allowing others to learn and learning by myself, want to share my Github with those interested in changing our lives!</description>
     </item>
     
     <item>
       <title>Ib Resources</title>
-      <link>/ib-resources/</link>
+      <link>https://undemalum.github.io/portfolio/ib-resources/</link>
       <pubDate>Tue, 06 Sep 2022 11:40:02 +0200</pubDate>
       
-      <guid>/ib-resources/</guid>
+      <guid>https://undemalum.github.io/portfolio/ib-resources/</guid>
       <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
+      <title>About me</title>
+      <link>https://undemalum.github.io/portfolio/about/</link>
       <pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate>
       
-      <guid>/about/</guid>
-      <description>This is a test.</description>
-      <content>&lt;p&gt;This is a test.&lt;/p&gt;
-</content>
+      <guid>https://undemalum.github.io/portfolio/about/</guid>
+      <description>Hello World! Welcome to my website! I&amp;rsquo;m Mateusz Konat, a passionate tech tinkerer eager to share my journey with you.
+Here, you&amp;rsquo;ll discover more about me and my activities, explore my blog, and dive into my projects.
+Also, you can easily navigate through the content of interest on my website using the tags at the top of each page (indicated by &amp;ldquo;#&amp;rdquo; sign like &amp;ldquo;#my projects&amp;rdquo; or &amp;ldquo;#creativity&amp;rdquo;).
+Now, let me tell you more about myself!</description>
     </item>
     
   </channel>

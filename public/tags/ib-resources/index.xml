@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IB resources on </title>
+    <link>https://undemalum.github.io/portfolio/tags/ib-resources/</link>
+    <description>Recent content in IB resources on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Sep 2022 11:38:30 +0200</lastBuildDate><atom:link href="https://undemalum.github.io/portfolio/tags/ib-resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://undemalum.github.io/portfolio/about/</link>
+      <pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/about/</guid>
+      <description>Hello World! Welcome to my website! I&amp;rsquo;m Mateusz Konat, a passionate tech tinkerer eager to share my journey with you.
+Here, you&amp;rsquo;ll discover more about me and my activities, explore my blog, and dive into my projects.
+Also, you can easily navigate through the content of interest on my website using the tags at the top of each page (indicated by &amp;ldquo;#&amp;rdquo; sign like &amp;ldquo;#my projects&amp;rdquo; or &amp;ldquo;#creativity&amp;rdquo;).
+Now, let me tell you more about myself!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Creativity. Reflection 8 - CSV SQLite Converter :: </title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="People usually associate programming with Big Tech and even bigger money. They don&#39;t realize how much great code is open to public to use and contribute to." />
+<meta name="keywords" content="creativity, coding" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/code.min.4f0ccc8439f99bf7f7970298556b94011aabc1fcae743b6842fc3361a2da9ea3.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/main.min.15870410d15d02abd22fb5ef00996f65a00d04b3a7435e9f83831c7c2298de88.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://undemalum.github.io/portfolio/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="https://undemalum.github.io/portfolio/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="https://undemalum.github.io/portfolio/favicon.png">
+<link rel="apple-touch-icon" href="https://undemalum.github.io/portfolio/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Creativity. Reflection 8 - CSV SQLite Converter">
+<meta property="og:description" content="People usually associate programming with Big Tech and even bigger money. They don&#39;t realize how much great code is open to public to use and contribute to." />
+<meta property="og:url" content="https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/" />
+<meta property="og:site_name" content="" />
+
+  
+  
+    
+  
+  <meta property="og:image" content="https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/images/cover.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2023-03-21 07:11:18 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/.css">
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="https://undemalum.github.io/portfolio/">
+  <div class="logo">
+    Home
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/portfolio/about">About me</a></li>
+        
+      
+        
+          <li><a href="/portfolio/">Posts</a></li>
+        
+      
+        
+          <li><a href="/portfolio/projects">My projects</a></li>
+        
+      
+        
+          <li><a href="/portfolio/ib-resources">IB resources</a></li>
+        
+      
+        
+          <li><a href="/portfolio/creativity">Programmig and Creativity</a></li>
+        
+      
+        
+          <li><a href="/portfolio/activity">Activity</a></li>
+        
+      
+        
+          <li><a href="/portfolio/service">Service</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/portfolio/about" >About me</a></li>
+        
+      
+        
+          <li><a href="/portfolio/" >Posts</a></li>
+        
+      
+        
+          <li><a href="/portfolio/projects" >My projects</a></li>
+        
+      
+        
+          <li><a href="/portfolio/ib-resources" >IB resources</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">My pursuits&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/portfolio/creativity" >Programmig and Creativity</a></li>
+                  
+                
+                  
+                    <li><a href="/portfolio/activity" >Activity</a></li>
+                  
+                
+                  
+                    <li><a href="/portfolio/service" >Service</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://undemalum.github.io/portfolio/posts/csv-sqlite-converter/">Creativity. Reflection 8 - CSV SQLite Converter</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2023-03-21&nbsp;[Updated:  2023-04-01]</time><span class="post-author">Mateusz Konat</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://undemalum.github.io/portfolio/tags/creativity/">creativity</a>&nbsp;
+      
+      #<a href="https://undemalum.github.io/portfolio/tags/coding/">coding</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="/portfolio/posts/csv-sqlite-converter/images/cover.png"
+    class="post-cover"
+    alt="Creativity. Reflection 8 - CSV SQLite Converter"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#open-source-culture">Open source culture</a></li>
+    <li><a href="#necessity-is-the-mother-of-invention">Necessity is the mother of invention</a></li>
+    <li><a href="#technical-overview">Technical overview</a>
+      <ul>
+        <li><a href="#csv-files">CSV files</a></li>
+        <li><a href="#advantage-of-csv-files">Advantage of CSV files</a></li>
+        <li><a href="#csv-and-other-formats">CSV and other formats</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-is-a-package">What is a package?</a></li>
+    <li><a href="#csv-sqlite-converter">CSV-SQLite Converter</a>
+      <ul>
+        <li><a href="#dry">DRY</a></li>
+        <li><a href="#current-state">Current state</a></li>
+        <li><a href="#future-developments">Future developments</a></li>
+      </ul>
+    </li>
+    <li><a href="#final-remarks">Final remarks</a></li>
+    <li><a href="#learning-outcomes">Learning outcomes:</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
+        <h1 id="open-source-culture">Open source culture<a href="#open-source-culture" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<blockquote>
+<p>Obsession can often get things done.</p>
+<ul>
+<li><em>John Carmack</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+</blockquote>
+<p>Here is a brilliant video that explains the philosophy of open source culture:</p>
+<hr>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/gobBQwtFeyk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+<p>It highlights two most important aspects of open source:</p>
+<ol>
+<li>It is available for everyone</li>
+<li>Together, we can make it better</li>
+</ol>
+<p>The idea of creating a useful code with others appeals to many programmers and pushes them toward open-sourcing their own code to be improved with external help.</p>
+<p>In this blog post, I&rsquo;ll show you my adventure with open source.</p>
+<h1 id="necessity-is-the-mother-of-invention">Necessity is the mother of invention<a href="#necessity-is-the-mother-of-invention" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Hoping to land my first job in the oncoming summer of 2023, I have started modifying my <a href="https://github.com/undeMalum">GitHub portfolio</a> to make it look more professional and attractive to possible employers. Apart from subtle changes such as referencing socials, I have suplemented my portfolio with <a href="https://github.com/undeMalum/Taxonomy-game">new projects</a> and so-called <a href="https://github.com/undeMalum/Taxonomy-game/blob/main/README.md">README files</a>. (<em>On the whole, a README file is a brief description of a project with installation and usage details</em>). However, while uploading <a href="https://github.com/undeMalum/Taxonomy-game">Taxonomy game</a>, I have encountered an annoying issue - <a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github#file-size-limits">GitHub file-size limit</a>.</p>
+<p>This is because the size of the game&rsquo;s database is three times above the threshold of GitHub file-size rejection. I needed to figure out a way to overcome this problem since the game is useless without its database. Fortunately, I could take advantage of <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV files</a> as temporary storage.</p>
+<h1 id="technical-overview">Technical overview<a href="#technical-overview" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>NOTE 1:</strong> I use Python programming language to develop both the converter and Taxonomy game. This information may prove helpful later.</p>
+<p><strong>NOTE 2:</strong> although the section below is not in-depth documentation, it does cover a fair degree of geeky knowledge. If you want to steer clear of uncharted waters (and be sissy), please proceed to the <a href="#csv-sqlite-converter">CSV-SQLite Converter</a> section. I have warned you - your move, captain.</p>
+<h2 id="csv-files">CSV files<a href="#csv-files" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>CSV (comma-separated values) files allow programmers to store data in a structured manner. The first row indicates columns&rsquo; names. The rest is actual data. It looks more or less like this:</p>
+<pre><code>     #employees.csv
+1    ID, name, surname, email
+2    123, John, Smith, john.smith@gmail.com
+3    111, Samanta, Black, samanta.black@gmail.com
+4    222, Jerry, Smith, jerry.smith@gmail.com
+</code></pre>
+<p>As you can see from the imaginary <code>employees.csv</code> file, the first row stores the names of columns (in this case: ID, name, surname, and email). Remaining rows (2-4) contain data about each employee. For instance, row 3 holds data for an employee named Samanta Black whose ID is 111 and email is <a href="mailto:samanta.black@gmail.com">samanta.black@gmail.com</a>.</p>
+<h2 id="advantage-of-csv-files">Advantage of CSV files<a href="#advantage-of-csv-files" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>You may wonder why I would choose the CSV format over a database? The answer is simple: CSV files are smaller.</p>
+<p>Without going into much detail, databases (<a href="https://en.wikipedia.org/wiki/SQLite">SQLite</a> in our case) are very efficient in storing, updating and manipulating large amounts of data. Therefore, they are a great choice for applications that require manipulating lots of data - for example our Taxonomy game. Sadly, because SQL-like databases are <a href="https://en.wikipedia.org/wiki/Binary_file">binary files</a>, they take up much disk space and are hard to compress - the nitty-gritty of this blog post.</p>
+<p>On the other hand, CSV files do not scale for applications with huge datasets where frequent manipulation of data is necessary due to the slow retrieval time. However, at the cost of poor performance comes small file size and a variety of compression opportunities.</p>
+<p>The relative compactness of the CSV format makes it ideal for our purpose.</p>
+<h2 id="csv-and-other-formats">CSV and other formats<a href="#csv-and-other-formats" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>The last &ldquo;hi-tech&rdquo; thing I&rsquo;d like to discuss is why I chose CSV over other similar formats such as <a href="https://en.wikipedia.org/wiki/JSON">JSON</a>.</p>
+<p>Both CSV and JSON have their own python libraries (<a href="https://docs.python.org/3/library/csv.html"><code>csv</code></a> and <a href="https://docs.python.org/3/library/json.html"><code>json</code></a> respectively) within <a href="https://docs.python.org/3/library/">Python Standard Library</a> and share the small size advantage (see <a href="#advantage-of-csv-files">Advantage of CSV files</a>). So what differs them?</p>
+<p>First of all, CSV is arguably more human readable than JSON. I mean, take a look at the data example from <a href="#csv-files">CSV files</a> rewritten in JSON:</p>
+<pre><code># employees.json
+{
+    &quot;emplyees&quot;:
+    [
+        {
+            &quot;ID&quot;: 123,
+            &quot;name&quot;: &quot;John&quot;,
+            &quot;surname&quot;: &quot;Smith&quot;,
+            &quot;email&quot;: &quot;john.smith@gmail.com&quot;
+        },
+        {
+            &quot;ID&quot;: 111,
+            &quot;name&quot;: &quot;Samanta&quot;,
+            &quot;surname&quot;: &quot;Black&quot;,
+            &quot;email&quot;: &quot;samanta.black@gmail.com&quot;
+        },
+        {
+            &quot;ID&quot;: 222,
+            &quot;name&quot;: &quot;Jerry&quot;,
+            &quot;surname&quot;: &quot;Smith&quot;,
+            &quot;email&quot;: &quot;jerry.smith@gmail.com&quot;
+        },
+    ]
+}
+</code></pre>
+<p>I just pray to the Lord I didn&rsquo;t make any mistakes while typing. Admittedly, for a skilled programmer, JSON may be actually more readable and easier to operate on. However, I believe that an average human being would rather go for CSV in terms of readability, especially when it is not so nicely structured as above (I can write the whole JSON file in one line, but this would quickly become illegible). Moreover, in JSON, there&rsquo;s a lot of repetition as each field needs to be written as many times as we have employees (field &ldquo;ID&rdquo; appears 3 times!).</p>
+<p>Besides, the structure of a CSV file resembles that of a SQLite database&rsquo;s table (single unit of the database). Take a look at the comparison of an SQLite table schema with a single CSV files below:</p>
+<p>Aforementioned employees.csv:</p>
+<pre><code>1    ID, name, surname, email
+2    123, John, Smith, john.smith@gmail.com
+3    111, Samanta, Black, samanta.black@gmail.com
+4    222, Jerry, Smith, jerry.smith@gmail.com
+</code></pre>
+<p>SQLite table schema:</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>name</th>
+<th>surname</th>
+<th>email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td>
+<td>John</td>
+<td>Smith</td>
+<td><a href="mailto:john.smith@gmail.com">john.smith@gmail.com</a></td>
+</tr>
+<tr>
+<td>111</td>
+<td>Samanta</td>
+<td>Black</td>
+<td><a href="mailto:samanta.black@gmail.com">samanta.black@gmail.com</a></td>
+</tr>
+<tr>
+<td>222</td>
+<td>Jerry</td>
+<td>Smith</td>
+<td><a href="mailto:jerry.smith@gmail.com">jerry.smith@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<p>Very similar, isn&rsquo;t it?</p>
+<p>Last, but not least, CSV is prevalent in Data Science world. I don&rsquo;t know the specific reason, but most datasets (whatever they are - sentences, protein sequences etc.) are available as CSV files. Since I&rsquo;ve been tinkering with <a href="https://en.wikipedia.org/wiki/Natural_language_processing">language processing models</a> recently, I find it natural to use CSV.</p>
+<h1 id="what-is-a-package">What is a package?<a href="#what-is-a-package" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>I hope you didn&rsquo;t get bored and stayed afloat. We&rsquo;re getting to the point, but I need to introduce one more thing - packages.</p>
+<p>I know you may be confused by how on earth I switched from talking about CSV to being a postman. Let me explain.</p>
+<p>CSV files seem ideal for <em>storing</em> data. However, this data needs to be somehow <em>transferred</em> from an SQLite database to CSV files. There <em>has to</em> be an additional step, a script, that would make this transfer possible. This is where the concept of package comes into play.</p>
+<p>A package looks like a normal script and the only difference is its intended purpose. Usually, an app is meant to be run and &ldquo;do something&rdquo;. For example, the Taxonomy game allows students to learn biological classification through the means of gameplay and Word makes editing text files easier thanks to its useful Graphical User Interface (GUI for short). A package serves a bit different purpose.</p>
+<p>It also &ldquo;does something&rdquo;, but is not an application in the same sense as the Taxonomy game and Word are. A package provides a set of tools that simplifies the process of developing software. To give an illustration, <a href="https://pypi.org/project/PyQt5/"><code>PyQt5</code></a> comes with a whole bunch of GUI elements such as buttons, entries, display lists etc. Let&rsquo;s say, I&rsquo;d like to create an accounting system with GUI. With <code>PyQt5</code>, I can assemble some GUI elements to make my app more user-friendly and I don&rsquo;t need to worry of <em>how these elements are actually implemented</em>. All I need to know is <em>how to use them</em> by learning <code>PyQt5</code>&rsquo;s API.</p>
+<p>(<em>As a sidenote, API stands for Application Software Interface. Generally, API defines the communication mechanism between two software components and is a part of a larger system. In the example above, between the accounting system and PyQt5.</em>)</p>
+<p>This is exactly what happens with the CSV-SQLite Converter - it is not an application in the common sense of this term (although it can be used as such), but a very handy tool kit for programmers who don&rsquo;t have to think about the inner workings of the converter - they just need to know its API.</p>
+<h1 id="csv-sqlite-converter">CSV-SQLite Converter<a href="#csv-sqlite-converter" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>Finally, after more than 1000 words and 7000 characters, I can jump straight to the software of interest - the <a href="https://github.com/undeMalum/csv-sqlite-converter">CSV-SQLite Converter</a>.</p>
+<h2 id="dry">DRY<a href="#dry" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Following the <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY principle</a> (Don&rsquo;t Repeat Yourself), I&rsquo;m not going to dive deep into how the converter works. I have already done it once. Instead, I&rsquo;d like to direct you to my GitHub to study the converter&rsquo;s <a href="https://github.com/undeMalum/csv-sqlite-converter/blob/main/README.md">README file</a>. This should provide you with good understanding of my package.</p>
+<p>Having said that, let&rsquo;s move on to discussing the <a href="#current-state">Current state</a> of the project and <a href="#future-developments">Future developments</a> I plan.</p>
+<h2 id="current-state">Current state<a href="#current-state" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>As of today, I have not uploaded the CSV-SQLite converter to <a href="https://pypi.org">PyPi</a> yet. (<em>&ldquo;The Python Package Index (PyPI) is a repository of software for the Python programming language.&rdquo;</em>) What follows is that, currently, the converter cannot be installed with <code>pip</code> (package installer for Python.) I have published my package to <a href="https://test.pypi.org">TestPyPi</a>, which is a separate service from PyPi and, as the name suggests, is for testing - if the package uploads correctly, if an installation goes as expected and so on.</p>
+<p>Fortunately, the CSV-SQLite converter has passed all tests successfully - both <a href="https://github.com/undeMalum/csv-sqlite-converter/tree/main/tests">internal</a> and external (TestPyPi) ones. Therefore, I am almost ready to publish my first package to PyPi. What has left is minor improvements to the documentation and meaningful versioning of the project.</p>
+<p>Apart from that, the converter can be shared with the world! Furthermore, thanks to the converter, the Taxonomy game makes sense at last&hellip;</p>
+<h2 id="future-developments">Future developments<a href="#future-developments" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Inasmuch as I like DRY principle, I&rsquo;m not a huge fan of the &ldquo;<em>if ain&rsquo;t broken, don&rsquo;t fix it</em>&rdquo; rule. Of course, if you have a deadline to meet, it&rsquo;s meaningless to make your work better and better all the time because there will always be something to work on. At some point you need to decide: &ldquo;okay, this is a final version&rdquo;. This holds true for IBDP with its Internal Assessment and Extended Essay. However, such an attitude would be considered lazy with regard to open source.</p>
+<p>In open source, the only final date is the day of a new version&rsquo;s release. You can add new features, fix bugs or whatever as long as you wish on condition that you ship those changes before the release. If you didn&rsquo;t manage to made all changes you desired on time, you&rsquo;re lucky as there&rsquo;ll be new releases in the future which can include your precious contributions.</p>
+<p>I have embraced this approach in the context of the CSV-SQLite converter. I&rsquo;ve made it work and cleaned up the code. It looks nice, but I&rsquo;m aware there&rsquo;s still an awful lot of work to be done. I know that my current design choices are not the best in general. They are the best to my knowledge though. Thus, what I can do is to expand this knowledge.</p>
+<p>I have a lot of ideas as to where I can look for improvements. I&rsquo;m talking about two extremely popular python packages: <a href="https://pypi.org/project/pandas/">pandas</a> and <a href="https://pypi.org/project/polars/">polars</a>. They were both designed for efficient data processing, which may not sound promising as far as the converter is concerned. After all, it just transfers data from one format to another - it does NOT process this data. However, these packages provide tools for changing formats easily.</p>
+<p>Maybe I could take advantage of that? I don&rsquo;t know, but I&rsquo;ll find out A.S.A.P.</p>
+<h1 id="final-remarks">Final remarks<a href="#final-remarks" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p>It was a long read and tough journey through the cybernetic jungle. At the end, I just want to go over what we&rsquo;ve covered in this article and possibly share my thoughts in the process.</p>
+<p>I started by talking about open source culture and its main characteristics. Then, I justified the need for the converter and introduced CSV and other formats. After that, I familiarized you with the notion of package. Lastly, I talked about the CSV-SQLite converter itself as well as everything that is connected with it.</p>
+<p>I&rsquo;m happy that I&rsquo;ve started this project, I really am. Not only was it an intermediate step for the Taxonomy game, but also a great relief from coding my Computer Science Internal Assessment (IA). I was a bit overwhelmed and needed a break. Being intellectually well-rested, I look forward to returning to my IA and finish it. Moreover, I&rsquo;ve also learned a lot about storing data in file format, <a href="https://docs.python.org/3/library/venv.html">virtual environments</a>, Python packaging system, paths and many, many others thanks to the converter. After years of learning programming I finally begin to see the meaning in what I&rsquo;m creating. I&rsquo;ve been waiting for so long to feel like that.</p>
+<p>Thanks for your attention, it&rsquo;s been lovely talking to you!</p>
+<h1 id="learning-outcomes">Learning outcomes:<a href="#learning-outcomes" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<ul>
+<li>LO 1 Strength and Growth</li>
+<li>LO 2 Challenge and Skills</li>
+<li>LO 3 Initiative and Planning</li>
+<li>LO 4 Commitment and Perseverance</li>
+<li>LO 5 Collaborative Skills</li>
+<li>LO 6 Global Engagement</li>
+<li>LO 7 Ethics of Choices and Actions</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Quote from his interview with Lex Fridman: <a href="https://www.youtube.com/watch?v=I845O57ZSy4&amp;t">www.youtube.com/watch?v=I845O57ZSy4&amp;t</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+      <a href="https://undemalum.github.io/portfolio/posts/bury-mis-salt-dough/" class="button inline prev">
+        &lt; [<span class="button__text">Service &amp; Creativity. Reflection 8 &amp; 9 - Sault Dough Workshops</span>]
+      </a>
+    
+    
+      ::
+    
+    
+      <a href="https://undemalum.github.io/portfolio/posts/youtube-shorts/" class="button inline next">
+         [<span class="button__text">Ativity &amp; Creativity. Reflection 7 &amp; 7 - Shorts</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/portfolio/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

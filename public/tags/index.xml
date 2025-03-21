@@ -1,10 +1,164 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Headquarters of undemalum</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Headquarters of undemalum</description>
+    <title>Tags on </title>
+    <link>https://undemalum.github.io/portfolio/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 14 Mar 2025 08:37:08 +0200</lastBuildDate><atom:link href="https://undemalum.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>activity</title>
+      <link>https://undemalum.github.io/portfolio/tags/activity/</link>
+      <pubDate>Fri, 14 Mar 2025 08:37:08 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/activity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>creativity</title>
+      <link>https://undemalum.github.io/portfolio/tags/creativity/</link>
+      <pubDate>Fri, 14 Mar 2025 08:37:08 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/creativity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>https://undemalum.github.io/portfolio/tags/service/</link>
+      <pubDate>Fri, 14 Mar 2025 08:37:08 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cas project</title>
+      <link>https://undemalum.github.io/portfolio/tags/cas-project/</link>
+      <pubDate>Sat, 16 Mar 2024 17:40:01 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/cas-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://undemalum.github.io/portfolio/tags/writing/</link>
+      <pubDate>Thu, 14 Mar 2024 07:32:19 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stretching</title>
+      <link>https://undemalum.github.io/portfolio/tags/stretching/</link>
+      <pubDate>Sun, 10 Mar 2024 17:19:52 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/stretching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bury Miś</title>
+      <link>https://undemalum.github.io/portfolio/tags/bury-mi%C5%9B/</link>
+      <pubDate>Thu, 01 Feb 2024 13:24:59 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/bury-mi%C5%9B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coding</title>
+      <link>https://undemalum.github.io/portfolio/tags/coding/</link>
+      <pubDate>Mon, 22 Jan 2024 17:18:39 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>temporary-events</title>
+      <link>https://undemalum.github.io/portfolio/tags/temporary-events/</link>
+      <pubDate>Fri, 08 Dec 2023 18:47:08 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/temporary-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workout</title>
+      <link>https://undemalum.github.io/portfolio/tags/workout/</link>
+      <pubDate>Thu, 30 Nov 2023 19:46:49 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/workout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://undemalum.github.io/portfolio/tags/youtube/</link>
+      <pubDate>Thu, 30 Nov 2023 19:46:49 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>juggling</title>
+      <link>https://undemalum.github.io/portfolio/tags/juggling/</link>
+      <pubDate>Sun, 05 Mar 2023 18:16:48 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/juggling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>football</title>
+      <link>https://undemalum.github.io/portfolio/tags/football/</link>
+      <pubDate>Sat, 28 Jan 2023 07:52:23 +0100</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/football/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://undemalum.github.io/portfolio/tags/teaching/</link>
+      <pubDate>Thu, 08 Sep 2022 15:11:02 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>my_projects</title>
+      <link>https://undemalum.github.io/portfolio/tags/my_projects/</link>
+      <pubDate>Tue, 06 Sep 2022 11:41:49 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/my_projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IB resources</title>
+      <link>https://undemalum.github.io/portfolio/tags/ib-resources/</link>
+      <pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/ib-resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>my projects</title>
+      <link>https://undemalum.github.io/portfolio/tags/my-projects/</link>
+      <pubDate>Tue, 06 Sep 2022 11:38:30 +0200</pubDate>
+      
+      <guid>https://undemalum.github.io/portfolio/tags/my-projects/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
