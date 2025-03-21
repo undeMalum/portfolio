@@ -13,6 +13,8 @@ However, if you're curious about these essays but unfamiliar with the abbreviati
 
 Feel free to explore and analyze these works however you like!
 
+---
+
 # Info & Structure  
 
 Here’s a quick guide to this page’s structure and content.  
@@ -36,6 +38,8 @@ Each section includes:
 
 With that, everything should be clear—enjoy exploring!
 
+---
+
 # IB Works  
 
 ## TOK  
@@ -57,6 +61,8 @@ TOK grading consists of two parts: **TOK Essay** (⅔ of the final grade) and **
 - **Word Count:** 1596
 - **PDF:** [TOK Essay](./files/tok_essay_final.pdf), [TK/PPF](./files/TKPPF_en%201.pdf)
 
+---
+
 ## EE
 **Final grade:** B
 
@@ -65,6 +71,8 @@ TOK grading consists of two parts: **TOK Essay** (⅔ of the final grade) and **
 - **Research Question:** To what extent is the state-of-the-art language model architecture Transformer accurate in commonsense inference tasks?
 - **Word Count:** 3941
 - **PDF:** [Extended Essay](./files/ee_final.pdf), [EE/RPPF](./files/EERPPF_en.pdf)
+
+---
 
 ## Computer Science  
 
@@ -91,3 +99,5 @@ For a complete reference, check out **[this website](https://bprzybylski.github.
 - **Title:** CAS Manager
 - **Word Count:** 1994
 - **Link:** [Internal Asessment]()
+
+---
