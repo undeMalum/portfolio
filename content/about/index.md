@@ -25,7 +25,7 @@ Now, let me tell you more about myself!
 
 # Some Background
 
-In September 2024, I started my Bachelor's degree in [Artificial Intelligence]() at [Poznań University of Technology]().
+In September 2024, I started my Bachelor's degree in [Artificial Intelligence](https://put.poznan.pl/en/node/107524) at [Poznań University of Technology](https://put.poznan.pl/en).
 
 Earlier that year, I also graduated from [Private High School Gaudium et Studium](https://www.eduges.pl/en), where I completed the International Baccalaureate Diploma Programme ([IBDP](https://www.ibo.org/programmes/diploma-programme/)). Naturally, my higher-level subjects were `computer science`, `mathematics`, and `English`.
 

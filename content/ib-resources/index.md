@@ -32,8 +32,8 @@ The next section is divided into eight parts: one for each subject listed above,
 Each section includes:  
 - **Title** of the work  
 - **Word/Page count**  
-- **Additional details** (as per IB requirements)  
-- **Grade received or expected** _(IB doesn't disclose grades for free)_  
+- **Additional details** _(as per IB requirements)_ 
+- **Grade received or expected** _(Grad for the work, not the subject)_  
 - **PDF link** to the work  
 
 With that, everything should be clear—enjoy exploring!
@@ -99,3 +99,71 @@ For a more comprehensive overview of the CS IA, check out **[this website](https
 - **Link:** [Internal Assessment](https://undemalum.github.io/internal-assessment/)  
 
 ---
+
+## Math AA
+
+**Grade:** ~7
+
+- **Title:** Stability Analysis of Rectangular Ribbed Plates
+- **Page Count:** 18
+- **PDF:** [Internal Assessment](./files/mk_ia_final.pdf)
+
+---
+
+## English B  
+
+_English B is an oral exam where you cannot prepare responses in advance_.
+
+Instead, you must rely on your knowledge of the required books and the possible themes or issues they explore. You will be given an extract and must deliver a presentation, followed by answering a series of questions on various aspects of the text and more.
+
+For more details, refer to the [subject guide](https://www.cosmopolitanschool.de/wp-content/uploads/2018/10/dp-language-B-guide.pdf).
+
+---
+
+## Biology
+
+**Grade:** ~6
+
+- **Title:** Inferring the possibility of ankylosing spondylitis occurrence based on the clade of HLA-B27
+phylogenetic tree for the European population
+- **Page Count:** 11
+- **PDF:** [Internal Asessment](./files/ia_bio_final.pdf)
+
+---
+
+## History
+
+**Grade:** ~7
+
+- **Research Question:** To what extent was the contribution of three Polish mathematicians–Marian Rejewski, Henryk Zygalski, and Jerzy Różycki–crucial for breaking the Enigma machine?
+- **Word Count:** 2,035
+- **PDF:** [Internal Assessment](./files/mk_ia_history_final.pdf)
+
+---
+
+## Polish A  
+
+The Internal Assessment in Polish A (or any language in the **Language and Literature** version) is also an **Oral Assessment**. However, unlike English B, it requires a presentation that you **can** and even **should** prepare in advance—*words of my Polish A teacher of 20 years, not mine.*  
+
+Although the final grading is based on a **voice recording** of the presentation along with follow-up questions, I will upload:  
+- The **text draft** of my presentation, which I wrote to prepare myself  
+- My **notes**  
+- The **book excerpt** on which my presentation was based  
+
+Unfortunately, I cannot upload the recording of my IA, as my teacher preferred to avoid potential repercussions from sharing my work publicly (*paraphrasing her words here*).  
+
+That said, despite this limitation, you can still benefit from the following resources.  
+
+### Details
+
+_This section is partly in Polish._
+
+**Grade:** ~7
+
+- **Problem:** wytwór postępu technicznego może uprościć powtarzalne zadania wymagające czasochłonnych i skomplikowanych obliczeń, jednak ma ograniczoną przydatność w zadaniach związanych z procesami poznawczymi i nie chroni nasz przed czynnikami losowymi.
+- **Global Issue:** Technologia
+- **Works chosen:**
+    - **Work in Translation:** _Homo Faber_ – Max Frisch  
+    - **Work in Language A:** _Wyznania maszyny czytającej_ – Wisława Szymborska  
+- **Presentation length:** ~10min
+- **PDF:** [Presentation Draft](./files/mk_finalny.pdf), [Notes](./files/Outline_form_Lit_en%20(1).pdf), [Work in Translation](./files/faber-maszyny.pdf), [Work in Language A](./files/szymborska_maszyna.pdf)
