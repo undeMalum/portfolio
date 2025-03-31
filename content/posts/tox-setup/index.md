@@ -1,0 +1,45 @@
++++
+title = "Tox. Platform Dependent Setup (GHOSTxIRIM)"
+date = "2025-03-31T08:51:16+02:00"
+#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+author = "Mateusz Konat"
+authorTwitter = "" #do not include @
+cover = "images/cover.jpg"
+tags = ["creativity", "coding"]
+keywords = ["creativity", "coding"]
+description = "For the blog’s revival, I’m tackling a small but intriguing Tox-related issue I faced in the GHOSTxIRIM project. Let’s dive in!"
+showFullContent = false
+readingTime = false
+hideComments = false
+draft = true
++++
+
+# Long time no see  
+Hello, everyone! It’s been a while since I last shared my thoughts, but I’m thrilled to be back in my _"somewhere I belong"!_  
+
+In this post, I’ll discuss an issue I encountered while setting up the `Tox` environment for the test pipeline in the `GHOSTxIRIM` project. It seems trivial _now_, but I spent far too long trying to resolve it—something every programmer can probably relate to.  
+
+Anyway, I also owe you a quick explanation of some of the terms I just used, as they haven’t appeared on this blog before.  
+
+So, let’s start with a brief update, then dive right into the good stuff.  
+
+Let’s go!
+
+# What's What  
+Before diving into the tools, I think it’s worth introducing the project first.  
+
+## GHOST  
+**[`GHOSTxIRIM`](https://github.com/GHOST-Science-Club/tree-classification-irim)** is a student-led project focused on classifying tree species from aerial photos (we use Python btw). It operates as a section of **[`GHOST`](https://ghost.put.poznan.pl)**, a student organization dedicated to machine learning in a broader sense.  
+
+_(Find out more in the links above.)_  
+
+On a personal note, I joined GHOST—specifically GHOSTxIRIM—during my first semester at [PUT](https://put.poznan.pl/en) and have been enjoying it ever since (I’m now in my second semester of freshman year). I considered joining other GHOST sections, but time constraints didn’t allow it. That’s a story for another time.  
+
+This high-level overview should suffice for now. Let’s move on to **Tox**.  
+
+## Tox  
+**[`Tox`](https://tox.wiki/en/4.25.0/)** is a virtual management tool, which is curcial for out test pipeline as it allows us to create environments from scratch such that testing can be performed on multiple configurations of Python versions and OSes.
+
+This is even more important as different members of the projects work on different platforms. For instance, I work on Windows, while the leader works on some Linux distribution (Debian I suppose, but I wouldn't be my life on it).
+
+Anywho, the importance of testing across different platforms because even more aparent considering the fact that we have two separate Python requirements files-one for [Linux/MacOS](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/unix-requirements.txt) and one for [Windows](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/requirements.txt).
