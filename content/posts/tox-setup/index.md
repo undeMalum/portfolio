@@ -38,8 +38,12 @@ On a personal note, I joined GHOST—specifically GHOSTxIRIM—during my first s
 This high-level overview should suffice for now. Let’s move on to **Tox**.  
 
 ## Tox  
-**[`Tox`](https://tox.wiki/en/4.25.0/)** is a virtual management tool, which is curcial for out test pipeline as it allows us to create environments from scratch such that testing can be performed on multiple configurations of Python versions and OSes.
+**[`Tox`](https://tox.wiki/en/4.25.0/)** is a virtual environment management tool **crucial** to our test pipeline. It allows us to create isolated environments from scratch, enabling testing across multiple Python versions and operating systems.  
 
-This is even more important as different members of the projects work on different platforms. For instance, I work on Windows, while the leader works on some Linux distribution (Debian I suppose, but I wouldn't be my life on it).
+Testing across different OSes is particularly important since team members work on different platforms. For instance, I use Windows, while our project leader works on a Linux distribution (Debian, I believe—but I wouldn’t bet my life on it).  
 
-Anywho, the importance of testing across different platforms because even more aparent considering the fact that we have two separate Python requirements files-one for [Linux/MacOS](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/unix-requirements.txt) and one for [Windows](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/requirements.txt).
+The need for cross-platform testing becomes even **more apparent** given that we maintain two separate Python requirements files—one for Linux/macOS ([unix-requirements.txt](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/unix-requirements.txt)) and another for Windows ([requirements.txt](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/requirements.txt)). Unfortunately, while this is the most straightforward and cleanest approach to cross-platform compatibility, it comes with a downside.  
+
+This method **requires** creating test environments with different configuration files depending on the platform. And that’s where the core issue lies—**how can we automatically select the correct configuration file for testing based on the platform?**  
+
+Let’s explore why this turned out to be so troublesome.  
