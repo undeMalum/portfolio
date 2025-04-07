@@ -11,7 +11,6 @@ description = "For the blog’s revival, I’m tackling a small but intriguing T
 showFullContent = false
 readingTime = false
 hideComments = false
-draft = true
 +++
 
 # Long time no see  
@@ -51,29 +50,28 @@ This method **requires** creating test environments with different configuration
 Let’s explore why this turned out to be so troublesome.
 
 # Problem-solving
-Problem-solving involved a couple of pretty well laid-out stages (_and I'm not referring to momentarily lapses of faith_), so I'll split the following section accordingly.
+Problem-solving here followed a few clear stages (and no, I don’t mean momentary lapses of faith), so I’ll break this down accordingly.
 
 ## Conditional expression
-Being used to Python, I initialy thought about using some conditional expression, something like an if statement to detect the OS that is being run and choose the appropriate requirements file. 
+As a Python user, my first instinct was to use a conditional expression—like an `if` statement—to detect the OS and select the correct requirements file.
 
-So I searched more or less this: _[conditional setting for tox](https://www.google.com/search?q=conditional+setting+for+tox)_.
+I started by Googling: [_conditional setting for tox_](https://www.google.com/search?q=conditional+setting+for+tox), but that didn’t lead anywhere useful. After several failed attempts to rephrase the query, I refined it to include platform detection: [_conditional setting for tox detecting platform_](https://www.google.com/search?q=conditional+setting+for+tox+detecting+platform).
 
-This search didn't prove useful though. And after a couple of unsuccessful trial-and-error attempts at paraphrasing this inquiry, I started added new information.
+That search finally turned up a helpful Stack Overflow post: **[How to conditionally set tox variables depending on the platform](https://stackoverflow.com/questions/61510250/how-to-conditionally-set-tox-variables-depending-on-the-platform)**.
 
-At some point, I added a part about detecting platform to the previous inquiry. It looked like this: _[conditional setting for tox detecting platform](https://www.google.com/search?q=conditional+setting+for+tox+detecting+platform)_. To my satisfaction, it yielded a promising Stack Overflow post: **[How to conditionally set tox variables depending on the platform](https://stackoverflow.com/questions/61510250/how-to-conditionally-set-tox-variables-depending-on-the-platform)**.
+Interestingly, it didn’t involve traditional conditional logic but rather used tox’s environment-specific configuration. It wasn’t a complete fix though.
 
-It did **not** resemble any conditional statement because it utilized tox environment for platform-targeted configuration. However, it failed to solve all problems, initially.
+## Tox Environments
+The Stack Overflow post linked to a relevant Tox documentation page: **[Platform specification](https://tox.wiki/en/latest/faq.html#platform-specification)**.
 
-## Tox environments
-This Stack Overflow post linked to a page from Tox documentation titled: **[Platform specification](https://tox.wiki/en/latest/faq.html#platform-specification)**.
-
-This page presented a way to create a couple python version + os for environment initialization like so:
+It described how to set up Tox environments targeting both Python versions and OS types:
 
 ```ini
 [tox]
 envlist = py{310,311}-{lin,win}
 ```
-Then, you can specify what requirements file should be used for which OS under test environment:
+
+Then, within the test environment config, you can specify platform-based requirements:
 
 ```ini
 [testenv]
@@ -85,70 +83,93 @@ deps =
     windows: -r {toxinidir}/requirements.txt
 ```
 
-This seemes marvellous because it gave me a solution to the very problem I aimed to solve, i.e. choose reuiqrements files based on OS. The only downside was that I had to use the `tox.ini` file instead of packaging it inside `pyproject.toml` as the above syntax is not supported by the `toml` format. However, multiple configuration files is a general problem of all Python projects so to avoid it we would have to not use Python.
+This was a fantastic discovery—it directly solved my issue of selecting requirement files based on the OS. The only drawback was that this configuration had to live in a `tox.ini` file, as `pyproject.toml` doesn't support this syntax. Still, using multiple config files is a common issue in Python projects; avoiding it entirely would mean abandoning Python itself.
 
-What proved to be more problematic though and caused me enourmous anxiety after a glimpse of sweet relief was running Tox in GitHub actions, which promted me so switch me seek a kind of solution that I wanted to erase from my memory.
+What truly disrupted the moment of relief, though, was trying to run Tox in GitHub Actions. That opened a whole new can of worms and pushed me toward solutions I had hoped never to revisit.
 
 ## Duplicate config files
-To be more specific about what I've just complained about, the above-mnetioned fix worked perfectly locally. If you run `tox` command in your terminal, you'll get what you asked for-testing across multiple python versions and OSes.
+To clarify my earlier frustration: the Tox setup worked flawlessly _locally_. Running `tox` in the terminal gave me exactly what I needed—testing across multiple Python versions and OSes.
 
-However, it didn't go so well once you uploaded your code to the remote repository.
+But things broke down once the code hit the remote repository.
 
-I set a trigger in GitHub actions that, on pull request, test would be run automatically (along with a linter and type checker). To do so, I used a to plugin called [`tox-gh-actions`](https://github.com/ymyzk/tox-gh-actions) because Tox doesn't support GitHub actions out-of-the-box. And that's what ripped my excitation to shreds.
+I had a GitHub Actions workflow set up to trigger tests (along with linting and type checking) on every pull request. For this, I used the [`tox-gh-actions`](https://github.com/ymyzk/tox-gh-actions) plugin, since Tox doesn’t support GitHub Actions out of the box. And that’s where my excitement came crashing down.
 
-Because GitHub actions creates the OS environment independently of Tox, running Tox in this environment caused a bizzare situation where Tox wanted to create both Linux and Windows environments in the already-established Linux or Windows machine. Not to mention the mess created by installation of wrong requirements files.
+GitHub Actions creates the OS environment separately from Tox, so when Tox tried to create *both* Linux and Windows environments within the already-specified OS runner, things got weird fast. Wrong requirements files were being installed, and the environment setup just fell apart.
 
-I thought I'm gonna explode. But I, _being an adult programmer_, decided to face my problems manly and go cry to bed. After a short episode of faith loss I proceeded to looking for different solutions. Amittedly, I did have solution, but I tried to reject it from my mind in seek of something better.
+I nearly exploded. But, being the _mature_ developer I am, I took a deep breath… and went to cry in bed. After a brief crisis of faith, I came back to face the issue head-on—even if the solution was the one I wanted to forget.
 
-The solution that I so desperately wanted to avoid was creating two copies of the Tox config file (`tox_win.ini` and `tox_lin.ini`)-one for each platform. Then, I could choose an appropriate config file depending on the platform using the GitHub actiong syntax for if statement:
+That solution? Duplicating the Tox config—creating separate files like `tox_win.ini` and `tox_lin.ini`, one for each platform. Then I used GitHub Actions conditionals to choose the appropriate config:
 
 ```yml
--  name: Install dependencies (Ubuntu)
-   if: runner.os == 'Linux'
-   run: |
-     python -m pip install --upgrade pip
-     pip install -r unix-requirements.txt
-     pip install tox tox-gh-actions pytest pytest-cov
+- name: Install dependencies (Ubuntu)
+  if: runner.os == 'Linux'
+  run: |
+    python -m pip install --upgrade pip
+    pip install -r unix-requirements.txt
+    pip install tox tox-gh-actions pytest pytest-cov
 
--  name: Install dependencies (Windows)
-   if: runner.os == 'Windows'
-   run: |
-     python -m pip install --upgrade pip
-     pip install -r requirements.txt
-     pip install tox tox-gh-actions pytest pytest-cov
+- name: Install dependencies (Windows)
+  if: runner.os == 'Windows'
+  run: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    pip install tox tox-gh-actions pytest pytest-cov
 ```
 
-Why am so negative about this solution? Well, you have need to maintain two almost identical files-this means that if you change something in one file, you **must** do it for the second one because then the behaviors of testing on both platforms diverge and we run into a pretty nasty mess.
+So why did I hate this solution? Because now I had to maintain two nearly identical config files. Any change made in one had to be mirrored in the other, or the behavior between platforms would diverge—introducing inconsistencies and headaches.
 
-This was particurarly annoying because when I added it was a time of fairly extensive development to I wanted to make a quick change and check it. And guess what, if you are in a hurry, then you get what I described just a moment ago.
+This was especially painful during a phase of active development, where I was iterating quickly. Every quick tweak carried the risk of breaking tests on the other platform.
 
-So yeah, it worked, but I didn't like it.
+Sure, it worked—but I wasn’t happy about it.
 
-Admittedly, I had another solution in mind that involved customizing instllation in Tox.
+I briefly considered a more elegant workaround: customizing the Tox installation step using an external script, via [installation customization](https://tox.wiki/en/latest/config.html#install_command). The idea was to write a platform-aware script with an `if` statement to select the appropriate requirements file. Sounds great in theory, but in practice:
 
-[Installaztion customization](https://tox.wiki/en/latest/config.html#install_command) can be done using an external scripts that calls `pip`. This seemed great as then you could write a platform checker with an if statement and choose a different requirements files based on the results of this if. However, I quickly gave up because of two reasons:
+1. Tox threw errors when trying to use a custom Python script to run `pip`—claiming Python wasn’t installed.
+2. Bash scripts were off the table since they wouldn’t run on Windows. I did find a workaround, but by then I had found a better path forward (more on that later).
 
-1. I couldn't use custom Python scripts that calls pip because tox threw errors about Python not being installed
-2. I couldn't run bash because it had to work on Windows as well (I found a workarounf, but didn't pursue it because I found a better solution, but more on that later)
-
-I should be grateful, I made the pipeline work, but it was constantly creeping in the back of my head that I can somehow do better-I just didn't know exactly how.
+I should’ve been satisfied. The pipeline worked. But the nagging thought that _there has to be a better way_ just wouldn’t let me rest.
 
 ## Great return and solution
-Now, on one hand I had a burning desire to find a better way of doing things, and on the other I had enough of this, having spent so much time on this.
+On one hand, I was _desperate_ to find a better solution. On the other, I was exhausted—I'd already sunk way too much time into this.
 
-One day, out of pure curiosity and procrastination, I was browsing various GitHub repositories. Among repos like pandas or django, I went to the repo of the [`tox-gh-action`](https://github.com/ymyzk/tox-gh-actions) plugin. I noticed that it had a really long README file so I started skimming through it.
+Then one day, while procrastinating and casually browsing popular GitHub repositories (think pandas, Django, etc.), I stumbled into the [`tox-gh-actions`](https://github.com/ymyzk/tox-gh-actions) repo. It had a surprisingly long README, so I started skimming.
 
-I was stunned when I saw a section called **[Factor-Conditional Settings: Environment Variable](https://github.com/ymyzk/tox-gh-actions?tab=readme-ov-file#factor-conditional-settings-environment-variable)**. It was exatcly the solution I was looking for!
+And there it was: a section titled **[Factor-Conditional Settings: Environment Variable](https://github.com/ymyzk/tox-gh-actions?tab=readme-ov-file#factor-conditional-settings-environment-variable)**. It was _exactly_ the solution I’d been chasing.
 
-It built on top of the setup I outlined in the [Tox environment](#tox-environments) section with a two additional steps that allowed this Tox setup to integrate with GitHub actions:
+It built on the setup I described in the [Tox Environments](#tox-environments) section, with two small additions that made everything work smoothly within GitHub Actions:
 
-1. Firstly, I had to add this snippet to `tox.ini` to create OS environment based on GitHub variables:
-```ini
-[gh-actions:env]
-PLATFORM =
-    ubuntu-latest: linux
-    macos-latest: macos
-    windows-latest: windows
-```
-2. Secondly, I had to pass
+1. Add this snippet to `tox.ini` to map GitHub OS runners to platform names:
+   ```ini
+   [gh-actions:env]
+   PLATFORM =
+       ubuntu-latest: linux
+       macos-latest: macos
+       windows-latest: windows
+   ```
 
+2. Then, pass the GitHub OS matrix variable to Tox via the environment:
+   ```yml
+   - name: Run TOX tests
+     run: tox
+     env:
+         PLATFORM: ${{ matrix.os }}
+   ```
+
+And that was it. _That_ was the fix.
+
+After all the trial and error, rabbit holes, and half-baked workarounds, the answer had been sitting in the plugin’s README the whole time—I just hadn’t read it closely.
+
+At least now, I’ve earned myself one of those mistakes you only make *once*. Brutal lesson, but it stuck.
+
+# Closing and looking ahead
+It’s been quite a journey—both solving the issue and now looking back on it.
+
+Of course, I’ve skipped over plenty of other challenges along the way: GitHub runner memory limits, manually passing Tox environments, and more. But I wanted to keep the focus narrow, especially since this post is already pretty long. Plus, there are so many other topics I’d love to explore.
+
+In the near future (May 9–10), we’ll be showcasing the current state of our project at the [Ghost Day](https://ghostday.pl) conference, where I’ll be one of the presenters. I plan to share some thoughts about the event and our presentation soon.
+
+I’m also enrolled in a fascinating course—[Decoding Life Signals](https://github.com/SIPPRE/DecodingLifeSignals)—which I’d love to write about down the line.
+
+But, as always, time is limited. So we’ll see what comes next.
+
+That’s it for now—thanks for reading. Until next time!
