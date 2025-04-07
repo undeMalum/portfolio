@@ -100,13 +100,55 @@ Because GitHub actions creates the OS environment independently of Tox, running 
 
 I thought I'm gonna explode. But I, _being an adult programmer_, decided to face my problems manly and go cry to bed. After a short episode of faith loss I proceeded to looking for different solutions. Amittedly, I did have solution, but I tried to reject it from my mind in seek of something better.
 
-The solution that I so desperately wanted to avoid was creating to copies of Tox config files-one for each platform-and then choosing an appropriate one depending on the platform using the GitHub actiong syntax for if statement.
+The solution that I so desperately wanted to avoid was creating two copies of the Tox config file (`tox_win.ini` and `tox_lin.ini`)-one for each platform. Then, I could choose an appropriate config file depending on the platform using the GitHub actiong syntax for if statement:
 
+```yml
+-  name: Install dependencies (Ubuntu)
+   if: runner.os == 'Linux'
+   run: |
+     python -m pip install --upgrade pip
+     pip install -r unix-requirements.txt
+     pip install tox tox-gh-actions pytest pytest-cov
 
+-  name: Install dependencies (Windows)
+   if: runner.os == 'Windows'
+   run: |
+     python -m pip install --upgrade pip
+     pip install -r requirements.txt
+     pip install tox tox-gh-actions pytest pytest-cov
+```
 
+Why am so negative about this solution? Well, you have need to maintain two almost identical files-this means that if you change something in one file, you **must** do it for the second one because then the behaviors of testing on both platforms diverge and we run into a pretty nasty mess.
 
+This was particurarly annoying because when I added it was a time of fairly extensive development to I wanted to make a quick change and check it. And guess what, if you are in a hurry, then you get what I described just a moment ago.
 
-And it turned out that you can customize instllation in Tox.
+So yeah, it worked, but I didn't like it.
 
-I though it's gonna be okay since [installaztion customization](https://tox.wiki/en/latest/config.html#install_command) can be done using an external scripts that calls `pip`. This seemed genious as then you could write a platform checker with an if statement and choose a different requirements files based on the results of this if.
+Admittedly, I had another solution in mind that involved customizing instllation in Tox.
+
+[Installaztion customization](https://tox.wiki/en/latest/config.html#install_command) can be done using an external scripts that calls `pip`. This seemed great as then you could write a platform checker with an if statement and choose a different requirements files based on the results of this if. However, I quickly gave up because of two reasons:
+
+1. I couldn't use custom Python scripts that calls pip because tox threw errors about Python not being installed
+2. I couldn't run bash because it had to work on Windows as well (I found a workarounf, but didn't pursue it because I found a better solution, but more on that later)
+
+I should be grateful, I made the pipeline work, but it was constantly creeping in the back of my head that I can somehow do better-I just didn't know exactly how.
+
+## Great return and solution
+Now, on one hand I had a burning desire to find a better way of doing things, and on the other I had enough of this, having spent so much time on this.
+
+One day, out of pure curiosity and procrastination, I was browsing various GitHub repositories. Among repos like pandas or django, I went to the repo of the [`tox-gh-action`](https://github.com/ymyzk/tox-gh-actions) plugin. I noticed that it had a really long README file so I started skimming through it.
+
+I was stunned when I saw a section called **[Factor-Conditional Settings: Environment Variable](https://github.com/ymyzk/tox-gh-actions?tab=readme-ov-file#factor-conditional-settings-environment-variable)**. It was exatcly the solution I was looking for!
+
+It built on top of the setup I outlined in the [Tox environment](#tox-environments) section with a two additional steps that allowed this Tox setup to integrate with GitHub actions:
+
+1. Firstly, I had to add this snippet to `tox.ini` to create OS environment based on GitHub variables:
+```ini
+[gh-actions:env]
+PLATFORM =
+    ubuntu-latest: linux
+    macos-latest: macos
+    windows-latest: windows
+```
+2. Secondly, I had to pass
 
