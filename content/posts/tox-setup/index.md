@@ -44,6 +44,19 @@ Testing across different OSes is particularly important since team members work 
 
 The need for cross-platform testing becomes even **more apparent** given that we maintain two separate Python requirements files—one for Linux/macOS ([unix-requirements.txt](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/unix-requirements.txt)) and another for Windows ([requirements.txt](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/requirements.txt)). Unfortunately, while this is the most straightforward and cleanest approach to cross-platform compatibility, it comes with a downside.  
 
-This method **requires** creating test environments with different configuration files depending on the platform. And that’s where the core issue lies—**how can we automatically select the correct configuration file for testing based on the platform?**  
+This method **requires** creating test environments with different configuration files depending on the platform. And that’s where the core issue lies:
 
-Let’s explore why this turned out to be so troublesome.  
+> **How can we automatically select the correct requirements file for testing based on the platform?**  
+
+Let’s explore why this turned out to be so troublesome.
+
+# Problem-solving
+Problem-solving involved a couple of pretty well laid-out stages (_and I'm not referring to momentarily lapses of faith_), so I'll split the following section accordingly.
+
+## Conditional expression
+Being used to Python, I initialy thought about using some conditional expression, something like an if statement to detect the OS that is being run and choose the appropriate requirements file. 
+
+So I searched more or less this: _[conditional setting for tox](https://www.google.com/search?q=conditional+setting+for+tox)_.
+
+This search didn't prove useful though. And after a couple of trial-and-error attempts at paraphrasing this inquiry, I started added new information. 
+
