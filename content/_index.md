@@ -7,7 +7,12 @@ Want to learn more about me? Visit **[About Me](/portfolio/about)**—a short ye
 
 Use the **tags** (marked with `#`, like `#creativity`) at the top of each page to navigate easily.
 
-Feel free to explore—cheers!
+Feel free to explore or contact me via email:
+\
+**mateusz{dot}konat{dot}py{at}gmail{dot}com**
+
+
+_Looking forward to hearing from you — cheers!_
 
 <a id="intro-down"></a>
 

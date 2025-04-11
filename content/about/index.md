@@ -13,7 +13,11 @@ I'm Mateusz Konat—a tech enthusiast, sportsman, wit, and lifelong learner.
 
 Here, you'll discover more about me and my activities, explore [my blog](/portfolio/posts), and dive into [my projects](/portfolio/projects).
 
-Also, you can easily navigate through the content of interest on my website using the tags at the top of each page (indicated by "#" sign like "#my projects" or "#creativity").
+Also, you can easily navigate through the content of interest on my website using the tags at the top of each page (indicated by `#` sign like `#my projects` or `#creativity`).
+
+Want to reach out? Contact me via email:
+\
+**mateusz{dot}konat{dot}py{at}gmail{dot}com**
 
 Now, let me tell you more about myself!
 
