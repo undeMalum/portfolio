@@ -2,7 +2,7 @@
 title: "Projects"
 date: 2022-09-06T11:41:49+02:00
 author: "Mateusz Konat"
-cover: "images/repo_photo.png"
+# cover: "images/repo_photo.png"
 tags: ["my_projects", "creativity"]
 description: "This page is dedicated to my projects and why I share them."
 ---
@@ -17,6 +17,8 @@ The idea that software should be `shared` and `freely accessible` for everyone l
 
 # My projects
 - [My headquarters and CAS portfolio](https://github.com/undeMalum/portfolio)
+- [GHOST x IRIM: tree species classification](https://github.com/GHOST-Science-Club/tree-classification-irim)
+- [HLA-B27 phylogeny and AS analysis](https://github.com/undeMalum/hla-b27-phylogeny)
 - [CAS manager for CAS coordinators](https://github.com/undeMalum/CAS-manager)
 - [Resource center for IB Computer Science classes](https://bprzybylski.github.io/IB-CS-GeS/)
 - [Taxonomy game for studying biological classification](https://github.com/undeMalum/Taxonomy-game)
