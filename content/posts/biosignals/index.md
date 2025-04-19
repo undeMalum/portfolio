@@ -1,5 +1,5 @@
 +++
-title = "Decoding Biosignals. EUNICE."
+title = "Decoding Biosignals. EUNICE"
 date = "2025-04-16T21:44:31+02:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = "Mateusz Konat"
@@ -7,7 +7,7 @@ authorTwitter = "" #do not include @
 cover = "images/cover.jpg"
 tags = ["creativity", "coding"]
 keywords = ["creativity", "coding"]
-description = ""
+description = "A look into Decoding Biosignals—a hands-on course that blends programming and biology through the EUNICE alliance. Easily the most exciting class I’ve taken so far!"
 showFullContent = false
 readingTime = false
 hideComments = false
