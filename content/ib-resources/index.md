@@ -2,6 +2,8 @@
 title: "IB Resources"
 date: 2022-09-06T11:40:02+02:00
 author: "Mateusz Konat"
+tags: ["IB resources", "creativity"]
+description: "Find out about the assignments and projects which I completed while in IBDP."
 ---
 
 # Intro  
