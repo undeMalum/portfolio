@@ -56,4 +56,6 @@ Let me explain why.
 # Inflammatory diseases
 As I outlined in the [About me](http://localhost:1313/portfolio/about/#some-background) page (relevant piece is more or less in the middle) and I have been mentioning in this blog, directly or indirectly, I have something called [juvenile idiopathic arthritis](https://www.mayoclinic.org/diseases-conditions/juvenile-idiopathic-arthritis/symptoms-causes/syc-20374082) or more generally [ankylosing spondylitis](https://www.niams.nih.gov/health-topics/ankylosing-spondylitis).
 
-I'd like to avoid explaining what it is and how it affected me (you can find appriopriate links above), but the important thing is that those experiences prompted me to explore this disease further
+I'd like to avoid explaining what it is and how it affected me (you can find appriopriate links above), but the important thing is that those experiences prompted me to explore this disease further.
+
+An example of such exploration is my IA in biology.
