@@ -100,7 +100,7 @@ I would love to contribute to his work.
 
 ***
 {{< figure src="./images/day.png" alt="Hello Friend" position="center" style="border-radius: 8px;" caption="A poster of me and Kuba for the GHOST Day conference." captionPosition="right" captionStyle="color: white;" >}}
-***
+*** 
 
 # Final remarks
 People often say networking can be just as important as pure technical skill — maybe even more so.
