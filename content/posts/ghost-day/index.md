@@ -53,10 +53,41 @@ Lastly, I met two fellow Student Session presenters:
 I could go on, but to sum it up: I met so many fascinating people, and each interaction made the conference even more valuable.
 
 # Non-conventional study experience
-Normally when we think about studying or, in general, acquiring new knowledge, we think about going to school, attending a lecture, or revising at home.
+When we think of studying or acquiring knowledge, we usually picture a classroom, a lecture hall, or maybe revising at home. But attending a conference, as it turns out, can be an equally powerful and inspiring learning experience.
 
-However, it turns out that a conference is also a brilliant way to learn and broaden your horizon. You may not become an expert after half an hour or possibly hour-long presentation, but you surely will benefit from becoming familiar with a new perspective on a known topic or even learning a new concept in its entirety.
+You may not walk out an expert after a 30- or even 60-minute presentation, but the exposure to new perspectives or entirely unfamiliar topics is incredibly enriching. This was especially true for me during GHOST Day.
 
-The latter was particularly to me during the GHOST Day.
+One talk that really stuck with me was by [Maya Bechler-Speicher](https://www.linkedin.com/in/maya-bechler-speicher-815103103/) from Meta. Her keynote focused on the limitations of using graphs and graph neural networks (GNNs) in certain domains—particularly biology. She illustrated how graphs may not always capture the full complexity of biological structures. For instance, while proteins can be represented as sequences of amino acids, such a representation can overlook important non-consecutive chemical bonds. That was my main takeaway—along with the idea that making graph embeddings resemble more "regular" graphs often leads to better performance.
 
-For instance, the first keynote speaker: Maya Bechler-Speicher from Meta. She had an interesting talk about how using graphs and graph neural networks (GNNs) may not always be ideal. It's because graphs may not always adequatly represent all intricasies of the encoded structure. A point in case is representing proteins as a graph: although we can embedded a protein as a sequence of amino acids, it may not include information on other bonds between non-consecutive proteins. That was my main takeaway from her presentation-frankly, I didn't fully grasp the rest of the presentation, other than the fact that we can make our original graph embedding more like a regular graph because empiral results suggest that these kind of grpahs yeild the best results.
+After her talk, I approached her to ask more about proteins. While I understood the general benefits of studying protein structures, I wasn’t clear on the specific applications she had in mind. She explained how machine learning can support drug discovery and disease diagnosis by analyzing protein structure. I mentioned my own small project on [HLA-B27 alleles and ankylosing spondylitis](/portfolio/ib-resources/files/ia_bio_final.pdf), as well as a [bachelor’s thesis](/portfolio/posts/engineers-talks/#inflammatory-diseases) that I had an opportunity to get familiar with and that explored inflammatory bowel disease (IBD).
+
+In response, she told me about her team’s recently completed work on an explainable ML model for IBD (if I understood correctly)—which I’m really looking forward to reading.
+
+Continuing on the theme of biology and machine learning, several other talks caught my attention.
+
+One was by Dr. [Krzysztof Krawiec](https://www.linkedin.com/in/krzysztof-krawiec-4119aa38/?originalSubdomain=pl), who presented on neurosymbolic architectures during the computer vision session. His team developed a model that incorporates physical understanding to reconstruct real-world shapes. A particularly interesting application was in thyroid disease detection: the model would generate "healthy" cell structures and identify deviations—i.e., diseased cells—in the image.
+
+Another standout was a talk by [Fatima Sanchez-Cabo](https://www.linkedin.com/in/fatima-sanchez-cabo-b0724b9/?originalSubdomain=es). She showcased her work on cardiovascular risk prediction and the use of chatbots to assist doctors in diagnosis. What impressed me most was the system's high level of explainability: the chatbot would admit when it didn’t know something instead of hallucinating answers—something we still strive for in many AI systems today. It was also a great refresher on cardiovascular biology in general.
+
+There were many more fascinating sessions, but I’ll stop here. I couldn’t attend everything (it was simply impossible), and this post is already getting long. I’ve focused on the talks most relevant to my interests—namely, the intersection of biology and machine learning.
+
+If you're curious about the rest of the event, I highly recommend checking out the [Speakers section](https://ghostday.pl/speakers/) on the GHOST Day website. You might discover someone working on a topic that sparks your curiosity—after all, the internet is a vast resource if you know where to look.
+
+# Closing thoughts
+As I mentioned at the beginning, attending the GHOST Day conference was a truly enriching experience.
+
+Learning, networking, eating great food—all packed into just two days!
+
+Earlier that same week, I also attended a smaller event: [KOMPETENTNI.2025](https://www.linkedin.com/events/gdgpozna-xkana-studecki-kompete7324839358769840129/), focused on working in IT. It was a more intimate conference, but I still managed to do plenty of networking—so much so that, like at GHOST Day, I ended up missing a few talks along the way.
+
+In a way, GHOST Day felt like the perfect follow-up. For instance, I had the chance to chat with Bartek about [Google Vertex AI](https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform) and [Model Garden](https://cloud.google.com/vertex-ai?hl=en)—topics I had just learned about a few days earlier from [Ewelina](https://www.linkedin.com/in/ewelinaskowron/) and [Weronika](https://www.linkedin.com/in/weronika-witek/) during KOMPETENTNI.2025.
+
+And that’s just one example. I could easily list more. The point is: conferences are awesome! Tiring, yes—but absolutely worth it. I have no regrets about the time I spent at either event.
+
+Before I wrap up, I want to extend my heartfelt thanks to the GHOST Day organizers. Pulling off such a high-quality conference entirely pro bono—as students—is nothing short of extraordinary. It was an inspiring effort and a pleasure to be part of.
+
+I also want to thank my GHOSTxIRIM teammates for their amazing contributions to the project. Their advice, technical skills, and dedication—especially while many were also involved in organizing the event itself—were truly impressive.
+
+Now, plans are underway to integrate GHOSTxIRIM with QGIS, and I’m excited for what comes next. There's also a party coming up for all AI majors from our study year, and the semi-finals of the academic Polish football championships are just around the corner. That event definitely deserves its own post—especially since I haven’t written about sports in a while!
+
+That’s all for now. Thanks for reading—and see you soon!
