@@ -11,7 +11,6 @@ description = "From AI in biology to surprise networking wins—my deep dive int
 showFullContent = false
 readingTime = false
 hideComments = false
-draft = true
 +++
 
 # Amplified greetings
