@@ -32,33 +32,31 @@ Also, being a speaker with an interesting topic is a great icebreaker—conversa
 
 More updates are coming once our next steps for GHOSTxIRIM are set. Big things ahead—stay tuned!
 
-# Network, meetings, and more
-Another unique opportunity that I have experienced during the conference was talking to and meeting vast number of people.
+# Meaningful encounters
+One of the most rewarding parts of the conference was meeting so many new people. Honestly, the last time I connected with this many strangers was probably at summer camp in sixth grade!
 
-Frankly, the last time I connected with so many new people was probably a summer camp in the 6th grade!
+I had great conversations, gained fresh perspectives, and learned a lot—from tech topics to tram routes in Poznań.
 
-But I can't complain. I could talk about interesting things and get new perspectives on different matters.
+At the booths, I spoke with [Bartek](https://www.linkedin.com/in/dzionek/) from Google. We had a great tech-focused talk, and he was genuinely interested in our project. He shared a story about an ecology initiative he once contributed to—badgers had become an invasive species in a Polish region, and ecologists were manually sorting thousands of motion-triggered photos. Bartek trained a simple CNN model to detect badgers with \~90% accuracy, drastically improving the workflow. A simple yet impactful use of ML!
 
-I met new people from Allegro-it turned out that two of them are currently studying and PUT (my uni). They said that Allegro is actually a good place to be working-what a pity that I missed the deadline for applying to the internships! 
+I also visited the [G-Research](https://www.gresearch.com) booth, where a funny moment occurred: I greeted the rep in Polish, only to realize he only spoke English. In return, he gave me a generous amount of merch—didn’t want to pack it home, apparently!
 
-In spite of this, we could talk about the conference, odd tram routes (typical for Poznań), and Dr. Kraft who, by the way, supervises the GHOSTxIRIM project.
+The OLX booth was run by a friendly team, but merch came with a twist—you had to play a game to earn it. They weren’t offering internships, but I did later bump into [Jędrzej Kopiszka](https://www.linkedin.com/in/jędrzej-kopiszka-8ab338155/?originalSubdomain=pl) from OLX after his fraud detection lecture. Though I missed the talk, he kindly explained their work—detecting scam listings, trafficking, and explicit content. These problems seem obvious in hindsight, yet I had never considered them in that context. Thought-provoking stuff.
 
-I also met poeple from other institutions that had their stand during the conference. For instance, I talked with [Bartek](https://www.linkedin.com/in/dzionek/) who works at Google. It was a really nice conversation that combined technology and advices. 
+I also had a brief chat with [Chih-Chen Kao](https://drkao.cc) from AMD, who gave a lecture on ray tracing. I didn’t grasp all the technical details, but I approached him afterward to ask about studying at TUM. It turned out he just lives there, but he was incredibly friendly, and we had more time to chat during the afterparty.
 
-He was also really interested in out project! He even shared that, in the past, he also contributed to a project dedicated to ecology-there was a region in Poland where badgers were an invasive species and ecologists set up cameras to monitor their population. However, cameras were extremely sensitive to movement-so much so that they could pick up moving grass. Ecoligist, who are mainly non-technical, were manually going through thousands of photos to detect badgers. However, Bartek trained a simple CNN to could detect badgers with 90-ish accuracy, which of course, sped up the process of counting badgers.
+Lastly, I met two fellow Student Session presenters:
 
-Such a simple, yet very applicable project idea!
+- [Kacper Cybiński](https://www.linkedin.com/in/kacper-cybiński-5764601b4/) from the University of Warsaw, who talked about using neural networks in physics research—a deep topic that went over my head at first. I caught up with him the next day to dive deeper, and he kindly explained everything.
+- [Kacper Wachnik](https://www.linkedin.com/in/kacper-wachnik-5b2860252/) from PUT, who presented his master's thesis project _MisterCar_—a framework for creating AI agents in games, capable of detecting sound or controlling vehicles. He’s even planning to start a new section in the GHOST student organization, which I think is a fantastic initiative.
 
-There were also stand from [G-Research](https://www.gresearch.com) where a guy there spoke only English. It wasn't a problem at all. but I approached him speaking Polish because all other people at stands were Polish. It was a little funny encounter, especially because he gave me so much merch (he didn't want to bring it back home).
+I could go on, but to sum it up: I met so many fascinating people, and each interaction made the conference even more valuable.
 
-There was also a booth from OLX. The girls there were really nice. However, they didn't just give the merch, you had to play a game first where you scored points and received merch accordingly. They didn't offer any internships  though.
+# Non-conventional study experience
+Normally when we think about studying or, in general, acquiring new knowledge, we think about going to school, attending a lecture, or revising at home.
 
-On the upside, however, there was a lecture from OLX by [Jędrzej Kopiszka](https://www.linkedin.com/in/jędrzej-kopiszka-8ab338155/?originalSubdomain=pl) on fraud detection. I didn't attend his session, however, I did stumle upon him in the Speakers chambers after he gave his talk. I saw that he is from OLX and asked what his talk was about. And he explained in details what they detect, including scam offers, human and drug trafficig as well as nude content. These topics seemed so obvious when he was talking about them, and I started wondering why I haven't ever thought of that. I still don't know, but it seems as an intersting topic to ponder about.
+However, it turns out that a conference is also a brilliant way to learn and broaden your horizon. You may not become an expert after half an hour or possibly hour-long presentation, but you surely will benefit from becoming familiar with a new perspective on a known topic or even learning a new concept in its entirety.
 
-I have also talked with [Chih-Chen Kao](https://drkao.cc) from AMD who gave lecture on ray-tracing. Although I didn't understand much, I did approached him after the lecture to inquire about the studies at TUM, however, it turned out that he just lives there, not attend the university. However, he was a really nice gut and a pleasure to talk to! I could talk to him a little more during the afterparty.
+The latter was particularly to me during the GHOST Day.
 
-On top of that, I have also talked to two students from the Student Session: [Kacper Cybiński](https://www.linkedin.com/in/kacper-cybiński-5764601b4/) from the University of Warsaw and [Kacper Wachnik](https://www.linkedin.com/in/kacper-wachnik-5b2860252/) from PUT. The former guy had a presentation about using neural networks to assist physics research. It was a complex topic, really hard to convey in 7 minutes and I didn't understand much-mainly because of the my lack of background in physics. However, I talked to him during a lunch break the next day to inquire about his topics because it was itching me insides that I didn't quite get it. He was more than happy to expand on his research. We also chatted a little afterwards.
-
-The former presenter gave a talk on his project/master's thesis MisterCar. It is a framework to built in-game AI agent that can interact with the environment-detecting sound or steering a car. It was a really nice idea to assisst your gaming experience. I caught up with him later on and he told me that he even plans to open up a section in the GHOST student organization, which I find really awesome!
-
-I could still go on for a while, but this section is getting overly long and a little random-after all, I just enumerate and explain my encounters. The point is, I have met so many interesting people and I really valued this experience.
+For instance, the first keynote speaker: Maya Bechler-Speicher from Meta. She had an interesting talk about how using graphs and graph neural networks (GNNs) may not always be ideal. It's because graphs may not always adequatly represent all intricasies of the encoded structure. A point in case is representing proteins as a graph: although we can embedded a protein as a sequence of amino acids, it may not include information on other bonds between non-consecutive proteins. That was my main takeaway from her presentation-frankly, I didn't fully grasp the rest of the presentation, other than the fact that we can make our original graph embedding more like a regular graph because empiral results suggest that these kind of grpahs yeild the best results.
