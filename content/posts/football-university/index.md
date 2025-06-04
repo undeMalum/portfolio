@@ -60,38 +60,57 @@ I participated in local futsal games during the winter, but didn’t make the te
 Things changed in the summer. And that’s where the second part of the story begins.
 
 ## Semi-finals
-After winning the Poznań academic football of 2025, we received a pass to the semi-finals of the Polish Academic Championship.
+After winning the 2025 Poznań Academic Football League, our team earned a spot in the semi-finals of the Polish Academic Championship.
 
-I was thrilled becuase I finally played matched in their entirity and I wasn't performing poorly as well. I would say, the return wasn't half as bad as one could expect.
+I was thrilled — not just because we made it that far, but also because I was finally playing full matches and holding my own. Not a bad comeback, all things considered.
 
-Moreover, I had an opportunity to travel to a new city with people from the team so it also seemed like a nice trip.
+Plus, traveling to a new city with the team felt like the perfect mix of competition and adventure.
 
-We arrived 18th of May, but matches started the next day so we went out to grab a pizza because everyone was hungry after the trip. With everyone tired and excited for the next day, nothing much happened, altough, at the motel that we were staying in, there was a toxic couple of the love-and-hate type so there was a lot of shouting, but apart from that, everything went really smoothly.
+We arrived on May 18th, with matches scheduled to start the next day. That evening, we all went out for pizza — a much-needed refuel after the long journey. Apart from a *very* dramatic couple at the motel (the love-hate, shouting type), everything went smoothly.
 
-Next day, we played rather late, 11 or os. We were matched against out local rival - AWF Poznań ([Poznań University of Physical Education](https://awf.poznan.pl/en/university/)). After a troubling first half and almost losing a goal, we were reborn in the second half and went on to win the match [3:1](https://www.facebook.com/photo/?fbid=1632449364369078&set=a.984715112475843).
+### Game day 1
+Our first match kicked off around 11 a.m. — not too early, but still a slow start for us. We faced our local rivals, AWF Poznań ([University of Physical Education](https://awf.poznan.pl/en/university/)).
 
-We played another match at 3 pm, which wasn't ideal as it was the time of lunch arrival so we would be a little hungry. But so were out rivals, though they had more time to relax after their first game. The next match, against the Uniwersytet Gdański ([University of Gdańsk](https://en.ug.edu.pl)) began similarly in that we sucked in the first half, that finished with 1:1 on the scoring board, but we went thourgh, scored one more goal and [won 2:1](https://www.facebook.com/photo?fbid=1632588537688494&set=a.984715112475843).
+The first half was rough; we almost conceded. But we bounced back in the second half with renewed energy and came out on top with a solid [3–1 win](https://www.facebook.com/photo/?fbid=1632449364369078&set=a.984715112475843).
 
-Later that evening, we also learned that we had a guaranteed first place in the group (the scheme of the tournament was three groups on with three teams and two with four teams and two first places from the group played one more match for qualifying into the finals of the Polish Academic Championship in Football) because all other matched in our group were draws.
+At 3 p.m., we had our second match — less than ideal timing since lunch was arriving right around then. Our opponents, the University of Gdańsk ([Uniwersytet Gdański](https://en.ug.edu.pl)), had more time to rest between games.
 
-It was an ideal situation because we could do whatever in the first match the next day and preserve our vigor for the most important, last match that gave us qualifications.
+Again, we struggled in the first half, which ended 1–1. But in the second half, we regrouped, scored another goal, and secured a [2–1 victory](https://www.facebook.com/photo?fbid=1632588537688494&set=a.984715112475843).
 
-So we began the 20th of May by [loosing 6:1](https://www.facebook.com/photo?fbid=1633266847620663&set=a.984715112475843), it was also the first and only match that I played in, but no one cared. Our oponents AWFiS Gdańsk ([Gdansk University of Physical Education and Sport](https://awf.gda.pl/uczelnia/o-uczelni/international/)) had to win significantly in order to had a chance at playing in the qualifying match.
+Later that evening, we learned that every other match in our group had ended in a draw. That meant we were guaranteed first place in the group, regardless of the outcome of our next match.
 
-Naturally, we didn't want to lose so high, but more than that we cared about the next match and prefered to conserve energy for that one. It maybe a shame that it turned out like that, but even our opponents understood the situation and we all made fun of this match in the second half that the referee even finished 10 minuted before he should. But one one cared as the match was an unwanted formality.
+Perfect! We could take it easy the next morning and focus all our energy on the final qualifying match.
 
-So now, we had a few hours to spare before the grand match that would decide out faith. We were in a worse position than our rivals who, being from the three-team group not only had one match less, but also didn't play any matched in the morning and had a whole day to rest.
+### Game day 2
 
-But we didn't care and just wanted to win.
+We started May 20th by [losing 6–1](https://www.facebook.com/photo?fbid=1633266847620663&set=a.984715112475843). It was the first and only match I played in, but honestly, no one minded.
 
-Unfortunately, nothing went as planned. After our middlefielder received a yellow after allegedly simulating a foul in the penalty box (to be honest, he was kicked pretty hard in the shanks), we made many terrible mistaked in the defense, which our rivals took full advantage of, scoring 3 goals.
+Our opponents, AWFiS Gdańsk ([University of Physical Education and Sport](https://awf.gda.pl/uczelnia/o-uczelni/international/)), *had* to win big to have a chance at the next round — and they did.
 
-That wasn't an ideal situation for the second half. Forunately, out subsitute scored the first goal giving us hope. Later, our captain (the one with the yellow) scored for the second goal and it was now 3:2. 
+We didn’t *want* to lose like that, but our priority was clearly the afternoon match. Everyone knew it. Even the referee wrapped things up 10 minutes early. No one complained — the game had become more of a formality than a competition.
 
-The match was really energetic, many yellow card were given and even two red ones. Because of all the on-pitch situations, the referee added like 15-20 minutes in total. However, nothing helped, and even though we dominated on the pitch, we couldn't get a hand of the third goal, which led to us [losing](https://www.facebook.com/photo/?fbid=1633476340933047&set=a.984715112475843).
+### The final match
+A few hours later, it was time for the decisive match. Our rivals had a clear advantage: they came from a three-team group, had one match less, and didn’t play at all that morning. We were tired — but determined.
 
-It's such a shame because he had a really good squad that could make a really big difference in the finals. We were also three players short because three guys had injuried. Yet, we showed chracter, a little bit of good play and found memoried. Besides, everyone played! Even for a little while!
+Unfortunately, nothing went as planned.
 
-After the game, everyone abondoned the plans for partying till the next day and almost everyone returned on the same train.
+Our midfielder was booked for allegedly diving in the box (he was definitely kicked in the shins), and defensive errors led to our opponents scoring three goals.
 
-Even though we didn't advance, I am really happy for this experience!!
+But we didn’t give up.
+
+Our substitute netted one, and then our captain — yes, the one with the yellow — scored again. Suddenly, it was 3–2.
+
+The pace picked up dramatically. Cards were flying — lots of yellows and even two reds. The match was so intense the referee added nearly 15–20 minutes of stoppage time.
+
+We pressed hard, dominated possession, created chances… but the third goal just wouldn’t come. We [lost](https://www.facebook.com/photo/?fbid=1633476340933047&set=a.984715112475843).
+
+It was a heartbreaking end — we had such a strong squad, and we were missing three key players due to injury. Still, we showed character, played well, and created memories. Everyone got time on the pitch, even if just for a few minutes.
+
+After the match, any plans for celebrating quickly evaporated. Most of us packed up and took the same train back that evening.
+
+And even though we didn’t make it to the finals, I’m incredibly grateful for the experience. It was a beautiful chapter of my university life — filled with football, friendship, and the kind of moments that stay with you long after the final whistle.
+
+Even though the academic championship ended for this academic year, there were other opportunitied to play competetive football - for example the Sport's Day.
+
+# Sport's Day
+Sport's Day is an yealy initivative by the Sport's Center at PUT that breaks participation records every year.
