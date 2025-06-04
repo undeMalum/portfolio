@@ -113,4 +113,34 @@ And even though we didn’t make it to the finals, I’m incredibly grateful for
 Even though the academic championship ended for this academic year, there were other opportunitied to play competetive football - for example the Sport's Day.
 
 # Sport's Day
-Sport's Day is an yealy initivative by the Sport's Center at PUT that breaks participation records every year.
+Sport's Day is an yearly initivative by the Sport's Center at PUT that breaks participation records every year.
+
+During this day, many sport competitions are organized from lifting weights, through running on a staircase to the competition of interest - the football tournament.
+
+I learned about this tournament by attending PE lessons before the Szczecin competition because we had no training sessions from the team and I didn't want to not touch a ball for a month. Besides, in the beginnings, I made quite a few friends there in the first semester.
+
+Anyway, the couch told us about this opportunity as suggested that we sign up and do it ASAP as the spots (there were 16 teams) filled up rather quiclky each year. We assembled a team partially from our PE and partially from other sources like my friend Szymon and his friend which I knew Miłosz. They both knew people from our PE group because of their previous connections and because they sometimes attended out sessions to make up for the lost PE lessons (you could lose at most 2 otherwise you wouldn't advance into the next semester).
+
+So we had a nice group of people that could play good football. So as soon as the application opened, I signed up our team with a cheesy name "Barceloniak Barcelona". Yeah I know it's stupid but so were the name of other teams. But it doesn't matter.
+
+What matters is the 29th of May when the competition took place. The competition started at 9:30 but out first match was scheduled for 11:00 so we had a bit of time. However, I and Szymon arrived a little after 9 because that was the only train that made sense.
+
+Anyway, we could talk, play a little football with each other and enjoy the matched happening around us. We all planned to meet around 10:00 so around 10:30 everyobdy was ready and changed to play.
+
+At 11 we kicked off our first match of the day. We played a little dismissively because our rival was really bad. We shot many times from a distance and created a buunch of occasions, which resulted in one goal. However, out opponents scored a lucky goal after the ball bounced of off like three pleayers.
+
+We shit the bed from then and couldn't create ocassions. We made two substitutions that revived out game but brought no goal advantage. So we had to fight in the penalty competition. The rules were different because we played until the first missed one.
+
+We scored our penalty and the goalkeeper caught the ball after the opponents' shot so we won the first match.
+
+We had a little time before the next match that turned out to be the match of frienship because we knew a lot of people from the rival team.
+
+We kicked off around 12:10 and the fun began. We created more occasions than the opponents, but nothing wanted to go inside the net. The only controversy was that the ball from the second pitch went onto ours and the guy from the opposing team wanted to kick it back, but this way he obstructed the view of out player. After some arguing, the referee decided dropped-ball and the game resumed.
+
+In the second half though, Janek kiecked the ball from the distance with so much power the keeper stood no chance. The score was 1:0 and it didn't change untill the final whistle. Second match, second win - streak not yet broken!
+
+Now was the time for the semi-final matches. We paired with a team composed of people from the third year from differen majors. One guy I knew quite well, Kleszczu, because he also played in the academic team.
+
+The people from the this team were also really nice. It turned out that it was their third competition in a row and the two previous ones they lost in the first run so now they were really motivated.
+
+The game started and it was intense. Occasions on both sides. The rival scored the first goal, however, after getting kicked in the stomach, I scored our first goal right before the end of the first half. 1:1 on the score board and brake time.
