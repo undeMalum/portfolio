@@ -144,3 +144,4 @@ Now was the time for the semi-final matches. We paired with a team composed of p
 The people from the this team were also really nice. It turned out that it was their third competition in a row and the two previous ones they lost in the first run so now they were really motivated.
 
 The game started and it was intense. Occasions on both sides. The rival scored the first goal, however, after getting kicked in the stomach, I scored our first goal right before the end of the first half. 1:1 on the score board and brake time.
+
