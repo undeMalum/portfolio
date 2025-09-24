@@ -40,4 +40,13 @@ To wrap up, I’ll share two demos that showcase marimo in action and (hopefully
 Let’s dive in.
 
 # Very real scenario
-In our scenario you can 
+In our "extremely realistic" scenario, we will conduct a "hard" mathematical analysis that we will progressively extend.
+
+We will kick off with the following:
+
+
+Although simple, this setup already has some markdown and code that will suffice for now and is a good foundation to build upon.
+
+Withouth furher ado, let's move on to the problem with the execution order.
+
+DISCLAIMER: This posts assumes you have some basics of Python and git. If you don't, the examples are, hopefully, illustrative enough for you to grasps the concepts nonetheless.
