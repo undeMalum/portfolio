@@ -31,11 +31,13 @@ As the [README](https://github.com/marimo-team/marimo/blob/main/README.md) puts 
 
 > marimo is a reactive Python notebook: run a cell or interact with a UI element, and marimo automatically runs dependent cells (or marks them as stale), keeping code and outputs consistent. marimo notebooks are stored as pure Python (with first-class SQL support), executable as scripts, and deployable as apps.
 
-In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **execution order, git-friendliness, and reproducibility**. However, rather than just listing marimo features, we’ll look at _how_ these specific problems look like in Jupyter and _why_ they occur and, then, present how marimo approaches them differently.
+In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **execution order, git-friendliness, and reproducibility**. Instead of just listing marimo’s features, we’ll examine _how_ these issues arise in Jupyter and then see how marimo tackles them differently.
+
+To make this concrete, I’ll use a simple, made-up example that mirrors a real-world workflow. This way, you can follow along step by step and clearly see the contrast.
 
 To wrap up, I’ll share two demos that showcase marimo in action and (hopefully) convince you to give it a try.
 
 Let’s dive in.
 
-# Git Friendliness
-
+# Very real scenario
+In our scenario you can 
