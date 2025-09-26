@@ -119,4 +119,67 @@ Let us perform the same workflow with marimo as we did with the Jupyter Notebook
 2. Update the value of `a` and see what happens
 3. Delete `b` to observe how marimo handles that
 
+Starting with the first step, here's how the executed marimo notebook looks like:
 
+***
+{{< figure src="./images/marimo/marimo_initial_run.png" alt="Screenshot presenting the executed marimo demo." position="center" style="border-radius: 8px;" caption="As anticipated, we got our beloved 11." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+Everything looks just right - after all, we arrived at the expected result `11` as we did initially with Jupyter Notebook.
+
+Apart from esthethic differences, all looks extremely similar.
+
+For now, let's ingore `import marimo as mo` at the top - we'll come back to it in the next section.
+
+Anyway, would marimo be able to handle changing variables more gracefully? Check it out!
+
+***
+{{< figure src="./images/marimo/marimo_no_hidden_state.png" alt="Screenshot presenting the executed marimo demo with change variable a." position="center" style="border-radius: 8px;" caption="Thanks to DAG, marimo was able to detect the changes in the variables." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+Tada! Our analysis produced the longed-for `13`. But how was marimo able to detect the changes in multiple cells?
+
+It's all thanks to the marimo's reliance on DAG - [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+
+Marimo utilizes DAG to build a logical representation of cell interdependencies. Therefore, changes in the variable definition from a given cell causes all cells that depend on this variable to also be run. Isn't that amazing?
+
+In our demo analysis, the DAG looks like this:
+
+***
+{{< figure src="./images/dags/marimo_dag.png" alt="Picture of a marimo DAG of the demo." position="center" style="border-radius: 8px;" caption="DAG clearly maps the interdependencies of the marimo cells." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+We can clearly see what depends on what and so does marimo - that's how it know it needs to run the cell with `b = a + 1` and consequently `a + b` upon changing `a`.
+
+However, let's see how marimo's DAG handles missing variables and whether it's also somehow prone to the hidden states. For this sake, delete the cell that defines `b`:
+
+***
+{{< figure src="./images/marimo/marimo_delete_b.png" alt="Screenshot of the marimo demo with b cell deleted." position="center" style="border-radius: 8px;" caption="That is the correct, explicit bahavior to a missing variable." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+Perfect! Marimo was able to detect that there is something fishy about adding two variables when one is missing and it threw a nice `NameError` message, which we can even read more about:
+
+```text
+Traceback (most recent call last):
+  File "C:\Users\{SomeUser}\scoop\shims\portfolio\content\posts\marimo-overview\.venv\Lib\site-packages\marimo\_runtime\executor.py", line 139, in execute_cell
+    return eval(cell.last_expr, glbls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Cell  marimo://C:\Users\{SomeUser}\scoop\shims\portfolio\content\posts\marimo-overview\math_analysis.py#cell=cell-4, line 1, in <module>
+    a + b
+        ^
+NameError: name 'b' is not defined
+```
+
+We see that `NameError` was raised because `b` was not defined. The way marimo could detect it is also very easy to present as a graph:
+
+***
+{{< figure src="./images/dags/marimo_delete_b.png" alt="Picture of a marimo DAG of missing variable b." position="center" style="border-radius: 8px;" caption="Connections between nodes were deleted so marimo knew something is wrong." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+Two birds with one - no more incorrect addition and no more addition on noexisting variables: all thanks to getting rid of hidden states.
+
+The DAG architecture profoundness extends beyond just removing the issue of hidden states. Thanks to the clear execution order of cell and instructions withing defined by DAG, marimo notebooks cells can be order however you like without the risk of unexpected bahaviors.
+
+This mitigates the issues of the Jupyter notebooks that questions the validity of research results.
+
+Moreover, this ordered execution also mimick how "normal" python scripts are executed from top to bottom, with the clear order of execution of instructions - in fact, marimo notebooks _are_ Python scripts, but more on that in the next section.

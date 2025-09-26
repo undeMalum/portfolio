@@ -18,7 +18,7 @@ def _(mo):
 
 @app.cell
 def _():
-    a = 5
+    a = 6
     return (a,)
 
 
