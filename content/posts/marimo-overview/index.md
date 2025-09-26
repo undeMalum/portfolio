@@ -17,6 +17,9 @@ draft = true
 # Why Should You Care?
 [Jupyter Notebooks](https://jupyter.org) are a cornerstone of the Python ecosystem, especially in research and data science. Their ability to combine code, markdown, results, and visualizations makes them a powerful tool for analysis and communication.
 
+
+<---! Include a graphic from the paper on how the example jpuyter looks like --->
+
 But they also come with well-documented drawbacks: hidden execution order, reproducibility issues, and encouragement of poor coding practices. A 2019 study — [*"A Large-scale Study about Quality and Reproducibility of Jupyter Notebooks"*](https://leomurta.github.io/papers/pimentel2019a.pdf)[^fn] — highlighted how these problems undermine reliability at scale.
 
 [^fn]: J. F. Pimentel, L. Murta, V. Braganholo and J. Freire, "A Large-Scale Study About Quality and Reproducibility of Jupyter Notebooks," 2019 IEEE/ACM 16th International Conference on Mining Software Repositories (MSR), Montreal, QC, Canada, 2019, pp. 507-517, doi: 10.1109/MSR.2019.00077.
@@ -45,8 +48,8 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-***
-{{< figure src="./images/jupyter/jupyter_initial_setup.png" alt="Screenshot presenting the initial setup of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="The initial setup inside Jupyter Notebook." captionPosition="right" captionStyle="color: white;" >}}
+*** 
+{{< figure src="./images/jupyter/jupyter_initial_setup.png" alt="Screenshot presenting the initial setup of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="This is how the setup presents itself within Jupyter Notebook." captionPosition="right" captionStyle="color: white;" >}}
 ***
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
@@ -54,3 +57,5 @@ It may look trivial, but it already includes both markdown and code — enough t
 With that in place, let’s jump straight into the first problem: **execution order**.
 
 *Disclaimer: This post assumes some familiarity with Python and git. If you’re new to either, don’t worry — the examples should still be clear enough to follow along.*
+
+# Pain Point #1: Execution Order
