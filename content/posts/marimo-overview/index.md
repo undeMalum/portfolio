@@ -14,7 +14,7 @@ hideComments = false
 draft = true
 +++
 
-# Why should you care?
+# Why Should You Care?
 [Jupyter Notebooks](https://jupyter.org) are a cornerstone of the Python ecosystem, especially in research and data science. Their ability to combine code, markdown, results, and visualizations makes them a powerful tool for analysis and communication.
 
 But they also come with well-documented drawbacks: hidden execution order, reproducibility issues, and encouragement of poor coding practices. A 2019 study — [*"A Large-scale Study about Quality and Reproducibility of Jupyter Notebooks"*](https://leomurta.github.io/papers/pimentel2019a.pdf)[^fn] — highlighted how these problems undermine reliability at scale.
@@ -39,14 +39,18 @@ To wrap up, I’ll share two demos that showcase marimo in action and (hopefully
 
 Let’s dive in.
 
-# Very real scenario
-In our "extremely realistic" scenario, we will conduct a "hard" mathematical analysis that we will progressively extend.
+# A Very Real Scenario
 
-We will kick off with the following:
+In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathematical analysis — one that we’ll progressively extend as we go.
 
+We’ll begin with this simple setup:
 
-Although simple, this setup already has some markdown and code that will suffice for now and is a good foundation to build upon.
+***
+{{< figure src="./images/jupyter/jupyter_initial_setup.png" alt="Screenshot presenting the initial setup of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="The initial setup inside Jupyter Notebook." captionPosition="right" captionStyle="color: white;" >}}
+***
 
-Withouth furher ado, let's move on to the problem with the execution order.
+It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
 
-DISCLAIMER: This posts assumes you have some basics of Python and git. If you don't, the examples are, hopefully, illustrative enough for you to grasps the concepts nonetheless.
+With that in place, let’s jump straight into the first problem: **execution order**.
+
+*Disclaimer: This post assumes some familiarity with Python and git. If you’re new to either, don’t worry — the examples should still be clear enough to follow along.*
