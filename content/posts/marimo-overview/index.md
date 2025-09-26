@@ -113,4 +113,10 @@ This is where Jupyter goes from quirky to dangerous. Hidden states make notebook
 But don’t worry: **marimo has a fix**.
 
 ## Marimo Solution
+Let us perform the same workflow with marimo as we did with the Jupyter Notebook, meaning:
+
+1. Run the initial setup of the notebook to see if it works
+2. Update the value of `a` and see what happens
+3. Delete `b` to observe how marimo handles that
+
 
