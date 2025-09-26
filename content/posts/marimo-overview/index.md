@@ -43,7 +43,6 @@ To wrap up, I’ll share two demos that showcase marimo in action and (hopefully
 Let’s dive in.
 
 # A Very Real Scenario
-
 In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathematical analysis — one that we’ll progressively extend as we go.
 
 We’ll begin with this simple setup:
@@ -59,3 +58,13 @@ With that in place, let’s jump straight into the first problem: **execution or
 *Disclaimer: This post assumes some familiarity with Python and git. If you’re new to either, don’t worry — the examples should still be clear enough to follow along.*
 
 # Pain Point #1: Execution Order
+Having this beautiful setup prepared, it would nice if we could actually run it!
+
+So let's do just that in a top-to-bottom manner and observe the results:
+
+***
+***
+
+As expceted, our analysis yielded number 9, fantastic! This means, everything works just fine.
+
+Now, I would like you to pay attention to the square brackets with numbers (e.g. `[2]`) on the left. The numbers in this brackets 
