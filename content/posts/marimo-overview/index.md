@@ -34,7 +34,7 @@ As the [README](https://github.com/marimo-team/marimo/blob/main/README.md) puts 
 
 > marimo is a reactive Python notebook: run a cell or interact with a UI element, and marimo automatically runs dependent cells (or marks them as stale), keeping code and outputs consistent. marimo notebooks are stored as pure Python (with first-class SQL support), executable as scripts, and deployable as apps.
 
-In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **execution order, git-friendliness, and reproducibility**. Instead of just listing marimo’s features, we’ll examine _how_ these issues arise in Jupyter and then see how marimo tackles them differently.
+In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **hidden states, git-friendliness, and reproducibility**. Instead of just listing marimo’s features, we’ll examine _how_ these issues arise in Jupyter and then see how marimo tackles them differently.
 
 To make this concrete, I’ll use a simple, made-up example that mirrors a real-world workflow. This way, you can follow along step by step and clearly see the contrast.
 
@@ -53,18 +53,64 @@ We’ll begin with this simple setup:
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
 
-With that in place, let’s jump straight into the first problem: **execution order**.
+With that in place, let’s jump straight into the first problem: **hidden states**.
 
 *Disclaimer: This post assumes some familiarity with Python and git. If you’re new to either, don’t worry — the examples should still be clear enough to follow along.*
 
-# Pain Point #1: Execution Order
-Having this beautiful setup prepared, it would nice if we could actually run it!
+# Pain Point #1: Hidden States
 
-So let's do just that in a top-to-bottom manner and observe the results:
+With our *beautifully crafted* setup in place, it’s finally time to unleash its power and run the cells!
+
+So let’s execute everything top-to-bottom and admire the results:
+
+*** 
+{{< figure src="./images/jupyter/jupyter_first_run.png" alt="Screenshot presenting the first run of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="After executing all cells, we arrive at the expected result." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+As expected, our **world-class analysis™** produced the number `11`. Glorious success. :tada:
+
+But before we pat ourselves on the back too much, let’s talk about something sneaky lurking beneath the surface: **states**.
+
+A variable’s *state* is simply the most recent value it was assigned when a cell ran. In our case:
+
+* `a` is living its best life as **5**
+* `b` is happily holding **6**
+
+So far, so good. But here’s the catch: **states don’t always stay this innocent**. And this, dear reader, is where Jupyter starts to get… messy.
+
+## Problem Definition
+Let’s take our demo one step further:
+
+1. Change the value of `a` to **6** and run that cell
+2. Then run the addition cell
+
+Anything weird going on?
 
 ***
+{{< figure src="./images/jupyter/jupyter_hidden_state_no_re-execution.png" alt="Screenshot presenting the hidden state in the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="How come a (6) + b (supposedly 7) equals 12?!" captionPosition="right" captionStyle="color: white;" >}}
 ***
 
-As expceted, our analysis yielded number 9, fantastic! This means, everything works just fine.
+Wait… does Jupyter not know how to add? Let’s do the math ourselves:
 
-Now, I would like you to pay attention to the square brackets with numbers (e.g. `[2]`) on the left. The numbers in this brackets 
+* `a` = **6**
+* `b` = `a + 1` = **7**
+* so `a + b` = **13**, not **12**!
+
+And yet, Jupyter insists the answer is 12.
+
+What’s going on here is the infamous **hidden state** problem. A hidden state is simply a value that *exists in memory* but isn’t visible or obvious in the notebook.
+
+In this case, the cell that defines `b` wasn’t re-executed after we changed `a`, so Jupyter still thinks `b = 6` from the previous run.
+
+It gets even sillier: if I *delete the cell* that defines `b`, the addition cell *still works*!
+
+***
+{{< figure src="./images/jupyter/jupyter_hidden_state_delete.png" alt="Screenshot presenting the hidden state in the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="This is pure comedy and hidden states at their peak." captionPosition="right" captionStyle="color: white;" >}}
+***
+
+This is where Jupyter goes from quirky to dangerous. Hidden states make notebooks misleading, undermine reproducibility, and can even corrupt research results — which is no laughing matter.
+
+But don’t worry: **marimo has a fix**.
+
+## Marimo Solution
+

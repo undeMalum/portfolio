@@ -23,8 +23,8 @@ def _():
 
 
 @app.cell
-def _():
-    b = 4
+def _(a):
+    b = a + 1
     return (b,)
 
 
