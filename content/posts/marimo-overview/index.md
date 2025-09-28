@@ -47,9 +47,8 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-*** 
-{{< figure src="./images/jupyter/jupyter_initial_setup.png" alt="Screenshot presenting the initial setup of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="This is how the setup presents itself within Jupyter Notebook." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/jupyter/initial_setup.html" width="100%" height="250px">
+</iframe>
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
 
@@ -63,9 +62,8 @@ With our *beautifully crafted* setup in place, it’s finally time to unleash it
 
 So let’s execute everything top-to-bottom and admire the results:
 
-*** 
-{{< figure src="./images/jupyter/jupyter_first_run.png" alt="Screenshot presenting the first run of the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="After executing all cells, we arrive at the expected result." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px">
+</iframe>
 
 As expected, our **world-class analysis™** produced the number `11`. Glorious success. :tada:
 
@@ -86,9 +84,8 @@ Let’s take our demo one step further:
 
 Anything weird going on?
 
-***
-{{< figure src="./images/jupyter/jupyter_hidden_state_no_re-execution.png" alt="Screenshot presenting the hidden state in the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="How come a (6) + b (supposedly 7) equals 12?!" captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/jupyter/no_re-execution.html" width="100%" height="250px">
+</iframe>
 
 Wait… does Jupyter not know how to add? Let’s do the math ourselves:
 
@@ -104,9 +101,8 @@ In this case, the cell that defines `b` wasn’t re-executed after we changed `a
 
 It gets even sillier: if I *delete the cell* that defines `b`, the addition cell *still works*!
 
-***
-{{< figure src="./images/jupyter/jupyter_hidden_state_delete.png" alt="Screenshot presenting the hidden state in the Jupyter Notebook demo." position="center" style="border-radius: 8px;" caption="This is pure comedy and hidden states at their peak." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/jupyter/delete_b.html" width="100%" height="250px">
+</iframe>
 
 This is where Jupyter goes from quirky to dangerous. Hidden states make notebooks misleading, undermine reproducibility, and can even corrupt research results — which is no laughing matter.
 
@@ -121,9 +117,8 @@ Let us perform the same workflow with marimo as we did with the Jupyter Notebook
 
 Starting with the first step, here's how the executed marimo notebook looks like:
 
-***
-{{< figure src="./images/marimo/marimo_initial_run.png" alt="Screenshot presenting the executed marimo demo." position="center" style="border-radius: 8px;" caption="As anticipated, we got our beloved 11." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px">
+</iframe>
 
 Everything looks just right - after all, we arrived at the expected result `11` as we did initially with Jupyter Notebook.
 
@@ -133,9 +128,8 @@ For now, let's ingore `import marimo as mo` at the top - we'll come back to it i
 
 Anyway, would marimo be able to handle changing variables more gracefully? Check it out!
 
-***
-{{< figure src="./images/marimo/marimo_no_hidden_state.png" alt="Screenshot presenting the executed marimo demo with change variable a." position="center" style="border-radius: 8px;" caption="Thanks to DAG, marimo was able to detect the changes in the variables." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/marimo/update_a.html" width="100%" height="350px">
+</iframe>
 
 Tada! Our analysis produced the longed-for `13`. But how was marimo able to detect the changes in multiple cells?
 
@@ -153,9 +147,8 @@ We can clearly see what depends on what and so does marimo - that's how it know 
 
 However, let's see how marimo's DAG handles missing variables and whether it's also somehow prone to the hidden states. For this sake, delete the cell that defines `b`:
 
-***
-{{< figure src="./images/marimo/marimo_delete_b.png" alt="Screenshot of the marimo demo with b cell deleted." position="center" style="border-radius: 8px;" caption="That is the correct, explicit bahavior to a missing variable." captionPosition="right" captionStyle="color: white;" >}}
-***
+<iframe src="./notebooks/hidden_states/marimo/delete_b.html" width="100%" height="350px">
+</iframe>
 
 Perfect! Marimo was able to detect that there is something fishy about adding two variables when one is missing and it threw a nice `NameError` message, which we can even read more about:
 
