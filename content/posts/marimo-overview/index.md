@@ -199,4 +199,9 @@ So, before I make these changes, I will restart the Jupyter Kernel (to remove al
 <iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
 </iframe>
 
-and create a [commit](https://git-scm.com/docs/git-commit):
+[stage](https://git-scm.com/about/staging-area) restoration and create a [commit](https://git-scm.com/docs/git-commit):
+
+```text
+git add content/posts/marimo-overview/math_analysis.ipynb
+git commit -m "Restore initial Jupyter Notebook settings"
+```
