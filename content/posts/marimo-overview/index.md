@@ -179,4 +179,21 @@ This eliminates a whole class of headaches around execution order and brings mar
 | **Clarity of dependencies** | Implicit; users must track mentally                                     | Explicit; dependencies visible in DAG                           |
 
 # Pain Point #2: Git-Friendliness
+[Version Control Systems](https://en.wikipedia.org/wiki/Version_control) (VCS), particularly [git](https://git-scm.com) (that I'll use in this post), are really powerful tools that have been shaping the way in which people write code. These tools allow developers to track changes in the code, roll back to previous versions, develop new features in a safe environment and, in multi-developer systems, attirbute exact code changes to particular developers.
+
+This last build tunrs out to be extremely helpful also in research as it allows proper attribution of work in the project - even in math (see [this project](https://github.com/teorth/equational_theories))!
+
+All that is to say that there is a stron inclination in both research, data science, and software devoplemnt to use VCS. And because Jupyter Notebooks are so frequently chosen in those types of projects as well, people naturally tend to combine both tools in their projects.
+
+But before I jump into yapping about Git-Friendliness of Jupyter Notebooks (or rather lack thereof), let me introduce how we will extend out mathematical analysis demo for demonstration.
+
+Basically, we're going to add two new cells:
+
+* First cell will create a new variable `z` that will store that addition
+* Second cell will perform the multiplication of `z` by `5`
+
+In this part, we're not really interested in how things _work_, but how they are _viewed_ by git.
+
+So, before I make these changes, I will restart the Jupyter Kernel (to remove all results from being dusplayed), re-run all cells, and create a [commit](https://git-scm.com/docs/git-commit):
+
 
