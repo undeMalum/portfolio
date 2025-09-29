@@ -139,9 +139,7 @@ Marimo utilizes DAG to build a logical representation of cell interdependencies.
 
 In our demo analysis, the DAG looks like this:
 
-***
-{{< figure src="./images/dags/marimo_dag.png" alt="Picture of a marimo DAG of the demo." position="center" style="border-radius: 8px;" caption="DAG clearly maps the interdependencies of the marimo cells." captionPosition="right" captionStyle="color: white;" >}}
-***
+<object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_dag.svg" style="width:100%; height:auto;"></object>
 
 We can clearly see what depends on what and so does marimo - that's how it know it needs to run the cell with `b = a + 1` and consequently `a + b` upon changing `a`.
 
@@ -165,9 +163,7 @@ NameError: name 'b' is not defined
 
 We see that `NameError` was raised because `b` was not defined. The way marimo could detect it is also very easy to present as a graph:
 
-***
-{{< figure src="./images/dags/marimo_delete_b.png" alt="Picture of a marimo DAG of missing variable b." position="center" style="border-radius: 8px;" caption="Connections between nodes were deleted so marimo knew something is wrong." captionPosition="right" captionStyle="color: white;" >}}
-***
+<object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_delete_b.svg" style="width:100%; height:auto;"></object>
 
 Two birds with one - no more incorrect addition and no more addition on noexisting variables: all thanks to getting rid of hidden states.
 
