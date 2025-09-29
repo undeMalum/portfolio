@@ -47,7 +47,7 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-<iframe src="./notebooks/hidden_states/jupyter/initial_setup.html" width="100%" height="250px">
+<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
 </iframe>
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
@@ -194,6 +194,9 @@ Basically, we're going to add two new cells:
 
 In this part, we're not really interested in how things _work_, but how they are _viewed_ by git.
 
-So, before I make these changes, I will restart the Jupyter Kernel (to remove all results from being dusplayed), re-run all cells, and create a [commit](https://git-scm.com/docs/git-commit):
+So, before I make these changes, I will restart the Jupyter Kernel (to remove all previous results from being dusplayed), re-run all cells:
 
+<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
+</iframe>
 
+and create a [commit](https://git-scm.com/docs/git-commit):
