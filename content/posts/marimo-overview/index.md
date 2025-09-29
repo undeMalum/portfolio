@@ -109,66 +109,74 @@ This is where Jupyter goes from quirky to dangerous. Hidden states make notebook
 But don’t worry: **marimo has a fix**.
 
 ## Marimo Solution
-Let us perform the same workflow with marimo as we did with the Jupyter Notebook, meaning:
+Let’s repeat the same workflow in marimo:
 
-1. Run the initial setup of the notebook to see if it works
-2. Update the value of `a` and see what happens
-3. Delete `b` to observe how marimo handles that
+1. Run the initial setup
+2. Update the value of `a`
+3. Delete `b` and see what happens
 
-Starting with the first step, here's how the executed marimo notebook looks like:
+First, the initial run:
 
-<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px">
-</iframe>
+<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px"></iframe>  
 
-Everything looks just right - after all, we arrived at the expected result `11` as we did initially with Jupyter Notebook.
+Everything looks great — just like in Jupyter, we get the expected result `11`. Apart from some aesthetic differences, it feels almost identical.
 
-Apart from esthethic differences, all looks extremely similar.
+(For now, ignore the mysterious `import marimo as mo` at the top — we’ll revisit that later.)
 
-For now, let's ingore `import marimo as mo` at the top - we'll come back to it in the next section.
+Now, what happens if we change `a`?
 
-Anyway, would marimo be able to handle changing variables more gracefully? Check it out!
+<iframe src="./notebooks/hidden_states/marimo/update_a.html" width="100%" height="350px"></iframe>  
 
-<iframe src="./notebooks/hidden_states/marimo/update_a.html" width="100%" height="350px">
-</iframe>
+Tada! We get the correct `13`. No hidden states, no misleading results.
 
-Tada! Our analysis produced the longed-for `13`. But how was marimo able to detect the changes in multiple cells?
+So how does marimo pull this off? The secret is its reliance on a **DAG (Directed Acyclic Graph)** — [yes, the graph theory kind](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-It's all thanks to the marimo's reliance on DAG - [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+Marimo builds a DAG of cell dependencies. When a variable changes, every dependent cell automatically re-runs. In our case, changing `a` triggers both `b = a + 1` and `a + b`.
 
-Marimo utilizes DAG to build a logical representation of cell interdependencies. Therefore, changes in the variable definition from a given cell causes all cells that depend on this variable to also be run. Isn't that amazing?
-
-In our demo analysis, the DAG looks like this:
+Here’s the DAG behind our demo:
 
 <object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_dag.svg" style="width:100%; height:auto;"></object>
 
-We can clearly see what depends on what and so does marimo - that's how it know it needs to run the cell with `b = a + 1` and consequently `a + b` upon changing `a`.
+Crystal clear. We see exactly what depends on what — and so does marimo.
 
-However, let's see how marimo's DAG handles missing variables and whether it's also somehow prone to the hidden states. For this sake, delete the cell that defines `b`:
+But what if we delete `b` entirely?
 
-<iframe src="./notebooks/hidden_states/marimo/delete_b.html" width="100%" height="350px">
-</iframe>
+<iframe src="./notebooks/hidden_states/marimo/delete_b.html" width="100%" height="350px"></iframe>  
 
-Perfect! Marimo was able to detect that there is something fishy about adding two variables when one is missing and it threw a nice `NameError` message, which we can even read more about:
+Perfect. Instead of running with a ghost value, marimo raises an explicit `NameError`:
 
 ```text
-Traceback (most recent call last):
-  File "C:\Users\{SomeUser}\scoop\shims\portfolio\content\posts\marimo-overview\.venv\Lib\site-packages\marimo\_runtime\executor.py", line 139, in execute_cell
-    return eval(cell.last_expr, glbls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  Cell  marimo://C:\Users\{SomeUser}\scoop\shims\portfolio\content\posts\marimo-overview\math_analysis.py#cell=cell-4, line 1, in <module>
-    a + b
-        ^
 NameError: name 'b' is not defined
 ```
 
-We see that `NameError` was raised because `b` was not defined. The way marimo could detect it is also very easy to present as a graph:
+Exactly what should happen.
+
+And the DAG makes the failure just as clear visually:
 
 <object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_delete_b.svg" style="width:100%; height:auto;"></object>
 
-Two birds with one - no more incorrect addition and no more addition on noexisting variables: all thanks to getting rid of hidden states.
+Remove a node, break the graph — marimo instantly knows the logic is broken. Simple, yet powerful.
 
-The DAG architecture profoundness extends beyond just removing the issue of hidden states. Thanks to the clear execution order of cell and instructions withing defined by DAG, marimo notebooks cells can be order however you like without the risk of unexpected bahaviors.
+So with one mechanism, we solve two problems at once:
 
-This mitigates the issues of the Jupyter notebooks that questions the validity of research results.
+* No incorrect results from stale values
+* No “zombie variables” persisting after deletion
 
-Moreover, this ordered execution also mimick how "normal" python scripts are executed from top to bottom, with the clear order of execution of instructions - in fact, marimo notebooks _are_ Python scripts, but more on that in the next section.
+But DAGs give us more than just protection against hidden states. Because dependencies are explicit, marimo notebooks don’t care about **cell order**. You can rearrange cells however you like without breaking execution — something Jupyter can’t guarantee.
+
+This eliminates a whole class of headaches around execution order and brings marimo notebooks closer to how Python scripts naturally run: clear, deterministic, and reproducible.
+
+*In fact*, marimo notebooks **are** Python scripts. But we’ll get to that in the next section.
+
+### Jupyter vs. marimo (Execution & States)
+
+| Aspect                      | Jupyter Notebook                                                        | marimo                                                          |
+| --------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Hidden states**           | Variables can persist invisibly, leading to stale or misleading results | Impossible — DAG ensures all dependencies update automatically  |
+| **Execution order**         | Depends on user clicks; easy to get out of sync                         | Explicit DAG determines order; always consistent                |
+| **Deleting variables**      | “Zombie” values can still linger in memory                              | Raises clear errors (`NameError`) when dependencies are missing |
+| **Cell ordering**           | Must be careful — reordering cells can break logic                      | Cells can be arranged freely; DAG keeps execution correct       |
+| **Clarity of dependencies** | Implicit; users must track mentally                                     | Explicit; dependencies visible in DAG                           |
+
+# Pain Point #2: Git-Friendliness
+
