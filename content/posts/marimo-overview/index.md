@@ -207,7 +207,19 @@ git commit -m "Restore initial Jupyter Notebook settings and run it"
 git push
 ```
 
-The SSH of the commit is [531f3b150c1681766dcc2d20ece80702a4b40b04](https://github.com/undeMalum/portfolio/commit/531f3b150c1681766dcc2d20ece80702a4b40b04). Feel free to view it or not. In either case _this_ commit is going to be our reference to the above-mentioned changes, which I look like this:
+The SSH of the commit is [f22cfe125770d351d3a51f9812ea942149c1b6f3](https://github.com/undeMalum/portfolio/commit/f22cfe125770d351d3a51f9812ea942149c1b6f3). Feel free to view it or not. In either case _this_ commit is going to be our reference to the above-mentioned changes, thanks to which the Jupyter Notebook looks like this:
 
-<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
+<iframe src="./notebooks/git_friendliness/jupyter/add_changes.html" width="100%" height="300px">
 </iframe>
+
+Let's again perform all git magic to save the change with a new message:
+
+```text
+git add content/posts/marimo-overview/math_analysis.ipynb
+git commit -m "Add changes to Jupyter Notebook and run it"
+git push
+```
+
+and we're off to the races to continue with winning about Jupyter Notebooks!
+
+## Problem Definition
