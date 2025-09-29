@@ -203,7 +203,7 @@ So, before I make these changes, I will restart the Jupyter Kernel (to remove al
 
 ```text
 git add content/posts/marimo-overview/math_analysis.ipynb
-git commit -m "Restore initial Jupyter Notebook settings"
+git commit -m "Restore initial Jupyter Notebook settings and run it"
 git push
 ```
 
