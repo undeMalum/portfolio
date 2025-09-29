@@ -47,7 +47,7 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="25q0px">
+<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="250px">
 </iframe>
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
@@ -179,47 +179,50 @@ This eliminates a whole class of headaches around execution order and brings mar
 | **Clarity of dependencies** | Implicit; users must track mentally                                     | Explicit; dependencies visible in DAG                           |
 
 # Pain Point #2: Git-Friendliness
-[Version Control Systems](https://en.wikipedia.org/wiki/Version_control) (VCS), particularly [git](https://git-scm.com) (that I'll use in this post), are really powerful tools that have been shaping the way in which people write code. These tools allow developers to track changes in the code, roll back to previous versions, develop new features in a safe environment and, in multi-developer systems, attirbute exact code changes to particular developers.
+[Version Control Systems](https://en.wikipedia.org/wiki/Version_control) (VCS) — especially [git](https://git-scm.com) — are the backbone of modern software development. They let us track changes, roll back mistakes, safely experiment with new features, and (in team projects) assign credit (or blame :sweat_smile:) to the right developer.
 
-This last build tunrs out to be extremely helpful also in research as it allows proper attribution of work in the project - even in math (see [this project](https://github.com/teorth/equational_theories))!
+This isn’t just useful in software: VCS also helps in research, where proper attribution is critical (see [this project](https://github.com/teorth/equational_theories) for a math-flavored example).
 
-All that is to say that there is a stron inclination in both research, data science, and software devoplemnt to use VCS. And because Jupyter Notebooks are so frequently chosen in those types of projects as well, people naturally tend to combine both tools in their projects.
+So it’s no surprise that researchers, data scientists, and developers all lean heavily on git — and since Jupyter is so popular in these domains, the two are often used together.
 
-But before I jump into yapping about Git-Friendliness of Jupyter Notebooks (or rather lack thereof), let me introduce how we will extend out mathematical analysis demo for demonstration.
+Now, before we dive into why Jupyter and git aren’t exactly best friends, let’s extend our mathematical analysis demo a bit:
 
-Basically, we're going to add two new cells:
+* Add a cell that defines a new variable `z` as the result of our addition
+* Add another cell that multiplies `z` by `3`
 
-* First cell will create a new variable `z` that will store that addition
-* Second cell will perform the multiplication of `z` by `3`
+We’re not focused on *how* these cells work (we already know they’ll behave). What matters is how git *sees* these changes.
 
-In this part, we're not really interested in how things _work_, but how they are _viewed_ by git.
+First, I’ll reset everything: restart the Jupyter Kernel (to clear results), re-run all cells, stage the file, and commit:
 
-So, before I make these changes, I will restart the Jupyter Kernel (to remove all previous results from being dusplayed), re-run all cells:
+<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px"></iframe>  
 
-<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px">
-</iframe>
-
-[stage](https://git-scm.com/about/staging-area) restoration, create a [commit](https://git-scm.com/docs/git-commit), and [push](https://git-scm.com/docs/git-push) all changes to the repository:
-
-```text
+```bash
 git add content/posts/marimo-overview/math_analysis.ipynb
 git commit -m "Restore initial Jupyter Notebook settings and run it"
 git push
 ```
 
-The SSH of the commit is [f22cfe125770d351d3a51f9812ea942149c1b6f3](https://github.com/undeMalum/portfolio/commit/f22cfe125770d351d3a51f9812ea942149c1b6f3). Feel free to view it or not. In either case _this_ commit is going to be our reference to the above-mentioned changes, thanks to which the Jupyter Notebook looks like this:
+Now, let’s add our two new cells:
 
-<iframe src="./notebooks/git_friendliness/jupyter/add_changes.html" width="100%" height="300px">
-</iframe>
+<iframe src="./notebooks/git_friendliness/jupyter/add_changes.html" width="100%" height="300px"></iframe>  
 
-Let's again perform all git magic to save the change with a new message:
+And once again, the git magic:
 
-```text
+```bash
 git add content/posts/marimo-overview/math_analysis.ipynb
 git commit -m "Add changes to Jupyter Notebook and run it"
 git push
 ```
 
-and we're off to the races to continue with winning about Jupyter Notebooks!
+Cool. Notebook updated, changes saved. Now let’s see why Jupyter + git can turn into a headache.
 
 ## Problem Definition
+Before we go back to talking about git, let's talk a little about how Jupyter Notebooks are stored.
+
+When we create a notebook with Jupyter a file with the `*.ipynb` extension is created (in our case, we have `math_analysis.ipynb` file).
+
+However, contrary to what you might think, `*.ipynb` files are no plain Python files with a strange extension, but are actually **JSON** files under the hood! What a surprise!
+
+We will refer to the commit of in which we changed our notebook: [fd204ae](https://github.com/undeMalum/portfolio/commit/fd204aeab3f8aaf1b519cf26e184d589fb72877d).
+
+
