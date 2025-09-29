@@ -217,12 +217,97 @@ git push
 Cool. Notebook updated, changes saved. Now let’s see why Jupyter + git can turn into a headache.
 
 ## Problem Definition
-Before we go back to talking about git, let's talk a little about how Jupyter Notebooks are stored.
+Before we go back to talking about git, let's talk a little about how Jupyter Notebooks are _stored_.
 
-When we create a notebook with Jupyter a file with the `*.ipynb` extension is created (in our case, we have `math_analysis.ipynb` file).
+When we create a notebook with Jupyter, a file with the `*.ipynb` extension pops up (in our case, we have `math_analysis.ipynb` file).
 
-However, contrary to what you might think, `*.ipynb` files are no plain Python files with a strange extension, but are actually **JSON** files under the hood! What a surprise!
+However, contrary to what you might think, `*.ipynb` files are _not_ plain Python files with a strange extension, but are actually **JSON** files under the hood! What a surprise!
 
-We will refer to the commit of in which we changed our notebook: [fd204ae](https://github.com/undeMalum/portfolio/commit/fd204aeab3f8aaf1b519cf26e184d589fb72877d).
+This means that if we open the `math_analysis.ipynb` file, we're going to see something like this:
+
+```json
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "id": "d6605f7b",
+      "source": ["This is the _beginning_ of the **hard** math analysis"]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "id": "a8feff8f",
+      "source": ["a = 5"]
+    }
+  ],
+  "metadata": {
+    "kernelspec": { "display_name": "Python 3 (ipykernel)", "name": "python3" },
+    "language_info": { "name": "python", "version": "3.11.6" }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
+```
+
+As you can see, we have a list of cells, each cell has some keys, denoting the _type_ of the cell (e.g markdown), its id, output, etc., and we also have some metedata about the language used, the notebook itself and a bunch of other stuff.
+
+This is _not_ a full notebook, just its simplified and more comprehensible verion, but you should get the general idea.
+
+So, although this form of representing the notebook is pretty understandable, it is certainly NOT human-readable, especially with huge notebooks and cells with multiple lines of code.
+
+Admittedly, this is not a problem for developing the code - after all, we use Jupyter engine to present this file in a nice-looking form. 
+
+However, it is not so nice when it comes to working with git as git sees only the raw JSON file.
+
+To exemplify this, let's go back to the commit in which we added our new cells: [fd204ae](https://github.com/undeMalum/portfolio/commit/fd204aeab3f8aaf1b519cf26e184d589fb72877d).
+
+Here's what git shows us for this change:
+
+```diff
++  {
++   "cell_type": "code",
++   "execution_count": 4,
++   "id": "882cd319-f4e1-4a19-befc-8ffae114f7d1",
++   "metadata": {},
++   "outputs": [],
++   "source": [
++    "z = a + b"
++   ]
++  },
++  {
++   "cell_type": "code",
++   "execution_count": 6,
++   "id": "97318bef-729c-489a-81bc-d8237d10f1ea",
++   "metadata": {},
++   "outputs": [
++    {
++     "data": {
++      "text/plain": [
++       "33"
++      ]
++     },
++     "execution_count": 6,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "source": [
++    "z * 3"
++   ]
++  }
+```
+
+Yikes! :grimacing: 
+
+What we *meant* to add was simply:
+
+```python
+z = a + b
+z * 3
+```
+
+But what git *actually* sees is **37 lines of JSON metadata** including cell IDs, execution counts, output formatting, and all sorts of internal bookkeeping that has nothing to do with our actual code changes.
+
+This creates several problems:
 
 
