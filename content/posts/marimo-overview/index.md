@@ -47,7 +47,7 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
+<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="25q0px">
 </iframe>
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
@@ -190,18 +190,24 @@ But before I jump into yapping about Git-Friendliness of Jupyter Notebooks (or r
 Basically, we're going to add two new cells:
 
 * First cell will create a new variable `z` that will store that addition
-* Second cell will perform the multiplication of `z` by `5`
+* Second cell will perform the multiplication of `z` by `3`
 
 In this part, we're not really interested in how things _work_, but how they are _viewed_ by git.
 
 So, before I make these changes, I will restart the Jupyter Kernel (to remove all previous results from being dusplayed), re-run all cells:
 
-<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
+<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px">
 </iframe>
 
-[stage](https://git-scm.com/about/staging-area) restoration and create a [commit](https://git-scm.com/docs/git-commit):
+[stage](https://git-scm.com/about/staging-area) restoration, create a [commit](https://git-scm.com/docs/git-commit), and [push](https://git-scm.com/docs/git-push) all changes to the repository:
 
 ```text
 git add content/posts/marimo-overview/math_analysis.ipynb
 git commit -m "Restore initial Jupyter Notebook settings"
+git push
 ```
+
+The SSH of the commit is [531f3b150c1681766dcc2d20ece80702a4b40b04](https://github.com/undeMalum/portfolio/commit/531f3b150c1681766dcc2d20ece80702a4b40b04). Feel free to view it or not. In either case _this_ commit is going to be our reference to the above-mentioned changes, which I look like this:
+
+<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="200px">
+</iframe>
