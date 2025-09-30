@@ -299,15 +299,32 @@ Here's what git shows us for this change:
 
 Yikes! :grimacing: 
 
-What we *meant* to add was simply:
+What we _meant_ to add was simply:
 
 ```python
 z = a + b
 z * 3
 ```
 
-But what git *actually* sees is **37 lines of JSON metadata** including cell IDs, execution counts, output formatting, and all sorts of internal bookkeeping that has nothing to do with our actual code changes.
+But what git _actually_ sees is **37 lines of JSON metadata** including cell IDs, execution counts, output formatting, and all sorts of internal bookkeeping that has nothing to do with our actual code changes.
 
 This creates several problems:
 
+* Difficulty in reviewing notebooks [diffs]()
+* Painful [merge conflicts]()
+* Problems with rendering on git platfroms GitHub
+* Cumbersome collaboration caused by frequent changes in metadata and output cells
 
+The last one is particularly painful to me because I encountered it in one of my projects I am involved in titled [GHOSTxIRIM](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/README.md).
+
+In this project, we maintain a Jupyter Notebook alongside our modular Python code so others can play more easily with the project. However, applying git on this notebook is a pain in the ass, which you can easily see in the commit [d485dc7](https://github.com/GHOST-Science-Club/tree-classification-irim/commit/d485dc7f5dcb5d0a3768faa7a8314c9b8095828a) that added multithreading in data loaders.
+
+While changes in plain Python files + some configuration files added up to ~70 lines, the updated and re-run notebook yielded **-1,701** deletions and **+1,719** additions! That's insane!
+
+Imagine now trying to determine everyobdy's individual contributions in a research when changing/adding a few cells in a notebooks, causes **_all_** cells within this notebooks to be updated because of updating metadata.
+
+As you can infer from our math analysis and my real-life project, Jupyter Notebooks do _not_ integrate well with git.
+
+Having said that, let's see if marimo offers a better git integration.
+
+## Marimo Solution
