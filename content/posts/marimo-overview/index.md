@@ -320,4 +320,48 @@ In [Problem Definition](#problem-definition-1) we kicked off with discussing how
 
 Let's do the same with marimo.
 
-When we create a new marimo notebook, either from GUI or with `marimo edit`,
+When we create a new notebook with marimo, we, surprisingly, get a file with a suspiciously familiar extension - `*.py` (in our case - `math_analysis.py`).
+
+And to satisfy your curiosity - yes, marimo notebooks _are_ pure Python files under the hood as I've touched upon in the end of the [Marimo Solution](#marimo-solution) for the [Hidden States](#pain-point-1-hidden-states) chapter.
+
+Let's now inspect the insides of the notebook for our analysis:
+
+```python
+import marimo
+
+__generated_with = "0.16.1"
+app = marimo.App(width="medium")
+
+
+@app.cell
+def _():
+    import marimo as mo
+    return (mo,)
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""This is the _beginning_ of the **hard** math analysis""")
+    return
+
+...
+
+@app.cell
+def _(a):
+    b = a + 1
+    return (b,)
+
+...
+
+if __name__ == "__main__":
+    app.run()
+```
+
+That looks oddly familiar, provided that you know a bit or two about Python!
+
+This design offers enourmous usage opportunites, unattainable for JSON-based Jupyter - among them, notably, a great git integration (I will mention more in the wrap up).
+
+To demonstrate this, let's make sure marimo is reset to default so restore original marimo setup and commit the changes:
+
+<iframe src="./notebooks/hidden_states/marimo/initial_setup.html" width="100%" height="250px">
+</iframe>
