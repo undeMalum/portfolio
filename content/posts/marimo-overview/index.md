@@ -1,7 +1,7 @@
 +++
 title = "Marimo as the successor to Jupyter Notebook."
 date = "2025-09-21T16:39:19+02:00"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+#dateFormat = "2006-01-02" # This value can be configured for per-posBut DAGs give us more than just protection against hidden states. Because dependencies are explicit and **interactivity** is built-in, marimo notebooks don't care about **cell order**. You can rearrange cells however you like without breaking execution — something Jupyter can't guarantee. The **interactive** execution will still follow the logical dependency order defined by the DAG. date formatting
 author = "Mateusz Konat"
 authorTwitter = "" #do not include @
 cover = "images/marimo-logotype-thick.svg"
@@ -129,9 +129,9 @@ Now, what happens if we change `a`?
 
 Tada! We get the correct `13`. No hidden states, no misleading results.
 
-So how does marimo pull this off? The secret is its reliance on a **DAG (Directed Acyclic Graph)** — [yes, the graph theory kind](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+So how does marimo pull this off? The secret is its reliance on a **DAG (Directed Acyclic Graph)** — [yes, the graph theory kind](https://en.wikipedia.org/wiki/Directed_acyclic_graph) — combined with **interactivity**.
 
-Marimo builds a DAG of cell dependencies. When a variable changes, every dependent cell automatically re-runs. In our case, changing `a` triggers both `b = a + 1` and `a + b`.
+Marimo builds a DAG of cell dependencies and uses it to enable true **interactivity**: when a variable changes, every dependent cell automatically re-executes in real-time. In our case, changing `a` triggers both `b = a + 1` and `a + b` to re-run immediately. This **interactivity** means your notebook stays consistent without any manual intervention.
 
 Here’s the DAG behind our demo:
 
@@ -156,6 +156,8 @@ And the DAG makes the failure just as clear visually:
 <object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_delete_b.svg" style="width:100%; height:auto;"></object>
 
 Remove a node, break the graph — marimo instantly knows the logic is broken. Simple, yet powerful.
+
+This **interactivity** is what sets marimo apart: the DAG doesn't just track dependencies, it actively uses them to keep your notebook synchronized in real-time. Change one cell, and marimo's **interactive** execution automatically propagates that change through the entire dependency chain.
 
 So with one mechanism, we solve two problems at once:
 
@@ -385,6 +387,46 @@ git commit -m "Reset marimo to default setup and run it"
 git push
 ```
 
-Cool, changes are made and committed. Let's inspect the changes for the commit [some_commit]() to learn if it's more tractable for a human eye:
+Cool, changes are made and committed. Let's inspect the changes for the commit [16032cf](https://github.com/undeMalum/portfolio/commit/16032cfdafc83cb66bddc27493b6099eb90f782b) to learn if it's more tractable for a human eye:
 
+Here's what git shows us for this change:
 
+```diff
++@app.cell
++def _(a, b):
++    z = a + b
++    return (z,)
++
++
++@app.cell
++def _(z):
++    z * 3
++    return
+```
+
+Beautiful! :sparkles:
+
+What git _actually_ sees is almost exactly the two lines of Python code — just wrapped in marimo's clean function decorators. No mysterious IDs, no execution counts, no output bloat.
+
+The diff is **12 lines** of pure, readable Python instead of 37 lines of JSON noise. Every line serves a purpose, and a human can instantly understand what changed.
+
+This creates several advantages:
+
+* **Clear code reviews** — reviewers see actual logic, not metadata
+* **Clean merge conflicts** — when they happen, they're in readable Python
+* **Reliable GitHub rendering** — Python syntax highlighting just works
+* **Meaningful git history** — commits reflect real code changes, not execution artifacts
+
+No more guessing what actually changed behind the JSON curtain. With marimo, git diffs tell the real story.
+
+However, some inquisitive readers might ask what about the cell output!? After all, people find the ability to have annotations, code, _and_ results all displayed a big Jupyter Notebook advantage - with some arguing that it improves the reproducibility of the notebooks[^fn].
+
+Fear not, marimo _does_ store the cells outputs and the state of the notebook inside the `__marimo__` directory in the `session` subdirectory where each notebook have all of its outputs and states saved as a JSON.
+
+I know I sound hypocritical when I say that marimo uses JSON to store the notebooks state, but it still keeps the distinction between what changed _inside_ the cells rather the in their _output_, which is far more useful for every project utlizing git, also in research because you still have the whole history of what's changed and by whom in a easily digestable format, while having the opportunity to share the results without rerunning the notebook, which can be in JSON because you don't need it in a pretty format as it's all meant to be displayed by the notebook nonetheless.
+
+Uff, I wandered of from the main point, that is the fact that marimo works far better with git than Jupyter Notebook does. No question about it.
+
+Moreover, having now explained both the **reactive** and **python script** nature of marimo I have explained two foundational features of marimo, which other features of marimo are built upon.
+
+We'll get a glimpse of that in the last section about contrasting marimo with Jupyter Notebook, but I'll try to captivate it as best as I can with the demos. So things now really start to get interesting. Stay tuned!
