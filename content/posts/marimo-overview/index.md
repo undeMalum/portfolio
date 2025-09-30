@@ -385,3 +385,6 @@ git commit -m "Reset marimo to default setup and run it"
 git push
 ```
 
+Cool, changes are made and committed. Let's inspect the changes for the commit [some_commit]() to learn if it's more tractable for a human eye:
+
+
