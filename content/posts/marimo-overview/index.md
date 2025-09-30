@@ -316,3 +316,8 @@ Now imagine trying to attribute individual contributions in a research project u
 So yeah - Jupyter and git don’t exactly make a dream team. Let’s see if marimo can do better.
 
 ## Marimo Solution
+In [Problem Definition](#problem-definition-1) we kicked off with discussing how jupyter notebooks are acutally stored.
+
+Let's do the same with marimo.
+
+When we create a new marimo notebook, either from GUI or with `marimo edit`,
