@@ -34,7 +34,7 @@ As the [README](https://github.com/marimo-team/marimo/blob/main/README.md) puts 
 
 > marimo is a reactive Python notebook: run a cell or interact with a UI element, and marimo automatically runs dependent cells (or marks them as stale), keeping code and outputs consistent. marimo notebooks are stored as pure Python (with first-class SQL support), executable as scripts, and deployable as apps.
 
-In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **hidden states, git-friendliness, and reproducibility**. Instead of just listing marimo’s features, we’ll examine _how_ these issues arise in Jupyter and then see how marimo tackles them differently.
+In this post, I’ll highlight how marimo solves three persistent Jupyter pain points: **[hidden states](#pain-point-1-hidden-states), [git-friendliness](#pain-point-2-git-friendliness), and [reproducibility](#pain-point-3-reproducibility)**. Instead of just listing marimo’s features, we’ll examine _how_ these issues arise in Jupyter and then see how marimo tackles them differently.
 
 To make this concrete, I’ll use a simple, made-up example that mirrors a real-world workflow. This way, you can follow along step by step and clearly see the contrast.
 
@@ -413,3 +413,10 @@ Next, we’ll put them side by side against Jupyter in one more problem and then
 | **Merge conflicts**  | Frequent and messy (conflicting JSON structures)       | Rare and understandable (conflicts in Python code)    |
 | **GitHub rendering** | Raw JSON diffs are unreadable                          | Python diffs have syntax highlighting                 |
 | **Commit history**   | Buried in metadata churn, hard to attribute real work  | Clear reflection of actual code and logic changes     |
+
+# Pain Point #3: Reproducibility
+Throughout our discussion, we have implicitly, but comprehensible discussed the issues of reproducibility in Jupyter Notebooks. After all, isn't the difficulty of guessing states and tracking changes in the projects related to the issue of reproducibility?
+
+I would think so.
+
+However, now, I'd like to look at this topic from the perspective of setting up the _environment_ for the notebook/project or more precisely, how it can be done with both Jupyter and marimo.
