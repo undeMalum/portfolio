@@ -170,7 +170,7 @@ This eliminates a whole class of headaches around execution order and brings mar
 
 *In fact*, marimo notebooks **are** Python scripts. But we’ll get to that in the next section.
 
-### Jupyter vs. marimo (Execution & States)
+### Jupyter vs. marimo (Hidden States)
 
 | Aspect                      | Jupyter Notebook                                                        | marimo                                                          |
 | --------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -304,10 +304,10 @@ But git thinks we added **37 lines of JSON noise**. Cell IDs, execution counts, 
 
 This causes serious pain:
 
-* Reviewing notebook [diffs](https://git-scm.com/docs/git-diff) is nearly impossible
-* [Merge conflicts](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) are a nightmare
-* GitHub rendering often breaks in confusing ways
-* Collaboration suffers because metadata and outputs constantly churn
+* **Unreadable diffs** — reviewing notebook [diffs](https://git-scm.com/docs/git-diff) is nearly impossible
+* **Messy merge conflicts** — [merge conflicts](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) are a nightmare in JSON
+* **Broken rendering** — GitHub often chokes or displays confusing diffs
+* **Noisy history** — commits are bloated with metadata and output churn
 
 That last one hits especially close to home. In one of my projects, [GHOSTxIRIM](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/README.md), we keep a Jupyter Notebook alongside modular Python code. Great for demos — terrible for git.
 
@@ -318,15 +318,11 @@ Now imagine trying to attribute individual contributions in a research project u
 So yeah - Jupyter and git don’t exactly make a dream team. Let’s see if marimo can do better.
 
 ## Marimo Solution
-In [Problem Definition](#problem-definition-1) we kicked off with discussing how jupyter notebooks are acutally stored.
+In [Problem Definition](#problem-definition-1), we saw how Jupyter notebooks are secretly JSON files in disguise.
 
-Let's do the same with marimo.
+Marimo takes a very different approach. When you create a new notebook, you get something surprisingly familiar: a `*.py` file (ours is `math_analysis.py`). Yep — marimo notebooks are **just Python**.
 
-When we create a new notebook with marimo, we, surprisingly, get a file with a suspiciously familiar extension - `*.py` (in our case - `math_analysis.py`).
-
-And to satisfy your curiosity - yes, marimo notebooks _are_ pure Python files under the hood as I've touched upon in the end of the [Marimo Solution](#marimo-solution) for the [Hidden States](#pain-point-1-hidden-states) chapter.
-
-Let's now inspect the insides of the notebook for our analysis:
+Here’s what the inside looks like:
 
 ```python
 import marimo
@@ -346,50 +342,28 @@ def _(mo):
     mo.md(r"""This is the _beginning_ of the **hard** math analysis""")
     return
 
-...
 
 @app.cell
 def _(a):
     b = a + 1
     return (b,)
 
-...
 
 if __name__ == "__main__":
     app.run()
 ```
 
-That looks oddly familiar, provided that you know a bit or two about Python!
+Pretty familiar, right? It’s pure Python: imports, functions, returns, and a main guard. The only twist is marimo’s `@app.cell` decorator that turns these functions into notebook cells.
 
-Cells are classes with parameters and return values, there are some importa, ifs, pretty cool stuff.
+And that mysterious `import marimo as mo`? Turns out it’s simply how marimo handles things like rendering markdown. Nothing spooky — just neat.
 
-This design offers enourmous usage opportunites, unattainable for JSON-based Jupyter - among them, notably, a great git integration (I will mention more in the wrap up).
+This design unlocks a ton of benefits that JSON-based Jupyter can’t touch — most notably, **git-friendliness**.
 
-To demonstrate this, let's make sure marimo is reset to default so restore original marimo setup and commit the changes:
+To demonstrate, let’s reset marimo to its original setup, commit, and then add two new cells:
 
-<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px">
-</iframe>
+<iframe src="./notebooks/git_friendliness/marimo/add_changes.html" width="100%" height="500px"></iframe>  
 
-```bash
-git add content/posts/marimo-overview/math_analysis.ipynb
-git commit -m "Add changes to marimo and run it"
-git push
-```
-
-After we made sure marimo is brought back to its original settings and that we have a commit remmembering these changes, we can add two new cells with `z` and commit it with git:
-
-<iframe src="./notebooks/git_friendliness/marimo/add_changes.html" width="100%" height="500px">
-</iframe>
-
-```bash
-git add content/posts/marimo-overview/math_analysis.ipynb
-git commit -m "Reset marimo to default setup and run it"
-git push
-```
-
-Cool, changes are made and committed. Let's inspect the changes for the commit [16032cf](https://github.com/undeMalum/portfolio/commit/16032cfdafc83cb66bddc27493b6099eb90f782b) to learn if it's more tractable for a human eye:
-
-Here's what git shows us for this change:
+Here’s the commit diff: [16032cf](https://github.com/undeMalum/portfolio/commit/16032cfdafc83cb66bddc27493b6099eb90f782b)
 
 ```diff
 +@app.cell
@@ -404,29 +378,38 @@ Here's what git shows us for this change:
 +    return
 ```
 
-Beautiful! :sparkles:
+And that’s it. :sparkles:
 
-What git _actually_ sees is almost exactly the two lines of Python code — just wrapped in marimo's clean function decorators. No mysterious IDs, no execution counts, no output bloat.
+No 37 lines of JSON noise. No mysterious IDs or execution counts. Just clean, readable Python. The diff is **12 lines** long and every line matters. A human can instantly understand the change.
 
-The diff is **12 lines** of pure, readable Python instead of 37 lines of JSON noise. Every line serves a purpose, and a human can instantly understand what changed.
+This has huge advantages:
 
-This creates several advantages:
+* **Clear code reviews** — reviewers see logic, not metadata
+* **Cleaner merge conflicts** — when they happen, they’re in Python, not JSON spaghetti
+* **Reliable GitHub rendering** — syntax highlighting just works
+* **Meaningful git history** — commits show real code changes, not execution artifacts
 
-* **Clear code reviews** — reviewers see actual logic, not metadata
-* **Clean merge conflicts** — when they happen, they're in readable Python
-* **Reliable GitHub rendering** — Python syntax highlighting just works
-* **Meaningful git history** — commits reflect real code changes, not execution artifacts
+Now, you might be wondering: *what about outputs?* Isn’t one of the joys of notebooks seeing results inline?
 
-No more guessing what actually changed behind the JSON curtain. With marimo, git diffs tell the real story.
+Good question. Marimo does store outputs — but not mixed in with the source. Instead, outputs and session state live in a separate `__marimo__/session` directory as JSON. Yes, JSON. But crucially:
 
-However, some inquisitive readers might ask what about the cell output!? After all, people find the ability to have annotations, code, _and_ results all displayed a big Jupyter Notebook advantage - with some arguing that it improves the reproducibility of the notebooks[^fn].
+* The **code** stays clean and diffable in Python
+* The **results** are stored separately, so you can still share and reproduce them without rerunning the notebook
 
-Fear not, marimo _does_ store the cells outputs and the state of the notebook inside the `__marimo__` directory in the `session` subdirectory where each notebook have all of its outputs and states saved as a JSON.
+This split is what makes marimo far saner for version control. You track meaningful code changes in git history, while still preserving outputs when you need them.
 
-I know I sound hypocritical when I say that marimo uses JSON to store the notebooks state, but it still keeps the distinction between what changed _inside_ the cells rather the in their _output_, which is far more useful for every project utlizing git, also in research because you still have the whole history of what's changed and by whom in a easily digestable format, while having the opportunity to share the results without rerunning the notebook, which can be in JSON because you don't need it in a pretty format as it's all meant to be displayed by the notebook nonetheless.
+So yeah, marimo and git are basically BFFs, whereas Jupyter and git are more like that toxic couple you wish would just break up already.
 
-Uff, I wandered of from the main point, that is the fact that marimo works far better with git than Jupyter Notebook does. No question about it.
+With that, we’ve now seen two of marimo’s foundational ideas: **reactivity (via DAGs)** and **Python as the notebook format**. These two pillars are what make marimo’s other features possible.
 
-Moreover, having now explained both the **reactive** and **python script** nature of marimo I have explained two foundational features of marimo, which other features of marimo are built upon.
+Next, we’ll put them side by side against Jupyter in one more problem and then some demos. Things are about to get even more interesting.
 
-We'll get a glimpse of that in the last section about contrasting marimo with Jupyter Notebook, but I'll try to captivate it as best as I can with the demos. So things now really start to get interesting. Stay tuned!
+### Jupyter vs. marimo (Git-Friendliness)
+
+| Aspect               | Jupyter Notebook (`.ipynb`)                            | marimo Notebook (`.py`)                               |
+| -------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
+| **File format**      | JSON (metadata + code + outputs all mixed together)    | Pure Python (clean source); outputs stored separately |
+| **Git diffs**        | Bloated with IDs, execution counts, and metadata noise | Concise, readable Python code changes                 |
+| **Merge conflicts**  | Frequent and messy (conflicting JSON structures)       | Rare and understandable (conflicts in Python code)    |
+| **GitHub rendering** | Raw JSON diffs are unreadable                          | Python diffs have syntax highlighting                 |
+| **Commit history**   | Buried in metadata churn, hard to attribute real work  | Clear reflection of actual code and logic changes     |
