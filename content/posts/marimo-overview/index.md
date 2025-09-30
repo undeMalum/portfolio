@@ -217,13 +217,11 @@ git push
 Cool. Notebook updated, changes saved. Now let’s see why Jupyter + git can turn into a headache.
 
 ## Problem Definition
-Before we go back to talking about git, let's talk a little about how Jupyter Notebooks are _stored_.
+Before we get back to git, let’s peek under the hood of how Jupyter Notebooks are actually stored.
 
-When we create a notebook with Jupyter, a file with the `*.ipynb` extension pops up (in our case, we have `math_analysis.ipynb` file).
+When you create a notebook, you get a `*.ipynb` file (ours is `math_analysis.ipynb`). You might assume it’s just a Python script in disguise, but nope - it’s actually **JSON**.
 
-However, contrary to what you might think, `*.ipynb` files are _not_ plain Python files with a strange extension, but are actually **JSON** files under the hood! What a surprise!
-
-This means that if we open the `math_analysis.ipynb` file, we're going to see something like this:
+Here’s a simplified snippet:
 
 ```json
 {
@@ -249,19 +247,13 @@ This means that if we open the `math_analysis.ipynb` file, we're going to see so
 }
 ```
 
-As you can see, we have a list of cells, each cell has some keys, denoting the _type_ of the cell (e.g markdown), its id, output, etc., and we also have some metedata about the language used, the notebook itself and a bunch of other stuff.
+So, each notebook is basically a long JSON file with cell metadata, IDs, outputs, execution counts, and other bookkeeping sprinkled everywhere. It’s *sort of* understandable, but definitely **not human-friendly** — and the bigger the notebook, the worse it gets.
 
-This is _not_ a full notebook, just its simplified and more comprehensible verion, but you should get the general idea.
+Normally this doesn’t matter because Jupyter prettifies it for us. But when git comes into play, it’s game over. Git doesn’t see “cells” — it just sees raw JSON.
 
-So, although this form of representing the notebook is pretty understandable, it is certainly NOT human-readable, especially with huge notebooks and cells with multiple lines of code.
+For example, let’s revisit the commit where we added our new `z` and `z * 3` cells: [fd204ae](https://github.com/undeMalum/portfolio/commit/fd204aeab3f8aaf1b519cf26e184d589fb72877d).
 
-Admittedly, this is not a problem for developing the code - after all, we use Jupyter engine to present this file in a nice-looking form. 
-
-However, it is not so nice when it comes to working with git as git sees only the raw JSON file.
-
-To exemplify this, let's go back to the commit in which we added our new cells: [fd204ae](https://github.com/undeMalum/portfolio/commit/fd204aeab3f8aaf1b519cf26e184d589fb72877d).
-
-Here's what git shows us for this change:
+Here’s what git shows:
 
 ```diff
 +  {
@@ -297,34 +289,30 @@ Here's what git shows us for this change:
 +  }
 ```
 
-Yikes! :grimacing: 
+Yikes. :grimacing:
 
-What we _meant_ to add was simply:
+All we *actually* added was:
 
 ```python
 z = a + b
 z * 3
 ```
 
-But what git _actually_ sees is **37 lines of JSON metadata** including cell IDs, execution counts, output formatting, and all sorts of internal bookkeeping that has nothing to do with our actual code changes.
+But git thinks we added **37 lines of JSON noise**. Cell IDs, execution counts, output blobs… all this extra fluff drowns out the real change.
 
-This creates several problems:
+This causes serious pain:
 
-* Difficulty in reviewing notebooks [diffs]()
-* Painful [merge conflicts]()
-* Problems with rendering on git platfroms GitHub
-* Cumbersome collaboration caused by frequent changes in metadata and output cells
+* Reviewing notebook [diffs](https://git-scm.com/docs/git-diff) is nearly impossible
+* [Merge conflicts](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) are a nightmare
+* GitHub rendering often breaks in confusing ways
+* Collaboration suffers because metadata and outputs constantly churn
 
-The last one is particularly painful to me because I encountered it in one of my projects I am involved in titled [GHOSTxIRIM](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/README.md).
+That last one hits especially close to home. In one of my projects, [GHOSTxIRIM](https://github.com/GHOST-Science-Club/tree-classification-irim/blob/main/README.md), we keep a Jupyter Notebook alongside modular Python code. Great for demos — terrible for git.
 
-In this project, we maintain a Jupyter Notebook alongside our modular Python code so others can play more easily with the project. However, applying git on this notebook is a pain in the ass, which you can easily see in the commit [d485dc7](https://github.com/GHOST-Science-Club/tree-classification-irim/commit/d485dc7f5dcb5d0a3768faa7a8314c9b8095828a) that added multithreading in data loaders.
+Case in point: [commit d485dc7](https://github.com/GHOST-Science-Club/tree-classification-irim/commit/d485dc7f5dcb5d0a3768faa7a8314c9b8095828a), where adding multithreading touched ~70 lines of real Python… but the notebook diff showed **-1,701 deletions** and **+1,719 additions**. Absolutely bonkers.
 
-While changes in plain Python files + some configuration files added up to ~70 lines, the updated and re-run notebook yielded **-1,701** deletions and **+1,719** additions! That's insane!
+Now imagine trying to attribute individual contributions in a research project under those conditions. One tiny notebook change can rewrite the entire file. Git has no clue what’s meaningful and what’s noise.
 
-Imagine now trying to determine everyobdy's individual contributions in a research when changing/adding a few cells in a notebooks, causes **_all_** cells within this notebooks to be updated because of updating metadata.
-
-As you can infer from our math analysis and my real-life project, Jupyter Notebooks do _not_ integrate well with git.
-
-Having said that, let's see if marimo offers a better git integration.
+So yeah - Jupyter and git don’t exactly make a dream team. Let’s see if marimo can do better.
 
 ## Marimo Solution
