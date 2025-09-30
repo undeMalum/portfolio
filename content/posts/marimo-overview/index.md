@@ -359,9 +359,29 @@ if __name__ == "__main__":
 
 That looks oddly familiar, provided that you know a bit or two about Python!
 
+Cells are classes with parameters and return values, there are some importa, ifs, pretty cool stuff.
+
 This design offers enourmous usage opportunites, unattainable for JSON-based Jupyter - among them, notably, a great git integration (I will mention more in the wrap up).
 
 To demonstrate this, let's make sure marimo is reset to default so restore original marimo setup and commit the changes:
 
-<iframe src="./notebooks/hidden_states/marimo/initial_setup.html" width="100%" height="250px">
+<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px">
 </iframe>
+
+```bash
+git add content/posts/marimo-overview/math_analysis.ipynb
+git commit -m "Add changes to marimo and run it"
+git push
+```
+
+After we made sure marimo is brought back to its original settings and that we have a commit remmembering these changes, we can add two new cells with `z` and commit it with git:
+
+<iframe src="./notebooks/git_friendliness/marimo/add_changes.html" width="100%" height="500px">
+</iframe>
+
+```bash
+git add content/posts/marimo-overview/math_analysis.ipynb
+git commit -m "Reset marimo to default setup and run it"
+git push
+```
+
