@@ -420,3 +420,16 @@ Throughout our discussion, we have implicitly, but comprehensible discussed the 
 I would think so.
 
 However, now, I'd like to look at this topic from the perspective of setting up the _environment_ for the notebook/project or more precisely, how it can be done with both Jupyter and marimo.
+
+For that we need some [third-party dependencies](https://docs.astral.sh/ty/modules/#third-party-modules).
+
+Once again, we need to update out analysis.
+
+We'll do that by adding a function for calculating frist n Fibonacci number, and the plotting them like so:
+
+<iframe src="./notebooks/reproducibility/jupyter/plotting.html" width="100%" height="500px">
+</iframe>
+
+How the code _works_ is neither interesting nor important for this discussion. What _is_ important is that it introduces two Python pakcages, which are not created by our analysis: `pandas` and `matplotlib`.
+
+This, in turn, introduces a need to somehow manage them in the project enviroment and that's what tricky and where we get to start our discussion!
