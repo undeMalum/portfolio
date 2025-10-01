@@ -428,51 +428,51 @@ The code itself isn’t the focus here (unless you’re into Fibonacci art). Wha
 And that means we’ve entered the land of **[dependency management](https://packaging.python.org/en/latest/tutorials/managing-dependencies)** — notoriously tricky territory for Jupyter, and a perfect lens for comparing it with marimo.
 
 ## Problem Definition
-First of all, Jupyter **has no built-in mechanism** for menaging its dependencies and virtual environments.
 
-Therefore, we need to rely on other package and project management tools, which, in Python, is a [whole another topic](https://realpython.com/python-virtual-environments-a-primer/#use-third-party-tools) in itself!
+Here’s the brutal truth: Jupyter **has no built-in mechanism** for managing dependencies or virtual environments.
 
-However, I distinguish between managing third-party dependencies and declaring those dependencies for a simple reason:
+That means you’re on your own — juggling `pip`, `conda`, or newer tools like [uv](https://docs.astral.sh/uv). And while these tools are powerful, they add friction where Jupyter is supposed to make things simple.
 
-> One thing is to isolate your environment such that it works _locally_, on _your_ computer, and another thing is to present this environment to _others_ so they can work on the project on _their_ computers.
+It’s also worth separating two challenges here:
 
-Moreover, in the aforementioned study[^fn] it has been shown that while many Jupyter Notebook users can shoulder their way through setting up the environment locally, many of them fail to even declare the dependencies (in files like `requirements.txt` or `setup.py`), which renders majority of the notebooks unreproducible.
+> One thing is setting up an environment that works on *your* machine. Another is declaring it so *others* can reproduce your results on *their* machines.
 
-Even worse, majority of notebooks that _do_ declare dependencies have many errors in those dependencies, which still makes it unreproducible!
+And here’s the kicker: according to the study I mentioned earlier[^fn], most Jupyter users stumble on the second step. Many notebooks don’t declare dependencies at all, and those that do often declare them incorrectly. Translation: the majority of Jupyter notebooks in the wild are **not reproducible**.
 
-_I recommend you read the Chapter G of the study[^fn] that adresses the Research Question 7: How reproducible are notebooks?. It's full of different funny problems related to reproducing notebooks!_
+*(I highly recommend Chapter G of that study[^fn], which digs into Research Question 7: “How reproducible are notebooks?” Spoiler: not very. Also, some of the reproducibility fails are pretty funny.)*
 
-Admittedly, the study is a few years old, and a lot has changed in the Python packaging ecosystem, epsecially with the advent of [uv](https://docs.astral.sh/uv) (which BTW I use to manage notebooks for this post). Moreover, this is not really a Jupyter-specific issue, but rather _Python-specific_.
+Now, to be fair: the study is a few years old, and Python packaging has improved since then. Tools like `uv` really do simplify things. And dependency hell isn’t unique to Jupyter — it’s a Python-wide problem.
 
-Yet, I'd argue that it shouldn't be so godamn hard and boilerplate to just setup a notebook - which by definition should be easy to use - just to play with some research result, or to get some insights into data, or whatever you want to do with Jupyter!
+But still… should it really be this much boilerplate just to spin up a notebook? Remember, notebooks are supposed to be **easy playgrounds** for experimenting, sharing results, or exploring data.
 
-For instance, assuming that a project with a Jupyter Notebook uses uv (which is a good choice as it simplifies things A LOT) and is hosted on github, you'll need to (1) clone the repo (2) navigate to the directory to which the project was cloned (3) setup the environment with uv (4) activate the virtual environment (5) start the jupyter lab:
+For example, if your project uses `uv` (one of the *easier* options) and lives on GitHub, here’s what someone has to run just to see your notebook:
 
 ```bash
-(1) git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+# (1) Clone the repo
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-(2) cd /path/to/cloned/project
+# (2) Go into the project folder
+cd /path/to/cloned/project
 
-(3) uv sync
+# (3) Sync dependencies
+uv sync
 
-(4.1) source .venv/bin/activate #Linux/MacOS/Unix
+# (4) Activate the virtual environment
+source .venv/bin/activate       # Linux/MacOS
+.venv/Scripts/Activate.ps1      # Windows
 
-(4.2).venv/Scripts/Activate.ps1 #Windows
-
-(5) jupyter notebook
+# (5) Finally, launch Jupyter
+jupyter notebook
 ```
 
-As you can see, we need _5_ commands jsut to get started. This may not sound like a lot, but to a less technical person or anybody with a value for time that's quite a bit.
+That’s **five steps** before you even get to play with the actual notebook. And that’s with `uv` making life easier! Don’t even get me started on `pip` or `conda`.
 
-And it's all assuming the project utilizes uv! Don't even get me started on `pip` or `conda`!
+And if something goes wrong, you’ll likely hit errors like this:
 
-Therefore, you most likely will run into something like this:
+<iframe src="./notebooks/reproducibility/jupyter/error.html" width="100%" height="400px"></iframe>  
 
-<iframe src="./notebooks/reproducibility/jupyter/error.html" width="100%" height="400px">
-</iframe>
+Yep — `ModuleNotFoundError`. Classic.
 
-Two errors pop up: most notable the `ModuleNotFoundError` indicating that we don't have a package in our environment - all thanks to some error we did while setting it all up!
+So while this isn’t 100% Jupyter’s fault, it doesn’t *help* either. A tool marketed as an accessible, beginner-friendly playground shouldn’t leave newcomers stuck in dependency quicksand.
 
-Once again, it's not entirely Jupyter Notebooks fault, but being a suppossedly good playground and easy-access tool for not that technically advance users, Jupyetr certainly doesn't encourage/help the situation.
-
-Hopefully marimo can do better!
+Let’s see if marimo does any better.
