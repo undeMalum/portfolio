@@ -415,21 +415,33 @@ Next, we’ll put them side by side against Jupyter in one more problem and then
 | **Commit history**   | Buried in metadata churn, hard to attribute real work  | Clear reflection of actual code and logic changes     |
 
 # Pain Point #3: Reproducibility
-Throughout our discussion, we have implicitly, but comprehensible discussed the issues of reproducibility in Jupyter Notebooks. After all, isn't the difficulty of guessing states and tracking changes in the projects related to the issue of reproducibility?
+So far, we’ve been circling around reproducibility without naming it outright. Hidden states? Out-of-order execution? Git-unfriendly chaos? All roads lead to the same headache: **can someone else actually rerun this notebook and get the same results?**
 
-I would think so.
+Now let’s zoom in on another crucial piece of reproducibility: the **environment**. Specifically, how do we ensure the right dependencies are installed so our notebook actually runs on another machine (or six months later on our own)?
 
-However, now, I'd like to look at this topic from the perspective of setting up the _environment_ for the notebook/project or more precisely, how it can be done with both Jupyter and marimo.
+To illustrate, let’s extend our math analysis with something spicier: a function to generate the first *n* Fibonacci numbers and a quick plot.
 
-For that we need some [third-party dependencies](https://docs.astral.sh/ty/modules/#third-party-modules).
+<iframe src="./notebooks/reproducibility/jupyter/plotting.html" width="100%" height="500px"></iframe>  
 
-Once again, we need to update out analysis.
+The code itself isn’t the focus here (unless you’re into Fibonacci art). What matters is that it pulls in two external Python packages: `pandas` and `matplotlib`.
 
-We'll do that by adding a function for calculating frist n Fibonacci number, and the plotting them like so:
+And that means we’ve entered the land of **[dependency management](https://packaging.python.org/en/latest/tutorials/managing-dependencies)** — notoriously tricky territory for Jupyter, and a perfect lens for comparing it with marimo.
 
-<iframe src="./notebooks/reproducibility/jupyter/plotting.html" width="100%" height="500px">
-</iframe>
+## Problem Definition
+First of all, Jupyter **has no built-in mechanism** for menaging its dependencies and virtual environments.
 
-How the code _works_ is neither interesting nor important for this discussion. What _is_ important is that it introduces two Python pakcages, which are not created by our analysis: `pandas` and `matplotlib`.
+Therefore, we need to rely on other package and project management tools, which, in Python, is a [whole another topic](https://realpython.com/python-virtual-environments-a-primer/#use-third-party-tools) in itself!
 
-This, in turn, introduces a need to somehow manage them in the project enviroment and that's what tricky and where we get to start our discussion!
+However, I distinguish between managing third-party dependencies and declaring those dependencies for a simple reason:
+
+> One thing is to isolate your environment such that it works _locally_, on _your_ computer, and another thing is to present this environment to _others_ so they can work on the project on _their_ computers.
+
+Moreover, in the aforementioned study[^fn] it has been shown that while many Jupyter Notebook users can shoulder their way through setting up the environment locally, many of them fail to even declare the dependencies (in files like `requirements.txt` or `setup.py`), which renders majority of the notebooks unreproducible.
+
+Even worse, majority of notebooks that _do_ declare dependencies have many errors in those dependencies, which still makes it unreproducible!
+
+_I recommend you read the Chapter G of the study[^fn] that adresses the Research Question 7: How reproducible are notebooks?. It's full of different funny problems related to reproducing notebooks!_
+
+Admittedly, the study is a few years old, and a lot has changed in the Python packaging ecosystem, epsecially with the advent of [uv](https://docs.astral.sh/uv) (which BTW I use to manage notebooks for this post). Moreover, this is not really a Jupyter-specific issue, but rather _Python-specific_.
+
+Yet, I'd argue that it shouldn't be so godamn hard and boilerplate to just setup a notebook - which by definition should be easy to use - just to play with some research result, or to get some insights into data, or whatever you want to do with Jupyter!
