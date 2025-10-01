@@ -478,54 +478,40 @@ So while this isn’t 100% Jupyter’s fault, it doesn’t *help* either. A tool
 Let’s see if marimo does any better.
 
 ## Marimo Solution
-Contrary to previous parts, I'd love to open this part with a little experiment rather than explanation.
+This time, let’s start with a little experiment instead of theory.
 
-To this end, let me add the code for Fibonacci numbers and plot to marimo _without installing depenencied_ and see what happens:
+I dropped in the Fibonacci + plotting code into a fresh marimo notebook — **without installing any dependencies**. Here’s what happened:
 
-<iframe src="./notebooks/reproducibility/marimo/error.html" width="100%" height="400px"></iframe>
+<iframe src="./notebooks/reproducibility/marimo/error.html" width="100%" height="400px"></iframe>  
 
-Nothing particularly interesting you might say. As expected, we got `ModuleNotFoundError`.
+Yep, you guessed it: `ModuleNotFoundError`. Nothing new under the sun.
 
-However, marimo is one step ahead of us, and knows we miss the dependencies so it offers to install them for us:
+But here’s the twist — marimo is one step ahead of us. Instead of just shrugging and leaving us in dependency hell, it pops up this neat little message:
 
 {{< figure src="./images/marimo/missing_packages.png" alt="HTML marimo pop up prompting to install missing dependencies" position="center" style="border-radius: 8px;" caption="Once again, marimo beats us to the races!" captionPosition="center" captionStyle="color: white;" >}}
 
-Very cool! Especially because we can not only install packages, but more importantly their **specific versions**, **extras**, and use whatever **package manager** we want!
+Not only can we install packages right then and there, but we can also choose **specific versions**, add **extras**, and even pick our favorite **package manager**. So I let `uv` do the honors, re-ran the notebook, and…
 
-So let's just install the latest versions with uv, and run the notebook again:
+<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>  
 
-<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>
+:tada: Boom. Everything works. No command soup, no environment juggling, no “what the hell was the author thinking” moment.
 
-Voila! Everything's just fine!
+Still, clicking buttons every time a dependency is missing feels… lazy, even for us. We need a way to define the environment once and for all.
 
-This feature may appear simplistic in nature, but has huge implications because thanks to it, all you need to run the notebook is to download it and install missing dependencies _as-you-go_, which very much reduces the work you need to put in in order to run a notebooks - and certainly you don't need to run multiple commands and figure out _what did author have in mind?_ while setting up the environment.
-
-However, having to click a button each time we encounter a need dependency doesn't seem to be working either. We're too lazy for that. Besides, we still _must_ have some kind of environment to at least specify the Python and marimo version - we need to somehow run the damn notebook!
-
-So what if I told you we could do even better?
-
-For this purpose, let's spin up the notebook, but this time with an additional `--sandbox` flag:
+Enter marimo’s **sandbox mode**. Just launch the notebook with:
 
 ```bash
 marimo edit --sandbox math_analysis.py
 ```
 
-we see some packages being isntalled before we even open up the notebook:
+Before the notebook even opens, marimo quietly sets up the environment:
 
 ```bash
 Installed 42 packages in 3.65s
 Bytecode compiled 1929 files in 4.71s 
 ```
 
-If we run the notebook and install the dependencies, everything looks the same:
-
-<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>
-
-So what's the trick?
-
-The magic is in marimo being a plain Python file because we can embed the dependencies _inside_ the marimo notebook itself thanks to this characteristics.
-
-If we go and inspect `math_analysis.py`, we're going to see the following at the top:
+Now here’s the magic. If we peek at the top of the notebook file, we see:
 
 ```python
 # /// script
@@ -537,48 +523,49 @@ If we go and inspect `math_analysis.py`, we're going to see the following at the
 # ///
 
 import marimo
-
-__generated_with = "0.16.1"
-app = marimo.App(width="medium")
-
-
-@app.cell
-def _():
-    import marimo as mo
-    return (mo,)
 ```
 
-At the very beggining of the file, we see the "# /// script" comment and below, as [TOML](https://toml.io/en)-like configuration, featuring the required **Python version** and **third-paty dependencies**.
+That’s right — marimo notebooks embed **their environment metadata directly inside the file**. Python version, dependencies, the whole deal. No `requirements.txt` guesswork.
 
-This configuration is really powerfull because now all you need is a Python project manager and a path or URL to the notebook!
-
-This is extremely useful especially with uv, or more specifically with [uvx](https://docs.astral.sh/uv/guides/tools/#running-tools).
-
-To illustrate this, all I need to say is that, if you have [uv installed](https://docs.astral.sh/uv/getting-started/installation), you can run our example math analysis notebook on _your computer_ with just this command:
+This design makes notebooks ridiculously reproducible. With [uvx](https://docs.astral.sh/uv/guides/tools/#running-tools), you can run a marimo notebook from a GitHub repo in a single command:
 
 ```bash
 uvx marimo edit --sandbox https://github.com/undeMalum/portfolio/blob/main/content/posts/marimo-overview/math_analysis.py
 ```
 
-Pause for a moment here to check out this feature! the URL that you can see here, points to my GitHub repository where this `math_analysis.py` resides.
+That’s it. No 5-step incantations. No dependency roulette. One command and you’re in.
 
-To make things _EVEN_ better, when you run marimo with uvx, marimo can also create a docker container for you to run your notebook!!!! Isn't that awesome??
+And if you’re into overkill (like me), marimo can even spin up a Docker container for you:
 
 ```bash
 Would you like to run it in a secure docker container? [Y/n]: Y
 Starting containerized marimo notebook
-Running command: docker run --rm -d -p 8080:8080 -e MARIMO_MANAGE_SCRIPT_METADATA=true -e MARIMO_IN_SECURE_ENVIRONMENT=true -w /app ghcr.io/astral-sh/uv:0.4.21-python3.12-bookworm uvx marimo edit --sandbox --no-token -p 8080 --host 0.0.0.0 https://github.com/undeMalum/portfolio/blob/main/content/posts/marimo-overview/math_analysis.py
-Container ID: 82e8593a823a33602a624c7102d41f20d61497b3e7e75ef256e1b69d8c15b171
 URL: http://0.0.0.0:8080
 ```
 
-After all this, I hope you can appreciate the reproducibility that marimo offers. No more teious work related to figuring out how to setup the environment for this particular project, no more battling with depencency issues, none of that. Just pure joy of reproducing the results and adding your own features.
+Now that’s reproducibility.
 
-Of course, if we work on a project and not just playing around with the notebooks, you still need to setup the environment. But even then, it's sooo much simpler and far more pleasurable!
 
-Marimo wins again!
+### Why marimo wins
 
-EASTER EGG: Psssst! In the Git-Friendliness chapter, I said I will use both the fact that marimo is a plain Python file and that it's interactive. Here, I made use of the former, neglecting the latter. So to make up for this, I modified the marimo notebook on github to feature a slider that changes the number of Fibonacci number the notebook show. Both interactivity and yet another new feature. Enjoy!
+* **Built-in dependency help** — marimo tells you what’s missing and installs it for you
+* **Embedded environment metadata** — Python version + dependencies live at the top of the notebook
+* **One-command reproducibility** — run any notebook straight from GitHub with `uvx`
+* **Optional sandboxing** — spin up a containerized environment automatically for true reproducibility
+
+No more dependency nightmares. With marimo, reproducibility is just… normal.
+
+:bulb: **Easter Egg**: Remember back in the Git-Friendliness chapter when I teased that marimo’s power comes from being both a Python script *and* interactive? Well, we’ve mostly leaned on the Python-script side here. To make up for it, I snuck a slider into the [GitHub version of the Fibonacci notebook](https://github.com/undeMalum/portfolio/blob/main/content/posts/marimo-overview/math_analysis.py). You can now interactively change how many Fibonacci numbers it shows. Both **reproducibility** and **interactivity** in one neat package.
+
+### Jupyter vs. marimo (Reproducibility)
+
+| Aspect                    | Jupyter Notebook                                                          | marimo Notebook                                                                      |
+| ------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Dependency management** | No built-in support — you juggle `pip`, `conda`, or `uv` yourself            | Built-in prompts to install missing packages (with version + extras support)   |
+| **Sharing environments**  | You *might* get a `requirements.txt` (if you’re lucky), but it’s often wrong | Dependencies declared right inside the notebook with TOML-style metadata       |
+| **Getting started**       | 5+ commands just to spin up a notebook (if nothing breaks)                   | One `uvx marimo edit --sandbox <url>` and you’re running                       |
+| **Isolation / sandbox**   | DIY: conda envs, venvs, Docker if you’re brave                               | `--sandbox` flag sets up everything automatically, even Dockerized if you want |
+| **Reproducibility**       | Painful, error-prone, and rarely done right                                  | Easy, automated, and portable — works locally or from a repo URL               |
 
 <--! Not just in terms of reproducing the environment, but also in the wider context in terms of avoding unexpected behavior and controling what's being added with VCS.
 

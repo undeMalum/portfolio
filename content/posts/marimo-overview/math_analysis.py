@@ -107,7 +107,7 @@ def _(MaxNLocator, pd, plt):
 
 @app.cell
 def _(mo):
-    fib_slider = mo.ui.slider(1, 20, 1)
+    fib_slider = mo.ui.slider(2, 20, 1)
     fib_slider
     return (fib_slider,)
 
