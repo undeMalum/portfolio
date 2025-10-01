@@ -106,9 +106,15 @@ def _(MaxNLocator, pd, plt):
 
 
 @app.cell
-def _(plot_fib):
-    n = 20
-    plot_fib(n)
+def _(mo):
+    fib_slider = mo.ui.slider(1, 20, 1)
+    fib_slider
+    return (fib_slider,)
+
+
+@app.cell
+def _(fib_slider, plot_fib):
+    plot_fib(fib_slider.value)
     return
 
 
