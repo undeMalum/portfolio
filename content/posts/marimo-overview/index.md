@@ -445,3 +445,34 @@ _I recommend you read the Chapter G of the study[^fn] that adresses the Research
 Admittedly, the study is a few years old, and a lot has changed in the Python packaging ecosystem, epsecially with the advent of [uv](https://docs.astral.sh/uv) (which BTW I use to manage notebooks for this post). Moreover, this is not really a Jupyter-specific issue, but rather _Python-specific_.
 
 Yet, I'd argue that it shouldn't be so godamn hard and boilerplate to just setup a notebook - which by definition should be easy to use - just to play with some research result, or to get some insights into data, or whatever you want to do with Jupyter!
+
+For instance, assuming that a project with a Jupyter Notebook uses uv (which is a good choice as it simplifies things A LOT) and is hosted on github, you'll need to (1) clone the repo (2) navigate to the directory to which the project was cloned (3) setup the environment with uv (4) activate the virtual environment (5) start the jupyter lab:
+
+```bash
+(1) git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+(2) cd /path/to/cloned/project
+
+(3) uv sync
+
+(4.1) source .venv/bin/activate #Linux/MacOS/Unix
+
+(4.2).venv/Scripts/Activate.ps1 #Windows
+
+(5) jupyter notebook
+```
+
+As you can see, we need _5_ commands jsut to get started. This may not sound like a lot, but to a less technical person or anybody with a value for time that's quite a bit.
+
+And it's all assuming the project utilizes uv! Don't even get me started on `pip` or `conda`!
+
+Therefore, you most likely will run into something like this:
+
+<iframe src="./notebooks/reproducibility/jupyter/error.html" width="100%" height="400px">
+</iframe>
+
+Two errors pop up: most notable the `ModuleNotFoundError` indicating that we don't have a package in our environment - all thanks to some error we did while setting it all up!
+
+Once again, it's not entirely Jupyter Notebooks fault, but being a suppossedly good playground and easy-access tool for not that technically advance users, Jupyetr certainly doesn't encourage/help the situation.
+
+Hopefully marimo can do better!
