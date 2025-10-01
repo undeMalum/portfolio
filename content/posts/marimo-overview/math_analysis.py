@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "matplotlib==3.10.6",
+#     "pandas==2.3.3",
+# ]
+# ///
+
 import marimo
 
 __generated_with = "0.16.1"
@@ -62,7 +70,8 @@ def _(mo):
 def _():
     import pandas as pd
     import matplotlib.pyplot as plt
-    return pd, plt
+    from matplotlib.ticker import MaxNLocator
+    return MaxNLocator, pd, plt
 
 
 @app.function
@@ -74,9 +83,8 @@ def fib_list(n: int) -> list[int]:
 
 
 @app.cell
-def _(pd, plt):
-    # Cell 3: Plotting function
-    def plot_fib(n: int):
+def _(MaxNLocator, pd, plt):
+    def plot_fib(n: int) -> None:
         fibs = fib_list(n)
         df = pd.DataFrame({"n": list(range(1, n+1)), "fib": fibs})
 
@@ -89,27 +97,18 @@ def _(pd, plt):
         plt.ylabel("Fib(n)")
         plt.title(f"First {n} Fibonacci numbers")
         plt.grid(True)
+        ax = plt.gca()
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
         plt.tight_layout()
         plt.show()
-    return
+    return (plot_fib,)
 
 
 @app.cell
-def _(mo):
-    fib_slider = mo.ui.slider(1, 20, 1)
-    fib_slider
-    return (fib_slider,)
-
-
-@app.cell
-def _(fib_slider):
-    fib_slider.value
-    return
-
-
-@app.cell
-def _():
-    #plot_fib(fib_slider.value)
+def _(plot_fib):
+    n = 20
+    plot_fib(n)
     return
 
 

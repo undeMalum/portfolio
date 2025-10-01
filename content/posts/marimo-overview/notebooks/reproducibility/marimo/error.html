@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/favicon.ico" />
+    <!-- Preload is necessary because we show these images when we disconnect from the server,
+    but at that point we cannot load these images from the server -->
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/gradient-yHQUC_QB.png" as="image" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/noise-60BoTA8O.png" as="image" />
+    <!-- Preload the fonts -->
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/Lora-VariableFont_wght-B2ootaw-.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/PTSans-Regular-CxL0S8W7.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/PTSans-Bold-D9fedIX3.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/FiraMono-Regular-BTCkDNvf.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/FiraMono-Medium-DU3aDxX5.ttf" as="font" crossorigin="anonymous" />
+    <link rel="preload" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/FiraMono-Bold-CLVRCuM9.ttf" as="font" crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="a marimo app" />
+    <link rel="apple-touch-icon" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/apple-touch-icon.png" />
+    <link rel="manifest" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/manifest.json" />
+
+    <script data-marimo="true">
+      function __resizeIframe(obj) {
+        var scrollbarHeight = 20; // Max between windows, mac, and linux
+
+        function setHeight() {
+          var element = obj.contentWindow.document.documentElement;
+          // If there is no vertical scrollbar, we don't need to resize the iframe
+          if (element.scrollHeight === element.clientHeight) {
+            return;
+          }
+
+          // Create a new height that includes the scrollbar height if it's visible
+          var hasHorizontalScrollbar = element.scrollWidth > element.clientWidth;
+          var newHeight = element.scrollHeight + (hasHorizontalScrollbar ? scrollbarHeight : 0);
+
+          // Only update the height if it's different from the current height
+          if (obj.style.height !== `${newHeight}px`) {
+            obj.style.height = `${newHeight}px`;
+          }
+        }
+
+        // Resize the iframe to the height of the content and bottom scrollbar height
+        setHeight();
+
+        // Resize the iframe when the content changes
+        const resizeObserver = new ResizeObserver((entries) => {
+          setHeight();
+        });
+        resizeObserver.observe(obj.contentWindow.document.body);
+      }
+    </script>
+    <marimo-filename hidden>math_analysis.py</marimo-filename>
+    <!-- TODO(Trevor): Legacy, required by VS Code plugin. Remove when plugin is updated (see marimo/server/_templates/template.py) -->
+    <marimo-version data-version="{{ version }}" hidden></marimo-version>
+    <marimo-user-config data-config="{{ user_config }}" hidden></marimo-user-config>
+    <marimo-server-token data-token="{{ server_token }}" hidden></marimo-server-token>
+    <!-- /TODO -->
+    <title>math analysis</title>
+    <script type="module" crossorigin crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/index-C7CoaNFb.js"></script>
+    <link rel="stylesheet" crossorigin crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/@marimo-team/frontend@0.16.1/dist/assets/index-DadI618h.css">
+  
+<script data-marimo="true">
+    window.__MARIMO_STATIC__ = {};
+    window.__MARIMO_STATIC__.files = {};
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- This is a portal for the data editor to render in -->
+    <div id="portal" data-testid="glide-portal" style="position: fixed; left: 0; top: 0; z-index: 9999"></div>
+    <script data-marimo="true">
+      window.__MARIMO_MOUNT_CONFIG__ = {
+            "filename": "math_analysis.py",
+            "mode": "read",
+            "version": "0.16.1",
+            "serverToken": "static",
+            "config": {"ai": {"models": {"custom_models": [], "displayed_models": []}}, "completion": {"activate_on_typing": true, "copilot": false}, "display": {"cell_output": "above", "code_editor_font_size": 14, "dataframes": "rich", "default_table_max_columns": 50, "default_table_page_size": 10, "default_width": "medium", "reference_highlighting": false, "theme": "light"}, "formatting": {"line_length": 79}, "keymap": {"overrides": {}, "preset": "default"}, "language_servers": {"pylsp": {"enable_flake8": false, "enable_mypy": true, "enable_pydocstyle": false, "enable_pyflakes": false, "enable_pylint": false, "enable_ruff": true, "enabled": true}}, "package_management": {"manager": "pip"}, "runtime": {"auto_instantiate": true, "auto_reload": "off", "default_sql_output": "auto", "on_cell_change": "autorun", "output_max_bytes": 8000000, "reactive_tests": true, "std_stream_max_bytes": 1000000, "watcher_on_save": "lazy"}, "save": {"autosave": "after_delay", "autosave_delay": 1000, "format_on_save": false}, "server": {"browser": "default", "follow_symlink": false}, "snippets": {"custom_paths": [], "include_default_snippets": true}},
+            "configOverrides": {},
+            "appConfig": {"sql_output": "auto", "width": "medium"},
+            "view": {"showAppCode": true},
+            "notebook": {"cells": [{"code": "import pandas as pd\nimport matplotlib.pyplot as plt\nfrom matplotlib.ticker import MaxNLocator", "code_hash": "cd7d0a1646585e09decf3429af1a7db0", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "beVL", "name": "_"}, {"code": "def fib_list(n: int) -> list[int]:\n    fibs = [0, 1]\n    for _ in range(2, n):\n        fibs.append(fibs[-1] + fibs[-2])\n    return fibs", "code_hash": "de76662b4765a296523949b1b7268a11", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "Kclp", "name": "*fib_list"}, {"code": "def plot_fib(n: int) -> None:\n    fibs = fib_list(n)\n    df = pd.DataFrame({\"n\": list(range(1, n+1)), \"fib\": fibs})\n\n    # Plot inline\n    plt.figure(figsize=(10, 4))\n    plt.xlabel(\"n (index)\")\n    plt.ylabel(\"Fib(n)\")\n    plt.plot(df[\"n\"], df[\"fib\"], marker=\"o\")\n    plt.xlabel(\"n (index)\")\n    plt.ylabel(\"Fib(n)\")\n    plt.title(f\"First {n} Fibonacci numbers\")\n    plt.grid(True)\n    ax = plt.gca()\n    ax.xaxis.set_major_locator(MaxNLocator(integer=True))\n    ax.yaxis.set_major_locator(MaxNLocator(integer=True))\n    plt.tight_layout()\n    plt.show()", "code_hash": "d2c3f7a6a15c91b067fef808b176e9d5", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "emfo", "name": "_"}, {"code": "n = 20\nplot_fib(n)", "code_hash": "c00711d120d0fd2c77e50bd6d135b768", "config": {"column": null, "disabled": false, "hide_code": false}, "id": "iLit", "name": "_"}], "metadata": {"marimo_version": "0.16.1"}, "version": "1"},
+            "session": {"cells": [{"code_hash": "cd7d0a1646585e09decf3429af1a7db0", "console": [{"name": "stderr", "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Mateusz\\scoop\\shims\\portfolio\\content\\posts\\marimo-overview\\.venv\\Lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">138</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"n\">exec</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">body</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Mateusz\\AppData\\Local\\Temp\\marimo_26420\\__marimo__cell_beVL_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"kn\">import</span><span class=\"w\"> </span><span class=\"nn\">pandas</span><span class=\"w\"> </span><span class=\"k\">as</span><span class=\"w\"> </span><span class=\"nn\">pd</span>\n<span class=\"gr\">ModuleNotFoundError</span>: <span class=\"n\">No module named &#39;pandas&#39;</span>\n</pre></div>\n</span>", "type": "stream"}], "id": "beVL", "outputs": [{"ename": "exception", "evalue": "No module named 'pandas'", "traceback": [], "type": "error"}]}, {"code_hash": "de76662b4765a296523949b1b7268a11", "console": [], "id": "Kclp", "outputs": [{"data": {"text/plain": ""}, "type": "data"}]}, {"code_hash": "d2c3f7a6a15c91b067fef808b176e9d5", "console": [], "id": "emfo", "outputs": [{"data": {"text/plain": ""}, "type": "data"}]}, {"code_hash": "c00711d120d0fd2c77e50bd6d135b768", "console": [{"name": "stderr", "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Mateusz\\scoop\\shims\\portfolio\\content\\posts\\marimo-overview\\.venv\\Lib\\site-packages\\marimo\\_runtime\\executor.py&quot;</span>, line <span class=\"m\">139</span>, in <span class=\"n\">execute_cell</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"nb\">eval</span><span class=\"p\">(</span><span class=\"n\">cell</span><span class=\"o\">.</span><span class=\"n\">last_expr</span><span class=\"p\">,</span> <span class=\"n\">glbls</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Mateusz\\AppData\\Local\\Temp\\marimo_26420\\__marimo__cell_iLit_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">plot_fib</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;C:\\Users\\Mateusz\\AppData\\Local\\Temp\\marimo_26420\\__marimo__cell_emfo_.py&quot;</span>, line <span class=\"m\">3</span>, in <span class=\"n\">plot_fib</span>\n<span class=\"w\">    </span><span class=\"n\">df</span> <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span class=\"n\">DataFrame</span><span class=\"p\">({</span><span class=\"s2\">&quot;n&quot;</span><span class=\"p\">:</span> <span class=\"nb\">list</span><span class=\"p\">(</span><span class=\"nb\">range</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"n\">n</span><span class=\"o\">+</span><span class=\"mi\">1</span><span class=\"p\">)),</span> <span class=\"s2\">&quot;fib&quot;</span><span class=\"p\">:</span> <span class=\"n\">fibs</span><span class=\"p\">})</span>\n<span class=\"w\">         </span><span class=\"pm\">^^</span>\n<span class=\"gr\">NameError</span>: <span class=\"n\">name &#39;pd&#39; is not defined</span>\n</pre></div>\n</span>", "type": "stream"}], "id": "iLit", "outputs": [{"ename": "exception", "evalue": "Name `pd` is not defined. It was expected to be defined in ", "traceback": [], "type": "error"}]}], "metadata": {"marimo_version": "0.16.1"}, "version": "1"},
+            "runtimeConfig": null,
+        };
+    </script>
+  
+<marimo-code hidden="">
+    import%20marimo%0A%0A__generated_with%20%3D%20%220.16.1%22%0Aapp%20%3D%20marimo.App(width%3D%22medium%22)%0A%0A%0A%40app.cell%0Adef%20_()%3A%0A%20%20%20%20import%20pandas%20as%20pd%0A%20%20%20%20import%20matplotlib.pyplot%20as%20plt%0A%20%20%20%20from%20matplotlib.ticker%20import%20MaxNLocator%0A%20%20%20%20return%20MaxNLocator%2C%20pd%2C%20plt%0A%0A%0A%40app.function%0Adef%20fib_list(n%3A%20int)%20-%3E%20list%5Bint%5D%3A%0A%20%20%20%20fibs%20%3D%20%5B0%2C%201%5D%0A%20%20%20%20for%20_%20in%20range(2%2C%20n)%3A%0A%20%20%20%20%20%20%20%20fibs.append(fibs%5B-1%5D%20%2B%20fibs%5B-2%5D)%0A%20%20%20%20return%20fibs%0A%0A%0A%40app.cell%0Adef%20_(MaxNLocator%2C%20pd%2C%20plt)%3A%0A%20%20%20%20def%20plot_fib(n%3A%20int)%20-%3E%20None%3A%0A%20%20%20%20%20%20%20%20fibs%20%3D%20fib_list(n)%0A%20%20%20%20%20%20%20%20df%20%3D%20pd.DataFrame(%7B%22n%22%3A%20list(range(1%2C%20n%2B1))%2C%20%22fib%22%3A%20fibs%7D)%0A%0A%20%20%20%20%20%20%20%20%23%20Plot%20inline%0A%20%20%20%20%20%20%20%20plt.figure(figsize%3D(10%2C%204))%0A%20%20%20%20%20%20%20%20plt.xlabel(%22n%20(index)%22)%0A%20%20%20%20%20%20%20%20plt.ylabel(%22Fib(n)%22)%0A%20%20%20%20%20%20%20%20plt.plot(df%5B%22n%22%5D%2C%20df%5B%22fib%22%5D%2C%20marker%3D%22o%22)%0A%20%20%20%20%20%20%20%20plt.xlabel(%22n%20(index)%22)%0A%20%20%20%20%20%20%20%20plt.ylabel(%22Fib(n)%22)%0A%20%20%20%20%20%20%20%20plt.title(f%22First%20%7Bn%7D%20Fibonacci%20numbers%22)%0A%20%20%20%20%20%20%20%20plt.grid(True)%0A%20%20%20%20%20%20%20%20ax%20%3D%20plt.gca()%0A%20%20%20%20%20%20%20%20ax.xaxis.set_major_locator(MaxNLocator(integer%3DTrue))%0A%20%20%20%20%20%20%20%20ax.yaxis.set_major_locator(MaxNLocator(integer%3DTrue))%0A%20%20%20%20%20%20%20%20plt.tight_layout()%0A%20%20%20%20%20%20%20%20plt.show()%0A%20%20%20%20return%20(plot_fib%2C)%0A%0A%0A%40app.cell%0Adef%20_(nb%2C%20plot_fib)%3A%0A%20%20%20%20n%20%3D%2020%0A%20%20%20%20plot_fib(nb)%0A%20%20%20%20return%0A%0A%0Aif%20__name__%20%3D%3D%20%22__main__%22%3A%0A%20%20%20%20app.run()%0A
+</marimo-code>
+
+<marimo-code-hash hidden="">400782df4e426fe57dfb8832640f8983aac934b30f39086523e5b73f4555b41f</marimo-code-hash>
+</body>
+</html>

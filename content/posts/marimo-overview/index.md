@@ -476,3 +476,74 @@ Yep — `ModuleNotFoundError`. Classic.
 So while this isn’t 100% Jupyter’s fault, it doesn’t *help* either. A tool marketed as an accessible, beginner-friendly playground shouldn’t leave newcomers stuck in dependency quicksand.
 
 Let’s see if marimo does any better.
+
+## Marimo Solution
+Contrary to previous parts, I'd love to open this part with a little experiment rather than explanation.
+
+To this end, let me add the code for Fibonacci numbers and plot to marimo _without installing depenencied_ and see what happens:
+
+<iframe src="./notebooks/reproducibility/marimo/error.html" width="100%" height="400px"></iframe>
+
+Nothing particularly interesting you might say. As expected, we got `ModuleNotFoundError`.
+
+However, marimo is one step ahead of us, and knows we miss the dependencies so it offers to install them for us:
+
+{{< figure src="./images/marimo/missing_packages.png" alt="HTML marimo pop up prompting to install missing dependencies" position="center" style="border-radius: 8px;" caption="Once again, marimo beats us to the races!" captionPosition="center" captionStyle="color: white;" >}}
+
+Very cool! Especially because we can not only install packages, but more importantly their **specific versions**, **extras**, and use whatever **package manager** we want!
+
+So let's just install the latest versions with uv, and run the notebook again:
+
+<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>
+
+Voila! Everything's just fine!
+
+This feature may appear simplistic in nature, but has huge implications because thanks to it, all you need to run the notebook is to download it and install missing dependencies _as-you-go_, which very much reduces the work you need to put in in order to run a notebooks - and certainly you don't need to run multiple commands and figure out _what did author have in mind?_ while setting up the environment.
+
+However, having to click a button each time we encounter a need dependency doesn't seem to be working either. We're too lazy for that. Besides, we still _must_ have some kind of environment to at least specify the Python and marimo version - we need to somehow run the damn notebook!
+
+So what if I told you we could do even better?
+
+For this purpose, let's spin up the notebook, but this time with an additional `--sandbox` flag:
+
+```bash
+marimo edit --sandbox math_analysis.py
+```
+
+we see some packages being isntalled before we even open up the notebook:
+
+```bash
+Installed 42 packages in 3.65s
+Bytecode compiled 1929 files in 4.71s 
+```
+
+If we run the notebook and install the dependencies, everything looks the same:
+
+<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>
+
+So what's the trick?
+
+The magic is in marimo being a plain Python file because we can embed the dependencies _inside_ the marimo notebook itself thanks to this characteristics.
+
+If we go and inspect `math_analysis.py`, we're going to see the following at the top:
+
+```python
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "matplotlib==3.10.6",
+#     "pandas==2.3.3",
+# ]
+# ///
+
+import marimo
+
+__generated_with = "0.16.1"
+app = marimo.App(width="medium")
+
+
+@app.cell
+def _():
+    import marimo as mo
+    return (mo,)
+```
