@@ -172,7 +172,7 @@ This eliminates a whole class of headaches around execution order and brings mar
 
 ### Jupyter vs. marimo (Hidden States)
 
-| Aspect                      | Jupyter Notebook                                                        | marimo                                                          |
+| Aspect                      | Jupyter Notebook                                                        | marimo Notebook                                                         |
 | --------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------- |
 | **Hidden states**           | Variables can persist invisibly, leading to stale or misleading results | Impossible — DAG ensures all dependencies update automatically  |
 | **Execution order**         | Depends on user clicks; easy to get out of sync                         | Explicit DAG determines order; always consistent                |
@@ -547,3 +547,39 @@ def _():
     import marimo as mo
     return (mo,)
 ```
+
+At the very beggining of the file, we see the "# /// script" comment and below, as [TOML](https://toml.io/en)-like configuration, featuring the required **Python version** and **third-paty dependencies**.
+
+This configuration is really powerfull because now all you need is a Python project manager and a path or URL to the notebook!
+
+This is extremely useful especially with uv, or more specifically with [uvx](https://docs.astral.sh/uv/guides/tools/#running-tools).
+
+To illustrate this, all I need to say is that, if you have [uv installed](https://docs.astral.sh/uv/getting-started/installation), you can run our example math analysis notebook on _your computer_ with just this command:
+
+```bash
+uvx marimo edit --sandbox https://github.com/undeMalum/portfolio/blob/main/content/posts/marimo-overview/math_analysis.py
+```
+
+Pause for a moment here to check out this feature! the URL that you can see here, points to my GitHub repository where this `math_analysis.py` resides.
+
+To make things _EVEN_ better, when you run marimo with uvx, marimo can also create a docker container for you to run your notebook!!!! Isn't that awesome??
+
+```bash
+Would you like to run it in a secure docker container? [Y/n]: Y
+Starting containerized marimo notebook
+Running command: docker run --rm -d -p 8080:8080 -e MARIMO_MANAGE_SCRIPT_METADATA=true -e MARIMO_IN_SECURE_ENVIRONMENT=true -w /app ghcr.io/astral-sh/uv:0.4.21-python3.12-bookworm uvx marimo edit --sandbox --no-token -p 8080 --host 0.0.0.0 https://github.com/undeMalum/portfolio/blob/main/content/posts/marimo-overview/math_analysis.py
+Container ID: 82e8593a823a33602a624c7102d41f20d61497b3e7e75ef256e1b69d8c15b171
+URL: http://0.0.0.0:8080
+```
+
+After all this, I hope you can appreciate the reproducibility that marimo offers. No more teious work related to figuring out how to setup the environment for this particular project, no more battling with depencency issues, none of that. Just pure joy of reproducing the results and adding your own features.
+
+Of course, if we work on a project and not just playing around with the notebooks, you still need to setup the environment. But even then, it's sooo much simpler and far more pleasurable!
+
+Marimo wins again!
+
+EASTER EGG: Psssst! In the Git-Friendliness chapter, I said I will use both the fact that marimo is a plain Python file and that it's interactive. Here, I made use of the former, neglecting the latter. So to make up for this, I modified the marimo notebook on github to feature a slider that changes the number of Fibonacci number the notebook show. Both interactivity and yet another new feature. Enjoy!
+
+<--! Not just in terms of reproducing the environment, but also in the wider context in terms of avoding unexpected behavior and controling what's being added with VCS.
+
+All this is of great benefit for the software engineer, data scientist, researchers, and all kinds of people. Marimo just brings back the joy of creating without the overhead that comes with Jupyter Notebooks -->
