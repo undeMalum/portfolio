@@ -46,7 +46,7 @@ In our “extremely realistic” scenario, we’ll conduct a *hardcore* mathemat
 
 We’ll begin with this simple setup:
 
-<iframe src="./notebooks/hidden_states/jupyter/setup.html" width="100%" height="250px">
+<iframe src="{{< absurl "notebooks/hidden_states/jupyter/setup.html" >}}" width="100%" height="250px">
 </iframe>
 
 It may look trivial, but it already includes both markdown and code — enough to serve as a foundation for our example.
@@ -61,7 +61,7 @@ With our *beautifully crafted* setup in place, it’s finally time to unleash it
 
 So let’s execute everything top-to-bottom and admire the results:
 
-<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px">
+<iframe src="{{< absurl "notebooks/hidden_states/jupyter/initial_run.html" >}}" width="100%" height="250px">
 </iframe>
 
 As expected, our **world-class analysis™** produced the number `11`. Glorious success. :tada:
@@ -83,7 +83,7 @@ Let’s take our demo one step further:
 
 Anything weird going on?
 
-<iframe src="./notebooks/hidden_states/jupyter/no_re-execution.html" width="100%" height="250px">
+<iframe src="{{< absurl "notebooks/hidden_states/jupyter/no_re-execution.html" >}}" width="100%" height="250px">
 </iframe>
 
 Wait… does Jupyter not know how to add? Let’s do the math ourselves:
@@ -100,7 +100,7 @@ In this case, the cell that defines `b` wasn’t re-executed after we changed `a
 
 It gets even sillier: if I *delete the cell* that defines `b`, the addition cell *still works*!
 
-<iframe src="./notebooks/hidden_states/jupyter/delete_b.html" width="100%" height="250px">
+<iframe src="{{< absurl "notebooks/hidden_states/jupyter/delete_b.html" >}}" width="100%" height="250px">
 </iframe>
 
 This is where Jupyter goes from quirky to dangerous. Hidden states make notebooks misleading, undermine reproducibility, and can even corrupt research results — which is no laughing matter.
@@ -116,7 +116,7 @@ Let’s repeat the same workflow in marimo:
 
 First, the initial run:
 
-<iframe src="./notebooks/hidden_states/marimo/initial_run.html" width="100%" height="350px"></iframe>  
+<iframe src="{{< absurl "notebooks/hidden_states/marimo/initial_run.html" >}}" width="100%" height="350px"></iframe>  
 
 Everything looks great — just like in Jupyter, we get the expected result `11`. Apart from some aesthetic differences, it feels almost identical.
 
@@ -124,7 +124,7 @@ Everything looks great — just like in Jupyter, we get the expected result `11`
 
 Now, what happens if we change `a`?
 
-<iframe src="./notebooks/hidden_states/marimo/update_a.html" width="100%" height="350px"></iframe>  
+<iframe src="{{< absurl "notebooks/hidden_states/marimo/update_a.html" >}}" width="100%" height="350px"></iframe>  
 
 Tada! We get the correct `13`. No hidden states, no misleading results.
 
@@ -134,13 +134,13 @@ Marimo builds a DAG of cell dependencies and uses it to enable true **interactiv
 
 Here’s the DAG behind our demo:
 
-<object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_dag.svg" style="width:100%; height:auto;"></object>
+<object type="image/svg+xml" data="{{< absurl "notebooks/hidden_states/dags/marimo_dag.svg" >}}" style="width:100%; height:auto;"></object>
 
 Crystal clear. We see exactly what depends on what — and so does marimo.
 
 But what if we delete `b` entirely?
 
-<iframe src="./notebooks/hidden_states/marimo/delete_b.html" width="100%" height="350px"></iframe>  
+<iframe src="{{< absurl "notebooks/hidden_states/marimo/delete_b.html" >}}" width="100%" height="350px"></iframe>  
 
 Perfect. Instead of running with a ghost value, marimo raises an explicit `NameError`:
 
@@ -152,7 +152,7 @@ Exactly what should happen.
 
 And the DAG makes the failure just as clear visually:
 
-<object type="image/svg+xml" data="./notebooks/hidden_states/dags/marimo_delete_b.svg" style="width:100%; height:auto;"></object>
+<object type="image/svg+xml" data="{{< absurl "notebooks/hidden_states/dags/marimo_delete_b.svg" >}}" style="width:100%; height:auto;"></object>
 
 Remove a node, break the graph — marimo instantly knows the logic is broken. Simple, yet powerful.
 
@@ -195,7 +195,7 @@ We’re not focused on *how* these cells work (we already know they’ll behave)
 
 First, I’ll reset everything: restart the Jupyter Kernel (to clear results), re-run all cells, stage the file, and commit:
 
-<iframe src="./notebooks/hidden_states/jupyter/initial_run.html" width="100%" height="250px"></iframe>  
+<iframe src="{{< absurl "notebooks/hidden_states/jupyter/initial_run.html" >}}" width="100%" height="250px"></iframe>  
 
 ```bash
 git add content/posts/marimo-overview/math_analysis.ipynb
@@ -205,7 +205,7 @@ git push
 
 Now, let’s add our two new cells:
 
-<iframe src="./notebooks/git_friendliness/jupyter/add_changes.html" width="100%" height="300px"></iframe>  
+<iframe src="{{< absurl "notebooks/git_friendliness/jupyter/add_changes.html" >}}" width="100%" height="300px"></iframe>  
 
 And once again, the git magic:
 
@@ -360,7 +360,7 @@ This design unlocks a ton of benefits that JSON-based Jupyter can’t touch — 
 
 To demonstrate, let’s reset marimo to its original setup, commit, and then add two new cells:
 
-<iframe src="./notebooks/git_friendliness/marimo/add_changes.html" width="100%" height="500px"></iframe>  
+<iframe src="{{< absurl "notebooks/git_friendliness/marimo/add_changes.html" >}}" width="100%" height="500px"></iframe>  
 
 Here’s the commit diff: [16032cf](https://github.com/undeMalum/portfolio/commit/16032cfdafc83cb66bddc27493b6099eb90f782b)
 
@@ -420,7 +420,7 @@ Now let’s zoom in on another crucial piece of reproducibility: the **environme
 
 To illustrate, let’s extend our math analysis with something spicier: a function to generate the first *n* Fibonacci numbers and a quick plot.
 
-<iframe src="./notebooks/reproducibility/jupyter/plotting.html" width="100%" height="500px"></iframe>  
+<iframe src="{{< absurl "notebooks/reproducibility/jupyter/plotting.html" >}}" width="100%" height="500px"></iframe>  
 
 The code itself isn’t the focus here (unless you’re into Fibonacci art). What matters is that it pulls in two external Python packages: `pandas` and `matplotlib`.
 
@@ -468,7 +468,7 @@ That’s **five steps** before you even get to play with the actual notebook. An
 
 And if something goes wrong, you’ll likely hit errors like this:
 
-<iframe src="./notebooks/reproducibility/jupyter/error.html" width="100%" height="400px"></iframe>  
+<iframe src="{{< absurl "notebooks/reproducibility/jupyter/error.html" >}}" width="100%" height="400px"></iframe>  
 
 Yep — `ModuleNotFoundError`. Classic.
 
@@ -481,7 +481,7 @@ This time, let’s start with a little experiment instead of theory.
 
 I dropped in the Fibonacci + plotting code into a fresh marimo notebook — **without installing any dependencies**. Here’s what happened:
 
-<iframe src="./notebooks/reproducibility/marimo/error.html" width="100%" height="400px"></iframe>  
+<iframe src="{{< absurl "notebooks/reproducibility/marimo/error.html" >}}" width="100%" height="400px"></iframe>  
 
 Yep, you guessed it: `ModuleNotFoundError`. Nothing new under the sun.
 
@@ -491,7 +491,7 @@ But here’s the twist — marimo is one step ahead of us. Instead of just shrug
 
 Not only can we install packages right then and there, but we can also choose **specific versions**, add **extras**, and even pick our favorite **package manager**. So I let `uv` do the honors, re-ran the notebook, and…
 
-<iframe src="./notebooks/reproducibility/marimo/packages.html" width="100%" height="400px"></iframe>  
+<iframe src="{{< absurl "notebooks/reproducibility/marimo/packages.html" >}}" width="100%" height="400px"></iframe>  
 
 :tada: Boom. Everything works. No command soup, no environment juggling, no “what the hell was the author thinking” moment.
 
