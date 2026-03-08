@@ -17,7 +17,9 @@ hideComments = false
 [Jupyter Notebooks](https://jupyter.org) are a cornerstone of the Python ecosystem, especially in research and data science. Their ability to combine code, markdown, results, and visualizations makes them a powerful tool for analysis and communication.
 
 
-<---! Include a graphic from the paper on how the example jpuyter looks like --->
+***
+{{< figure src="./images/jupytes_explanation.jpg" alt="Overview of a Jupyter notebook." position="center" style="border-radius: 8px;" caption="Overview of a Jupyter notebook. (see the reference below)" captionPosition="right" captionStyle="color: white;" >}}
+***
 
 But they also come with well-documented drawbacks: hidden execution order, reproducibility issues, and encouragement of poor coding practices. A 2019 study — [*"A Large-scale Study about Quality and Reproducibility of Jupyter Notebooks"*](https://leomurta.github.io/papers/pimentel2019a.pdf)[^fn] — highlighted how these problems undermine reliability at scale.
 
